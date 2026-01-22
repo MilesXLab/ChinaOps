@@ -1,0 +1,22 @@
+# ChinaOps Jekyll Configuration
+title: ChinaOps
+description: Technical Runbook for Travelers & Parents
+author: TechDadShanghai
+url: https://MilesXLab.github.io/ChinaOps
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+
+# Exclude from build
+exclude:
+  - .gitignore
+  - CONTRIBUTING.md
+  - README.md
+  - ROADMAP.md
+  - LEGAL_NOTICE.md
+  - scripts/
+  - .qodo/
+
+# Custom settings
+show_downloads: false

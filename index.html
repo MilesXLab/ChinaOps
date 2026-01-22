@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps - Technical Runbook for Travelers & Parents</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+      color: #333;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    
+    /* Header */
+    .header {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .header h1 { color: #667eea; font-size: 2.5em; margin-bottom: 10px; }
+    .header .tagline { font-size: 1.2em; color: #666; margin-bottom: 20px; }
+    .header .stats { display: flex; justify-content: center; gap: 30px; margin-top: 20px; }
+    .stat { text-align: center; }
+    .stat-number { font-size: 2em; font-weight: bold; color: #667eea; }
+    .stat-label { color: #999; font-size: 0.9em; }
+    
+    /* Quick Links */
+    .quick-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .quick-link {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #333;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+      border-left: 5px solid #667eea;
+    }
+    .quick-link:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+    .quick-link-emoji { font-size: 2em; margin-bottom: 10px; }
+    .quick-link-title { font-size: 1.2em; font-weight: bold; margin-bottom: 8px; }
+    .quick-link-desc { color: #666; font-size: 0.95em; }
+    
+    /* Content Sections */
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+    .section-title {
+      font-size: 1.8em;
+      color: #667eea;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 15px;
+    }
+    
+    /* Guide Table */
+    .guides-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .guides-table th {
+      background: #f5f5f5;
+      padding: 15px;
+      text-align: left;
+      font-weight: 600;
+      color: #333;
+      border-bottom: 2px solid #ddd;
+    }
+    .guides-table td {
+      padding: 15px;
+      border-bottom: 1px solid #eee;
+    }
+    .guides-table a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .guides-table a:hover { text-decoration: underline; }
+    .guides-table tr:hover { background: #f9f9f9; }
+    
+    /* Footer */
+    .footer {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      margin-top: 40px;
+    }
+    .footer p { color: #666; margin: 10px 0; }
+    .footer a { color: #667eea; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+    
+    @media (max-width: 768px) {
+      .header { padding: 20px; }
+      .header h1 { font-size: 1.8em; }
+      .header .stats { flex-direction: column; gap: 15px; }
+      .section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>ChinaOps 📚</h1>
+      <p class="tagline"><strong>Your practical technical runbook for traveling in China</strong></p>
+      <p style="color: #666; margin: 15px 0; line-height: 1.6;">Especially designed for first-time visitors, families, and parents with young children. Real-world problems, fixes, and recommendations gathered from trusted sources and user experiences. Created by a full-time dad turning everyday parenting moments into a structured guide for travelers.</p>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">16</div>
+          <div class="stat-label">Comprehensive Guides</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Helper Tools</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Non-commercial</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Quick Links -->
+    <h2 style="color: white; margin-bottom: 20px; font-size: 1.5em;">Choose Your Path:</h2>
+    <div class="quick-links">
+      <a href="../docs/01-System-Setup/" class="quick-link">
+        <div class="quick-link-emoji">👤</div>
+        <div class="quick-link-title">First-Time Visitor?</div>
+        <div class="quick-link-desc">Get your phone, VPN, and payments working</div>
+      </a>
+      <a href="../docs/04-Parenting-Patch/" class="quick-link">
+        <div class="quick-link-emoji">👨‍👩‍👧</div>
+        <div class="quick-link-title">Traveling with Kids?</div>
+        <div class="quick-link-desc">Diapers, allergies, milk recalls, safety</div>
+      </a>
+      <a href="../docs/03-Emergency-DR/" class="quick-link">
+        <div class="quick-link-emoji">🆘</div>
+        <div class="quick-link-title">Emergency?</div>
+        <div class="quick-link-desc">Hospital, lost passport, network issues</div>
+      </a>
+      <a href="../docs/02-Daily-Runtime/" class="quick-link">
+        <div class="quick-link-emoji">🚀</div>
+        <div class="quick-link-title">Daily Navigation?</div>
+        <div class="quick-link-desc">Trains, taxis, maps, public transport</div>
+      </a>
+    </div>
+    
+    <!-- Full Guide Library -->
+    <div class="section">
+      <h2 class="section-title">📚 Full Guide Library</h2>
+      
+      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">✈️ System Setup (5 Guides)</h3>
+      <p style="color: #666; margin-bottom: 15px;">Get your essentials working: phone, VPN, payments, medications</p>
+      <table class="guides-table">
+        <tr>
+          <th>Guide</th>
+          <th>What You'll Learn</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td><a href="../docs/01-System-Setup/mobile-number-and-activation.md">📱 Mobile Number & Activation</a></td>
+          <td>Getting a Chinese phone, eSIM options, carrier comparison</td>
+          <td>10 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/01-System-Setup/pharmacy-and-medications.md">💊 Pharmacy & Medications</a></td>
+          <td>Buying medicine, drug names in Chinese, OTC guidelines</td>
+          <td>12 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/01-System-Setup/vpn-esim-payment.md">🔒 VPN & Payments</a></td>
+          <td>VPN setup, Alipay, WeChat Pay configuration</td>
+          <td>15 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/01-System-Setup/power-bank-rules.md">🔋 Power Banks</a></td>
+          <td>Safe power banks, charging rules, outlet types</td>
+          <td>8 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/01-System-Setup/sim-card-options.md">📡 SIM Card Comparison</a></td>
+          <td>Comparing plans, pricing, coverage</td>
+          <td>10 min</td>
+        </tr>
+      </table>
+      
+      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">🚗 Daily Runtime (4 Guides)</h3>
+      <p style="color: #666; margin-bottom: 15px;">Navigate cities: trains, taxis, maps, public transport</p>
+      <table class="guides-table">
+        <tr>
+          <th>Guide</th>
+          <th>What You'll Learn</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td><a href="../docs/02-Daily-Runtime/train-ticket-trap.md">🚄 Train Tickets (12306)</a></td>
+          <td>Booking system, fixing name issues, booking tips</td>
+          <td>10 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/02-Daily-Runtime/taxi-payment.md">🚕 Taxis & Payment</a></td>
+          <td>Didi app, fare negotiation, payment methods</td>
+          <td>8 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/02-Daily-Runtime/maps-and-toilets.md">🗺️ Maps & Toilets</a></td>
+          <td>Google Maps alternative, finding bathrooms, navigation</td>
+          <td>7 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/02-Daily-Runtime/public-transport-tips.md">🚇 Public Transport</a></td>
+          <td>Subways, buses, ferries, transit cards</td>
+          <td>12 min</td>
+        </tr>
+      </table>
+      
+      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">🚨 Emergency/DR (3 Guides)</h3>
+      <p style="color: #666; margin-bottom: 15px;">When things go wrong: hospitals, lost documents, outages</p>
+      <table class="guides-table">
+        <tr>
+          <th>Guide</th>
+          <th>What You'll Learn</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td><a href="../docs/03-Emergency-DR/hospital-access.md">🏥 Hospital Access</a></td>
+          <td>Finding hospitals, language help, insurance, costs</td>
+          <td>15 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/03-Emergency-DR/lost-passport.md">📜 Lost Passport</a></td>
+          <td>Embassy contacts, replacement process, emergency IDs</td>
+          <td>12 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/03-Emergency-DR/network-outage.md">📡 Network Issues</a></td>
+          <td>VPN backup, WeChat without WiFi, offline navigation</td>
+          <td>8 min</td>
+        </tr>
+      </table>
+      
+      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">👨‍👩‍👧 Parenting (4 Guides)</h3>
+      <p style="color: #666; margin-bottom: 15px;">Child-specific challenges: diapers, allergies, safety</p>
+      <table class="guides-table">
+        <tr>
+          <th>Guide</th>
+          <th>What You'll Learn</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td><a href="../docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.md">🍽️ Food Allergies</a></td>
+          <td>Restaurant communication, allergen cards, safe foods</td>
+          <td>15 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/04-Parenting-Patch/diapers-and-stores.md">👶 Diapers & Supplies</a></td>
+          <td>Where to buy, trusted brands, pricing</td>
+          <td>10 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/04-Parenting-Patch/milk-recall-check.md">🥛 Milk Safety</a></td>
+          <td>Checking formula batches, safety databases</td>
+          <td>8 min</td>
+        </tr>
+        <tr>
+          <td><a href="../docs/04-Parenting-Patch/nursing-rooms.md">🤱 Nursing Rooms</a></td>
+          <td>Locations, facilities, cultural tips</td>
+          <td>5 min</td>
+        </tr>
+      </table>
+    </div>
+    
+    <!-- Helper Scripts - Coming in v2.0 -->
+    <!-- <div class="section">
+      <h2 class="section-title">🛠️ Helper Scripts</h2>
+      <p>Three Python tools to solve specific problems:</p>
+      <pre style="background: #f5f5f5; padding: 20px; border-radius: 8px; overflow-x: auto; margin: 20px 0;"><strong># 1️⃣ Format passport name for train tickets</strong>
+python scripts/passport_mrz_converter.py "John Smith"
+→ SMITH<<JOHN
+
+<strong># 2️⃣ Calculate safe medication doses for children</strong>
+python scripts/child_medication_calculator.py --name "Ibuprofen" --weight 25
+→ Safe dose: 250mg
+
+<strong># 3️⃣ Verify train booking details</strong>
+python scripts/train_ticket_checker.py --name "John Smith" --date 2026-02-15
+→ Name check ✅ | Booking window: Feb 14
+      </pre>
+      <p><a href="../scripts/README.md" style="color: #667eea; font-weight: bold;">📖 Full Script Documentation →</a></p>
+    </div> -->
+        <!-- Coming Soon - v2.0 -->
+    <div class="section" style="background: #f0f4ff; border-left: 5px solid #667eea;">
+      <h2 class="section-title" style="border-bottom-color: #667eea;">🚀 Coming in v2.0</h2>
+      <p style="margin-bottom: 15px;"><strong>Helper Scripts:</strong> Three Python tools to automate common tasks</p>
+      <ul style="margin-left: 20px; color: #666; line-height: 1.8;">
+        <li>🛂 <strong>passport_mrz_converter</strong> — Format names for 12306 train tickets</li>
+        <li>💊 <strong>child_medication_calculator</strong> — Calculate safe medication doses</li>
+        <li>🚄 <strong>train_ticket_checker</strong> — Verify booking details and availability</li>
+      </ul>
+    </div>
+        <!-- Footer -->
+    <div class="footer">
+      <p><strong>ChinaOps</strong> — Technical Runbook for Travelers & Parents</p>
+      <p>Created by <strong>TechDadShanghai</strong> | Jan 2026</p>
+      <p>Licensed under <strong><a href="../LICENSE">CC BY-NC 4.0</a></strong> | <a href="../CONTRIBUTING.md">Contribute</a> | <a href="../LEGAL_NOTICE.md">Legal</a></p>
+      <p style="color: #999; font-size: 0.9em; margin-top: 20px;">
+        ❤️ Made with real experiences for real travelers
+      </p>
+    </div>
+  </div>
+</body>
+</html>

@@ -76,7 +76,7 @@ Use **[Interactive Web Interface](site/index.html)** or see full list below
 
 Three Python tools for solving specific problems:
 
-\\\ash
+```bash
 # Format your passport name for 12306 train tickets
 python scripts/passport_mrz_converter.py "John Smith"
 # Output: SMITH<<JOHN
@@ -88,7 +88,7 @@ python scripts/child_medication_calculator.py --name "Ibuprofen" --weight 25
 # Verify train booking details before purchasing
 python scripts/train_ticket_checker.py --name "John Smith" --date 2026-02-15
 # Output: Name check OK | Booking window: Feb 14
-\\\
+```
 
 [Full Script Documentation](scripts/README.md)
 

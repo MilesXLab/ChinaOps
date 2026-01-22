@@ -1,0 +1,42 @@
+{
+  "project": "ChinaOps - Technical Runbook for Travelers & Parents",
+  "description": "Real-world solutions for travelers and families in China. 16 comprehensive SOPs with step-by-step guides, safety tips, and helper tools.",
+  "sections": [
+    {
+      "title": "01-System-Setup",
+      "files": [
+        {"name": "VPN & eSIM / Payment Setup", "path": "docs/01-System-Setup/vpn-esim-payment.md"},
+        {"name": "Power Bank Rules", "path": "docs/01-System-Setup/power-bank-rules.md"},
+        {"name": "SIM Card Options", "path": "docs/01-System-Setup/sim-card-options.md"},
+        {"name": "Mobile Number & Activation", "path": "docs/01-System-Setup/mobile-number-and-activation.md"},
+        {"name": "Pharmacy & Medications", "path": "docs/01-System-Setup/pharmacy-and-medications.md"}
+      ]
+    },
+    {
+      "title": "02-Daily-Runtime",
+      "files": [
+        {"name": "Train Ticket Trap", "path": "docs/02-Daily-Runtime/train-ticket-trap.md"},
+        {"name": "Taxi / Payment", "path": "docs/02-Daily-Runtime/taxi-payment.md"},
+        {"name": "Maps & Toilets", "path": "docs/02-Daily-Runtime/maps-and-toilets.md"},
+        {"name": "Public Transport Tips", "path": "docs/02-Daily-Runtime/public-transport-tips.md"}
+      ]
+    },
+    {
+      "title": "03-Emergency-DR",
+      "files": [
+        {"name": "Hospital Access", "path": "docs/03-Emergency-DR/hospital-access.md"},
+        {"name": "Lost Passport", "path": "docs/03-Emergency-DR/lost-passport.md"},
+        {"name": "Network Outage", "path": "docs/03-Emergency-DR/network-outage.md"}
+      ]
+    },
+    {
+      "title": "04-Parenting-Patch",
+      "files": [
+        {"name": "Milk Recall Check", "path": "docs/04-Parenting-Patch/milk-recall-check.md"},
+        {"name": "Diapers & Stores", "path": "docs/04-Parenting-Patch/diapers-and-stores.md"},
+        {"name": "Nursing Rooms", "path": "docs/04-Parenting-Patch/nursing-rooms.md"},
+        {"name": "Food Allergies & Dietary Restrictions", "path": "docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.md"}
+      ]
+    }
+  ]
+}

@@ -72,28 +72,6 @@ Use **[Interactive Web Interface](site/index.html)** or see full list below
 
 ---
 
-## Helper Scripts
-
-Three Python tools for solving specific problems:
-
-```bash
-# Format your passport name for 12306 train tickets
-python scripts/passport_mrz_converter.py "John Smith"
-# Output: SMITH<<JOHN
-
-# Calculate safe medication doses for children
-python scripts/child_medication_calculator.py --name "Ibuprofen" --weight 25
-# Output: Safe dose: 250mg
-
-# Verify train booking details before purchasing
-python scripts/train_ticket_checker.py --name "John Smith" --date 2026-02-15
-# Output: Name check OK | Booking window: Feb 14
-```
-
-[Full Script Documentation](scripts/README.md)
-
----
-
 ## Inside Every Guide
 
 Each guide (SOP) includes:
@@ -158,7 +136,6 @@ Found something wrong? Have a better solution? **Share it!**
 | Metric | Status |
 |--------|--------|
 | **SOPs** | 16 complete guides |
-| **Helper Tools** | 3 Python scripts |
 | **Stage** | 1 (Core content complete) |
 | **Community** | Open to contributions |
 | **Last Updated** | Jan 2026 |
@@ -167,6 +144,7 @@ Found something wrong? Have a better solution? **Share it!**
 
 ## What's Next? (Stage 2 Planned)
 
+- 🧮 Helper Scripts (passport MRZ converter, medication calculator, ticket checker)
 - 🔍 Interactive search & mapping
 - 📱 Mobile app & offline access
 - 🌐 Chinese translations

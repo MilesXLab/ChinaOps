@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "Mobile Phone Number & Activation"
+---
+
 # Mobile Phone Number & Activation
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai
@@ -89,9 +94,9 @@ Foreign travelers struggle to activate mobile phone services, receive verificati
 #### Step 3: Activation Process
 
 **What you need:**
-- ✅ Passport (original)
-- ✅ Hotel address or accommodation contact
-- ✅ Phone with NFC (for some carriers)
+- Passport (original)
+- Hotel address or accommodation contact
+- Phone with NFC (for some carriers)
 
 **At carrier store:**
 1. Hand passport to staff
@@ -149,23 +154,23 @@ Foreign travelers struggle to activate mobile phone services, receive verificati
 
 ## Miles' Tips
 
-- 📱 **Get SIM immediately upon arrival** — Don't wait until hotel. Airport SIM is convenient, though expensive.
-- 🔌 **Ask for 4G/5G data plan** — Specify "4G" or "5G" (四G/五G) to ensure modern speeds.
-- 💳 **Link to payment immediately** — Once you get SMS verification, set up Alipay/WeChat same day.
-- 🔄 **Keep backup eSIM active** — If physical SIM fails, switch to eSIM (eSIM backup provides redundancy).
-- 📞 **Write down your number** — Carry written copy of your Chinese number for emergencies.
-- 🆔 **Keep passport copy accessible** — You may need to show it multiple times during SIM activation.
-- ⏰ **Activate apps before traveling to remote areas** — Mountain regions have spotty coverage; test in advance.
+- **Get SIM immediately upon arrival** — Don't wait until hotel. Airport SIM is convenient, though expensive.
+- **Ask for 4G/5G data plan** — Specify "4G" or "5G" (四G/五G) to ensure modern speeds.
+- **Link to payment immediately** — Once you get SMS verification, set up Alipay/WeChat same day.
+- **Keep backup eSIM active** — If physical SIM fails, switch to eSIM (eSIM backup provides redundancy).
+- **Write down your number** — Carry written copy of your Chinese number for emergencies.
+- **Keep passport copy accessible** — You may need to show it multiple times during SIM activation.
+- **Activate apps before traveling to remote areas** — Mountain regions have spotty coverage; test in advance.
 
 ---
 
 ## What NOT to Do
 
-❌ Try to use foreign number for Chinese app verification (won't work)  
-❌ Buy SIM without proper ID (won't activate)  
-❌ Activate multiple SIM cards under same passport (possible tracking issues)  
-❌ Assume eSIM is accepted everywhere (some apps require local carrier SIM)  
-❌ Forget to top-up data if you buy pay-as-you-go plan
+- Try to use foreign number for Chinese app verification (won't work)
+- Buy SIM without proper ID (won't activate)
+- Activate multiple SIM cards under same passport (possible tracking issues)
+- Assume eSIM is accepted everywhere (some apps require local carrier SIM)
+- Forget to top-up data if you buy pay-as-you-go plan
 
 ---
 
@@ -207,18 +212,18 @@ Foreign travelers struggle to activate mobile phone services, receive verificati
 
 ## Local Hacks & Money-Saving Tips
 
-💰 **Cost Optimization:**
+**Cost Optimization:**
 - Buy 7-day eSIM (Airalo) for $8 instead of airport SIM at 200+ RMB.
 - Buy in-store SIM rather than airport (save 100+ RMB).
 - Portable WiFi rental (~10 RMB/day) for family groups is cheaper than per-person SIM.
 - Use hotel WiFi + offline apps for navigation during inactive times.
 
-🔄 **Data Efficiency:**
+**Data Efficiency:**
 - Download offline maps before SIM runs out.
 - Use WiFi-only for video streaming, use data for navigation/messaging only.
 - Share hotspot with family members instead of buying multiple SIMs.
 
-🎁 **Bundled Deals:**
+**Bundled Deals:**
 - Some hotels offer free SIM cards to guests (ask when checking in).
 - Airport often has promotional bundled rates (SIM + data + free calls).
 

@@ -226,7 +226,7 @@ See guides above for:
 
 1. **GitHub Issues:** Perfect for bug reports and suggestions
 2. **Pull Requests:** For new SOPs or significant updates
-3. **Email:** Miles@chinaoops.com (for privacy-sensitive info)
+3. **GitHub Issues:** Use the Issues tab for all feedback and contributions.
 
 ### Step 4: Review & Feedback
 
@@ -301,7 +301,6 @@ A: Mark it as uncertain: "I'm not 100% sure, but... [info] [when tested] [what h
 
 **Questions about contributing?**
 - Open a discussion in Issues
-- Email: Miles@chinaoops.com
 - Check existing SOPs for format reference
 
 **Questions about a specific SOP?**
@@ -322,4 +321,4 @@ Whether you're fixing a typo, adding a contact number, or writing a brand-new SO
 **Happy contributing!**
 
 **TechDadShanghai**  
-Jan 2026
+Jan 23, 2026

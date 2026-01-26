@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "SIM Card & eSIM Options"
+---
+
 # SIM Card & eSIM Options
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai

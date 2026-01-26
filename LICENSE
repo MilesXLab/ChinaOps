@@ -1,61 +1,43 @@
-# Creative Commons Attribution-NonCommercial 4.0 International
+# ChinaOps - Official Use & License Statement
 
-## License Summary
-
-**ChinaOps** is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
-
-### You are free to:
-
-- **Share** — Copy and redistribute the material in any medium or format
-- **Adapt** — Remix, transform, and build upon the material
-
-### Under the following terms:
-
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- **NonCommercial** — You may not use the material for commercial purposes. Commercial use includes, but is not limited to:
-  - Selling this content or derived works for profit
-  - Using this content in a paid subscription service
-  - Licensing this content to third parties for commercial gain
-  - Incorporating this content into a commercial product without permission
-
-### Additional Restrictions:
-
-**Commercial use requires explicit written permission from the author (TechDadShanghai).**
-
-If you wish to use ChinaOps content for commercial purposes, please contact the project maintainer to request permission and discuss licensing terms.
-
-### Common Uses (✅ Allowed):
-
-- ✅ Personal use and learning
-- ✅ Sharing with friends and family
-- ✅ Non-profit educational use
-- ✅ Creating derivative works for personal use
-- ✅ Contributing improvements back to the project
-
-### Common Uses (❌ Not Allowed Without Permission):
-
-- ❌ Selling access to this content
-- ❌ Republishing as a paid product or service
-- ❌ Including in a commercial travel guide or paid app
-- ❌ Licensing to travel companies, hotels, or tour operators
-- ❌ Using for corporate training or internal commercial purposes
-
-### Full License Text
-
-For the complete CC BY-NC 4.0 license, visit: https://creativecommons.org/licenses/by-nc/4.0/
+**Project:** ChinaOps – Technical Runbook for Travelers & Parents
+**License:** [CC BY-NC 4.0 (Attribution-NonCommercial 4.0 International)](https://creativecommons.org/licenses/by-nc/4.0/)
+**Author:** TechDadShanghai / MilesXLab
 
 ---
 
-## Copyright Notice
+## 1️⃣ Allowed Use (Permitted)
 
-**Copyright © 2026 TechDadShanghai**
+- **Personal use:** Planning your trip, family/parenting guidance, and on-the-ground navigation.
+- **Educational use:** Learning how to navigate China, training materials, and classroom discussion.
+- **Sharing:** Copy and redistribute the material in any medium or format for non-commercial purposes.
+- **Attribution:** You must give appropriate credit to **"MilesXLab / ChinaOps"**.
 
-All rights reserved. This work is protected by international copyright laws. Unauthorized reproduction or distribution of this work, or any portion of it, may result in severe civil and criminal penalties.
+## 2️⃣ Prohibited Use (Commercial Restrictions)
 
-## Attribution Requirement
+**Commercial use is strictly prohibited without explicit written permission.** You may NOT:
 
-Any use of this material must prominently display:
+- **Sell or charge** for access to ChinaOps content (Markdown files, PDFs, website, or derived tools).
+- **Incorporate** content into a paid subscription, paid course, commercial travel guide, or paid app.
+- **Remove or alter** the original attribution, credits, or "Terms of Use" notices.
+- **Republish** as your own work for any commercial purpose (direct or indirect monetisation).
 
-**"Based on ChinaOps - Technical Runbook for Travelers & Parents"**
+Any commercial exploitation of ChinaOps content constitutes a license violation and will be pursued.
 
-with a link to https://github.com/[original-repo] or attribution to TechDadShanghai.
+## 3️⃣ Official Access & Integrity
+
+Always access the most accurate and up-to-date version of ChinaOps via the official channels:
+- **GitHub Repository:** [https://github.com/MilesXLab/ChinaOps](https://github.com/MilesXLab/ChinaOps)
+- **Official Portal:** [https://milesxlab.github.io/ChinaOps/](https://milesxlab.github.io/ChinaOps/)
+
+Tools and interactive features (PDF export, maps, calculators) are tied to official services. Cloned copies or third-party mirrors may not function correctly and are not supported.
+
+## 4️⃣ Contribution & Community
+
+- **Contributions:** Pull Requests are welcome to improve content (additional cities, SOP updates, corrections).
+- **Feedback:** Report commercial clones, outdated info, or license violations via [GitHub Issues](https://github.com/MilesXLab/ChinaOps/issues).
+- **Discussions:** General suggestions and feedback can be shared on GitHub Discussions.
+
+---
+
+**Copyright © 2026 TechDadShanghai. All rights reserved.**

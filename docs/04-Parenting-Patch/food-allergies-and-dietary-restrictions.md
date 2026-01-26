@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "Food Allergies & Dietary Restrictions"
+---
+
 # Food Allergies & Dietary Restrictions
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai
@@ -147,10 +152,10 @@ Location: [backpack/purse]
 
 #### Avoid
 
-❌ Street stalls (no ingredient control)  
-❌ Family-style Chinese restaurants (shared oils, cross-contamination)  
-❌ Buffets (difficult to track ingredients)  
-❌ Shopping mall food courts (high-speed service, communication gaps)
+- Street stalls (no ingredient control)
+- Family-style Chinese restaurants (shared oils, cross-contamination)
+- Buffets (difficult to track ingredients)
+- Shopping mall food courts (high-speed service, communication gaps)
 
 ---
 
@@ -193,14 +198,14 @@ Location: [backpack/purse]
 
 ## Miles' Tips
 
-- 📋 **Laminate your allergy card** — Carry 5-10 copies; hand to every restaurant, even casual ones.
-- 👨‍🍳 **Speak to the chef** — For severe allergies, ask server to get chef's confirmation personally.
-- 🛒 **Shop at international supermarkets** — 30% premium is worth the safety peace of mind.
-- 📱 **Screenshot safe dishes** — When you find a safe restaurant, take photos of the menu for reference.
-- 🍱 **Carry backup snacks** — Never rely on one restaurant for every meal; have safe snacks in hotel room.
-- 🏥 **Know the nearest hospital** — In case of reaction, have location, phone, and directions on phone.
-- 🧂 **Avoid sauce and oil** — Ask for dishes without sauce, cooked in own pan/wok, oil on the side.
-- 💊 **Carry EpiPen/antihistamines** — Always accessible, not checked luggage; inform people around you where it is.
+- **Laminate your allergy card** — Carry 5-10 copies; hand to every restaurant, even casual ones.
+- **Speak to the chef** — For severe allergies, ask server to get chef's confirmation personally.
+- **Shop at international supermarkets** — 30% premium is worth the safety peace of mind.
+- **Screenshot safe dishes** — When you find a safe restaurant, take photos of the menu for reference.
+- **Carry backup snacks** — Never rely on one restaurant for every meal; have safe snacks in hotel room.
+- **Know the nearest hospital** — In case of reaction, have location, phone, and directions on phone.
+- **Avoid sauce and oil** — Ask for dishes without sauce, cooked in own pan/wok, oil on the side.
+- **Carry EpiPen/antihistamines** — Always accessible, not checked luggage; inform people around you where it is.
 
 ---
 

@@ -1,11 +1,25 @@
 ---
 layout: guide
 title: "VPN, eSIM & Payment Setup"
+metadata:
+  version: 2.0
+  last_validated: 2026-01-26
+  ttl_days: 30
+  stability_status: "stable"
+  validation_method: "field_test"
 ---
+
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 
 # VPN, eSIM & Payment Setup
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai
+
+### 🚨 Failover Procedure (If Connection/Payment Fails)
+1.  **Connection Failover:** If VPN fails, switch to **Roaming Data** (Airalo/Nomad). It bypasses the firewall at the carrier level.
+2.  **Payment Failover:** If Alipay/WeChat rejects a card, use **Physical Cash (RMB)**. 
+    *   *Action:* Go to a Bank of China (BOC) or ICBC ATM. Most accept foreign Visa/Mastercard for cash withdrawal.
+3.  **Emergency Offline Map:** Ensure **Apple Maps** or **Baidu Maps (Offline Pack)** is ready. Google Maps is non-functional without a perfect VPN.
 
 ### Problem
 Foreign travelers cannot access global websites (Google, WhatsApp, Instagram) or pay for basic services, creating a "Single Point of Failure" for their trip.
@@ -37,8 +51,10 @@ Install these **BEFORE** you land.
 
 ---
 
-## TechDad's Tips (Local Ground Truth)
+## TechDad's Tips (Human Nuance & Edge Cases)
 
+- **The Name String Trap:** When binding cards to Alipay, ensure your name exactly matches your bank's records. If your name is long (e.g., "Christopher Alexander"), Alipay might truncate it. If it fails, try **ALL CAPS** without middle names.
+- **Bank "Security" Blocks:** Call your bank *before* you leave. Tell them specifically you are going to China. Some US/UK banks auto-block 0.01 RMB "verification" transactions.
 - **No Tipping:** Tipping is not common. Don't add complexity to the transaction.
 - **Low Battery Alert:** You cannot rent a shared power bank if your phone is already dead (you need to scan the QR to release it). **Charge your phone before it hits 15%.**
 - **Menu QR Codes:** If a shop requires a WeChat login to order and you don't have it, ask for a **"Physical Menu"** (shítǐ càidān). They almost always have a paper backup.

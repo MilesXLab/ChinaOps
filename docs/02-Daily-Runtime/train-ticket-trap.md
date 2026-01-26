@@ -1,15 +1,26 @@
 ---
 layout: guide
 title: "12306 Train Tickets: The MRZ Name Hack"
+metadata:
+  version: 2.0
+  last_validated: 2026-01-26
+  ttl_days: 180
+  stability_status: "stable"
+  validation_method: "field_test"
 ---
+
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 
 # 12306 Train Tickets: The MRZ Name Hack
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai
 
----
+### 🚨 Failover Procedure (If 12306 App Rejects You)
+1.  **Fallback to Trip.com:** Their backend is more robust for foreign cards. If the official 12306 app hangs during payment, Trip.com is the #1 alternative.
+2.  **The "Pink Paper" Ticket:** If your passport won't scan at the gate, go to the **Manual Verification** booth (usually at the far right or left). Show your passport and the booking ID (starts with E) from your app.
+3.  **Physical Ticket Window:** If all apps fail, go to the railway station. **Bring your physical passport.** Look for the "English Speaking" or "Ticket Refund/Change" window.
 
-## Problem
+### Problem
 Foreign tourists often face "Identity Verification Failed" errors on the 12306 app, even when they think they've entered their names correctly.
 
 ---
@@ -38,8 +49,10 @@ If you are traveling with a stroller or young children:
 
 ---
 
-## TechDad's Tips (Technical HSR Hacks)
+## TechDad's Tips (High-Speed Rail Realities)
 
+- **Security Gate Fluid Limits:** Security scanners are strict about liquids. If you have "unsealed" water, they might ask you to take a sip to prove it's safe.
+- **12306 Character Limit:** The app has a weird limit on name length. If your name is very long, it might be cut off. **Priority: Ensure the first 15 letters match your passport exactly.**
 - **Seat Selection (Strollers):**
   - **First Class:** Highly recommended for families. The massive legroom allowing you to keep a stroller unfolded for a nap is worth the premium.
   - **Second Class:** Aim for the **First or Last row** of the carriage. There is usually extra space behind the seats or in front for bulky items.

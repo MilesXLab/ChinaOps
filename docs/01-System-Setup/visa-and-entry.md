@@ -1,11 +1,24 @@
 ---
 layout: guide
 title: "Visa & Entry Requirements (2026 Update)"
+metadata:
+  version: 2.0
+  last_validated: 2026-01-23
+  ttl_days: 90
+  stability_status: "stable"
+  validation_method: "official_audit"
 ---
+
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 
 # Visa & Entry Requirements (2026 Update)
 
 **Last Updated:** Jan 23, 2026 | **Author:** TechDadShanghai
+
+### 🚨 Failover Procedure (If Digital Entry Fails)
+1.  **Manual Paper Cards:** If the "Digital Entry Card" kiosks are down or won't scan your QR, look for **Blue/Yellow paper cards** on the tables before the immigration line. Fill by hand.
+2.  **NIA Hotline 12367:** If you are blocked at boarding or have a visa-free dispute, call **+86-12367** (National Immigration Administration). They have 24/7 English support.
+3.  **Screenshot EVERYTHING:** Digital systems in airports often struggle with weak Wi-Fi. Have your hotel confirmation and return flight details as **Offline Screenshots**.
 
 ### Context
 Navigating the rapidly changing visa policies and the digital entry process can be confusing for first-time visitors.
@@ -42,8 +55,10 @@ China has introduced a **New Digital Entry Card** system to speed up immigration
 
 ---
 
-## Miles' Tips
+## TechDad's Tips (Border Control Reality)
 
+- **Purpose of Stay:** If asked "Purpose of visit," keep it simple: **"Tourism"** or **"Visiting Friends."** Adding complex business nuances can trigger a request for an "Invitation Letter" (which you might not have on you).
+- **Digital Card Photo Hack:** When taking the photo for the digital mini-program, use a **white background** (a hotel wall or a piece of paper). Shadows on the face often cause "System Verification Failed."
 - **Carry Proof of Accommodation** — Even with visa-free entry, officers often ask for your first hotel's address and phone number in Chinese. Have a screenshot ready.
 - **Passport Validity** — Ensure your passport has at least **6 months** of validity and 2 blank pages.
 - **Don't delete your VPN/Apps** — Some airport Wi-Fi is weak or restricted. Ensure your communication apps (WeChat/WhatsApp) are working before you land.

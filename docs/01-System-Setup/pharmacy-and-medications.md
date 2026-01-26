@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "Pharmacy & Over-the-Counter Medications"
+---
+
 # Pharmacy & Over-the-Counter Medications
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai
@@ -71,12 +76,12 @@ Foreign travelers struggle to find appropriate medications, navigate pharmacy sy
 
 ## Miles' Tips
 
-- 🏥 **Bring your own common medications** from home (pain relievers, allergy meds, anti-diarrhea) — ensures familiarity and saves time.
-- 📱 **Take photos of medication instructions** at home before traveling — reference materials for equivalents.
-- 💊 **Ask pharmacist to write instructions** on the bag — some do, many don't, so verify dosage.
-- 🚑 **For serious conditions,** go directly to hospital rather than self-medicating. Pharmacists may misdiagnose.
-- 💳 **Payment:** Most pharmacies accept Alipay/WeChat Pay; large chains accept credit cards.
-- 👶 **For children's medications,** specify age and weight — dosing is different than adults.
+- **Bring your own common medications** from home (pain relievers, allergy meds, anti-diarrhea) — ensures familiarity and saves time.
+- **Take photos of medication instructions** at home before traveling — reference materials for equivalents.
+- **Ask pharmacist to write instructions** on the bag — some do, many don't, so verify dosage.
+- **For serious conditions,** go directly to hospital rather than self-medicating. Pharmacists may misdiagnose.
+- **Payment:** Most pharmacies accept Alipay/WeChat Pay; large chains accept credit cards.
+- **For children's medications,** specify age and weight — dosing is different than adults.
 
 ---
 
@@ -113,18 +118,18 @@ Foreign travelers struggle to find appropriate medications, navigate pharmacy sy
 
 ## Local Hacks & Money-Saving Tips
 
-💰 **Cost Optimization:**
+**Cost Optimization:**
 - OTC medications from pharmacies are 30-50% cheaper than hospitals.
 - Buy from generic brands rather than premium brands — same active ingredient.
 - Use **JD.com app** for discounts on common OTC meds (5-15% off).
 - Pharmacies near hospitals are slightly more expensive; go to neighborhood chains instead.
 
-🔍 **Quality Assurance:**
+**Quality Assurance:**
 - Check **expiration dates** carefully (production date is printed, not always obvious).
 - Request **medicines with clearest instructions** — some products have vague dosing.
 - Take photos of the packaging for future reference.
 
-⏱️ **Efficiency:**
+**Efficiency:**
 - Go to larger chains during off-peak hours (2-4pm) — shorter waits, more English support.
 - Use WeChat pharmacy apps for pre-order (saves 10-15 minutes).
 

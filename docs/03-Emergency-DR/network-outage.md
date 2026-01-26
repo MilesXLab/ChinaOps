@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "Internet / Network Outage"
+---
+
 # Internet / Network Outage
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai

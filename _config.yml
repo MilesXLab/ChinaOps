@@ -2,21 +2,27 @@
 title: ChinaOps
 description: Technical Runbook for Travelers & Parents
 author: TechDadShanghai
-url: https://MilesXLab.github.io/ChinaOps
+url: "https://MilesXLab.github.io"
+baseurl: "/ChinaOps"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal  # Using custom layout in _layouts/
+permalink: pretty
 
 # Exclude from build
 exclude:
-  - .gitignore
-  - CONTRIBUTING.md
-  - README.md
-  - ROADMAP.md
-  - LEGAL_NOTICE.md
-  - scripts/
-  - .qodo/
+- .gitignore
+- CONTRIBUTING.md
+- README.md
+- ROADMAP.md
+- LEGAL_NOTICE.md
+- scripts/
+- .qodo/
+- vendor/
+- Gemfile
+- Gemfile.lock
+- node_modules/
 
 # Custom settings
 show_downloads: false

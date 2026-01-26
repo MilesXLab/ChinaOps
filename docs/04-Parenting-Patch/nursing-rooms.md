@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "Nursing & Changing Rooms"
+---
+
 # Nursing & Changing Rooms
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai

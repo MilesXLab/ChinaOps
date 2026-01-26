@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "Lost Passport / Important Documents"
+---
+
 # Lost Passport / Important Documents
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai

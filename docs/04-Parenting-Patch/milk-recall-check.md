@@ -1,3 +1,8 @@
+---
+layout: guide
+title: "Milk / Formula Recall Check"
+---
+
 # Milk / Formula Recall Check
 
 **Last Updated:** Jan 2026 | **Author:** TechDadShanghai

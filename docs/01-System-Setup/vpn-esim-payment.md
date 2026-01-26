@@ -2,7 +2,7 @@
 layout: guide
 title: "VPN, eSIM & Payment Setup"
 metadata:
-  version: 2.0
+  version: 1.1
   last_validated: 2026-01-26
   ttl_days: 30
   stability_status: "stable"
@@ -11,54 +11,48 @@ metadata:
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 
-# VPN, eSIM & Payment Setup
+# 🌐 VPN, eSIM & Payment Setup
 
-**Last Updated:** Jan 2026 | **Author:** TechDadShanghai
+**TL;DR:** Install **Trip.com eSIM** (bypass) or **Yesim** offshore. First choice for payment: **Alipay/WeChat Pay**. If blocked, activate **Alipay Tour Card** or use **Cash Backup**.
 
-### 🚨 Failover Procedure (If Connection/Payment Fails)
-1.  **Connection Failover:** If VPN fails, switch to **Roaming Data** (Airalo/Nomad). It bypasses the firewall at the carrier level.
-2.  **Payment Failover:** If Alipay/WeChat rejects a card, use **Physical Cash (RMB)**. 
-    *   *Action:* Go to a Bank of China (BOC) or ICBC ATM. Most accept foreign Visa/Mastercard for cash withdrawal.
-3.  **Emergency Offline Map:** Ensure **Apple Maps** or **Baidu Maps (Offline Pack)** is ready. Google Maps is non-functional without a perfect VPN.
-
-### Problem
-Foreign travelers cannot access global websites (Google, WhatsApp, Instagram) or pay for basic services, creating a "Single Point of Failure" for their trip.
+**Prerequisites:**
+- **Unlocked Phone:** Verify with your home carrier before departure.
+- **International Card:** Visa/Mastercard (debit or credit).
+- **KYC Time:** Allow 24-48 hours for account verification before landing.
 
 ---
 
-## Part 1: Internet Connectivity (Avoid SPoF)
+## 📋 The Runbook
 
-### Option A: International eSIM (Lowest Friction)
-- **Providers:** **Nomad**, **Airalo**, or **3HK**.
-- **Pro Tip:** Roaming data natively bypasses the Great Firewall. Gmail and WhatsApp will work without any VPN setup.
-- **The Technical Fix:** If your signal stalls or apps won't load, toggle **Airplane Mode -> Reboot**. This forces a fresh registration with the local tower and often resolves routing deadlocks.
+### 1. Connectivity Layer: Native Bypass
+- **Step:** Purchase a **Trip.com eSIM** or **Yesim**. In 2026, these route traffic through HK/Macao, natively bypassing the firewall.
+- **Verification:** Turn off Wi-Fi, enable eSIM. Open `google.com`. If it loads, you are "off-wall" without needing a VPN.
+- **Fallback:** If eSIM signal stalls, switch to **LetsVPN** or **LightningX**. Recent Jan 2026 reports suggest **ShadowFly** is also highly resilient against the latest firewall probes.
 
-### Option B: VPN Deployment (Encrypted Tunnels)
-Install these **BEFORE** you land.
-1.  **LetsVPN (快连):** (Jan 2026 Choice) The best "hot-patch" right now. Extremely stable for mobile, optimized for the current firewall patterns, and cheap ($5-9/month).
-2.  **ExpressVPN:** Reliable again in 2026 using **Lightway protocol + Obfuscation**. Best speeds for high-bandwidth tasks.
-3.  **Astrill VPN:** The "heavy-duty" option for laptops. Used by most long-term expats for zero-latency work.
-
----
-
-## Part 2: Payments (System Redundancy)
-
-### Alipay & WeChat Pay
-- **Setup:** Bind your Visa/Mastercard 2 weeks before flying. 
-- **The "Change" Patch:** Carry **500-1000 RMB in cash**. 
-  - **Why?** Some local taxis or tiny street stalls might have network issues or "scanning fatigue." 
-  - **Pro Tip:** Go to a FamilyMart or 7-Eleven immediately to buy a drink and break your 100 RMB bills into 10s and 20s. Small bills are the ultimate "offline" failover.
+### 2. Payment Layer: System Redundancy
+- **Step A:** Bind your card to **Alipay** and complete the KYC. 
+- **The "Wise" Move:** Link a **Wise** or **Revolut** card for the best exchange rates.
+- **Step B:** Repeat for **WeChat Pay**.
+- **Verification:** Try a small purchase (e.g., 1 RMB mobile top-up) within the app before you leave.
 
 ---
 
-## TechDad's Tips (Human Nuance & Edge Cases)
+## 🚨 Final Failover (Plan B)
 
-- **The Name String Trap:** When binding cards to Alipay, ensure your name exactly matches your bank's records. If your name is long (e.g., "Christopher Alexander"), Alipay might truncate it. If it fails, try **ALL CAPS** without middle names.
-- **Bank "Security" Blocks:** Call your bank *before* you leave. Tell them specifically you are going to China. Some US/UK banks auto-block 0.01 RMB "verification" transactions.
-- **No Tipping:** Tipping is not common. Don't add complexity to the transaction.
-- **Low Battery Alert:** You cannot rent a shared power bank if your phone is already dead (you need to scan the QR to release it). **Charge your phone before it hits 15%.**
-- **Menu QR Codes:** If a shop requires a WeChat login to order and you don't have it, ask for a **"Physical Menu"** (shítǐ càidān). They almost always have a paper backup.
+### If Alipay/WeChat rejects the transaction (Security Risk):
+1. **Alipay Tour Card:** Search "Tour Card" in Alipay. This is a pre-paid balance for foreigners.
+2. **Physical Cash:** Go to a **Bank of China (BOC) ATM** and withdraw 500-1000 RMB.
+3. **Critical Alert:** New regulations effective **Feb 1, 2026** strictly mandate that all merchants **must accept cash**. If they claim "no change," stay calm—they are legally required to find a solution.
+4. **FacePay Limitation:** Do not attempt to set up or use **Face Verification (FacePay)** in stores. As of Jan 2026, this system is primarily restricted to Chinese ID holders. Stick to QR code scanning.
 
-### Local Hacks / Money-saving Tips
-- **App Coupons:** Inside Alipay/WeChat, check the supermarket mini-programs (like **Hema**) for "New User" coupons. You can often save 10-20 RMB on your first grocery run.
-- **Offline Translation:** Download the **camera-translation** and **offline language packs** in Google Translate or **Pleco** (essential for dictionary use).
+---
+
+## 💡 TechDad's Tips
+- **NFC Tap-to-Pay:** In 2026, many Metro systems in Tier-1 cities now support **International NFC** (Visa/Mastercard tap). Keep your physical card handy for the gate.
+- **The "Check-in" Wi-Fi:** Many hotel portals require a SMS code. If your roaming isn't working, you can't get the code. **Action:** Use your eSIM data to log into the portal.
+
+---
+
+## 🚩 Strategic Gap: The "SPOF" Warning
+**Single Point of Failure:** Relying on a single payment app.
+- **Hotfix:** WeChat Pay waives the 3% fee for transactions under 200 RMB until mid-2026. Use WeChat for small coffee/snacks and Alipay for larger bookings.

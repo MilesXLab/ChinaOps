@@ -1,55 +1,62 @@
 ---
 layout: guide
-title: "Public Transport: Metro, Bikes & Ferries"
+title: "Public Transport: Metro, Bikes & Buses"
+metadata:
+  version: 1.1
+  last_validated: 2026-01-26
+  stability_status: "stable"
 ---
 
-# Public Transport: Metro, Bikes & Ferries
+# 🚇 Public Transport: Metro, Bikes & Buses
 
-**Last Updated:** Jan 2026 | **Author:** TechDadShanghai
+**TL;DR:** Use **Alipay's "Transport"** QR code for everything (Metro, Bus, Ferry). Add a **Shanghai Transit Card** to your Apple/Android wallet for tap-and-go. Avoid Peak Hours (8-9 AM, 5:30-7 PM).
 
----
-
-## Problem
-Ticket machines at Metro stations are often crowded, confusing for non-Chinese speakers, or don't accept foreign cards.
-
----
-
-## Metro (The Urban Backbone)
-
-### How to Pay
-- **Alipay/WeChat QR:** (Top Choice) Search for "Transport" or "Metro" inside the apps. It generates a QR code you scan at the gate. No physical tickets needed.
-- **Apple Wallet:** You can add a virtual **Shanghai Public Transport Card** directly to your iPhone. It supports "Express Mode" (tap without waking the phone).
-
-### High-Efficiency Hacks
-- **Avoid Peak Hours:** Do not use the Metro between **8:00 AM – 9:00 AM** and **5:30 PM – 7:00 PM** if you have luggage or a stroller. It is physically impossible to move comfortably.
-- **Car Choice:** Look at the platform floor; signs indicate where the **Elevator-accessible** cars stop. This is vital for strollers.
+**Prerequisites:**
+- **App:** Alipay or WeChat.
+- **Verification:** Ensure your "Transport" mini-program is activated (requires one-time ID verification).
+- **Physical ID:** Passport (for buying physical cards at some service windows).
 
 ---
 
-## Shared Bikes (The "Last Mile" Solution)
+## 📋 The Runbook
 
-For any trip between **1km – 3km**, shared bikes are faster and cheaper than taxis.
-- **How to Use:** Use **Alipay (HelloBike)** or **Meituan**. Scan the QR code on the back of the bike.
-- **Cost Optimization:** If you are staying for more than 3 days, buy a **"7-Day Pass"** in the app (usually < 10 RMB). It gives you unlimited 30-minute rides, essentially making short-distance travel free.
+### 1. The Metro QR Entry
+- **Step 1:** Open **Alipay**. Tap `Transport` (出行) at the top.
+- **Step 2:** Choose `Metro` (地铁) and select your city (e.g., Shanghai).
+- **Step 3:** Scan the QR code at the turnstile. 
+- **Verification:** The gate will open instantly. Payment is deducted after you exit at your destination.
+
+### 2. The Apple Wallet / NFC Hack
+- **Step 1:** Open **Apple Wallet**. Tap `+` -> `Transit Card`.
+- **Step 2:** Select `Shanghai Public Transport Card`. Add 20-50 RMB.
+- **Verification:** You can now tap the back of your phone on any reader in the city without opening an app.
+
+### 3. Shared Bike "Last-Mile" Patch
+- **Step 1:** Find a **HelloBike** (Blue - Alipay) or **Meituan Bike** (Yellow).
+- **Step 2:** Scan the QR code on the handlebar or lock.
+- **Step 3:** Purchase a "7-Day Unlimited" pass if staying for >3 days.
+- **Verification:** The lock will pop open. 
 
 ---
 
-## Public Ferries (Hidden Gem)
+## 🚨 Fallback (Plan B)
 
-Skip the expensive "Sightseeing Cruises" on the Bund. 
-- **The Route:** Use the public ferry to cross the Huangpu River between The Bund and Lujiazui towers.
-- **Cost:** **2 RMB**.
-- **Payment:** Just tap your virtual Metro card or scan your Alipay transport QR.
-- **The View:** You get the exact same skyline panorama for 1/50th of the price of a tourist boat.
+### If your QR code fails or your phone dies:
+1. **Physical Ticket Machine:** Go to the ticket kiosks. Note: Most only accept **Alipay/WeChat** or 1 RMB coins and 5/10 RMB notes.
+2. **Manned Service Desk:** Look for the **Manned Lane** (Red/Green light service booth). Show them your passport and cash. They can sell you a one-way physical token.
+3. **The Bus Backup:** Public buses accept **physical coins (2 RMB)**. If your phone is dead, a bus is often easier to board than the Metro.
 
 ---
 
-## TechDad's Tips (Technical Local Knowledge)
+## 💡 TechDad's Tips
 
-- **Air Conditioning:** In summer, look for the "Strong Cold" or "Weak Cold" car indicators on the platform. Strong cold is usually in the middle cars.
-- **Manual Lanes:** If your QR code fails or you have a bulky stroller, go to the **Manned Service Desk** (the manual lane). The staff will manually scan you through.
-- **Taxis vs Metro:** During peak hours, a Metro trip that takes 20 mins might take a taxi 60 mins. Always check **Amap** for real-time traffic "Red" (blocked) zones.
+- **The "AC" Strategy:** In summer, the front and back cars (1 & 6 or 1 & 8) are often **"Weak Cool"**, while the middle cars are **"Strong Cool"**. Choose according to your tolerance.
+- **Stroller Routing:** Look for the **Blue Wheelchair icon** on the platform. It marks the door closest to the station's elevator.
+- **Transfer Discount:** In Shanghai, switching from Bus to Metro within 120 mins gives you a **1 RMB discount**.
+- **The "Maglev" Loophole:** Show your flight ticket (digital or paper) at the PVG Maglev window to get a discounted 40 RMB ticket.
 
-### Local Hacks & Money-Saving Tips
-- **Metro Day-Passes:** Only worth it if you plan to make more than 6-7 trips in 24 hours. For most tourists, the standard QR code pay-as-you-go is more flexible.
-- **Transfer Discount:** In Shanghai, transferring from a Bus to a Metro (or vice-versa) within 90 minutes gives you a **1 RMB discount**.
+---
+
+## 🚩 Strategic Gap: The "SPOF" Warning
+**Single Point of Failure:** Relying on the "Transport" QR at 8:30 AM in a deep underground station with **No Signal (LTE/5G)**.
+- **Hotfix:** Always open your Transport QR *before* you enter the underground levels, or use the **Apple/Android Wallet (NFC)** which works offline.

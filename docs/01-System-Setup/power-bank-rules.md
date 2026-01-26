@@ -1,45 +1,59 @@
 ---
 layout: guide
-title: "Hardware Patches: Power Banks & Gear"
+title: "Power Bank & Hardware Rules"
+metadata:
+  version: 1.1
+  last_validated: 2026-01-26
+  stability_status: "stable"
 ---
 
-# Hardware Patches: Power Banks & Gear
+# 🔋 Power Bank & Hardware Rules
 
-**Last Updated:** Jan 23, 2026 | **Author:** TechDadShanghai
+**TL;DR:** Max capacity **20,000mAh (100Wh)**. Labeling must be clearly visible. **Must be in carry-on.** Never let your phone hit 0% or you can't rent a shared bank.
 
-### Problem
-Power banks are the "fuel" for your China trip. If your battery dies, your wallet (Alipay), map, and translator die too. However, Chinese transport security (HSR & Airports) is zero-tolerance.
-
----
-
-## 🔋 Power Bank "Safety" Rules
-
-### 1. The Capacity Limit
-- **Max:** **20,000mAh (100Wh)**. Anything higher (like 30k+ laptop banks) will be confiscated at airport security.
-- **The "3C" Seal:** Your battery **MUST** have the "3C" logo or the capacity (Wh/mAh) clearly printed on the casing.
-- **Wear & Tear Warning:** If the text is scratched off or unreadable due to use, security will likely put it in the trash. **If you can't read the specs, neither can they.**
-
-### 2. Recommended Brands
-- **Reliable Nodes:** Stick to **Anker**, **Xiaomi (Mi)**, or **Baseus**. These have unambiguous labeling and high-quality cells.
+**Prerequisites:**
+- **Power Bank:** Brand-name (Anker/Xiaomi) with spec label intact.
+- **Carry-on Bag:** Power banks are banned from checked luggage.
 
 ---
 
-## ☔ The "Hardware" Checklist
+## 📋 The Runbook
 
-### 1. The Umbrella Patch
-Shanghai weather is highly unstable. A light, foldable umbrella is not just for rain; it's a vital patch for the harsh summer sun. Carry one in your day-pack.
+### 1. The Capacity Audit (Pre-Flight)
+- **Step 1:** Check the label on your power bank. If it says >100Wh or >27,000mAh (some airports use 100Wh as the hard limit), it will be confiscated. 
+- **Step 2:** If the label is worn out or scratched, replace the bank. Security will not "guess" the capacity.
+- **Verification:** Ensure the "3C" or "CE" logo is visible.
 
-### 2. The Universal Adapter
-China uses **Type A, C, and I**. Most hotel outlets are "universal," but bringing an adapter ensures you can charge at airport lounges or high-speed rail seats.
+### 2. High-Speed Rail (HSR) Protocol
+- **Step 1:** Be ready to pull the bank out at the station X-ray machine. 
+- **Step 2:** Locate the power outlet under your seat (Standard and First Class have them).
+- **Verification:** Confirm the green LED on the outlet is lit before plugging in.
+
+### 3. Shared Power Bank Rental (The Recovery Hack)
+- **Step 1:** Open Alipay or Meituan. Search `充电宝` (Power bank).
+- **Step 2:** Scan the QR code on the machine (Meituan, Jiedian, or Energy Monster).
+- **Verification:** The bank should pop out automatically.
+- **Critical Alert:** You need at least 1-2% battery to perform this action. If your phone is dead, you're locked out of the shared economy.
 
 ---
 
-## Miles' Tips
+## 🚨 Fallback (Plan B)
 
-- ⚡ **The "Circular Dependency" Error:** Do not let your phone hit 0%. You cannot rent a shared power bank (Meituan/Alipay) if your phone is already dead because you need to scan a QR code to release the bank.
-- 🧳 **Carry-on ONLY:** Power banks must **never** be in checked luggage. They must be in your carry-on for security screening.
-- 🚆 **Station Security:** Train station security (HSR) is just as strict as airports. Be ready to take your power bank out of your bag for inspection.
+### If your power bank is confiscated at security:
+1. **Airport Retail:** Go to a **Xiaomi (Mi)** or **Huawei** store inside the airport terminal. They sell compliant banks for ~150 RMB.
+2. **Charging Poles:** Look for physical charging stations near the boarding gates. Note: These often require a USB-A cable; USB-C ports are less common in older terminals.
+3. **Emergency Charge:** Ask the staff at a high-end cafe (Starbucks/Costa) if they have a "USB hub." Some will allow you to plug in for 10 mins if you buy a drink.
 
-### Local Hacks & Money-saving Tips
-- **HSR Charging:** Almost all G-Trains (High-Speed) have power outlets under the seat (front or back). Look for the little green light.
-- **Airport Charging:** Major airports like PVG have "Quick Charge" stations, but they often require a local phone number. Stick to your own portable bank for "high availability."
+---
+
+## 💡 TechDad's Tips
+
+- **The Umbrella Patch:** Shanghai weather is erratic. Buy a small, manual foldable umbrella. Automatic ones are heavy and often break after one typhoon gust.
+- **Type-C is Dominant:** While China used to be micro-USB heavy, everything in 2026 is Type-C. Ensure your "Go-bag" has at least two Type-C cables.
+- **Don't Buy "Street" Banks:** Avoid buying power banks from non-branded kiosks or street vendors. They often have fake capacity labels and will be rejected at the airport next time you fly.
+
+---
+
+## 🚩 Strategic Gap: The "SPOF" Warning
+**Single Point of Failure:** Relying on a single USB cable. 
+- **Hotfix:** Keep a spare charging cable in your jacket pocket, separate from your main gear bag.

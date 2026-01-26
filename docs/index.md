@@ -5,10 +5,13 @@ title: "Documentation Library"
 
 # 📚 Full Documentation Library
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
+
 Welcome to the ChinaOps technical runbook. Here you will find step-by-step SOPs for navigating life and travel in China.
 
 ### ✈️ [System Setup](01-System-Setup/)
 Everything you need to get your hardware and software ready for the Great Firewall and local life.
+*   [The Landing Protocol (First 30m)](01-System-Setup/landing-protocol/)
 *   [VPN & Payments Setup](01-System-Setup/vpn-esim-payment/)
 *   [Mobile Number & Activation](01-System-Setup/mobile-number-and-activation/)
 *   [Pharmacy & Medications](01-System-Setup/pharmacy-and-medications/)
@@ -18,6 +21,7 @@ Everything you need to get your hardware and software ready for the Great Firewa
 
 ### 🚗 [Daily Runtime](02-Daily-Runtime/)
 Navigating Chinese cities like a pro.
+*   [The Transit Protocol (Int'l to Domestic)](02-Daily-Runtime/international-domestic-transit/)
 *   [Train Ticket Trap (12306)](02-Daily-Runtime/train-ticket-trap/)
 *   [Taxis & Payments](02-Daily-Runtime/taxi-payment/)
 *   [Maps & Toilets](02-Daily-Runtime/maps-and-toilets/)

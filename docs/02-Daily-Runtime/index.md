@@ -8,6 +8,7 @@ title: "Production Runtime: Navigation & Travel"
 Technical guides for managing your daily operations in Chinese cities. From high-speed rail to shared bikes.
 
 ### 🚄 Regional Transit
+*   [**International-Domestic Transit SOP**](international-domestic-transit/) — Managing the PVG/BJS luggage loop.
 *   [**Train Tickets (12306)**](train-ticket-trap/) — Fixing the MRZ name trap and booking strategy.
 *   [**Public Transport**](public-transport-tips/) — Metro, buses, and the 2 RMB ferry hack.
 

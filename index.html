@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChinaOps - Technical Runbook for Travelers & Parents | 27 Essential Guides</title>
+  <title>ChinaOps - Technical Runbook for Travelers & Parents | 30 Essential Guides</title>
 
   <!-- SEO Meta Tags -->
   <meta name="description"
-    content="Comprehensive technical runbook for traveling in China with 27 practical guides covering VPN setup, payments, train tickets, hospitals, baby supplies, and Shanghai local hacks. Created by TechDadShanghai for families and first-time visitors.">
+    content="Comprehensive technical runbook for traveling in China with 30 practical guides covering VPN setup, payments, train tickets, hospitals, baby supplies, and Shanghai local hacks. Created by TechDadShanghai for families and first-time visitors.">
   <meta name="keywords"
     content="China travel guide, Shanghai travel, VPN China, Alipay setup, 12306 train tickets, China with kids, baby formula China, Chinese New Year 2026, vegetarian China, China emergency contacts">
   <meta name="author" content="TechDadShanghai">
@@ -18,14 +18,14 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="ChinaOps - Technical Runbook for Travelers & Parents">
   <meta property="og:description"
-    content="27 essential guides for navigating China: VPN, payments, trains, hospitals, baby supplies, and Shanghai local hacks. Real-world solutions for families and travelers.">
+    content="30 essential guides for navigating China: VPN, payments, trains, hospitals, baby supplies, and Shanghai local hacks. Real-world solutions for families and travelers.">
   <meta property="og:site_name" content="ChinaOps">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ChinaOps - Technical Runbook for Travelers & Parents">
   <meta name="twitter:description"
-    content="27 essential guides for navigating China: VPN, payments, trains, hospitals, baby supplies, and Shanghai local hacks.">
+    content="30 essential guides for navigating China: VPN, payments, trains, hospitals, baby supplies, and Shanghai local hacks.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -300,19 +300,19 @@
     <div class="header">
       <h1>ChinaOps 📚</h1>
       <p class="tagline"><strong>Full-stack technical runbook for traveling in China</strong></p>
-      <div class="version-badge">v1.0.0 | Last Updated: Jan 23, 2026</div>
+      <div class="version-badge">v1.1.0 | Last Updated: Jan 26, 2026</div>
       <p style="color: #666; margin: 15px 0; line-height: 1.6;">Especially designed for first-time visitors, families,
         and parents with young children. Real-world problems, fixes, and recommendations gathered from trusted sources
         and user experiences. Created by a full-time dad turning everyday parenting moments into a structured technical
         guide for travelers.</p>
       <div class="update-notice">
         <span>🎉</span>
-        <span><strong>v1.0.0 is Live!</strong> This is the first official release of ChinaOps. If you find this guide
-          useful, please share your feedback—your support keeps this project running!</span>
+        <span><strong>v1.1.0 is Live!</strong> Added the Landing Protocol, Transit SOPs, and SRE standardized runbooks.
+          Your support keeps this project running!</span>
       </div>
       <div class="stats">
         <div class="stat">
-          <div class="stat-number">28</div>
+          <div class="stat-number">30</div>
           <div class="stat-label">Technical SOPs</div>
         </div>
         <div class="stat">
@@ -354,7 +354,7 @@
         </div>
         <div>
           <h3 style="color: #48bb78; margin-bottom: 10px;">🔍 Need Something Specific?</h3>
-          <p style="color: #666; line-height: 1.6;">Browse the <strong>Full Guide Library</strong> below — all 27 guides
+          <p style="color: #666; line-height: 1.6;">Browse the <strong>Full Guide Library</strong> below — all 30 guides
             are organized by category with estimated reading times.</p>
         </div>
       </div>
@@ -426,13 +426,18 @@
     <div class="section">
       <h2 class="section-title">📚 Full Guide Library</h2>
 
-      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">✈️ System Setup (6 Guides)</h3>
+      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">✈️ System Setup (7 Guides)</h3>
       <p style="color: #666; margin-bottom: 15px;">Get your essentials working: phone, VPN, payments, medications</p>
       <table class="guides-table">
         <tr>
           <th>Guide</th>
           <th>What You'll Learn</th>
           <th>Time</th>
+        </tr>
+        <tr>
+          <td><a href="./docs/01-System-Setup/landing-protocol/">🛫 The Landing Protocol</a></td>
+          <td>Immigration, Connectivity, and the first 30m heat-test</td>
+          <td>10 min</td>
         </tr>
         <tr>
           <td><a href="./docs/01-System-Setup/mobile-number-and-activation/">📱 Mobile Number & Activation</a></td>
@@ -466,13 +471,18 @@
         </tr>
       </table>
 
-      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">🚗 Daily Runtime (10 Guides)</h3>
+      <h3 style="color: #667eea; margin-top: 30px; margin-bottom: 15px;">🚗 Daily Runtime (11 Guides)</h3>
       <p style="color: #666; margin-bottom: 15px;">Navigate cities: trains, taxis, maps, public transport</p>
       <table class="guides-table">
         <tr>
           <th>Guide</th>
           <th>What You'll Learn</th>
           <th>Time</th>
+        </tr>
+        <tr>
+          <td><a href="./docs/02-Daily-Runtime/international-domestic-transit/">✈️ Domestic Transit SOP</a></td>
+          <td>International to Domestic transfers and luggage loops</td>
+          <td>10 min</td>
         </tr>
         <tr>
           <td><a href="./docs/02-Daily-Runtime/train-ticket-trap/">🚄 Train Tickets (12306)</a></td>
@@ -615,6 +625,32 @@
           <td>15 min</td>
         </tr>
       </table>
+
+      <h3 style="color: #ec4899; margin-top: 30px; margin-bottom: 15px;">🛠️ Helper Tools (Web-Only)</h3>
+      <p style="color: #666; margin-bottom: 15px;">Standalone technical nodes for specific safety & formatting checks
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
+        <div style="padding: 20px; border: 2px solid #f9a8d4; border-radius: 12px; background: #fff;">
+          <h4 style="color: #ec4899; margin-bottom: 8px;">1. Nestlé Recall Checker</h4>
+          <p style="font-size: 0.9em; color: #666; margin-bottom: 12px;">Manual batch-match tool for the Jan 2026 safety
+            recall incident.</p>
+          <a href="https://milesxlab.github.io/nestle-recall-checker/" target="_blank"
+            style="display: inline-block; padding: 6px 15px; background: #ec4899; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.85em;">Open
+            Tool (Web)</a>
+        </div>
+        <div style="padding: 20px; border: 2px solid #e2e8f0; border-radius: 12px; background: #f8fafc; opacity: 0.7;">
+          <h4 style="color: #64748b; margin-bottom: 8px;">2. Digital Entry Formatter</h4>
+          <p style="font-size: 0.9em; color: #666; margin-bottom: 12px;">Pre-fill logic for the NIA/Alipay Digital Entry
+            Card API.</p>
+          <span style="font-size: 0.75em; color: #94a3b8; font-weight: bold;">v2.0 PREVIEW</span>
+        </div>
+        <div style="padding: 20px; border: 2px solid #e2e8f0; border-radius: 12px; background: #f8fafc; opacity: 0.7;">
+          <h4 style="color: #64748b; margin-bottom: 8px;">3. Name String Fixer</h4>
+          <p style="font-size: 0.9em; color: #666; margin-bottom: 12px;">Passport MRZ-to-12306 name format converter.
+          </p>
+          <span style="font-size: 0.75em; color: #94a3b8; font-weight: bold;">v2.0 PREVIEW</span>
+        </div>
+      </div>
     </div>
 
     <!-- Helper Scripts - Coming in v2.0 -->
@@ -731,7 +767,7 @@ python scripts/train_ticket_checker.py --name "John Smith" --date 2026-02-15
       <p><strong>ChinaOps</strong> — Technical Runbook for Travelers & Parents</p>
       <p style="color: #666; font-size: 0.9em;">Created by a full-time dad turning everyday parenting moments into a
         structured technical guide for travelers. Real-world solutions for families and solo explorers.</p>
-      <p style="margin-top: 15px;">Verified | Jan 23, 2026 | Author: <strong>TechDadShanghai</strong></p>
+      <p style="margin-top: 15px;">Verified | Jan 26, 2026 | Author: <strong>TechDadShanghai</strong></p>
       <p style="color: #999; font-size: 0.9em; margin-top: 20px;">
         ❤️ Made for travelers, by travelers. |
         <a href="https://github.com/MilesXLab/ChinaOps"

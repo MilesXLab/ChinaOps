@@ -25,7 +25,7 @@
 ### What is ChinaOps?
 A practical, non-commercial guide for travelers and families navigating China. Written by someone who's actually lived through these challenges.
 
-**28 Step-by-Step Guides** | **3 Helper Tools** | **No Ads or Sponsorships**
+**30 Step-by-Step Guides** | **3 Helper Tools** | **No Ads or Sponsorships**
 
 ### Choose Your Path:
 
@@ -60,9 +60,10 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 
 ## Full Library
 
-### System Setup (6 Guides)
+### System Setup (7 Guides)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
+| [The Landing Protocol](docs/01-System-Setup/landing-protocol.md) | Your first 30 minutes: Immigration, Connectivity, Payment | 10 min |
 | [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation.md) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
 | [Pharmacy & Medications](docs/01-System-Setup/pharmacy-and-medications.md) | How to buy medicine, common drug names in Chinese | 12 min |
 | [VPN & eSIM / Payment Setup](docs/01-System-Setup/vpn-esim-payment.md) | Set up VPN, Alipay, WeChat Pay | 15 min |
@@ -74,6 +75,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Train Tickets (12306)](docs/02-Daily-Runtime/train-ticket-trap.md) | Booking system, name format issues, how to fix rejections | 10 min |
+| [The Transit Protocol](docs/02-Daily-Runtime/international-domestic-transit.md) | PVG/BJS International to Domestic connection SOP | 10 min |
 | [Taxis & Mobile Payment](docs/02-Daily-Runtime/taxi-payment.md) | Didi, DiDi International, fare negotiation | 8 min |
 | [Maps & Toilets](docs/02-Daily-Runtime/maps-and-toilets.md) | Google Maps alternative, finding bathrooms | 7 min |
 | [Public Transport](docs/02-Daily-Runtime/public-transport-tips.md) | Subways, buses, ferries, transit apps | 12 min |
@@ -108,6 +110,17 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 |-------|------------------|------|
 | [2026 Holiday Survival](docs/05-Event-Operations/holiday-survival-guide.md) | CNY dates, Golden Week hacks, and transport | 15 min |
 
+---
+
+## 🛠️ Helper Tools (Web-Only)
+
+These are standalone web applications developed by **MilesXLab** to solve specific technical bottlenecks.
+
+1. **[Nestlé Recall Checker](https://milesxlab.github.io/nestle-recall-checker/)** - Manual batch-matching tool for the Jan 2026 safety recall.
+2. **[Digital Entry Card Pre-filler]** - (v2.0 Preview)
+3. **[Passport Name Formatter]** - (v2.0 Preview)
+
+---
 ### ⚠️ What ChinaOps v1 does NOT cover (yet):
 - ❌ **Sightseeing itineraries** (We don't tell you where to go)
 - ❌ **Restaurant rankings** (We don't tell you what to eat)
@@ -220,8 +233,9 @@ Thank you for supporting independent, open documentation.
 
 ## Update Log
 
+- **v1.1.0 (2026-01-26)**: Infrastructure & SRE Standardization patch. 30 guides.
 - **v1.0.0 (2026-01-23)**: Official v1.0.0 release. 28 comprehensive guides.
 
 ---
 
-*Last Updated: Jan 23, 2026 | Licensed under CC BY-NC 4.0*
+*Last Updated: Jan 26, 2026 | Licensed under CC BY-NC 4.0*

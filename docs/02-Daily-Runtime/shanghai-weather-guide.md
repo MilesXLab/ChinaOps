@@ -1,47 +1,59 @@
 ---
 layout: guide
-title: "Shanghai Weather & AQI Guide"
+title: "Shanghai Weather & AQI SOP"
+metadata:
+  version: 1.1
+  last_validated: 2026-01-26
+  stability_status: "stable"
 ---
 
-# Shanghai Weather & AQI Guide
+# 🌦️ Shanghai Weather & AQI SOP
 
-**Last Updated:** Jan 2026 | **Author:** TechDadShanghai
+**TL;DR:** Shanghai is "Damp Cold" in Winter and "Steamy Hot" in Summer. Use **AirVisual** for AQI monitoring. If a **Typhoon Red Alert** is issued, outdoor city operations (Disney, Bund, Metro Line 3/4) will shut down.
 
-### Context
-Shanghai has a subtropical monsoon climate with four distinct seasons. For a traveler, managing the "Environmental Load" (humidity, heat, and air quality) is key to a stable trip.
-
----
-
-## Monthly Weather Overview (2026 Projections)
-
-| Months | Season | Avg High/Low | Profile |
-| :--- | :--- | :--- | :--- |
-| **Jan - Feb** | Winter | 8°C / 2°C | **Cold & Damp:** Gray skies, rain, occasional smog. Need thick coats. |
-| **Mar - May** | Spring | 18°C / 10°C | **Variable:** Cherry blossoms, but frequent rain. Best for walking. |
-| **Jun - Aug** | Summer | 32°C / 25°C | **High Humidity:** "Plum Rain" (Jun-Jul) followed by extreme heat. |
-| **Sep - Nov** | Autumn | 24°C / 15°C | **Optimal:** Dry, sunny, and comfortable. Golden travel window. |
-| **Dec** | Winter | 10°C / 3°C | **Turning Cold:** Sudden temperature drops. |
+**Prerequisites:**
+- **App:** AirVisual (AQI) or China Weather (Caiyun).
+- **Physical Gear:** Foldable umbrella (Year-round), N95 masks (Winter), Sunscreen (Spring/Summer).
 
 ---
 
-## 1. Air Quality (AQI) Management
-- **Winter Peak:** Smog is most common in Dec-Feb. 
-- **The Fix:** Download the **"AirVisual"** or **"AQI"** app. 
-- **Hardware Patch:** If AQI > 150, wearing an N95 mask is recommended for those with respiratory sensitivity.
+## 📋 The Monthly Runbook
 
-## 2. Typhoon Season (July - September)
-- **Impact:** 1-2 major storms usually affect Shanghai per year, bringing heavy rain and high winds. 
-- **SOP:** Monitor **"China Weather"** app. If a "Red Warning" is issued, all Metro lines above ground and outdoor attractions (including Disney) will shut down. Stay in your hotel.
+### 1. Jan - Feb (Winter) | "The Damp Cold Patch"
+- **Step 1:** Pack thermal base layers (Uniqlo Heattech is the local standard). 10°C in SH feels like 0°C due to humidity.
+- **Step 2:** Check AQI daily. Winter has the highest pollution load.
+- **Verification:** Wear a down jacket that is water-resistant; winter rain is common.
+
+### 2. June - July (Plum Rain) | "The Humidity Hack"
+- **Step 1:** Carry a high-quality umbrella 100% of the time. Rain is unpredictable and heavy.
+- **Step 2:** Use **Amap** to check for "Waterlogging" (flooded streets) if taking a taxi.
+- **Verification:** Switch to waterproof shoes or sandals; leather shoes will be ruined in 20 mins of SH rain.
+
+### 3. July - Aug (Peak Heat) | "Environmental Load Management"
+- **Step 1:** Stay indoors from 12:00 PM to 3:00 PM. Go to Malls/Museums.
+- **Step 2:** Increase hydration by 200%. Carry a refillable bottle.
+- **Verification:** Check the "Feel-like" temperature in your app; 35°C often feels like 45°C.
 
 ---
 
-## TechDad's Tips
+## 🚨 Fallback (Plan B)
 
-- **The Umbrella Protocol:** Shanghai weather is erratic. A high-quality foldable umbrella is a mandatory piece of hardware for your daily carry.
-- **Summer Hydration:** In July/August, the 90%+ humidity makes 32°C feel like 40°C. Carry water and use the free "Hot Water Nodes" in convenience stores (they usually have room-temp water too).
-- **Damp Cold:** Shanghai's winter is "wet cold," which feels much colder than dry cold at the same temperature. Layering is more effective than one heavy jacket.
+### If a Typhoon hits (July - Sept):
+1. **The "Shelter-in-Place" SOP:** Most Typhoons last 24-48 hours. Stock up on snacks at a convenience store the night before and stay in your hotel.
+2. **Transport Lockdown:** Metro lines that run above ground (Line 3, 4, 5, 11, etc.) will close during high winds. **Action:** Pivot to underground Metro lines (Line 1, 2, 10, 14) which usually remain stable.
+3. **AQI Spike (>200):** Avoid all strenuous outdoor activity. Go to the **Shanghai Museum** or **Power Station of Art**; they have high-tier industrial air filtration systems.
 
-### Local Hacks & Money-Saving Tips
-- **AQI Monitoring:** Use **Amap (English version)**; it has a built-in AQI overlay for your specific location.
-- **Cheap Gear:** Forget your umbrella? Every **FamilyMart** sells reliable ones for ~30 RMB. Avoid buying them from street vendors at 3x the price during rain.
+---
 
+## 💡 TechDad's Tips
+
+- **The "Uniqlo" Node:** If you under-dressed for a cold snap, find a **Uniqlo** (they are in every major mall). Their "Ultra Light Down" and "Heattech" are the most cost-effective patches for Shanghai's weather.
+- **Sun Protection:** In Spring (April/May), the sun is deceptive. High UV levels can burn you even if it's only 20°C. 
+- **Air Quality Perception:** Don't trust your eyes. "Blue Sky" doesn't always mean low AQI; it could be high Ozone or Fine Particulates (PM2.5). Check the app.
+- **The "FamilyMart" Umbrella:** If you're caught in rain, don't buy from street hawkers. Go to **FamilyMart**; their 39 RMB umbrellas are of superior engineering.
+
+---
+
+## 🚩 Strategic Gap: The "SPOF" Warning
+**Single Point of Failure:** Assuming the weather forecast is accurate for more than 48 hours. 
+- **Hotfix:** Shanghai is a coastal city; weather systems move fast. Check the "Hourly" forecast on your app every morning before you head out.

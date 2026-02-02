@@ -5,6 +5,7 @@ metadata:
   version: 1.1
   last_validated: 2026-01-26
   stability_status: "stable"
+  ttl_days: 90
 ---
 
 # 🌦️ Shanghai Weather & AQI SOP

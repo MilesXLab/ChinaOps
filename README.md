@@ -30,19 +30,19 @@ A practical, non-commercial guide for travelers and families navigating China. W
 ### Choose Your Path:
 
 #### First-Time Traveler?
-Start with **[System Setup](docs/01-System-Setup/)** 
+Start with **[System Setup](docs/01-System-Setup/index.md)** 
 - Get your phone/SIM card working
 - Set up VPN and payments
 - Find pharmacies and medications
 
 #### Traveling with Kids?
-Go to **[Parenting Guide](docs/04-Parenting-Patch/)**
+Go to **[Parenting Guide](docs/04-Parenting-Patch/index.md)**
 - Handle diapers & baby supplies
 - Manage food allergies
 - Check milk recall status
 
 #### Emergency?
-Check **[Emergency/DR](docs/03-Emergency-DR/)**
+Check **[Emergency/DR](docs/03-Emergency-DR/index.md)**
 - Hospital access & procedures
 - Lost passport recovery
 - Mobile phone safety & scams
@@ -71,7 +71,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [SIM Card Options](docs/01-System-Setup/sim-card-options.md) | Comparing carriers and plans | 10 min |
 | [Visa & Entry](docs/01-System-Setup/visa-and-entry.md) | 2026 免签 policies and digital cards | 12 min |
 
-### Daily Runtime (10 Guides)
+### Daily Runtime (11 Guides)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Train Tickets (12306)](docs/02-Daily-Runtime/train-ticket-trap.md) | Booking system, name format issues, how to fix rejections | 10 min |

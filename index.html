@@ -273,6 +273,65 @@
       gap: 10px;
     }
 
+    /* Release Ticker */
+    .release-ticker-container {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      margin-top: 20px;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .release-ticker-label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: #667eea;
+      color: white;
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+      font-size: 0.8em;
+      font-weight: bold;
+      z-index: 5;
+      border-radius: 7px 0 0 7px;
+    }
+
+    .release-ticker {
+      display: inline-block;
+      padding-left: 100%;
+      animation: ticker 30s linear infinite;
+    }
+
+    .release-item {
+      display: inline-block;
+      margin-right: 50px;
+      font-size: 0.9em;
+      color: #4a5568;
+    }
+
+    .release-item strong {
+      color: #667eea;
+    }
+
+    @keyframes ticker {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .release-ticker-container:hover .release-ticker {
+      animation-play-state: paused;
+    }
+
     @media (max-width: 768px) {
       .header {
         padding: 20px;
@@ -310,6 +369,17 @@
         <span><strong>v1.1.0 is Live!</strong> Added the Landing Protocol, Transit SOPs, and SRE standardized runbooks.
           Your support keeps this project running!</span>
       </div>
+      <div class="release-ticker-container">
+        <div class="release-ticker-label">RELEASE HISTORY</div>
+        <div class="release-ticker">
+          <div class="release-item">🚀 <strong>v1.1.0 (Jan 26, 2026):</strong> Infrastructure Patch - 30 SOPs, TTL
+            Audit, MRZ Converter & Landing Protocols.</div>
+          <div class="release-item">🎉 <strong>v1.0.0 (Jan 23, 2026):</strong> Core Library Launch - 27 Essential Guides
+            & Shanghai Local Hacks.</div>
+          <div class="release-item">🛠️ <strong>Maintenance:</strong> Weekly automated health checks initialized for
+            2026 travel season.</div>
+        </div>
+      </div>
       <div class="stats">
         <div class="stat">
           <div class="stat-number">30</div>
@@ -325,7 +395,7 @@
         </div>
       </div>
       <div style="margin-top: 30px;">
-        <a href="https://github.com/MilesXLab/ChinaOps" class="quick-link"
+        <a href="https://github.com/MilesXLab/ChinaOps" class="quick-link" rel="noopener noreferrer" target="_blank"
           style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 25px; border-left: none; background: #333; color: white;">
           <svg height="20" width="20" viewBox="0 0 16 16" fill="white">
             <path
@@ -390,32 +460,32 @@
     <!-- Quick Links -->
     <h2 style="color: white; margin-bottom: 20px; font-size: 1.5em;">Choose Your Path:</h2>
     <div class="quick-links">
-      <a href="./docs/01-System-Setup/" class="quick-link">
+      <a href="./docs/01-System-Setup/index.md" class="quick-link">
         <div class="quick-link-emoji">👤</div>
         <div class="quick-link-title">First-Time Visitor?</div>
         <div class="quick-link-desc">VPN tunnels, eSIM routing, and Payment API setup</div>
       </a>
-      <a href="./docs/04-Parenting-Patch/" class="quick-link">
+      <a href="./docs/04-Parenting-Patch/index.md" class="quick-link">
         <div class="quick-link-emoji">👨‍👩‍👧</div>
         <div class="quick-link-title">Traveling with Kids?</div>
         <div class="quick-link-desc">Formula safety, stroller gates, and baby runbooks</div>
       </a>
-      <a href="./docs/03-Emergency-DR/" class="quick-link">
+      <a href="./docs/03-Emergency-DR/index.md" class="quick-link">
         <div class="quick-link-emoji">🆘</div>
         <div class="quick-link-title">Emergency?</div>
         <div class="quick-link-desc">SCAM detection, hospital routing, and fraud protection</div>
       </a>
-      <a href="./docs/02-Daily-Runtime/" class="quick-link">
+      <a href="./docs/02-Daily-Runtime/index.md" class="quick-link">
         <div class="quick-link-emoji">🚀</div>
         <div class="quick-link-title">Daily Navigation?</div>
         <div class="quick-link-desc">Maglev speed-daemon, shared bikes, and local hacks</div>
       </a>
-      <a href="./docs/05-Event-Operations/" class="quick-link" style="border-left-color: #ed64a6;">
+      <a href="./docs/05-Event-Operations/index.md" class="quick-link" style="border-left-color: #ed64a6;">
         <div class="quick-link-emoji">🏮</div>
         <div class="quick-link-title">Chinese Holiday?</div>
         <div class="quick-link-desc">Survival SOPs for CNY, Golden Weeks, and closures</div>
       </a>
-      <a href="./docs/02-Daily-Runtime/shanghai-vegan-guide/" class="quick-link" style="border-left-color: #48bb78;">
+      <a href="./docs/02-Daily-Runtime/shanghai-vegan-guide.md" class="quick-link" style="border-left-color: #48bb78;">
         <div class="quick-link-emoji">🥗</div>
         <div class="quick-link-title">Vegetarian / Vegan?</div>
         <div class="quick-link-desc">Plant-based survival, temple food, and 2026 vegan nodes</div>
@@ -435,37 +505,37 @@
           <th>Time</th>
         </tr>
         <tr>
-          <td><a href="./docs/01-System-Setup/landing-protocol/">🛫 The Landing Protocol</a></td>
+          <td><a href="./docs/01-System-Setup/landing-protocol.md">🛫 The Landing Protocol</a></td>
           <td>Immigration, Connectivity, and the first 30m heat-test</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/01-System-Setup/mobile-number-and-activation/">📱 Mobile Number & Activation</a></td>
+          <td><a href="./docs/01-System-Setup/mobile-number-and-activation.md">📱 Mobile Number & Activation</a></td>
           <td>Getting a Chinese phone, eSIM options, carrier comparison</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/01-System-Setup/pharmacy-and-medications/">💊 Pharmacy & Medications</a></td>
+          <td><a href="./docs/01-System-Setup/pharmacy-and-medications.md">💊 Pharmacy & Medications</a></td>
           <td>Buying medicine, drug names in Chinese, OTC guidelines</td>
           <td>12 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/01-System-Setup/vpn-esim-payment/">🔒 VPN & Payments</a></td>
+          <td><a href="./docs/01-System-Setup/vpn-esim-payment.md">🔒 VPN & Payments</a></td>
           <td>VPN setup, Alipay, WeChat Pay configuration</td>
           <td>15 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/01-System-Setup/power-bank-rules/">🔋 Power Banks</a></td>
+          <td><a href="./docs/01-System-Setup/power-bank-rules.md">🔋 Power Banks</a></td>
           <td>Safe power banks, charging rules, outlet types</td>
           <td>8 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/01-System-Setup/sim-card-options/">📡 SIM Card Comparison</a></td>
+          <td><a href="./docs/01-System-Setup/sim-card-options.md">📡 SIM Card Comparison</a></td>
           <td>Comparing plans, pricing, coverage</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/01-System-Setup/visa-and-entry/">🛂 Visa & Entry</a></td>
+          <td><a href="./docs/01-System-Setup/visa-and-entry.md">🛂 Visa & Entry</a></td>
           <td>2026 免签 policies and digital cards</td>
           <td>12 min</td>
         </tr>
@@ -480,57 +550,57 @@
           <th>Time</th>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/international-domestic-transit/">✈️ Domestic Transit SOP</a></td>
+          <td><a href="./docs/02-Daily-Runtime/international-domestic-transit.md">✈️ Domestic Transit SOP</a></td>
           <td>International to Domestic transfers and luggage loops</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/train-ticket-trap/">🚄 Train Tickets (12306)</a></td>
+          <td><a href="./docs/02-Daily-Runtime/train-ticket-trap.md">🚄 Train Tickets (12306)</a></td>
           <td>Booking system, fixing name issues, booking tips</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/taxi-payment/">🚕 Taxis & Payment</a></td>
+          <td><a href="./docs/02-Daily-Runtime/taxi-payment.md">🚕 Taxis & Payment</a></td>
           <td>Didi app, fare negotiation, payment methods</td>
           <td>8 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/maps-and-toilets/">🗺️ Maps & Toilets</a></td>
+          <td><a href="./docs/02-Daily-Runtime/maps-and-toilets.md">🗺️ Maps & Toilets</a></td>
           <td>Google Maps alternative, finding bathrooms, navigation</td>
           <td>7 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/public-transport-tips/">🚇 Public Transport</a></td>
+          <td><a href="./docs/02-Daily-Runtime/public-transport-tips.md">🚇 Public Transport</a></td>
           <td>Subways, buses, ferries, transit cards</td>
           <td>12 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/shanghai-local-hacks/">🏘️ Shanghai Local Hacks</a></td>
+          <td><a href="./docs/02-Daily-Runtime/shanghai-local-hacks.md">🏘️ Shanghai Local Hacks</a></td>
           <td>Living like a resident, stroller safety, best apps</td>
           <td>12 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/shanghai-weather-guide/">🌥️ Shanghai Weather</a></td>
+          <td><a href="./docs/02-Daily-Runtime/shanghai-weather-guide.md">🌥️ Shanghai Weather</a></td>
           <td>AQI patches, typhoon SOP, seasonal gear</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/shanghai-attractions-guide/">🏙️ Shanghai Attractions</a></td>
+          <td><a href="./docs/02-Daily-Runtime/shanghai-attractions-guide.md">🏙️ Shanghai Attractions</a></td>
           <td>2026 top nodes, skyline hacks, and family spots</td>
           <td>15 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/shanghai-food-guide/">🥟 Shanghai Food Guide</a></td>
+          <td><a href="./docs/02-Daily-Runtime/shanghai-food-guide.md">🥟 Shanghai Food Guide</a></td>
           <td>The Dumpling Protocol, scallion-oil hacks, and authentic Benbang</td>
           <td>12 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/shanghai-vegan-guide/">🥗 Vegetarian & Vegan</a></td>
+          <td><a href="./docs/02-Daily-Runtime/shanghai-vegan-guide.md">🥗 Vegetarian & Vegan</a></td>
           <td>Plant-based survival, temple food, and 2026 vegan nodes</td>
           <td>12 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/02-Daily-Runtime/shanghai-visual-signs-guide/">🚇 Visual Signs Guide</a></td>
+          <td><a href="./docs/02-Daily-Runtime/shanghai-visual-signs-guide.md">🚇 Visual Signs Guide</a></td>
           <td>Recognizing metro, toilet, taxi, nursing room, and facility symbols</td>
           <td>8 min</td>
         </tr>
@@ -545,32 +615,32 @@
           <th>Time</th>
         </tr>
         <tr>
-          <td><a href="./docs/03-Emergency-DR/hospital-access/">🏥 Hospital Access</a></td>
+          <td><a href="./docs/03-Emergency-DR/hospital-access.md">🏥 Hospital Access</a></td>
           <td>Finding hospitals, language help, insurance, costs</td>
           <td>15 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/03-Emergency-DR/lost-passport/">📜 Lost Passport</a></td>
+          <td><a href="./docs/03-Emergency-DR/lost-passport.md">📜 Lost Passport</a></td>
           <td>Embassy contacts, replacement process, emergency IDs</td>
           <td>12 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/03-Emergency-DR/network-outage/">📡 Network Issues</a></td>
+          <td><a href="./docs/03-Emergency-DR/network-outage.md">📡 Network Issues</a></td>
           <td>VPN backup, WeChat without WiFi, offline navigation</td>
           <td>8 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/03-Emergency-DR/safety-and-common-scams/">🚨 Safety & Scams</a></td>
+          <td><a href="./docs/03-Emergency-DR/safety-and-common-scams.md">🚨 Safety & Scams</a></td>
           <td>Avoiding tea scams, water safety, and AQI</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/03-Emergency-DR/shanghai-safety-guide/">🛡️ Shanghai Safety</a></td>
+          <td><a href="./docs/03-Emergency-DR/shanghai-safety-guide.md">🛡️ Shanghai Safety</a></td>
           <td>Real-world security profile and social engineering defense</td>
           <td>12 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/03-Emergency-DR/emergency-contacts-card/">🆘 Emergency Contacts</a></td>
+          <td><a href="./docs/03-Emergency-DR/emergency-contacts-card.md">🆘 Emergency Contacts</a></td>
           <td>Printable reference card with critical numbers and phrases</td>
           <td>5 min</td>
         </tr>
@@ -585,27 +655,27 @@
           <th>Time</th>
         </tr>
         <tr>
-          <td><a href="./docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions/">🍽️ Food Allergies</a></td>
+          <td><a href="./docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.md">🍽️ Food Allergies</a></td>
           <td>Restaurant communication, allergen cards, safe foods</td>
           <td>15 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/04-Parenting-Patch/diapers-and-stores/">👶 Diapers & Supplies</a></td>
+          <td><a href="./docs/04-Parenting-Patch/diapers-and-stores.md">👶 Diapers & Supplies</a></td>
           <td>Where to buy, delivery apps, trusted brands</td>
           <td>10 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/04-Parenting-Patch/milk-recall-check/">🥛 Milk Safety</a></td>
+          <td><a href="./docs/04-Parenting-Patch/milk-recall-check.md">🥛 Milk Safety</a></td>
           <td>Checking formula batches, safety databases</td>
           <td>8 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/04-Parenting-Patch/nursing-rooms/">🤱 Nursing Rooms</a></td>
+          <td><a href="./docs/04-Parenting-Patch/nursing-rooms.md">🤱 Nursing Rooms</a></td>
           <td>Locations, facilities, cultural tips</td>
           <td>5 min</td>
         </tr>
         <tr>
-          <td><a href="./docs/04-Parenting-Patch/baby-survival-master-runbook/">🍼 Baby & Toddler Guide</a></td>
+          <td><a href="./docs/04-Parenting-Patch/baby-survival-master-runbook.md">🍼 Baby & Toddler Guide</a></td>
           <td>Technical master runbook for Shanghai & beyond</td>
           <td>20 min</td>
         </tr>
@@ -620,7 +690,7 @@
           <th>Time</th>
         </tr>
         <tr>
-          <td><a href="./docs/05-Event-Operations/holiday-survival-guide/">🧧 2026 Holiday Survival</a></td>
+          <td><a href="./docs/05-Event-Operations/holiday-survival-guide.md">🧧 2026 Holiday Survival</a></td>
           <td>CNY dates, Golden Week hacks, and transport 'load-tests'</td>
           <td>15 min</td>
         </tr>
@@ -634,7 +704,7 @@
           <h4 style="color: #ec4899; margin-bottom: 8px;">1. Nestlé Recall Checker</h4>
           <p style="font-size: 0.9em; color: #666; margin-bottom: 12px;">Manual batch-match tool for the Jan 2026 safety
             recall incident.</p>
-          <a href="https://milesxlab.github.io/nestle-recall-checker/" target="_blank"
+          <a href="https://milesxlab.github.io/nestle-recall-checker/" target="_blank" rel="noopener noreferrer"
             style="display: inline-block; padding: 6px 15px; background: #ec4899; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.85em;">Open
             Tool (Web)</a>
         </div>

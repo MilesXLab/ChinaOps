@@ -6,6 +6,7 @@ metadata:
   last_validated: 2026-01-26
   stability_status: "critical"
   validation_method: "field_test"
+  ttl_days: 90
 ---
 
 # ✈️ The Transit Protocol: International to Domestic

@@ -26,4 +26,4 @@ Technical guides for managing your daily operations in Chinese cities. From high
 
 ---
 
-[← Back to Library](../...md)
+[← Back to Library](../index.md)

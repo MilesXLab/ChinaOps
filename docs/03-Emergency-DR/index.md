@@ -21,4 +21,4 @@ Technical SOPs for when the system fails or encounters unexpected input.
 
 ---
 
-[← Back to Library](../...md)
+[← Back to Library](../index.md)

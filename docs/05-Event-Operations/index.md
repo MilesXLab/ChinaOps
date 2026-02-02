@@ -19,4 +19,4 @@ Critical periods for travelers where the city "Load" exceeds normal capacity.
 
 ---
 
-[← Back to Library](../...md)
+[← Back to Library](../index.md)

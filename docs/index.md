@@ -55,4 +55,4 @@ Resources for families and parents.
 
 ---
 
-[← Back to Home](...md)
+[← Back to Home](../index.html)

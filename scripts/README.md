@@ -127,7 +127,8 @@ WH = Wuhan           |  JN = Jinan          |  CS = Changsha
 
 ### Prerequisites
 - Python 3.7 or higher
-- No external dependencies required (uses standard library)
+- `PyYAML` (Required for `ttl_check.py`: `pip install pyyaml`)
+- Other scripts use standard library only (no external modules needed)
 
 ### Running Scripts
 

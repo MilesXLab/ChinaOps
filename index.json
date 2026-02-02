@@ -1,24 +1,33 @@
 {
   "project": "ChinaOps - Technical Runbook for Travelers & Parents",
-  "description": "Real-world solutions for travelers and families in China. 16 comprehensive SOPs with step-by-step guides, safety tips, and helper tools.",
+  "description": "Real-world solutions for travelers and families in China. 30 comprehensive SOPs with step-by-step guides, safety tips, and helper tools.",
   "sections": [
     {
       "title": "01-System-Setup",
       "files": [
+        {"name": "The Landing Protocol", "path": "docs/01-System-Setup/landing-protocol.md"},
+        {"name": "Mobile Number & Activation", "path": "docs/01-System-Setup/mobile-number-and-activation.md"},
+        {"name": "Pharmacy & Medications", "path": "docs/01-System-Setup/pharmacy-and-medications.md"},
         {"name": "VPN & eSIM / Payment Setup", "path": "docs/01-System-Setup/vpn-esim-payment.md"},
         {"name": "Power Bank Rules", "path": "docs/01-System-Setup/power-bank-rules.md"},
         {"name": "SIM Card Options", "path": "docs/01-System-Setup/sim-card-options.md"},
-        {"name": "Mobile Number & Activation", "path": "docs/01-System-Setup/mobile-number-and-activation.md"},
-        {"name": "Pharmacy & Medications", "path": "docs/01-System-Setup/pharmacy-and-medications.md"}
+        {"name": "Visa & Entry", "path": "docs/01-System-Setup/visa-and-entry.md"}
       ]
     },
     {
       "title": "02-Daily-Runtime",
       "files": [
-        {"name": "Train Ticket Trap", "path": "docs/02-Daily-Runtime/train-ticket-trap.md"},
-        {"name": "Taxi / Payment", "path": "docs/02-Daily-Runtime/taxi-payment.md"},
+        {"name": "Domestic Transit SOP", "path": "docs/02-Daily-Runtime/international-domestic-transit.md"},
+        {"name": "Train Ticket Trap (12306)", "path": "docs/02-Daily-Runtime/train-ticket-trap.md"},
+        {"name": "Taxi & Payment", "path": "docs/02-Daily-Runtime/taxi-payment.md"},
         {"name": "Maps & Toilets", "path": "docs/02-Daily-Runtime/maps-and-toilets.md"},
-        {"name": "Public Transport Tips", "path": "docs/02-Daily-Runtime/public-transport-tips.md"}
+        {"name": "Public Transport Tips", "path": "docs/02-Daily-Runtime/public-transport-tips.md"},
+        {"name": "Shanghai Local Hacks", "path": "docs/02-Daily-Runtime/shanghai-local-hacks.md"},
+        {"name": "Shanghai Weather", "path": "docs/02-Daily-Runtime/shanghai-weather-guide.md"},
+        {"name": "Shanghai Attractions", "path": "docs/02-Daily-Runtime/shanghai-attractions-guide.md"},
+        {"name": "Shanghai Food Guide", "path": "docs/02-Daily-Runtime/shanghai-food-guide.md"},
+        {"name": "Vegetarian & Vegan", "path": "docs/02-Daily-Runtime/shanghai-vegan-guide.md"},
+        {"name": "Visual Signs Guide", "path": "docs/02-Daily-Runtime/shanghai-visual-signs-guide.md"}
       ]
     },
     {
@@ -26,16 +35,26 @@
       "files": [
         {"name": "Hospital Access", "path": "docs/03-Emergency-DR/hospital-access.md"},
         {"name": "Lost Passport", "path": "docs/03-Emergency-DR/lost-passport.md"},
-        {"name": "Network Outage", "path": "docs/03-Emergency-DR/network-outage.md"}
+        {"name": "Network Outage", "path": "docs/03-Emergency-DR/network-outage.md"},
+        {"name": "Safety & Scams", "path": "docs/03-Emergency-DR/safety-and-common-scams.md"},
+        {"name": "Shanghai Safety", "path": "docs/03-Emergency-DR/shanghai-safety-guide.md"},
+        {"name": "Emergency Contacts Card", "path": "docs/03-Emergency-DR/emergency-contacts-card.md"}
       ]
     },
     {
       "title": "04-Parenting-Patch",
       "files": [
+        {"name": "Food Allergies & Diet", "path": "docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.md"},
+        {"name": "Diapers & Baby Supplies", "path": "docs/04-Parenting-Patch/diapers-and-stores.md"},
         {"name": "Milk Recall Check", "path": "docs/04-Parenting-Patch/milk-recall-check.md"},
-        {"name": "Diapers & Stores", "path": "docs/04-Parenting-Patch/diapers-and-stores.md"},
         {"name": "Nursing Rooms", "path": "docs/04-Parenting-Patch/nursing-rooms.md"},
-        {"name": "Food Allergies & Dietary Restrictions", "path": "docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.md"}
+        {"name": "Baby & Toddler Guide", "path": "docs/04-Parenting-Patch/baby-survival-master-runbook.md"}
+      ]
+    },
+    {
+      "title": "05-Event-Operations",
+      "files": [
+        {"name": "2026 Holiday Survival", "path": "docs/05-Event-Operations/holiday-survival-guide.md"}
       ]
     }
   ]

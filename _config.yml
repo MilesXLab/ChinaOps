@@ -7,7 +7,14 @@ baseurl: "/ChinaOps"
 
 # Build settings
 markdown: kramdown
-# theme: jekyll-theme-minimal  # Using custom layout in _layouts/
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols:
+    ndash: "-"
+    mdash: "-"
+
 permalink: pretty
 
 # Exclude from build

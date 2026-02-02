@@ -4,7 +4,31 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.1.0] - 2026-01-26
+
+### 🚀 SRE Infrastructure Patch
+- **TTL Validation System**: Implemented `scripts/ttl_check.py` to monitor SOP freshness.
+- **Metadata Standardization**: Added YAML frontmatter (`version`, `last_validated`, `ttl_days`) to all 30 guides.
+- **Validation Workflows**: Added deployment protocol for validated state management.
+
+### ✨ New Content & SOPs
+- **The Landing Protocol**: Step-by-step SOP for the first 30 minutes in China (Immigration, Connectivity, Payment test).
+- **Domestic Transit SOP**: Comprehensive guide for International-to-Domestic transfers at PVG/PEK.
+- **Visual Signs Guide**: Visual reference for Metro, Restrooms, and Nursing areas.
+- **SRE Standardized Runbooks**: Renamed and restructured several guides for technical clarity (Total guides: 30).
+
+### 🛠️ Helper Scripts (v2.0 Preview)
+- Introduced `passport_mrz_converter.py`, `child_medication_calculator.py`, and `train_ticket_checker.py` in the `scripts/` directory.
+
+### 🔧 UI/UX Improvements
+- Added v1.1.0 Live banner and version badges.
+- Improved "How to Use This Guide" paths for easier navigation.
+- Enhanced "Back to Top" functionality and mobile responsiveness.
+
+---
+
 ## [v1.0.0] - 2026-01-23
+
 
 ### 🎉 Initial Release - Complete Travel Runbook
 
@@ -137,4 +161,3 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 **Maintained by:** TechDadShanghai  
 **Last Updated:** January 2026
-

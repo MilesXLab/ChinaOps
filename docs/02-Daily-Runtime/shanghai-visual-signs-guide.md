@@ -21,6 +21,7 @@ metadata:
 ## 📋 The Visual Runbook
 
 ### 1. Transit & Navigation
+
 | Sign | Meaning | SRE Instruction |
 | :--- | :--- | :--- |
 | **出口** | **EXIT** | Follow the numbers (1, 2, 3) to reach specific street corners. |
@@ -29,6 +30,7 @@ metadata:
 | **禁止进入** | **NO ENTRY** | Do not bypass; high surveillance area. |
 
 ### 2. Hygiene & Baby Care
+
 | Sign | Meaning | SRE Instruction |
 | :--- | :--- | :--- |
 | **卫生间 / WC** | **TOILET** | Most malls use international Male/Female icons. |
@@ -36,12 +38,14 @@ metadata:
 | **无障碍** | **ACCESSIBLE** | Use these for strollers (elevators, wide gates). |
 
 ### 3. Official & Emergency
+
 | Sign | Meaning | SRE Instruction |
 | :--- | :--- | :--- |
 | **警察 / 公安** | **POLICE** | Look for the Blue/Black uniforms. |
 | **医院 / 🏥** | **HOSPITAL** | "Foreigner" wings are often labeled in English. |
 | **急救** | **FIRST AID** | Found at Metro service desks. |
 | **扫码付款** | **SCAN TO PAY** | Open Alipay/WeChat immediately. |
+
 
 ---
 

@@ -24,6 +24,7 @@ metadata:
 ### 1. The Pinyin Translation (The Protocol)
 - **Step 1:** Translate the **active ingredient**. 
 - **Step 2:** Match with the common local names:
+
   | Western Need | Chinese Name | Pinyin |
   | :--- | :--- | :--- |
   | **Ibuprofen (Advil)** | 布洛芬 | Bùluòfēn |

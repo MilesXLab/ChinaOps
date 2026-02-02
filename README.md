@@ -61,6 +61,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 ## Full Library
 
 ### System Setup (7 Guides)
+
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [The Landing Protocol](docs/01-System-Setup/landing-protocol/) | Your first 30 minutes: Immigration, Connectivity, Payment | 10 min |
@@ -72,6 +73,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Visa & Entry](docs/01-System-Setup/visa-and-entry/) | 2026 免签 policies and digital cards | 12 min |
 
 ### Daily Runtime (11 Guides)
+
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Train Tickets (12306)](docs/02-Daily-Runtime/train-ticket-trap/) | Booking system, name format issues, how to fix rejections | 10 min |
@@ -87,6 +89,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Visual Signs Guide](docs/02-Daily-Runtime/shanghai-visual-signs-guide/) | Recognizing metro, toilet, taxi, and facility symbols | 8 min |
 
 ### Emergency/DR (6 Guides)
+
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Hospital Access](docs/03-Emergency-DR/hospital-access/) | Finding hospitals, language barriers, insurance, costs | 15 min |
@@ -97,6 +100,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Emergency Contacts Card](docs/03-Emergency-DR/emergency-contacts-card/) | Printable reference with critical numbers | 5 min |
 
 ### Parenting (5 Guides)
+
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Food Allergies & Diet](docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions/) | Restaurant communication, safe foods, allergy cards | 15 min |
@@ -106,6 +110,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Baby & Toddler Guide](docs/04-Parenting-Patch/baby-survival-master-runbook/) | Technical master runbook for Shanghai & beyond | 20 min |
 
 ### Event Operations (1 Guide)
+
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [2026 Holiday Survival](docs/05-Event-Operations/holiday-survival-guide/) | CNY dates, Golden Week hacks, and transport | 15 min |

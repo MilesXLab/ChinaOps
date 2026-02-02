@@ -33,6 +33,7 @@ metadata:
 - **Verification:** Reboot your phone. Try sending an SMS to your hotel. Look for the `4G/5G` icon.
 
 ### 3. Comparison of Nodes
+
 | Type | Best For | VPN Required? | SMS Verification? |
 | :--- | :--- | :--- | :--- |
 | **Travel eSIM** | Short stays (7-14 days) | **No** (Native Bypass) | Limited |

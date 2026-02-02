@@ -26,7 +26,7 @@ metadata:
 - **Step 2:** Match with the common local names:
 
   | Western Need | Chinese Name | Pinyin |
-  | :--- | :--- | :--- |
+  | :- | :- | :- |
   | **Ibuprofen (Advil)** | 布洛芬 | Bùluòfēn |
   | **Acetaminophen (Tylenol)** | 对乙酰氨基酚 | Duìyǐxi酰ànjiǎonà |
   | **Loperamide (Imodium)** | 洛哌丁胺 | Luòpàidīng'àn |

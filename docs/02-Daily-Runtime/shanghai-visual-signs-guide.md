@@ -23,7 +23,7 @@ metadata:
 ### 1. Transit & Navigation
 
 | Sign | Meaning | SRE Instruction |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | **出口** | **EXIT** | Follow the numbers (1, 2, 3) to reach specific street corners. |
 | **入口** | **ENTRANCE** | Security check is mandatory for all baggage. |
 | **出租车** | **TAXI** | Only queue at the official rank. |
@@ -32,7 +32,7 @@ metadata:
 ### 2. Hygiene & Baby Care
 
 | Sign | Meaning | SRE Instruction |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | **卫生间 / WC** | **TOILET** | Most malls use international Male/Female icons. |
 | **母婴室** | **NURSING** | The "Golden Hub" for parents. High reliability in malls. |
 | **无障碍** | **ACCESSIBLE** | Use these for strollers (elevators, wide gates). |
@@ -40,7 +40,7 @@ metadata:
 ### 3. Official & Emergency
 
 | Sign | Meaning | SRE Instruction |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | **警察 / 公安** | **POLICE** | Look for the Blue/Black uniforms. |
 | **医院 / 🏥** | **HOSPITAL** | "Foreigner" wings are often labeled in English. |
 | **急救** | **FIRST AID** | Found at Metro service desks. |

@@ -1,35 +1,32 @@
 # ChinaOps Roadmap
 
-## v1.0 (Current - Jan 2026)
-**Release Focus:** Core SOP Library & Professional Documentation
+## v1.1 (Current - Jan 2026)
+**Release Focus:** Infrastructure & SRE Standardization
 
 ✅ **Completed:**
-- 16 comprehensive SOPs across 4 categories
-- Standardized 10-section SOP template
-- Professional HTML guide site with 4 quick-path navigation
-- CC BY-NC 4.0 non-commercial license
-- Contribution framework (CONTRIBUTING.md)
-- Legal protection (LEGAL_NOTICE.md)
-- Brand identity: TechDadShanghai
+- 30 comprehensive SOPs across 5 categories
+- SRE Metadata Patch (Frontmatter validation)
+- TTL-based SOP health auditing (`ttl_check.py`)
+- Standardized "Landing Protocol" and "Transit SOPs"
+- Landing page with 6 quick-path navigations
+- Pre-flight "Zero-Downtime" checklist
+- Helper Scripts Alpha (MRZ, Medication, Train Checker)
 
 ---
 
 ## v2.0 (Planned)
-**Release Focus:** Helper Tools & UI Enhancement
+**Release Focus:** Visualization & Interactive Tools
 
-### 🛠️ Helper Scripts Launch
-- **passport_mrz_converter.py** — Format names for 12306 train tickets
-- **child_medication_calculator.py** — Calculate safe medication dosing
-- **train_ticket_checker.py** — Verify booking details and availability
-- Complete script documentation & examples
+### 🛠️ Interactive Web Features
+- **Interactive Checklists**: Clickable progress for "Pre-flight" and "Landing Protocol"
+- **Search functionality**: Client-side full-text search (Lunr.js) for guide discovery
+- **Script Web UI**: React/WASM versions of Python helper scripts for browser usage
 
 ### 🎨 UI/UX Improvements
 - **Zebra-striped guide tables** — Alternate row colors for better readability
 - **Clickable table rows** — Full row click to guide, not just title text
-- **Quick-path card enhancements** — Show guide count per category
-- **Guide link indicators** — Add "→" arrows to signal navigable links
 - **Mobile table optimization** — Improved responsive layout for small screens
-- **Search functionality** — Client-side full-text search (Lunr.js) for guide discovery
+- **Quick-path card enhancements** — Show pulse animation for "Emergency" paths
 
 ### 📊 Analytics & User Feedback
 - Basic usage analytics (with privacy in mind)

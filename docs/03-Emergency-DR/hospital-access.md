@@ -1,47 +1,55 @@
 ---
 layout: guide
-title: "Hospital & Medical Care for Foreigners"
+title: "Hospital & Medical Care: The Recovery SOP"
+metadata:
+  version: 1.1
+  last_validated: 2026-01-26
+  stability_status: "stable"
+  ttl_days: 90
 ---
 
-# Hospital & Medical Care for Foreigners
+# 🏥 Hospital & Medical Care: The Recovery SOP
 
-**Last Updated:** Jan 2026 | **Author:** TechDadShanghai
+**TL;DR:** For emergencies, head to **Jiahui International** or **United Family**. Public hospitals are extremely crowded during Feb 2026 due to flu/HMPV peaks. Carry your **physical passport**; digital will not work for registration.
 
----
-
-## Problem
-Seeking medical care in China can be overwhelming due to language barriers, complex registration systems, and different standards of care.
-
----
-
-## Root Cause
-- **Public Hospitals:** Extremely crowded, require registration via WeChat/Alipay mini-programs which can be difficult for foreigners, and often have very limited English support.
-- **Registration:** You **must** have your original passport to register at any medical facility.
-
----
-
-## Where to Go (Shanghai Recommendations)
-
-### 1. International Standard Hospitals (Expats' Choice)
-These are Western-style hospitals with English-speaking doctors, international insurance direct billing, and an appointment system.
-- **Jiahui International Hospital (嘉会国际医院):** (Top Recommendation) Extremely modern, high-standard, and very popular with families. Excellent pediatrics.
-- **United Family Healthcare (和睦家):** The most established international hospital chain. High quality but also the most expensive.
-- **ParkwayPathology/ParkwayHealth:** Reliable clinics for minor issues and consultations.
-
-### 2. Public Hospitals with VIP/International Wings
-Cheaper than the "pure" international hospitals but higher standard than the general public wings.
-- **Ruijin Hospital (瑞金医院) - VIP Wing**
-- **Huashan Hospital (华山医院) - Worldwide Medical Center**
+**Prerequisites:**
+- **Passport:** Original physical document (mandatory for all patients).
+- **Insurance Card:** Both digital and physical copies.
+- **Payment:** Alipay/WeChat with at least 2,000 RMB balance (for non-direct billing cases).
 
 ---
 
-## Miles' Tips
+## 📋 The Runbook
 
-- **🏥 Call Ahead** — Even for urgent care, call the international hospital's 24/7 hotline. They can tell you the current wait time and prepare for your arrival.
-- **Direct Billing** — If you have international travel insurance (e.g., Allianz, Cigna), Jiahui and United Family can often bill them directly. **Bring your insurance card and passport.**
-- **SmartShanghai Listings** — Use the **SmartShanghai app** to find the most up-to-date addresses and phone numbers for emergency rooms.
-- **Bring Your Own Maintenance Meds** — While pharmacies are everywhere, finding specific Western brands of maintenance medication (e.g., for asthma or ADHD) can be very difficult and require a local prescription.
+### 1. Triage: Choosing the Node
+- **Option A (International):** Use **Jiahui** or **United Family**. These are 24/7 stable nodes with English-speaking staff and direct billing.
+- **Option B (Public VIP):** Use **Ruijin VIP** or **Huashan Worldwide**. Cheaper, but "Payment First" logic applies.
+- **Action:** Call the hospital hotline *before* leaving to check if the "Fever Clinic" (发热门诊) is at max capacity.
 
-### Local Hacks / Money-saving Tips
-- **Telemedicine:** Some international clinics offer a "video consult" for ~150-300 RMB. If it's just a minor rash or a prescription refill, this is much cheaper than an in-person visit.
-- **Convenience Medicine:** ALDI and local pharmacies (like LBX) carry basic Ibuprofen and Paracetamol, but always check the Pinyin: **yìbùqiūfēn** (Ibuprofen) and **duìyǐxi酰ànjiǎonà** (Paracetamol/Acetaminophen).
+### 2. Registration & "Loop" Execution
+- **Step 1:** Present passport at the "Gua hao" (挂号) window.
+- **Step 2:** Pay the initial consultation fee (150 - 2,000 RMB depending on hospital tier).
+- **Step 3 (The Public Loop):** If at a public hospital, you must pay for *each* lab test or prescription *before* it is dispensed. Go to the "Cashier" (收费处) window after every doctor instruction.
+- **Verification:** You are successful once you have the physical "Prescription" (处方单) and a stamped receipt.
+
+### 3. Verification Loop (Medication)
+- [ ] Check Pinyin: **yìbùqiūfēn** (Ibuprofen) or **duìyǐxi酰ànjiǎonà** (Paracetamol).
+- [ ] Verify if the drug requires refrigeration (common with 2026 cold-chain meds).
+
+---
+
+## 🚨 Fallback (Plan B)
+
+### If International Hospitals are full or out of network:
+1. **Telemedicine (Mobile-First):** Many clinics offer **video consults** via WeChat Mini-programs. If it's a simple rash or refilling a non-controlled med, this avoids the 3-hour waiting room.
+2. **24H Pharmacy Delivery:** Use **Meituan** or **Ele.me**. Search `24H 药店`. Most can deliver basic fever meds within 60 minutes.
+3. **Emergency (120):** If you cannot speak Chinese, say **"Wǒ yào qù Jiāhuì Yīyuàn"** (I want to go to Jiahui Hospital) to the ambulance crew. They generally know the international nodes.
+
+---
+
+## 💡 TechDad's Tips
+
+- **The Feb 2026 "Tri-demic":** Be aware that Feb 2026 is a peak for **Flu, HMPV, and Mycoplasma**. Fever clinics will be overflowing. Avoid public hospitals unless it's a trauma emergency.
+- **Stroller-Friendly ERs:** Jiahui and United Family have dedicated stroller parking and wide elevators. Public VIP wings can be very cramped.
+- **Language Hack:** Download a photo of common symptoms (Fever, Cough, Diarrhea) to point at if the doctor's English is limited. 
+- **Air Quality Alert:** High AQI during winter can trigger asthma. Ensure your **Inhaler** is in your "Go-bag."

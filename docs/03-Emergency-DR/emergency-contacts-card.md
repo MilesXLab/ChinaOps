@@ -1,103 +1,72 @@
 ---
 layout: guide
-title: "Emergency Contacts Reference Card"
-description: "Printable emergency contacts card for travelers in China: police, ambulance, embassy numbers, and critical phrases"
+title: "The Emergency Contacts Reference"
+metadata:
+  version: 1.1
+  last_validated: 2026-01-26
+  stability_status: "stable"
+  ttl_days: 90
 ---
 
-# 🆘 Emergency Contacts Reference Card
+# 🆘 The Emergency Contacts Reference
 
-**Last Updated:** Jan 2026 | **Author:** TechDadShanghai
+**TL;DR:** Police: **110**. Ambulance: **120**. International Hospital (SH): **400-868-3000** (Jiahui). Carry a physical hotel card with the Chinese address.
 
----
-
-## 📞 Critical Emergency Numbers
-
-| Service | Number | English Support |
-|:---|:---|:---|
-| **Police** | 110 | Say "English please" |
-| **Ambulance** | 120 | Limited English |
-| **Fire** | 119 | Limited English |
-| **Traffic Accident** | 122 | Limited English |
-
----
-
-## 🏛️ Embassy Contacts (Shanghai)
-
-| Country | Phone | Address |
-|:---|:---|:---|
-| **USA** | 021-8011-2200 | Huaihai Middle Rd 1469 |
-| **UK** | 021-3279-2000 | Nanjing West Rd 968 |
-| **Canada** | 021-3279-2800 | Nanjing West Rd 1788 |
-| **Australia** | 021-2215-5200 | Fuxing Middle Rd 1376 |
-| **Germany** | 021-3401-0106 | Yongfu Rd 181 |
+**Prerequisites:**
+- **Physical Printout:** Do not rely on your phone's screen if the battery dies.
+- **Hotel Card:** Grab one from the front desk the moment you check in.
+- **ID:** Your physical passport (mandatory for hospital admission).
 
 ---
 
-## 🏥 International Hospitals (24/7 English)
+## 📋 The Critical Numbers
 
-| Hospital | Phone | Location |
-|:---|:---|:---|
-| **Jiahui Health** | 400-868-3000 | Hongqiao / Jing'an |
-| **United Family** | 021-2216-3999 | Hongqiao / Pudong |
-| **Parkway Health** | 021-6445-5999 | Multiple locations |
-
----
-
-## 💬 Critical Phrases
-
-### Emergency
-- **"Help!"**: 救命！(Jiù mìng!)
-- **"Call police"**: 叫警察 (Jiào jǐngchá)
-- **"Call ambulance"**: 叫救护车 (Jiào jiùhù chē)
-- **"I need a doctor"**: 我需要医生 (Wǒ xūyào yīshēng)
-
-### Lost/Separated
-- **"I'm lost"**: 我迷路了 (Wǒ mílù le)
-- **"Where is...?"**: ...在哪里？(...zài nǎlǐ?)
-- **"My hotel address"**: Show your hotel card/screenshot
-
-### Medical
-- **"I'm allergic to..."**: 我对...过敏 (Wǒ duì... guòmǐn)
-- **"I have pain here"**: 我这里疼 (Wǒ zhèlǐ téng)
-- **"I need medicine"**: 我需要药 (Wǒ xūyào yào)
+| Service | Number | Protocol |
+| :--- | :--- | :--- |
+| **Police (110)** | 110 | Stay on the line. Say **"English, please."** |
+| **Ambulance (120)** | 120 | State your location. Use **Alipay Translation** if needed. |
+| **Fire (119)** | 119 | Only for active fire/rescue. |
+| **NIA Hotline** | 12367 | 24/7 Visa/Entry English support. |
 
 ---
 
-## 📱 Essential Apps (Download Before Trip)
+## 🏥 Trusted Medical Nodes (24/7 English)
 
-- **VPN**: ExpressVPN, LetsVPN
-- **Translation**: Pleco, Google Translate (offline mode)
-- **Maps**: Amap (高德地图), Baidu Maps
-- **Payment**: Alipay, WeChat Pay
-- **Transport**: Didi, Metro apps
-- **Emergency**: AirVisual (AQI), China Weather
+### Shanghai Hubs
+- **Jiahui International:** 400-868-3000
+- **United Family (BJU):** 021-2216-3999
+- **Ruijin VIP Wing:** 021-6437-0045
 
----
-
-## 💡 Quick Tips
-
-1. **Save this page offline** or take a screenshot before traveling
-2. **Keep hotel address card** in Chinese in your wallet
-3. **Photo backup** of passport, visa, and tickets
-4. **Share location** with family via WeChat or WhatsApp
-5. **Charge power bank** daily - your phone is your lifeline
+### Beijing Hubs
+- **Beijing United Family:** 400-891-9191
+- **Peking Union Medical (VIP):** 010-6915-6114
 
 ---
 
-## 🖨️ Printable Version
+## 💬 The "Survival" Phrases (Pronunciation)
 
-**To print this card:**
-1. Use your browser's Print function (Ctrl+P / Cmd+P)
-2. Select "Save as PDF" or print to paper
-3. Fold and keep in wallet or passport holder
-
-**Recommended size:** Print on A5 or fold A4 in half
+| Phrase | Hanzi (Characters) | Pronunciation |
+| :--- | :--- | :--- |
+| **Help!** | 救命！ | Jiù mìng! |
+| **I'm lost.** | 我迷路了。 | Wǒ mílù le. |
+| **I'm allergic.** | 我过敏。 | Wǒ guòmǐn. |
+| **Call the police.** | 我要报警。 | Wǒ yào bàojǐng. |
+| **Take me to...** | 请带我去... | Qǐng dài wǒ qù... |
 
 ---
 
-## 🔗 Related Guides
+## 🚨 Fallback (Plan B)
 
-- [Hospital Access Guide](../hospital-access/) - Detailed medical procedures
-- [Lost Passport Guide](../lost-passport/) - Embassy procedures
-- [Safety & Scams Guide](../safety-and-common-scams/) - Prevention tips
-- [Network Outage Guide](../network-outage/) - Offline survival
+### If your phone is dead and you need help:
+1. **The "Luxury Hotel" Hub:** Find the nearest 5-star hotel (Marriott, Hyatt, etc.). Their concierge staff are trained to help foreigners in emergencies.
+2. **Police Kiosks:** Look for small, lit police booths (often near metro stations or major intersections). 
+3. **The "Stranger" Protocol:** Show a local person your hotel card and say **"Help"**. Chinese citizens are generally very helpful to foreigners in obvious distress.
+
+---
+
+## 💡 TechDad's Tips
+
+- **Pin the Embassy:** Before you leave the airport, "Star" your country's consulate (USA, UK, Australia, etc.) in your map app.
+- **Save to Favorites:** Put the number **12367** in your phone contacts as "China Visa Support."
+- **The "Screenshot" Vault:** Create a dedicated album in your phone photos called "EMERGENCY" containing your passport, visa, and insurance policy.
+- **Battery is Life:** Your phone is your wallet, map, and ID. If it's below 10%, you are in a "Critical State." Use Plan B (Luxury Hotel) to charge.

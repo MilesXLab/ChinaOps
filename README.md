@@ -30,25 +30,25 @@ A practical, non-commercial guide for travelers and families navigating China. W
 ### Choose Your Path:
 
 #### First-Time Traveler?
-Start with **[System Setup](docs/01-System-Setup/index.html)** 
+Start with **[System Setup](docs/01-System-Setup//)** 
 - Get your phone/SIM card working
 - Set up VPN and payments
 - Find pharmacies and medications
 
 #### Traveling with Kids?
-Go to **[Parenting Guide](docs/04-Parenting-Patch/index.html)**
+Go to **[Parenting Guide](docs/04-Parenting-Patch//)**
 - Handle diapers & baby supplies
 - Manage food allergies
 - Check milk recall status
 
 #### Emergency?
-Check **[Emergency/DR](docs/03-Emergency-DR/index.html)**
+Check **[Emergency/DR](docs/03-Emergency-DR//)**
 - Hospital access & procedures
 - Lost passport recovery
 - Mobile phone safety & scams
 
 #### Vegetarian / Vegan?
-Go to **[Vegetarian & Vegan Guide](docs/02-Daily-Runtime/shanghai-vegan-guide.html)**
+Go to **[Vegetarian & Vegan Guide](docs/02-Daily-Runtime/shanghai-vegan-guide/)**
 - Plant-based survival in Standard restaurants
 - Temple food & 2026 vegan nodes
 - Critical phrases for waiters
@@ -63,52 +63,52 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 ### System Setup (7 Guides)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
-| [The Landing Protocol](docs/01-System-Setup/landing-protocol.html) | Your first 30 minutes: Immigration, Connectivity, Payment | 10 min |
-| [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation.html) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
-| [Pharmacy & Medications](docs/01-System-Setup/pharmacy-and-medications.html) | How to buy medicine, common drug names in Chinese | 12 min |
-| [VPN & eSIM / Payment Setup](docs/01-System-Setup/vpn-esim-payment.html) | Set up VPN, Alipay, WeChat Pay | 15 min |
-| [Power Bank Rules](docs/01-System-Setup/power-bank-rules.html) | Safe power banks, charging rules, outlets | 8 min |
-| [SIM Card Options](docs/01-System-Setup/sim-card-options.html) | Comparing carriers and plans | 10 min |
-| [Visa & Entry](docs/01-System-Setup/visa-and-entry.html) | 2026 免签 policies and digital cards | 12 min |
+| [The Landing Protocol](docs/01-System-Setup/landing-protocol/) | Your first 30 minutes: Immigration, Connectivity, Payment | 10 min |
+| [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation/) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
+| [Pharmacy & Medications](docs/01-System-Setup/pharmacy-and-medications/) | How to buy medicine, common drug names in Chinese | 12 min |
+| [VPN & eSIM / Payment Setup](docs/01-System-Setup/vpn-esim-payment/) | Set up VPN, Alipay, WeChat Pay | 15 min |
+| [Power Bank Rules](docs/01-System-Setup/power-bank-rules/) | Safe power banks, charging rules, outlets | 8 min |
+| [SIM Card Options](docs/01-System-Setup/sim-card-options/) | Comparing carriers and plans | 10 min |
+| [Visa & Entry](docs/01-System-Setup/visa-and-entry/) | 2026 免签 policies and digital cards | 12 min |
 
 ### Daily Runtime (11 Guides)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
-| [Train Tickets (12306)](docs/02-Daily-Runtime/train-ticket-trap.html) | Booking system, name format issues, how to fix rejections | 10 min |
-| [The Transit Protocol](docs/02-Daily-Runtime/international-domestic-transit.html) | PVG/BJS International to Domestic connection SOP | 10 min |
-| [Taxis & Mobile Payment](docs/02-Daily-Runtime/taxi-payment.html) | Didi, DiDi International, fare negotiation | 8 min |
-| [Maps & Toilets](docs/02-Daily-Runtime/maps-and-toilets.html) | Google Maps alternative, finding bathrooms | 7 min |
-| [Public Transport](docs/02-Daily-Runtime/public-transport-tips.html) | Subways, buses, ferries, transit apps | 12 min |
-| [Shanghai Local Hacks](docs/02-Daily-Runtime/shanghai-local-hacks.html) | Living like a resident, stroller safety, best apps | 12 min |
-| [Shanghai Weather](docs/02-Daily-Runtime/shanghai-weather-guide.html) | AQI patches, typhoon SOP, seasonal gear | 10 min |
-| [Shanghai Attractions](docs/02-Daily-Runtime/shanghai-attractions-guide.html) | 2026 top nodes, skyline hacks, and family spots | 15 min |
-| [Shanghai Food Guide](docs/02-Daily-Runtime/shanghai-food-guide.html) | The Dumpling Protocol and authentic Benbang | 12 min |
-| [Vegetarian & Vegan](docs/02-Daily-Runtime/shanghai-vegan-guide.html) | Plant-based survival and restaurant nodes | 12 min |
-| [Visual Signs Guide](docs/02-Daily-Runtime/shanghai-visual-signs-guide.html) | Recognizing metro, toilet, taxi, and facility symbols | 8 min |
+| [Train Tickets (12306)](docs/02-Daily-Runtime/train-ticket-trap/) | Booking system, name format issues, how to fix rejections | 10 min |
+| [The Transit Protocol](docs/02-Daily-Runtime/international-domestic-transit/) | PVG/BJS International to Domestic connection SOP | 10 min |
+| [Taxis & Mobile Payment](docs/02-Daily-Runtime/taxi-payment/) | Didi, DiDi International, fare negotiation | 8 min |
+| [Maps & Toilets](docs/02-Daily-Runtime/maps-and-toilets/) | Google Maps alternative, finding bathrooms | 7 min |
+| [Public Transport](docs/02-Daily-Runtime/public-transport-tips/) | Subways, buses, ferries, transit apps | 12 min |
+| [Shanghai Local Hacks](docs/02-Daily-Runtime/shanghai-local-hacks/) | Living like a resident, stroller safety, best apps | 12 min |
+| [Shanghai Weather](docs/02-Daily-Runtime/shanghai-weather-guide/) | AQI patches, typhoon SOP, seasonal gear | 10 min |
+| [Shanghai Attractions](docs/02-Daily-Runtime/shanghai-attractions-guide/) | 2026 top nodes, skyline hacks, and family spots | 15 min |
+| [Shanghai Food Guide](docs/02-Daily-Runtime/shanghai-food-guide/) | The Dumpling Protocol and authentic Benbang | 12 min |
+| [Vegetarian & Vegan](docs/02-Daily-Runtime/shanghai-vegan-guide/) | Plant-based survival and restaurant nodes | 12 min |
+| [Visual Signs Guide](docs/02-Daily-Runtime/shanghai-visual-signs-guide/) | Recognizing metro, toilet, taxi, and facility symbols | 8 min |
 
 ### Emergency/DR (6 Guides)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
-| [Hospital Access](docs/03-Emergency-DR/hospital-access.html) | Finding hospitals, language barriers, insurance, costs | 15 min |
-| [Lost Passport](docs/03-Emergency-DR/lost-passport.html) | Emergency embassy contacts, replacement procedures | 12 min |
-| [Network Outage](docs/03-Emergency-DR/network-outage.html) | VPN backup, WeChat without WiFi, offline navigation | 8 min |
-| [Safety & Scams](docs/03-Emergency-DR/safety-and-common-scams.html) | Avoiding tea scams, water safety, and AQI | 10 min |
-| [Shanghai Safety](docs/03-Emergency-DR/shanghai-safety-guide.html) | Real-world security profile and local defense | 12 min |
-| [Emergency Contacts Card](docs/03-Emergency-DR/emergency-contacts-card.html) | Printable reference with critical numbers | 5 min |
+| [Hospital Access](docs/03-Emergency-DR/hospital-access/) | Finding hospitals, language barriers, insurance, costs | 15 min |
+| [Lost Passport](docs/03-Emergency-DR/lost-passport/) | Emergency embassy contacts, replacement procedures | 12 min |
+| [Network Outage](docs/03-Emergency-DR/network-outage/) | VPN backup, WeChat without WiFi, offline navigation | 8 min |
+| [Safety & Scams](docs/03-Emergency-DR/safety-and-common-scams/) | Avoiding tea scams, water safety, and AQI | 10 min |
+| [Shanghai Safety](docs/03-Emergency-DR/shanghai-safety-guide/) | Real-world security profile and local defense | 12 min |
+| [Emergency Contacts Card](docs/03-Emergency-DR/emergency-contacts-card/) | Printable reference with critical numbers | 5 min |
 
 ### Parenting (5 Guides)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
-| [Food Allergies & Diet](docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.html) | Restaurant communication, safe foods, allergy cards | 15 min |
-| [Diapers & Baby Supplies](docs/04-Parenting-Patch/diapers-and-stores.html) | Where to buy, brands to trust, pricing | 10 min |
-| [Milk Recall Check](docs/04-Parenting-Patch/milk-recall-check.html) | How to verify formula batches, safety databases | 8 min |
-| [Nursing Rooms](docs/04-Parenting-Patch/nursing-rooms.html) | Locations, facilities, cultural tips | 5 min |
-| [Baby & Toddler Guide](docs/04-Parenting-Patch/baby-survival-master-runbook.html) | Technical master runbook for Shanghai & beyond | 20 min |
+| [Food Allergies & Diet](docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions/) | Restaurant communication, safe foods, allergy cards | 15 min |
+| [Diapers & Baby Supplies](docs/04-Parenting-Patch/diapers-and-stores/) | Where to buy, brands to trust, pricing | 10 min |
+| [Milk Recall Check](docs/04-Parenting-Patch/milk-recall-check/) | How to verify formula batches, safety databases | 8 min |
+| [Nursing Rooms](docs/04-Parenting-Patch/nursing-rooms/) | Locations, facilities, cultural tips | 5 min |
+| [Baby & Toddler Guide](docs/04-Parenting-Patch/baby-survival-master-runbook/) | Technical master runbook for Shanghai & beyond | 20 min |
 
 ### Event Operations (1 Guide)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
-| [2026 Holiday Survival](docs/05-Event-Operations/holiday-survival-guide.html) | CNY dates, Golden Week hacks, and transport | 15 min |
+| [2026 Holiday Survival](docs/05-Event-Operations/holiday-survival-guide/) | CNY dates, Golden Week hacks, and transport | 15 min |
 
 ---
 

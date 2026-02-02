@@ -25,12 +25,21 @@ def check_links(file_path):
         target = os.path.normpath(os.path.join(base_dir, clean_link))
         
         if not os.path.exists(target):
-            # If linking to .html, check if .md exists
+            # Check if it's a directory link (trailing slash) which Jekyll converts from .md
+            if link.endswith('/'):
+                # Try target + ".md" (if it's a file in same dir)
+                # or target + "/index.md" (if it's a subdirectory)
+                md_file = target + ".md"
+                index_file = os.path.join(target, "index.md")
+                if os.path.exists(md_file) or os.path.exists(index_file):
+                    continue
+            
+            # Special case for .html links in the verify script (for hosted testing)
             if target.endswith('.html'):
                 md_target = target[:-5] + '.md'
                 if os.path.exists(md_target):
                     continue
-            
+
             failures.append(f"BROKEN: {link} -> {target}")
     
     return failures
@@ -55,4 +64,4 @@ if __name__ == "__main__":
             for fail in fails:
                 print(f"  - {fail}")
     else:
-        print("\nAll links verified (including .html -> .md mapping)!")
+        print("\nAll links verified (Trailing Slash / Jekyll pattern)!")

@@ -3,7 +3,7 @@ layout: guide
 title: "VPN, eSIM & Payment Setup"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-02-05
   ttl_days: 30
   stability_status: "stable"
   validation_method: "field_test"
@@ -55,4 +55,4 @@ metadata:
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single payment app.
-- **Hotfix:** WeChat Pay waives the 3% fee for transactions under 200 RMB until mid-2026. Use WeChat for small coffee/snacks and Alipay for larger bookings.
+- **Hotfix:** WeChat Pay waives the 3% fee for transactions under 200 RMB until further notice (verified Feb 2026). Use WeChat for small coffee/snacks and Alipay for larger bookings.

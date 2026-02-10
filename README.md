@@ -25,7 +25,7 @@
 ### What is ChinaOps?
 A practical, non-commercial guide for travelers and families navigating China. Written by someone who's actually lived through these challenges.
 
-**30 Step-by-Step Guides** | **3 Helper Tools** | **No Ads or Sponsorships**
+**37 Step-by-Step Guides** | **3 Helper Tools** | **No Ads or Sponsorships**
 
 ### Choose Your Path:
 
@@ -60,7 +60,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 
 ## Full Library
 
-### System Setup (7 Guides)
+### System Setup (9 Guides)
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
@@ -68,11 +68,13 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation/) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
 | [Pharmacy & Medications](docs/01-System-Setup/pharmacy-and-medications/) | How to buy medicine, common drug names in Chinese | 12 min |
 | [VPN & eSIM / Payment Setup](docs/01-System-Setup/vpn-esim-payment/) | Set up VPN, Alipay, WeChat Pay | 15 min |
+| [Hotel Check-in & Registration](docs/01-System-Setup/hotel-check-in/) | Passport verification, 24-hour police registration | 10 min |
+| [Translation Tools & Language](docs/01-System-Setup/translation-tools/) | Offline dictionaries, real-time translation, essential phrases | 12 min |
 | [Power Bank Rules](docs/01-System-Setup/power-bank-rules/) | Safe power banks, charging rules, outlets | 8 min |
 | [SIM Card Options](docs/01-System-Setup/sim-card-options/) | Comparing carriers and plans | 10 min |
 | [Visa & Entry](docs/01-System-Setup/visa-and-entry/) | 2026 免签 policies and digital cards | 12 min |
 
-### Daily Runtime (11 Guides)
+### Daily Runtime (13 Guides)
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
@@ -81,6 +83,8 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Taxis & Mobile Payment](docs/02-Daily-Runtime/taxi-payment/) | Didi, DiDi International, fare negotiation | 8 min |
 | [Maps & Toilets](docs/02-Daily-Runtime/maps-and-toilets/) | Google Maps alternative, finding bathrooms | 7 min |
 | [Public Transport](docs/02-Daily-Runtime/public-transport-tips/) | Subways, buses, ferries, transit apps | 12 min |
+| [Lost or Delayed Luggage](docs/02-Daily-Runtime/lost-luggage/) | Airport reporting, PIR forms, recovery protocol | 10 min |
+| [Car Rental & Driving](docs/02-Daily-Runtime/car-rental/) | License requirements, temporary permits, chauffeur services | 12 min |
 | [Shanghai Local Hacks](docs/02-Daily-Runtime/shanghai-local-hacks/) | Living like a resident, stroller safety, best apps | 12 min |
 | [Shanghai Weather](docs/02-Daily-Runtime/shanghai-weather-guide/) | AQI patches, typhoon SOP, seasonal gear | 10 min |
 | [Shanghai Attractions](docs/02-Daily-Runtime/shanghai-attractions-guide/) | 2026 top nodes, skyline hacks, and family spots | 15 min |
@@ -88,12 +92,15 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Vegetarian & Vegan](docs/02-Daily-Runtime/shanghai-vegan-guide/) | Plant-based survival and restaurant nodes | 12 min |
 | [Visual Signs Guide](docs/02-Daily-Runtime/shanghai-visual-signs-guide/) | Recognizing metro, toilet, taxi, and facility symbols | 8 min |
 
-### Emergency/DR (6 Guides)
+### Emergency/DR (10 Guides)
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Hospital Access](docs/03-Emergency-DR/hospital-access/) | Finding hospitals, language barriers, insurance, costs | 15 min |
 | [Lost Passport](docs/03-Emergency-DR/lost-passport/) | Emergency embassy contacts, replacement procedures | 12 min |
+| [Lost or Stolen Phone](docs/03-Emergency-DR/lost-phone/) | Lock phone remotely, freeze payment apps, recover SIM | 12 min |
+| [Lost or Stolen Bank Card](docs/03-Emergency-DR/lost-bank-card/) | Freeze card, secure payment apps, request replacement | 10 min |
+| [Prescription Medication](docs/03-Emergency-DR/prescription-refill/) | Getting prescription refills, managing chronic conditions | 15 min |
 | [Network Outage](docs/03-Emergency-DR/network-outage/) | VPN backup, WeChat without WiFi, offline navigation | 8 min |
 | [Safety & Scams](docs/03-Emergency-DR/safety-and-common-scams/) | Avoiding tea scams, water safety, and AQI | 10 min |
 | [Shanghai Safety](docs/03-Emergency-DR/shanghai-safety-guide/) | Real-world security profile and local defense | 12 min |

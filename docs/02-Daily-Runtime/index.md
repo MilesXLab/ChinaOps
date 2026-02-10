@@ -11,6 +11,8 @@ Technical guides for managing your daily operations in Chinese cities. From high
 *   [**International-Domestic Transit SOP**](international-domestic-transit/) — Managing the PVG/BJS luggage loop.
 *   [**Train Tickets (12306)**](train-ticket-trap/) — Fixing the MRZ name trap and booking strategy.
 *   [**Public Transport**](public-transport-tips/) — Metro, buses, and the 2 RMB ferry hack.
+*   [**Lost or Delayed Luggage**](lost-luggage/) — Airport reporting, PIR forms, and recovery protocol.
+*   [**Car Rental & Driving**](car-rental/) — License requirements, temporary permits, and chauffeur services.
 
 ### 🚕 Local Movement
 *   [**Taxis & Didi**](taxi-payment/) — Calling cars and handling payments.

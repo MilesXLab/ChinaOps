@@ -35,7 +35,7 @@ metadata:
 ### 3. Comparison of Nodes
 
 | Type | Best For | VPN Required? | SMS Verification? |
-| :- | :- | :- | :- |
+| :--- | :--- | :--- | :--- |
 | **Travel eSIM** | Short stays (7-14 days) | **No** (Native Bypass) | Limited |
 | **Local Physical SIM** | Long stays (1 month+) | **YES** (Firewall Active) | **Full Support** |
 | **Home Roaming** | Zero-effort (Expensive) | **No** (Native Bypass) | Varies |

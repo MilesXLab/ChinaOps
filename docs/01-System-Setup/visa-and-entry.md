@@ -3,7 +3,7 @@ layout: guide
 title: "Visa & Entry Requirements (2026 Update)"
 metadata:
   version: 1.1
-  last_validated: 2026-01-23
+  last_validated: 2026-02-05
   ttl_days: 90
   stability_status: "stable"
   validation_method: "official_audit"
@@ -13,7 +13,7 @@ metadata:
 
 # Visa & Entry Requirements (2026 Update)
 
-**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
 
 **TL;DR:** Many European and Asian countries now enjoy **30-day visa-free entry** until Dec 31, 2026. US/UK/Canada usually still require a visa or can use the **144-hour (or 240-hour)** Transit Visa-Free (TWOV).
 
@@ -30,7 +30,7 @@ metadata:
 
 ### 1. Check Eligibility (The "Is it Free?" Flow)
 - **30-Day Visa-Free (Pilot):** Citizens of **Germany, France, Italy, Spain, Australia, New Zealand, Japan, South Korea, and Sweden**. 
-- **Canada Alert:** As of Jan 2026, Canada is anticipated to be added to the 30-day visa-free list shortly. Check official NIA notices before booking.
+- **Canada Alert:** As of Feb 2026, Canada's status for the 30-day visa-free pilot remains pending official confirmation. Always verify current eligibility on [en.nia.gov.cn](https://en.nia.gov.cn) before booking, as policy updates may occur without advance notice.
 - **144/240-Hour Transit Visa:** For US and UK citizens (and Canadians if the pilot hasn't started). 
   - **Rule:** You must be flying to a *third* country (e.g., NYC -> Shanghai -> Tokyo).
 - **Verification:** Check the latest list on [en.nia.gov.cn](https://en.nia.gov.cn).

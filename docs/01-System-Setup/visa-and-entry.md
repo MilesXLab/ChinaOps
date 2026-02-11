@@ -13,8 +13,6 @@ metadata:
 
 # Visa & Entry Requirements (2026 Update)
 
-**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
-
 **TL;DR:** Many European and Asian countries now enjoy **30-day visa-free entry** until Dec 31, 2026. US/UK/Canada usually still require a visa or can use the **144-hour (or 240-hour)** Transit Visa-Free (TWOV).
 
 ---
@@ -65,6 +63,6 @@ metadata:
 
 ---
 
-## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on airport Wi-Fi to load your "Digital Entry Card." 
-- **Hotfix:** Always have the QR code and your hotel address as an **offline photo**.
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

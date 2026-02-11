@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 💊 Prescription Medication & Chronic Care SOP
 
 **TL;DR:** Most prescription medications require a **hospital prescription** in China. International hospitals (Jiahui, United Family) can write prescriptions for common medications. Controlled substances (ADHD meds, opioids) may require special permits. Always bring a 3-month supply and a doctor's note from home.
@@ -95,3 +96,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Running out of critical medications without a refill plan.
 - **Hotfix:** Always maintain a 3-month supply and a doctor's note. Research medication availability in China before traveling. Have a backup plan (international hospital appointment) ready before you need it.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

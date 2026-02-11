@@ -8,9 +8,10 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🥛 Milk & Formula Safety Protocol
 
-**TL;DR:** Only buy formula from **High-Trust Nodes** (Hema, Sam's Club). Use WeChat to scan for anti-counterfeit, but **manually input** batch numbers for the **Jan 2026 Nestlé Recall** to avoid scanning errors.
+**TL;DR:** Only buy formula from **High-Trust Nodes** (Hema, Sam's Club). Use WeChat to scan for anti-counterfeit, and use the **SafeFeed Action** tool to manually verify batch numbers against the latest global recall databases.
 
 **Prerequisites:**
 - **App:** WeChat/Alipay (Counterfeit check) + Web Browser (Recall check).
@@ -30,13 +31,13 @@ metadata:
 - **Step 1:** For most brands (Aptamil, Friso), open WeChat and scan the QR code under the lid.
 - **Verification:** The system confirms manufacturing dates and "First-time Scan" status. This is for **authenticity**, not recall status.
 
-### 3. Nestlé Recall Check (Independent Web-Only Tool)
-- **Problem:** The **Jan 2026 Nestlé Global Recall** is a critical safety incident. Standard brand-led apps (WeChat/Alipay) may lag in updating global recall batches or lack precise manual entry for all regions.
-- **Action:** Open your mobile browser and access the [**Nestlé Recall Checker (Web-Only)**](https://milesxlab.github.io/nestle-recall-checker/).
-- **Protocol:** **Manual Batch Entry Only.** 
-  - Do not attempt to find a WeChat mini-program for this specific tool; it is developed as a standalone web app to ensure 100% manual accuracy and global access.
-  - Locate the batch number at the base of the can and type it in.
-- **Verification:** The tool provides a direct safety status. This is a primary safety node for Jan 2026 travelers.
+### 3. Global Formula Recall Check (SafeFeed Action)
+- **Problem:** Global infant formula recalls (Nestlé, Danone/Aptamil, and others) are ongoing safety incidents. Brand-led apps (WeChat/Alipay) may lag in updating recall batches or lack manual entry for all regions.
+- **Action:** Open your mobile browser and access [**SafeFeed Action**](https://milesxlab.github.io/safefeed-action/) — a brand-agnostic, independent recall verification tool.
+- **Protocol:** **Manual Batch Entry Only.**
+  - Supports multiple input formats: date codes (Danone/Aptamil), serial numbers, and series prefixes.
+  - Locate the batch number on the base of the can and type it in.
+- **Verification:** The tool checks against verified independent data sources and provides a direct safety status. Works for all major formula brands.
 
 ---
 
@@ -60,3 +61,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on one specific brand of formula.
 - **Hotfix:** Before leaving your home country, test if your baby can tolerate a common global brand (like Aptamil) as a backup.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

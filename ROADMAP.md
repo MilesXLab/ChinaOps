@@ -1,10 +1,10 @@
 # ChinaOps Roadmap
 
-## v1.1 (Current - Jan 2026)
+## v1.1 (Current - Feb 2026)
 **Release Focus:** Infrastructure & SRE Standardization
 
 ✅ **Completed:**
-- 30 comprehensive SOPs across 5 categories
+- 37 comprehensive SOPs across 5 categories
 - SRE Metadata Patch (Frontmatter validation)
 - TTL-based SOP health auditing (`ttl_check.py`)
 - Standardized "Landing Protocol" and "Transit SOPs"
@@ -48,5 +48,5 @@
 
 ---
 
-**Last Updated:** Jan 22, 2026  
+**Last Updated:** Feb 11, 2026  
 **Maintained by:** TechDadShanghai

@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🧳 Lost or Delayed Luggage Recovery SOP
 
 **TL;DR:** Report missing luggage immediately at the airport **before leaving**. Get a Property Irregularity Report (PIR) with a reference number. Airlines typically deliver delayed luggage within 24-48 hours. Keep receipts for essential purchases (toiletry, clothing) for reimbursement claims.
@@ -95,3 +96,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Checking all essential items (medications, documents, electronics) in luggage.
 - **Hotfix:** Always maintain a "Go-Bag" in carry-on with 24-48 hours of essentials: medications, one change of clothes, charging cables, and critical documents.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

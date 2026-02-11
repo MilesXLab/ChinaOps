@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🥗 Vegetarian & Vegan Survival SOP
 
 **TL;DR:** Use **HappyCow** or **Dianping** (search `素食`). Stick to **Buddhist Temple Restaurants** for 100% plant-based purity. Avoid street-food "vegetable" buns as they often contain lard or egg.
@@ -59,3 +60,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Trusting "Vegetarian" icons on standard Chinese menus. 
 - **Hotfix:** Always verbally verify with the server—Chinese "Vegetarian" sometimes allows for small amounts of meat as a "garnish" or seasoning (like lard).
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗼 Shanghai Attractions: High-Load Nodes
 
 **TL;DR:** Use **Trip.com** for all tower bookings. Lights turn OFF at **22:00 (10 PM)** sharp. The **Disney App** is mandatory for survival at the park. 
@@ -59,3 +60,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on on-site ticket windows for the Shanghai Tower.
 - **Hotfix:** They often stop selling physical tickets 1-2 hours before the observatory closes, even if it's not full. **Always buy digitally.**
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

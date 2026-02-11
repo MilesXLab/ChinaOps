@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 💊 Pharmacy & OTC Medication SOP
 
 **TL;DR:** Use **Chemical/Generic names** (e.g., Ibuprofen), not brand names (Advil). Use **Meituan** for 30-min delivery to your hotel. Antibiotics require a physical hospital prescription.
@@ -67,3 +68,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on the pharmacist for dosing. 
 - **Hotfix:** Always cross-reference the dosage on the box with your home country's medical website (like NHS or WebMD) before swallowing.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

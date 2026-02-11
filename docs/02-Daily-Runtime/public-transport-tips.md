@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚇 Public Transport: Metro, Bikes & Buses
 
 **TL;DR:** Use **Alipay's "Transport"** QR code for everything (Metro, Bus, Ferry). Add a **Shanghai Transit Card** to your Apple/Android wallet for tap-and-go. Avoid Peak Hours (8-9 AM, 5:30-7 PM).
@@ -61,3 +62,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on the "Transport" QR at 8:30 AM in a deep underground station with **No Signal (LTE/5G)**.
 - **Hotfix:** Always open your Transport QR *before* you enter the underground levels, or use the **Apple/Android Wallet (NFC)** which works offline.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

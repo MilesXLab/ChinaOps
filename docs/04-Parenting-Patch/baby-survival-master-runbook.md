@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🍼 Baby & Toddler Survival Runbook
 
 **TL;DR:** Never land without a 72-hour supply buffer. Use **Hema/Freshippo** for trusted formula. High-speed rail **First Class** is your "Nap Hub." Use **Manual Lanes** at all transit gates.
@@ -24,7 +25,7 @@ metadata:
 ### 1. The Supply Chain (Formula & Diapers)
 - **Step 1:** Use **Hema (Freshippo)** or **Sam's Club** for buying formula. These are high-trust nodes.
 - **Step 2:** For 30-min emergency delivery, use **Meituan** or **Ele.me**. Search: `奶粉` (Formula) or `纸尿裤` (Diapers).
-- **Verification:** **Critical Alert (Nestlé Recall Jan 2026):** Check the batch number on the Nestlé official portal before feeding NAN/BEBA/Lactogen. If in doubt, switch to Aptamil.
+- **Verification:** **Critical Alert (Global Formula Recalls):** Before feeding any formula, verify the batch number via [SafeFeed Action](https://milesxlab.github.io/safefeed-action/) — covers Nestlé, Danone/Aptamil, and other brands. If flagged, switch brands immediately.
 
 ### 2. The Pediatric Routing (Medical)
 - **Step 1:** If your child has a fever > 38.5°C, head to **Jiahui International Hospital** (Shanghai) or the **VIP Wing** of a public pediatric hospital.
@@ -52,3 +53,9 @@ metadata:
 - **The Stroller Rule:** Leave the 15kg "Monster Stroller" at home. Bring a **lightweight cabin-fold stroller** (e.g., Babyzen YOYO). Chinese subways are 95% elevator-accessible, but that 5% will break your back.
 - **Safe Havens (母婴室):** Shanghai malls like **Reel** or **IFC** have nursing rooms better than most hotel rooms. Use them.
 - **Didi Car Seats:** They don't exist in 99% of cars. If you aren't bringing a car seat, use the **Metro** or **Official Taxis**; they are generally safer than unlicensed private drivers.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

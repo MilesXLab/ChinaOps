@@ -9,6 +9,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # ✈️ The Transit Protocol: International to Domestic
 
 **TL;DR:** Pre-clear your **Digital Entry Card**. Allow at least **3.5 hours** for transit. You **must** pick up your luggage and re-check it; there is no "automatic" through-check for international arrivals in 2026.
@@ -53,3 +54,9 @@ metadata:
 - **The Terminal Shuttle:** Don't wait for the shuttle bus between Terminal 1 and 2 if you are in a rush; the **Moving Walkway** is often faster and more predictable.
 - **Battery Rules:** Keep all lithium batteries in your **Carry-on**. If found in checked bags during the domestic re-check, they will be removed and you won't be notified until you land.
 - **Food Strategy:** Eat at the airport *before* you clear domestic security. The options "inside" are often limited to instant noodles or overpriced fast food.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

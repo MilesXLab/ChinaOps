@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📱 Lost or Stolen Phone Recovery SOP
 
 **TL;DR:** Immediately lock your phone remotely, freeze Alipay/WeChat Pay, contact your carrier to suspend the SIM, then recover contacts/photos from cloud backup. Your payment apps are the highest priority.
@@ -86,3 +87,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single device for all critical functions (payments, navigation, communication).
 - **Hotfix:** Always maintain a backup device with payment apps installed and cloud backup enabled. Keep a physical list of emergency contacts separate from your phone.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

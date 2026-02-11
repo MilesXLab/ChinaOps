@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📜 Lost Passport Restoration SOP
 
 **TL;DR:** Report to the nearest police station immediately to get a "Receipt of Report." Contact your Embassy for a Travel Document. Do not leave the city until you have the replacement.
@@ -52,3 +53,9 @@ metadata:
 - **The "Cloud Vault":** Keep a photo of your entry stamp. The Exit-Entry bureau will ask for the exact date and location of your last entry.
 - **Police Language Barrier:** Use a translation app to say: "Wǒ de hùzhào diūle" (My passport is lost). They will handle the rest.
 - **Photocopies are Life:** Keep a physical photocopy of your passport in a separate bag from the original.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

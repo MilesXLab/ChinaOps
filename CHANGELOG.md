@@ -4,26 +4,42 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
-## [v1.1.0] - 2026-01-26
+## [v1.1.0] - 2026-02-11
 
 ### 🚀 SRE Infrastructure Patch
 - **TTL Validation System**: Implemented `scripts/ttl_check.py` to monitor SOP freshness.
-- **Metadata Standardization**: Added YAML frontmatter (`version`, `last_validated`, `ttl_days`) to all 30 guides.
+- **Metadata Standardization**: Added YAML frontmatter (`version`, `last_validated`, `ttl_days`) to all guides.
 - **Validation Workflows**: Added deployment protocol for validated state management.
+- **CI Upgrade**: Updated GitHub Actions to `checkout@v4` and `setup-python@v5`; added `requirements.txt`.
 
-### ✨ New Content & SOPs
+### ✨ New Content & SOPs (7 New Guides → Total: 37)
 - **The Landing Protocol**: Step-by-step SOP for the first 30 minutes in China (Immigration, Connectivity, Payment test).
 - **Domestic Transit SOP**: Comprehensive guide for International-to-Domestic transfers at PVG/PEK.
 - **Visual Signs Guide**: Visual reference for Metro, Restrooms, and Nursing areas.
-- **SRE Standardized Runbooks**: Renamed and restructured several guides for technical clarity (Total guides: 30).
+- **Hotel Check-in & Registration**: Passport verification, 24-hour police registration process.
+- **Translation Tools & Language Barrier**: Offline dictionaries, real-time translation, essential phrases.
+- **Lost or Delayed Luggage**: Airport reporting, PIR forms, and recovery protocol.
+- **Car Rental & Driving**: License requirements, temporary permits, and chauffeur services.
+- **Lost or Stolen Phone**: Remote lock, payment app freeze, SIM recovery.
+- **Lost or Stolen Bank Card**: Card freeze, payment app security, replacement process.
+- **Prescription Medication & Chronic Care**: Getting refills and managing chronic conditions in China.
 
-### 🛠️ Helper Scripts (v2.0 Preview)
-- Introduced `passport_mrz_converter.py`, `child_medication_calculator.py`, and `train_ticket_checker.py` in the `scripts/` directory.
+### 🛠️ Helper Scripts
+- `passport_mrz_converter.py` — Format passport names for 12306 train tickets.
+- `child_medication_calculator.py` — Calculate safe medication doses for children.
+- `train_ticket_checker.py` — Verify booking details and availability.
 
 ### 🔧 UI/UX Improvements
 - Added v1.1.0 Live banner and version badges.
+- Added email feedback contact option (📧 Send Email Feedback).
 - Improved "How to Use This Guide" paths for easier navigation.
 - Enhanced "Back to Top" functionality and mobile responsiveness.
+
+### 📋 Content Refresh
+- Updated 2026 CNY dates and holiday schedule.
+- Refreshed VPN and payment policy references to Feb 2026.
+- Updated visa-free entry status for all eligible countries.
+- Cleaned up orphaned audit/report files from repository.
 
 ---
 
@@ -32,7 +48,7 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ### 🎉 Initial Release - Complete Travel Runbook
 
-**Total Guides:** 27 comprehensive SOPs across 5 categories
+**Total Guides:** 27 comprehensive SOPs across 5 categories (expanded to 30 in v1.0.1 patch)
 
 ### ✨ New Features
 
@@ -78,7 +94,7 @@ All notable changes to the ChinaOps project will be documented in this file.
 7. **2026 China Holiday Survival Guide** - Consolidated guide covering all 7 major Chinese holidays (CNY, May Day, National Day, etc.)
 
 **Parenting Resources**
-8. **Baby & Toddler Survival Runbook** - Updated with 2026 Nestlé recall information and Shanghai hospital hacks
+8. **Baby & Toddler Survival Runbook** - Updated with global formula recall info (SafeFeed Action) and Shanghai hospital hacks
 
 ### 🔧 Improvements
 
@@ -126,11 +142,6 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ### 🚀 Coming Soon
 
-**Helper Scripts**
-- `passport_mrz_converter.py` - Format passport names for 12306 train tickets
-- `child_medication_calculator.py` - Calculate safe medication doses for children
-- `train_ticket_checker.py` - Verify booking details and availability
-
 **Content Expansion**
 - Beijing-specific local hacks
 - Inter-city travel guides (Shanghai ↔ Beijing, etc.)
@@ -155,9 +166,10 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ## Version History
 
-- **v1.0.0** (2026-01-23) - Initial official release with 28 comprehensive guides
+- **v1.1.0** (2026-02-11) - Content refresh: 7 new SOPs, email feedback, CI upgrades (37 guides)
+- **v1.0.0** (2026-01-23) - Initial official release with 27 comprehensive guides
 
 ---
 
 **Maintained by:** TechDadShanghai  
-**Last Updated:** January 2026
+**Last Updated:** February 2026

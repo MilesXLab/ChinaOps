@@ -123,6 +123,37 @@ WH = Wuhan           |  JN = Jinan          |  CS = Changsha
 
 ---
 
+### 4. **SOP Health Check (TTL Audit)** (`ttl_check.py`)
+
+Scans all SOP files and validates their metadata freshness based on TTL (time-to-live) thresholds.
+
+**Problem Solved:** SOPs can become stale without anyone noticing. This script flags guides whose `last_validated` date has exceeded their `ttl_days` limit.
+
+**Usage:**
+```bash
+pip install pyyaml  # one-time setup
+python ttl_check.py
+```
+
+**Output:**
+```
+Checking docs/01-System-Setup/vpn-esim-payment.md...
+  ✅ Valid (28/30 days remaining)
+Checking docs/03-Emergency-DR/hospital-access.md...
+  ⚠️ EXPIRED — last validated 95 days ago (TTL: 90 days)
+
+Summary: 36 OK, 1 expired, 0 missing metadata
+```
+
+**When to Use:**
+- Runs automatically every Monday via GitHub Actions
+- Run locally before releases to catch stale content
+- After bulk content updates to verify metadata
+
+**Requires:** `PyYAML` (`pip install pyyaml` or `pip install -r requirements.txt`)
+
+---
+
 ## Installation & Setup
 
 ### Prerequisites
@@ -200,8 +231,9 @@ python train_ticket_checker.py --first-name Emma --last-name Smith --date 2026-0
 - On Windows, use `python.exe` or PowerShell
 
 ### "ModuleNotFoundError"
-- These scripts use only standard library (no external modules needed)
-- If you see module errors, Python installation may be corrupted
+- Most scripts use standard library only; `ttl_check.py` requires `PyYAML`
+- Run `pip install -r requirements.txt` from the project root to install dependencies
+- If errors persist, verify your Python installation: `python --version`
 
 ### Script Output Looks Wrong
 - For name conversion: Double-check spelling and special characters
@@ -212,7 +244,7 @@ python train_ticket_checker.py --first-name Emma --last-name Smith --date 2026-0
 
 ## Future Scripts (Planned)
 
-- 🩺 **Milk Formula Batch Checker** - Verify infant formula batch numbers against recall databases
+- 🩺 **SafeFeed Action** - [Already live](https://milesxlab.github.io/safefeed-action/) — global infant formula recall checker
 - 🗺️ **Hospital Locator** - Find nearest hospital with English support by location
 - 💰 **Currency Exchange Calculator** - Quick CNY conversions with current rates
 - 🚕 **Didi Fare Estimator** - Pre-calculate ride-sharing costs
@@ -242,5 +274,5 @@ Found a bug or want to add a script?
 ---
 
 **Author:** TechDadShanghai  
-**Last Updated:** Jan 2026  
+**Last Updated:** Feb 2026  
 **License:** CC BY-NC 4.0

@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🛡️ Shanghai Physical Safety & Urban Defense
 
 **TL;DR:** Shanghai is statistically one of the safest cities on earth. The primary physical risk is **Traffic (Scooters)**. Violent crime is near-zero. Phone battery at 0% is your biggest "threat."
@@ -59,3 +60,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on your phone for your destination address. 
 - **Hotfix:** Keep a physical business card of your hotel in your wallet at all times.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

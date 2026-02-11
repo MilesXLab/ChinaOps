@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🍽️ Food Allergies & Dietary Restrictions SOP
 
 **TL;DR:** Always use a printed **Allergy Card** in Chinese. Order "Plain/Clear Stir-fry" (清炒) to minimize hidden oils. In 2026, **Jiahui** and **United Family** hospitals remain the primary nodes for anaphylaxis response.
@@ -53,3 +54,9 @@ metadata:
 - **The "Buddhist" Failover:** If you are Vegan or Vegetarian, look for **Buddhist Temple Restaurants**. They are the global standard for plant-based purity in China.
 - **MSG is not an allergy:** While many people react to it, don't confuse it with life-threatening allergens in your card. Focus on the "Critical" ones.
 - **International Hubs:** Malls like **Xintiandi Style** or **Jing'an Kerry Centre** have staff accustomed to dietary requests. When in doubt, eat at these locations.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

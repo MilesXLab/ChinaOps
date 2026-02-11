@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚗 Car Rental & Driving in China SOP
 
 **TL;DR:** International driving permits are **not recognized** in China. You need a **Chinese driver's license** (obtained through a test) or a **temporary license** (valid 3 months, requires home license + translation). Most travelers use **chauffeur services** or **rental cars with drivers** instead of self-driving.
@@ -102,3 +103,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on self-driving without understanding license requirements or traffic rules.
 - **Hotfix:** For most travelers, use public transport, taxis, or chauffeur services. Only consider self-driving if staying long-term and willing to obtain a Chinese license. Always have backup transportation plans.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

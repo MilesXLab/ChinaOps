@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | ChinaOps Guide</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -98,6 +99,32 @@
             padding-left: 15px;
             font-size: 0.85rem;
             color: #718096;
+        }
+
+        .guide-nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .guide-nav-list li {
+            margin-bottom: 4px;
+        }
+
+        .guide-nav-list a {
+            display: block;
+            padding: 5px 10px;
+            font-size: 0.85rem;
+            color: #4a5568;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            line-height: 1.4;
+        }
+
+        .guide-nav-list a:hover {
+            background: #f1f5f9;
+            color: var(--primary);
         }
 
         .back-home {
@@ -234,34 +261,73 @@
         <a href="{{ site.baseurl }}/" class="back-home">← Back to Overview</a>
 
         <div class="nav-section">
-            <p class="nav-title">All Guides</p>
-            <ul id="toc-container" style="list-style: none;">
-                <li style="margin-bottom: 8px;"><a href="{{ site.baseurl }}/docs/01-System-Setup/vpn-esim-payment/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">VPN & Payments</a></li>
-                <li style="margin-bottom: 8px;"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-local-hacks/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">Shanghai Local Hacks</a></li>
-                <li style="margin-bottom: 8px;"><a
-                        href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-weather-guide/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">Weather & AQI</a></li>
-                <li style="margin-bottom: 8px;"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-food-guide/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">Food & Dining</a></li>
-                <li style="margin-bottom: 8px;"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-vegan-guide/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">Vegetarian & Vegan</a></li>
-                <li style="margin-bottom: 8px;"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/shanghai-safety-guide/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">Shanghai Safety</a></li>
-                <li style="margin-bottom: 8px;"><a
-                        href="{{ site.baseurl }}/docs/03-Emergency-DR/emergency-contacts-card/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">Emergency Contacts</a></li>
-                <li style="margin-bottom: 8px;"><a
-                        href="{{ site.baseurl }}/docs/04-Parenting-Patch/baby-survival-master-runbook/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">Baby & Toddler Guide</a></li>
-                <li style="margin-bottom: 8px;"><a
-                        href="{{ site.baseurl }}/docs/05-Event-Operations/holiday-survival-guide/"
-                        style="text-decoration: none; color: #4a5568; font-size: 0.9rem;">2026 Holiday Survival</a></li>
+            <p class="nav-title">System Setup</p>
+            <ul class="guide-nav-list">
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/landing-protocol/">Landing Protocol</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/vpn-esim-payment/">VPN & Payments</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/mobile-number-and-activation/">Mobile Number</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/visa-and-entry/">Visa & Entry</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/hotel-check-in/">Hotel Check-in</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/translation-tools/">Translation Tools</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/pharmacy-and-medications/">Medications</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/power-bank-rules/">Power Banks</a></li>
+                <li><a href="{{ site.baseurl }}/docs/01-System-Setup/sim-card-options/">SIM Options</a></li>
             </ul>
         </div>
 
         <div class="nav-section">
+            <p class="nav-title">Daily Runtime</p>
+            <ul class="guide-nav-list">
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/international-domestic-transit/">Domestic Transit</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/train-ticket-trap/">Train Tickets</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/taxi-payment/">Taxis & Didi</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/maps-and-toilets/">Maps & Toilets</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/public-transport-tips/">Public Transport</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/lost-luggage/">Lost Luggage</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/car-rental/">Car Rental</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-local-hacks/">Shanghai Hacks</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-weather-guide/">Weather & AQI</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-attractions-guide/">Attractions</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-food-guide/">Food & Dining</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-vegan-guide/">Vegetarian & Vegan</a></li>
+                <li><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-visual-signs-guide/">Visual Signs</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section">
+            <p class="nav-title">Emergency / DR</p>
+            <ul class="guide-nav-list">
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/hospital-access/">Hospital Access</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/lost-passport/">Lost Passport</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/lost-phone/">Lost Phone</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/lost-bank-card/">Lost Bank Card</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/prescription-refill/">Prescription Refill</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/network-outage/">Network Issues</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/safety-and-common-scams/">Safety & Scams</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/shanghai-safety-guide/">Shanghai Safety</a></li>
+                <li><a href="{{ site.baseurl }}/docs/03-Emergency-DR/emergency-contacts-card/">Emergency Contacts</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section">
+            <p class="nav-title">Parenting</p>
+            <ul class="guide-nav-list">
+                <li><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions/">Food Allergies</a></li>
+                <li><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/diapers-and-stores/">Diapers & Supplies</a></li>
+                <li><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/milk-recall-check/">Milk Safety</a></li>
+                <li><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/nursing-rooms/">Nursing Rooms</a></li>
+                <li><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/baby-survival-master-runbook/">Baby & Toddler</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section">
+            <p class="nav-title">Events</p>
+            <ul class="guide-nav-list">
+                <li><a href="{{ site.baseurl }}/docs/05-Event-Operations/holiday-survival-guide/">Holiday Survival</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section" style="border-top: 1px solid var(--border); padding-top: 20px;">
             <p class="nav-title">On this page</p>
             <ul id="toc-container">
                 <!-- TOC will be generated via JS -->

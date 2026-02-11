@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🌦️ Shanghai Weather & AQI SOP
 
 **TL;DR:** Shanghai is "Damp Cold" in Winter and "Steamy Hot" in Summer. Use **AirVisual** for AQI monitoring. If a **Typhoon Red Alert** is issued, outdoor city operations (Disney, Bund, Metro Line 3/4) will shut down.
@@ -58,3 +59,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Assuming the weather forecast is accurate for more than 48 hours. 
 - **Hotfix:** Shanghai is a coastal city; weather systems move fast. Check the "Hourly" forecast on your app every morning before you head out.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

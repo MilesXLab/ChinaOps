@@ -1,6 +1,6 @@
 # ChinaOps - Legal Notice & Commercial Use Policy
 
-**Last Updated:** January 22, 2026
+**Last Updated:** Feb 11, 2026
 
 ---
 
@@ -97,7 +97,7 @@ Licensed under CC BY-NC 4.0
 
 **Contact the author for explicit permission:**
 
-**Email:** [contact email]  
+**Email:** miles.x.dev@outlook.com  
 **GitHub Issues:** Use the "Commercial Inquiry" template
 
 ### What requires permission:
@@ -188,7 +188,7 @@ Licensed under CC BY-NC 4.0
 
 ### For commercial inquiries:
 
-**Email:** [author email]
+**Email:** miles.x.dev@outlook.com
 
 **Include in request:**
 
@@ -216,7 +216,7 @@ ChinaOps reserves the right to update this legal notice at any time. Changes wil
 - GitHub releases
 - Email notifications (if subscription exists)
 
-**Last Updated:** January 22, 2026  
+**Last Updated:** Feb 11, 2026  
 **Next Review:** Q2 2026
 
 ---

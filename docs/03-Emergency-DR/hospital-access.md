@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏥 Hospital & Medical Care: The Recovery SOP
 
 **TL;DR:** For emergencies, head to **Jiahui International** or **United Family**. Public hospitals may be crowded during winter months (Dec-Feb) due to seasonal flu/HMPV peaks. Carry your **physical passport**; digital will not work for registration.
@@ -53,3 +54,9 @@ metadata:
 - **Stroller-Friendly ERs:** Jiahui and United Family have dedicated stroller parking and wide elevators. Public VIP wings can be very cramped.
 - **Language Hack:** Download a photo of common symptoms (Fever, Cough, Diarrhea) to point at if the doctor's English is limited. 
 - **Air Quality Alert:** High AQI during winter can trigger asthma. Ensure your **Inhaler** is in your "Go-bag."
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

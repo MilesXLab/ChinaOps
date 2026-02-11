@@ -9,6 +9,7 @@ metadata:
   validation_method: "field_test"
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🛫 The Landing Protocol: First 30 Minutes
 
 **TL;DR:** Don't leave the airport until your "Digital Life" is stable. Airport Wi-Fi is your last "safe hub" with high bandwidth.
@@ -61,3 +62,9 @@ metadata:
 4. [ ] Offline Proof? (Hotel address screenshot)
 
 **If all 4 are [X], you are cleared to leave the airport.**
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

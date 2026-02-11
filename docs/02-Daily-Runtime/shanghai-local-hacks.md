@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏘️ Shanghai Local Optimization Hacks
 
 **TL;DR:** Use the **2 RMB Ferry** for the best skyline view. Take the **Maglev** for 40 RMB (show your plane ticket). Use **Dianping** to save 30% on food.
@@ -61,3 +62,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on the Maglev for an early morning flight (before 7:00 AM).
 - **Hotfix:** The Maglev starts at 6:45 AM. If your flight is before 9 AM, take a **DiDi** instead to ensure you don't miss the check-in window.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

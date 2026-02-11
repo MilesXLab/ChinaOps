@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 👶 Diapers & Baby Supplies SOP
 
 **TL;DR:** Don't buy diapers at convenience stores (limited stock). Use **Hema/Freshippo** or **Meituan** for 30-min doorstep delivery. **ALDI** is the best node for "Western-spec" wipes and snacks.
@@ -55,3 +56,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single delivery app. 
 - **Hotfix:** Always have both **Meituan** and **Ele.me** installed and linked to payment. If one app's rider network is down (common during heavy rain), the other might still be active.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

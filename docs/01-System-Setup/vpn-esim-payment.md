@@ -27,7 +27,7 @@ metadata:
 ### 1. Connectivity Layer: Native Bypass
 - **Step:** Purchase a **Trip.com eSIM** or **Yesim**. In 2026, these route traffic through HK/Macao, natively bypassing the firewall.
 - **Verification:** Turn off Wi-Fi, enable eSIM. Open `google.com`. If it loads, you are "off-wall" without needing a VPN.
-- **Fallback:** If eSIM signal stalls, switch to **LetsVPN** or **LightningX**. Recent Jan 2026 reports suggest **ShadowFly** is also highly resilient against the latest firewall probes.
+- **Fallback:** If eSIM signal stalls, switch to **LetsVPN** or **LightningX**. Recent Feb 2026 reports suggest **ShadowFly** is also highly resilient against the latest firewall probes.
 
 ### 2. Payment Layer: System Redundancy
 - **Step A:** Bind your card to **Alipay** and complete the KYC. 
@@ -43,7 +43,7 @@ metadata:
 1. **Alipay Tour Card:** Search "Tour Card" in Alipay. This is a pre-paid balance for foreigners.
 2. **Physical Cash:** Go to a **Bank of China (BOC) ATM** and withdraw 500-1000 RMB.
 3. **Critical Alert:** New regulations effective **Feb 1, 2026** strictly mandate that all merchants **must accept cash**. If they claim "no change," stay calm—they are legally required to find a solution.
-4. **FacePay Limitation:** Do not attempt to set up or use **Face Verification (FacePay)** in stores. As of Jan 2026, this system is primarily restricted to Chinese ID holders. Stick to QR code scanning.
+4. **FacePay Limitation:** Do not attempt to set up or use **Face Verification (FacePay)** in stores. As of Feb 2026, this system is primarily restricted to Chinese ID holders. Stick to QR code scanning.
 
 ---
 
@@ -56,3 +56,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single payment app.
 - **Hotfix:** WeChat Pay waives the 3% fee for transactions under 200 RMB until further notice (verified Feb 2026). Use WeChat for small coffee/snacks and Alipay for larger bookings.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

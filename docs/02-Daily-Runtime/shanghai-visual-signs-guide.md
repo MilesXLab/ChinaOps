@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 👁️ Visual Signs & Symbols Reconnaissance
 
 **TL;DR:** Red "M" = Metro. `出口` (Chūkǒu) = Exit. `卫生间` (Wèishēngjiān) = Toilet. `公章` (Red Stamp) = Official Document. Use your camera translator for anything else.
@@ -73,3 +74,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on English subtitles on signs. 
 - **Hotfix:** Outside of central Shanghai (Jing'an/Xuhui), English subtitles disappear or are mistranslated. Rely on the **Icons** and the **Camera Translator**.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📱 Local Mobile Number SOP
 
 **TL;DR:** Short-term travelers use **eSIM** (no KYC friction). Long-term residents must visit a **China Unicom** (preferred) or **China Mobile** hall with a physical passport.
@@ -47,3 +48,9 @@ metadata:
 - **The "WeChat Registration" Catch-22:** You need a phone number to get WeChat, but you often need WeChat to find a carrier hall. **Download offline maps** and the carrier locations *before* you lose your airport Wi-Fi.
 - **Keep the Number:** If you plan on returning to China, keep at least 20 RMB in your balance. Most carriers will keep the number active for 3-6 months as long as there is a positive balance.
 - **SIM Ejector Tool:** TechDad rule #1: Tape a SIM ejector tool (or a paperclip) to the back of your passport or inside your wallet. You will lose it otherwise.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

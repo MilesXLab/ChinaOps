@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🆘 The Emergency Contacts Reference
 
 **TL;DR:** Police: **110**. Ambulance: **120**. International Hospital (SH): **400-868-3000** (Jiahui). Carry a physical hotel card with the Chinese address.
@@ -70,3 +71,9 @@ metadata:
 - **Save to Favorites:** Put the number **12367** in your phone contacts as "China Visa Support."
 - **The "Screenshot" Vault:** Create a dedicated album in your phone photos called "EMERGENCY" containing your passport, visa, and insurance policy.
 - **Battery is Life:** Your phone is your wallet, map, and ID. If it's below 10%, you are in a "Critical State." Use Plan B (Luxury Hotel) to charge.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

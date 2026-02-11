@@ -202,7 +202,7 @@ Add this line to the SOP:
 ```markdown
 **Author:** TechDadShanghai
 **Contributors:** John Smith - Added Shanghai-specific hospital contacts & verified, Jan 2026
-**Last Updated:** Jan 2026
+**Last Updated:** Feb 2026
 ```
 
 ---

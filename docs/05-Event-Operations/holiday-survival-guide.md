@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏮 2026 China Holiday Survival SOP
 
 **TL;DR:** Avoid travel during **Feb 16–22 (CNY)** and **Oct 1–7 (National Day)** unless you enjoy extreme crowds. Book HSR tickets exactly 15 days in advance. Stock up on supplies 3 days *before* CNY starts.
@@ -53,3 +54,9 @@ metadata:
 - **The "Reverse Travel" Pulse:** During CNY, Tier-1 cities (Shanghai/Beijing) are actually *quieter* than normal as people go home. It's the best time for city-walks if you don't mind cold weather.
 - **The "調休" (Working Weekends) Trap:** Check if your "Sunday" is actually a working day. The government shifts weekends to create long holidays. Apps like **Alipay** have a built-in calendar for this.
 - **Security Logic:** Police presence is 500% higher during holidays. It's the safest time to be out, but also the most regulated. Follow the megaphone instructions.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

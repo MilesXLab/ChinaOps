@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚄 12306 Train Tickets: The MRZ Name Hack
 
 **TL;DR:** The 12306 system only recognizes a single string from your passport. Match the **MRZ code** (bottom of passport) in **ALL CAPS**. If your name is >15 chars, truncation logic applies.
@@ -54,3 +55,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on the 12306 automated gates. 
 - **Hotfix:** Always allot an extra 20 minutes for the Manual Lane queue. One person in front of you with a passport issue can block the line for minutes.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

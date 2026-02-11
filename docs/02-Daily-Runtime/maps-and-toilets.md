@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗺️ Maps & Public Toilets SOP
 
 **TL;DR:** Use **Amap (Gao-de)** for navigation; Google Maps is 20-50m shifted due to encryption. Search `厕所` (Cè suǒ) for toilets. Malls (IFC, IAPM) always have "Premium" toilets.
@@ -60,3 +61,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on street signs for "Restroom."
 - **Hotfix:** Traditional street signs for toilets can be outdated or leading to a nearby "Hutong" toilet which might be too "authentic" for international travelers. Stick to Mall nodes.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

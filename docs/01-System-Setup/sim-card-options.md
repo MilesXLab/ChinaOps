@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📶 Connectivity: SIM & eSIM Options
 
 **TL;DR:** For 100% "Firewall Bypass," use a **Travel eSIM** (Trip.com/Yesim). For local services (receiving SMS/Didi), you need a **Physical SIM** from China Unicom or Telecom. 
@@ -62,3 +63,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a data-only eSIM for a 3-week trip. 
 - **Hotfix:** Get a local physical SIM for the primary traveler and travel eSIMs for the rest of the family.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

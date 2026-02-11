@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🤱 Nursing & Baby Care Rooms SOP
 
 **TL;DR:** Search for `母婴室` (Mǔ yīng shì) in map apps. High-end Malls (IFC, IAPM, Reel) are the "Tier-1" nodes for nursing. Public street toilets are "Last Resort" only.
@@ -64,3 +65,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Assuming all "Baby Care" icons on the map actually have a working door/sink.
 - **Hotfix:** Always have a backup mall in mind within 500m. Shanghai malls are so dense that if one's nursing room is "Under Repair," the next one is usually across the street.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

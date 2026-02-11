@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗣️ Translation Tools & Language Barrier SOP
 
 **TL;DR:** Download **Pleco** (dictionary) and **Google Translate** (offline) before arrival. For real-time conversation, use **WeChat Translate** or **Baidu Translate**. Keep a printed **emergency phrase card** for critical situations (hospital, police, lost).
@@ -115,3 +116,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single translation app or internet connection.
 - **Hotfix:** Always maintain multiple translation redundancies: offline dictionary (Pleco), offline translator (Google Translate), and a printed phrase card. Never rely on internet-dependent apps alone.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

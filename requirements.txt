@@ -1,0 +1,3 @@
+# ChinaOps Python Dependencies
+# Used by scripts/ttl_check.py for SOP health auditing
+PyYAML>=6.0

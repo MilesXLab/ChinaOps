@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏨 Hotel Check-in & Registration SOP
 
 **TL;DR:** All hotels in China require passport verification and **24-hour registration** with local police. International chain hotels handle this automatically; smaller hotels may need manual assistance. Always carry your **physical passport** (digital copies are not accepted).
@@ -89,3 +90,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single hotel booking without backup options.
 - **Hotfix:** Always have a backup hotel option (especially an international chain) in case your primary booking fails. Keep booking platform customer service numbers saved offline.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

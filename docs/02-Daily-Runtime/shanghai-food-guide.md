@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🥟 Shanghai Food & Dining SOP
 
 **TL;DR:** Use **Dianping** to find restaurants and buy vouchers. Master the **Xiaolongbao** technique (soup first). Stick to **Hema/ALDI** for safe, clean, pre-packaged meals.
@@ -64,3 +65,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Ordering spicy food without a "Mild" fallback. 
 - **Hotfix:** Always say **"Bù là"** (Not spicy) or **"Wēi là"** (Lightly spicy) even if you like spice—Chinese "Medium" is often "Extreme" by Western standards.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

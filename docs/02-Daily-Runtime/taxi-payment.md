@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚕 Taxi & Mobility SOP
 
 **TL;DR:** Use **DiDi (International)** app or the **Alipay "Transport"** mini-program. Do not hail on the street unless you have the destination address in **Chinese characters**. Always ask for a **receipt (fàpiào)**.
@@ -61,3 +62,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on the driver's phone GPS.
 - **Hotfix:** Keep your own map (Amap or Apple Maps) open to ensure the driver isn't taking a "scenic" (expensive) route.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚨 Safety & Common Scams (2026 Update)
 
 **TL;DR:** China is extremely safe from physical crime, but "Social Engineering" scams target foreigners in tourist hubs. If a stranger is "too friendly" and suggests a specific location, it's a trap.
@@ -54,3 +55,9 @@ metadata:
   - "I'm calling the police": *Wǒ yào bào jǐng le.*
   - "I don't have money": *Wǒ méi yǒu qián.*
 - **Pickpockets:** Rare, but stay alert in crowded markets like Yuyuan Garden. Keep your phone in your front pocket.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

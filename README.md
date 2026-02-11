@@ -92,7 +92,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 | [Vegetarian & Vegan](docs/02-Daily-Runtime/shanghai-vegan-guide/) | Plant-based survival and restaurant nodes | 12 min |
 | [Visual Signs Guide](docs/02-Daily-Runtime/shanghai-visual-signs-guide/) | Recognizing metro, toilet, taxi, and facility symbols | 8 min |
 
-### Emergency/DR (10 Guides)
+### Emergency/DR (9 Guides)
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
@@ -128,7 +128,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 
 These are standalone web applications developed by **MilesXLab** to solve specific technical bottlenecks.
 
-1. **[Nestlé Recall Checker](https://milesxlab.github.io/nestle-recall-checker/)** - Manual batch-matching tool for the Jan 2026 safety recall.
+1. **[SafeFeed Action](https://milesxlab.github.io/safefeed-action/)** - Brand-agnostic global infant formula recall checker (Nestlé, Danone/Aptamil, and more).
 2. **[Digital Entry Card Pre-filler]** - (v2.0 Preview)
 3. **[Passport Name Formatter]** - (v2.0 Preview)
 
@@ -245,9 +245,10 @@ Thank you for supporting independent, open documentation.
 
 ## Update Log
 
-- **v1.1.0 (2026-01-26)**: Infrastructure & SRE Standardization patch. 30 guides.
+- **v1.1.0 (2026-02-11)**: Content refresh — 37 guides, new SOPs (lost phone/card, luggage, prescription, hotel, translation, car rental), homepage UI sync.
+- **v1.1.0 (2026-01-26)**: Infrastructure & SRE Standardization patch.
 - **v1.0.0 (2026-01-23)**: Official v1.0.0 release. 28 comprehensive guides.
 
 ---
 
-*Last Updated: Jan 26, 2026 | Licensed under CC BY-NC 4.0*
+*Last Updated: Feb 11, 2026 | Licensed under CC BY-NC 4.0*

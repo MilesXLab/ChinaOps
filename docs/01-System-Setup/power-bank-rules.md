@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🔋 Power Bank & Hardware Rules
 
 **TL;DR:** Max capacity **20,000mAh (100Wh)**. Labeling must be clearly visible. **Must be in carry-on.** Never let your phone hit 0% or you can't rent a shared bank.
@@ -58,3 +59,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single USB cable. 
 - **Hotfix:** Keep a spare charging cable in your jacket pocket, separate from your main gear bag.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 💳 Lost or Stolen Bank Card Recovery SOP
 
 **TL;DR:** Immediately freeze your card via your bank's app or hotline. Use backup payment methods (Alipay/WeChat Pay balance, cash, or another card) while waiting for replacement. International banks may take 7-14 days to deliver a new card to China.
@@ -87,3 +88,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single payment method (one card, one payment app).
 - **Hotfix:** Maintain multiple payment redundancies: two cards, Alipay balance, WeChat Pay balance, and physical cash. Never rely on a single payment node.
+
+---
+
+**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

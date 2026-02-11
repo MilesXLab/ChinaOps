@@ -8,6 +8,7 @@ metadata:
   ttl_days: 90
 ---
 
+![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📡 Network & VPN Outage Failover
 
 **TL;DR:** Pre-install **LetsVPN** (Stable) and **ShadowFly** (Performance). Pre-download **Offline Maps**. If your VPN dies, switch to your **Travel eSIM** (which bypasses the wall natively).
@@ -61,3 +62,9 @@ metadata:
 ## 🚩 Strategic Gap: The "SPOF" Warning
 **Single Point of Failure:** Relying on a single VPN provider.
 - **Hotfix:** Purchase a 24-hour "Day Pass" for a second VPN the morning you land, just in case your primary provider hit a block overnight.
+
+---
+
+**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+
+[← Back to Guide Library](../)

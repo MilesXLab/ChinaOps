@@ -3,7 +3,7 @@ layout: guide
 title: "Taxi & Mobility SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-02-05
   stability_status: "stable"
   ttl_days: 90
 ---
@@ -45,7 +45,7 @@ metadata:
 ### If the app keeps spinning or no cars are available (Peak Hours):
 1. **The Metro Node:** If it's 5:30 PM and you're in a busy district, do not wait for a DiDi. Go to the nearest **Metro station**. Use Alipay's "Transport" QR to ride.
 2. **Luxury Hotel Hack:** Walk into the lobby of any 5-star hotel (Westin, Fairmont, etc.). Ask the concierge to **hail an official taxi** for you. They have a direct line to taxi dispatch.
-3. **Cash Flow:** If your app payment fails, pay with **physical cash**. Taxis are legally required to accept it (Mandatory 2026 rule). Ask for the receipt to prove you paid.
+3. **Cash Flow:** If your app payment fails, pay with **physical cash**. New regulations effective **Feb 1, 2026** strictly mandate that all merchants (including taxis) **must accept cash**. If they claim "no change," stay calm—they are legally required to find a solution. Always ask for the receipt (fàpiào) to prove you paid.
 
 ---
 

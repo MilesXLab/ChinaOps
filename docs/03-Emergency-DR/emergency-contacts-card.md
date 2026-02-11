@@ -22,7 +22,7 @@ metadata:
 ## 📋 The Critical Numbers
 
 | Service | Number | Protocol |
-| :- | :- | :- |
+| :--- | :--- | :--- |
 | **Police (110)** | 110 | Stay on the line. Say **"English, please."** |
 | **Ambulance (120)** | 120 | State your location. Use **Alipay Translation** if needed. |
 | **Fire (119)** | 119 | Only for active fire/rescue. |
@@ -46,7 +46,7 @@ metadata:
 ## 💬 The "Survival" Phrases (Pronunciation)
 
 | Phrase | Hanzi (Characters) | Pronunciation |
-| :- | :- | :- |
+| :--- | :--- | :--- |
 | **Help!** | 救命！ | Jiù mìng! |
 | **I'm lost.** | 我迷路了。 | Wǒ mílù le. |
 | **I'm allergic.** | 我过敏。 | Wǒ guòmǐn. |

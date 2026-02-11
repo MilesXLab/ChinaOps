@@ -3,14 +3,14 @@ layout: guide
 title: "2026 China Holiday Survival SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-02-05
   stability_status: "critical"
   ttl_days: 90
 ---
 
 # 🏮 2026 China Holiday Survival SOP
 
-**TL;DR:** Avoid travel during **Feb 15–23 (CNY)** and **Oct 1–7 (National Day)** unless you enjoy extreme crowds. Book HSR tickets exactly 15 days in advance. Stock up on supplies 3 days *before* CNY starts.
+**TL;DR:** Avoid travel during **Feb 16–22 (CNY)** and **Oct 1–7 (National Day)** unless you enjoy extreme crowds. Book HSR tickets exactly 15 days in advance. Stock up on supplies 3 days *before* CNY starts.
 
 **Prerequisites:**
 - **Booking Hub:** Trip.com (with pre-filled passport data).
@@ -28,7 +28,7 @@ metadata:
 - **Action:** If rail is dead, pivot to **Domestic Flights**. They are the only stable "failover" for Golden Week.
 
 ### 2. Supply Chain Hardening (CNY Special)
-- **Step 1:** Purchase 7 days of baby formula, diapers, and maintenance medication by **Feb 12, 2026**.
+- **Step 1:** Purchase 7 days of baby formula, diapers, and maintenance medication by **Feb 13, 2026** (3 days before CNY Eve on Feb 16).
 - **Step 2:** Meituan/Ele.me riders drop by 80% during the Spring Festival. Do not rely on 30-min delivery.
 - **Verification:** Confirm your neighborhood **ALDI** or **Hema** operating hours; they are the only nodes that stay open.
 

@@ -3,14 +3,14 @@ layout: guide
 title: "Hospital & Medical Care: The Recovery SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-02-05
   stability_status: "stable"
   ttl_days: 90
 ---
 
 # 🏥 Hospital & Medical Care: The Recovery SOP
 
-**TL;DR:** For emergencies, head to **Jiahui International** or **United Family**. Public hospitals are extremely crowded during Feb 2026 due to flu/HMPV peaks. Carry your **physical passport**; digital will not work for registration.
+**TL;DR:** For emergencies, head to **Jiahui International** or **United Family**. Public hospitals may be crowded during winter months (Dec-Feb) due to seasonal flu/HMPV peaks. Carry your **physical passport**; digital will not work for registration.
 
 **Prerequisites:**
 - **Passport:** Original physical document (mandatory for all patients).
@@ -49,7 +49,7 @@ metadata:
 
 ## 💡 TechDad's Tips
 
-- **The Feb 2026 "Tri-demic":** Be aware that Feb 2026 is a peak for **Flu, HMPV, and Mycoplasma**. Fever clinics will be overflowing. Avoid public hospitals unless it's a trauma emergency.
+- **The Winter "Tri-demic":** Be aware that winter months (Dec-Feb) typically see peaks for **Flu, HMPV, and Mycoplasma**. Fever clinics may be overflowing during these periods. Avoid public hospitals unless it's a trauma emergency.
 - **Stroller-Friendly ERs:** Jiahui and United Family have dedicated stroller parking and wide elevators. Public VIP wings can be very cramped.
 - **Language Hack:** Download a photo of common symptoms (Fever, Cough, Diarrhea) to point at if the doctor's English is limited. 
 - **Air Quality Alert:** High AQI during winter can trigger asthma. Ensure your **Inhaler** is in your "Go-bag."

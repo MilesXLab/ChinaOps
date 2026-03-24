@@ -1,69 +1,105 @@
 ---
 layout: guide
-title: "Milk & Formula Safety Protocol"
-metadata:
-  version: 1.1
-  last_validated: 2026-01-26
-  stability_status: "critical"
-  ttl_days: 90
+title: "Formula Batch Checker: Recall Verification SOP"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
-# 🥛 Milk & Formula Safety Protocol
+# Formula Batch Checker: Recall Verification SOP
 
-**TL;DR:** Only buy formula from **High-Trust Nodes** (Hema, Sam's Club). Use WeChat to scan for anti-counterfeit, and use the **SafeFeed Action** tool to manually verify batch numbers against the latest global recall databases.
-
-**Prerequisites:**
-- **App:** WeChat/Alipay (Counterfeit check) + Web Browser (Recall check).
-- **Physical Package:** Keep the original can; locate the batch number on the base.
-- **72h Buffer:** Always have 3 days of formula on hand in case a batch is flagged.
+**Last Updated:** Mar 2026 | **Author:** TechDadShanghai
 
 ---
 
-## 📋 The Runbook
-
-### 1. The Purchase Audit (Node Selection)
-- **Step 1:** Avoid small street-side "Mom & Pop" shops. Go to a **Hema (Freshippo)**, **Ole'**, or **CitySuper**.
-- **Step 2:** Check the "Best Before" date. In China, this is usually on the bottom of the can.
-- **Verification:** Ensure the plastic seal is unbroken and the "Anti-Counterfeit" sticker is present.
-
-### 2. General Verification (Anti-Counterfeit)
-- **Step 1:** For most brands (Aptamil, Friso), open WeChat and scan the QR code under the lid.
-- **Verification:** The system confirms manufacturing dates and "First-time Scan" status. This is for **authenticity**, not recall status.
-
-### 3. Global Formula Recall Check (SafeFeed Action)
-- **Problem:** Global infant formula recalls (Nestlé, Danone/Aptamil, and others) are ongoing safety incidents. Brand-led apps (WeChat/Alipay) may lag in updating recall batches or lack manual entry for all regions.
-- **Action:** Open your mobile browser and access [**SafeFeed Action**](https://milesxlab.github.io/safefeed-action/) — a brand-agnostic, independent recall verification tool.
-- **Protocol:** **Manual Batch Entry Only.**
-  - Supports multiple input formats: date codes (Danone/Aptamil), serial numbers, and series prefixes.
-  - Locate the batch number on the base of the can and type it in.
-- **Verification:** The tool checks against verified independent data sources and provides a direct safety status. Works for all major formula brands.
+## Problem
+Following the January 2026 Nestlé global recall (NAN, BEBA, Lactogen — cereulide contamination), parents need a reliable method to verify whether their formula can is safe to use.
 
 ---
 
-## 🚨 Fallback (Plan B)
+## 2026 Nestlé Recall: Current Status
 
-### If your formula is recalled or out of stock:
-1. **The "International Wing" Failover:** Head to **Jiahui International** or **United Family Hospital**. Their pharmacies often stock small emergency amounts of medical-grade/hypoallergenic formula.
-2. **Global Delivery:** Use **JD.com (Worldwide)**. Choose "Self-operated" (京东自营) for 24-hour delivery of imported stock.
-3. **Emergency Substitute:** If in a Tier-1 city, **ALDI** stocks reliable house-brand milk/toddler formula that is safety-vetted for the German market.
+> [!NOTE]
+> **Status as of March 2026: Resolved.** Affected batches have been identified and withdrawn from major retail chains. However, older stock in hotel mini-bars, gifted cans, or small independent shops may still be in circulation. **Always verify before opening a new can.**
 
----
-
-## 💡 TechDad's Tips
-
-- **Water Temperature:** Most formula requires 40-50°C. Do not use the high-speed rail's 100°C water directly! Mix it with bottled water (Nongfu Spring) to hit the target temp.
-- **The "Import" Tax:** Imported formula (Aptamil/HiPP) is 50-80% more expensive in China than in Europe. Don't be shocked by 350 RMB price tags.
-- **Safe Water:** Use **distilled water** or **baby-specific bottled water** (e.g., Nongfu Spring with the baby icon) for mixing. Tap water in China, even if boiled, has high mineral content that can hurt a baby's kidneys.
+| Brand | Affected Regions | Batch Identifier | Status |
+|:---|:---|:---|:---|
+| **Nestlé NAN** | Global | Check base of can | Affected batches withdrawn |
+| **Nestlé BEBA** | Europe, Asia | Check base of can | Affected batches withdrawn |
+| **Nestlé Lactogen** | Asia, Latin America | Check base of can | Affected batches withdrawn |
 
 ---
 
-## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on one specific brand of formula.
-- **Hotfix:** Before leaving your home country, test if your baby can tolerate a common global brand (like Aptamil) as a backup.
+## How to Check a Batch (Step-by-Step)
+
+### Step 1: Find the Batch Code
+- Flip the can upside down.
+- Look for the **production batch code**: a string of letters and numbers stamped/printed on the base (e.g., `L5JAN25 R01`).
+- Also check the **Best Before date** printed on the lid or base.
+
+### Step 2: Verify on Official Recall Database
+
+**Method A: Nestlé Official Recall Page**
+1. Go to **[www.nestle.com/media/news/infant-formula-recall](https://www.nestle.com)** (search for "Nestlé recall 2026" if the direct link changes).
+2. Enter your batch code in the search field.
+3. If your code appears — **do not use**. Mark and set aside.
+
+**Method B: SAMR (China National Recall Database)**
+- China's official recall authority: **[recall.samr.gov.cn](https://recall.samr.gov.cn)**
+- Search by brand name: "雀巢" (Nestlé)
+- This database shows China-specific recall enforcement status.
+
+**Method C: Scan the QR Code on Can**
+- Some Nestlé cans have a WeChat QR code on the label.
+- Scan it → it opens a WeChat mini-program → enter batch code for verification.
+
+### Step 3: Document Your Verification
+Take a photo of:
+- [ ] The batch code on the can base
+- [ ] The verification result (screenshot from the recall database)
+
+This creates a record in case of a future dispute or medical issue.
 
 ---
 
-**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+## Safe Alternative Brands (Verified Available in Shanghai)
 
-[← Back to Guide Library](../)
+| Brand | Type | Where to Buy | Notes |
+|:---|:---|:---|:---|
+| **Aptamil (爱他美)** | European formula | Hema, Ole', Sam's Club | Not affected by 2026 recall |
+| **Friso (美素佳儿)** | Dutch formula | CitySuper, Kidswant | Not affected |
+| **Similac (雅培)** | US formula | International hospitals, Sam's Club | Check for any separate US recall |
+| **Mead Johnson Enfamil** | US formula | Major supermarkets | Not affected by Nestlé recall |
+
+---
+
+## If You Receive an Affected Can
+
+1. **Do NOT use.** Mark clearly with masking tape: "RECALLED — DO NOT USE."
+2. **Keep the can** — do not discard. It may be needed for a refund.
+3. **Refund process:**
+   - Major retailers (Hema, Sam's Club, Carrefour): show purchase receipt + batch number at customer service desk. Refunds are typically processed immediately for recalled products.
+   - Online purchases (JD.com, Taobao): file a return via the platform's "Quality Issue" return path.
+
+---
+
+## Miles' Tips
+
+- **Buy Small at First:** If switching brands, buy a 400g trial tin before committing to a full carton — verify your child tolerates it before bulk-buying.
+- **Hema is the Gold Standard:** Of all Shanghai supermarkets, Hema (Freshippo/盒马) has the most rigorous supplier quality control and fastest recall response.
+- **Avoid Small Shops:** Never buy formula from small street-side shops or unverified Taobao sellers. Counterfeiting is a real risk.
+- **WeChat Batch Checker:** Some brands (Aptamil, Friso) have their own WeChat mini-programs for batch authenticity verification — use these even for non-recalled brands for peace of mind.
+
+---
+
+## Pre-Trip Checklist
+
+- [ ] Screenshot the Nestlé recall batch list before departure.
+- [ ] Note your current formula's batch code at home — confirm it's not affected before packing.
+- [ ] Identify 2 trusted purchase locations in your destination city.
+- [ ] Have backup brand ready (Aptamil or Friso) if main brand is unavailable.
+
+---
+
+## Related Guides
+
+- [Baby & Toddler Survival Runbook](../baby-survival-master-runbook/) — Complete parenting SOP for China
+- [Diapers & Baby Supplies](../diapers-and-stores/) — Where to buy supplies in Shanghai
+- [Hospital Access](../../03-Emergency-DR/hospital-access/) — If your child shows symptoms after feeding

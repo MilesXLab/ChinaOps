@@ -46,10 +46,20 @@ metadata:
 
 ## 💡 TechDad's Tips
 
-- **The "Tape" vs "Pant" Trap:** In China, **Pull-up Pants (拉拉裤)** are much more common for toddlers than tape diapers. Look for the "Pant" icon on the bag.
-- **Diaper Sizes:** Chinese sizing (S, M, L, XL, XXL) is generally consistent with US/EU sizing, but "Asian Fit" brands (like Merries) tend to be smaller/shorter. If in doubt, size up.
-- **Wipes Alert:** Many local wipes have high alcohol or fragrance content. Stick to **"Hand and Mouth" (手口湿巾)** wipes for babies with sensitive skin.
-- **The "Hema" Buffet:** Hema stores (the ones with the Hippo logo) are the most efficient place to source fresh milk, organic fruit, and diapers simultaneously.
+### 1. High-End Supermarkets (Most Familiar Brands)
+These stores carry imported brands (Pampers, Merries, Moony, organic puffs, and Western formula).
+- **Ole' Supermarket:** Found in major malls (e.g., Jing'an Kerry Centre).
+- **City'Super:** Located in premium locations like IAPM or IFC.
+- **ALDI:** (High Recommendation) Very popular in Shanghai now. They carry clean, high-quality, and affordable staples, including wipes and snacks that feel "Western" in quality.
+
+### 2. Large Supermarkets (Bulky Items)
+- **Carrefour / Walmart:** Best for buying large boxes of diapers or wipes at lower prices.
+- **Sam's Club / Costco:** If you have a membership (or a friend with one), these are the gold standard for bulk buying.
+
+### 3. Specialized Stores
+- **Toys "R" Us:** Good for bottles, pacifiers, and reliable toys.
+- **Kidswant (孩子王):** China's largest dedicated baby & maternity chain. Excellent selection of strollers, car seats, nursing gear, and formula. Usually found in suburban malls.
+- **BabyCare (babycare官方):** Popular mid-tier brand with WeChat mini-program and physical counters in major malls.
 
 ---
 

@@ -31,16 +31,18 @@ metadata:
 
 ---
 
-## 🏥 Trusted Medical Nodes (24/7 English)
+## 🏗️ Embassy Contacts (Shanghai)
 
-### Shanghai Hubs
-- **Jiahui International:** 400-868-3000
-- **United Family (BJU):** 021-2216-3999
-- **Ruijin VIP Wing:** 021-6437-0045
+> [!WARNING]
+> Phone numbers and addresses change periodically. **Verify via official consulate websites before your trip.**
 
-### Beijing Hubs
-- **Beijing United Family:** 400-891-9191
-- **Peking Union Medical (VIP):** 010-6915-6114
+| Country | Phone | Address | Official Site |
+|:---|:---|:---|:---|
+| **USA** | 021-8011-2200 | Huaihai Middle Rd 1469 | [shanghai.usconsulate.gov](https://www.shanghai.usconsulate.gov) |
+| **UK** | 021-3279-2000 | Nanjing West Rd 968 | [gov.uk/world/china](https://www.gov.uk/world/china) |
+| **Canada** | 021-3279-2800 | Nanjing West Rd 1788 | [shanghai.gc.ca](https://www.shanghai.gc.ca) |
+| **Australia** | 021-2215-5200 | Fuxing Middle Rd 1376 | [china.embassy.gov.au](https://china.embassy.gov.au) |
+| **Germany** | 021-3401-0106 | Yongfu Rd 181 | [china.diplo.de](https://china.diplo.de) |
 
 ---
 

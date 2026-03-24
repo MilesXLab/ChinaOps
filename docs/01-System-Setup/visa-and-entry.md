@@ -17,10 +17,21 @@ metadata:
 
 ---
 
-## 🛠 Prerequisites
-- **Passport:** Minimum 6 months validity from date of entry.
-- **Onward Ticket:** If using Transit Visa-Free (TWOV).
-- **Hotel Address:** In Chinese characters (for the entry card).
+## Visa Types & Eligibility
+
+### 1. 30-Day Visa-Free (Pilot Program)
+- **Eligibility:** Citizens of a growing list of countries (as of early 2026, 46+ and expanding). Always verify your country's current status at **[en.nia.gov.cn](https://en.nia.gov.cn)** or your local Chinese consulate — the list is updated regularly.
+- **Duration:** Typically 30 days for tourism, business, or visiting family.
+- **Rule:** No prior application is needed; just fly in with a valid passport.
+- **⚠️ Verify before travel:** Policy changes (expansions or suspensions) happen with short notice. Check 2 weeks before departure.
+
+### 2. 240-Hour (10-Day) Transit Visa-Free (TWOV)
+- **Eligibility:** Available for US, Canadian, UK, and Australian citizens (among others) when transiting through major hubs like Shanghai, Beijing, or Guangzhou.
+- **Requirement:** You **must** be flying to a third country (e.g., London -> Shanghai -> Tokyo). A simple round trip (London -> Shanghai -> London) does **not** qualify.
+- **Duration:** 10 days (240 hours) within the specific region of entry.
+
+### 3. Standard L-Visa (Tourism)
+- For countries not covered by the above, you must apply at a Chinese Visa Application Service Center (CVASC) in your home country.
 
 ---
 

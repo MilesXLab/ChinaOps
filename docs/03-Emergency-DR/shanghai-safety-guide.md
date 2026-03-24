@@ -50,10 +50,9 @@ metadata:
 
 ## 💡 TechDad's Tips
 
-- **The "Skynet" Reality:** CCTV is everywhere. This is why you can leave a laptop on a cafe table and find it there 20 minutes later. However, don't test your luck—keep your gear close.
-- **Female Solo Travel:** Shanghai is the "Gold Standard" for solo female safety. No special precautions are needed beyond standard urban common sense.
-- **Water Safety:** Only drink bottled or boiled water. Tap water is for washing, not drinking.
-- **The "Scooter" Warning:** Delivery riders are on a high-speed timer. They will not stop for you. You must stop for them.
+- **International Routing:** If you have a medical emergency, do not go to a small clinic. Go straight to **International Departments** (e.g., **Jiahui Health**, **United Family**).
+- **Police (110):** Officers are generally helpful. If you are in trouble, shout **"救命！" (Jiùmìng! = Help!)** or **"帮帮我！" (Bāng bāng wǒ! = Help me!)**.
+- **Character Card:** Always keep a physical card with your **hotel’s Chinese address** in your wallet. If your phone dies, this is your only way home.
 
 ---
 

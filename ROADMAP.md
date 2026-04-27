@@ -1,6 +1,6 @@
 # ChinaOps Roadmap
 
-## v1.0 / v1.1 (Current — Mar 2026)
+## v1.0 / v1.1 / v1.2 (Current — Apr 2026)
 **Release Focus:** Core SOP Library, Professional Documentation & Content Accuracy
 
 ✅ **Completed (v1.0 — Jan 2026):**
@@ -18,7 +18,12 @@
 - 1 new guide: Alipay & WeChat Pay for Foreign Visitors
 - index.json: 16 → 28 documents catalogued
 - Holiday dates corrected; Nestlé recall status updated
-
+✅ **Completed (v1.2 — Apr 2026):**
+- Freshness audit: Corrected 2026 Labor Day dates and Visa-free expansions (UK/Canada).
+- "Lost" Content Recovery: Identified and added 9 previously unindexed guides to `index.json`.
+- TTL Reset: Validated and bumped `last_validated` timestamps for all 31 catalogued guides.
+- Content Correction: Alipay per-transaction limit corrected to $5,000 USD for verified users.
+- Homepage UI: Updated announcement bar and version badges to v1.2.
 ---
 
 ## v2.0 (Planned)
@@ -55,5 +60,5 @@
 
 ---
 
-**Last Updated:** Mar 24, 2026  
+**Last Updated:** Apr 27, 2026  
 **Maintained by:** TechDadShanghai

@@ -3,7 +3,7 @@ layout: guide
 title: "Diapers & Baby Supplies SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-04-27
   stability_status: "stable"
   ttl_days: 90
 ---
@@ -69,6 +69,6 @@ These stores carry imported brands (Pampers, Merries, Moony, organic puffs, and 
 
 ---
 
-**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

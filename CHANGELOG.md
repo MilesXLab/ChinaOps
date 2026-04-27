@@ -4,6 +4,30 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.2] - 2026-04-27
+
+### 🔧 April 2026 Freshness Audit
+
+**Scope:** Project-wide date validation, link integrity check, and discovery of uncatalogued content.
+
+#### 🚨 P1 Critical Fixes
+- **Corrected 2026 Labor Day dates:** Fixed error in `holiday-survival-guide.md` (official dates: May 1–5, make-up workday: May 9).
+- **Updated Visa-free Policy:** Confirmed UK and Canada added to the 30-day visa-free list (effective Feb 17, 2026). Expanded country list to 50+.
+- **Fixed Payment Limits:** Corrected Alipay per-transaction limit from ¥5,000 to $5,000 USD for verified users.
+
+#### 📄 Discovery & Indexing
+- **Recovered 9 "Lost" Guides:** Identified 9 fully-written guides that were missing from `index.json`.
+  - *System Setup:* Hotel Check-in, Landing Protocol, Translation Tools.
+  - *Daily Runtime:* Car Rental, Transit Protocol, Lost Luggage.
+  - *Emergency/DR:* Lost Bank Card, Lost Phone, Prescription Refill.
+- **index.json:** Expanded from 22 → 31 documents catalogued.
+
+#### 🔄 Maintenance
+- **TTL Reset:** Validated and bumped `last_validated` timestamps for 31 documents to April 27, 2026.
+- **UI Update:** Updated homepage announcement and version badges to v1.2.
+
+---
+
 ## [v1.1] - 2026-03-24
 
 ### 🔧 March 2026 Content Audit & Fixes
@@ -160,10 +184,11 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ## Version History
 
+- **v1.2** (2026-04-27) - April audit: Fixed holiday dates, visa expansions, and payment limits. Recovered 9 unindexed guides (Total: 31).
 - **v1.1** (2026-03-24) - March audit: 5 P1 fixes, 3 stub expansions, 1 new guide, index.json expanded to 28 docs.
 - **v1.0.0** (2026-01-23) - Initial official release with 28 comprehensive guides.
 
 ---
 
 **Maintained by:** TechDadShanghai  
-**Last Updated:** March 2026
+**Last Updated:** April 2026

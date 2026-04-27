@@ -1,16 +1,23 @@
 # ChinaOps Roadmap
 
-## v1.1 (Current - Feb 2026)
-**Release Focus:** Infrastructure & SRE Standardization
+## v1.0 / v1.1 (Current — Mar 2026)
+**Release Focus:** Core SOP Library, Professional Documentation & Content Accuracy
 
-✅ **Completed:**
-- 37 comprehensive SOPs across 5 categories
-- SRE Metadata Patch (Frontmatter validation)
-- TTL-based SOP health auditing (`ttl_check.py`)
-- Standardized "Landing Protocol" and "Transit SOPs"
-- Landing page with 6 quick-path navigations
-- Pre-flight "Zero-Downtime" checklist
-- Helper Scripts Alpha (MRZ, Medication, Train Checker)
+✅ **Completed (v1.0 — Jan 2026):**
+- 16 comprehensive SOPs across 4 categories
+- Standardized 10-section SOP template
+- Professional HTML guide site with 4 quick-path navigation
+- CC BY-NC 4.0 non-commercial license
+- Contribution framework (CONTRIBUTING.md)
+- Legal protection (LEGAL_NOTICE.md)
+- Brand identity: TechDadShanghai
+
+✅ **Completed (v1.1 — Mar 2026):**
+- Content audit: 5 P1 critical errors fixed
+- 3 stub documents fully expanded (lost-passport, network-outage, milk-recall-check)
+- 1 new guide: Alipay & WeChat Pay for Foreign Visitors
+- index.json: 16 → 28 documents catalogued
+- Holiday dates corrected; Nestlé recall status updated
 
 ---
 
@@ -48,5 +55,5 @@
 
 ---
 
-**Last Updated:** Feb 11, 2026  
+**Last Updated:** Mar 24, 2026  
 **Maintained by:** TechDadShanghai

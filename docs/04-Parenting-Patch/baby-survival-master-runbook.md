@@ -22,10 +22,14 @@ metadata:
 
 ## 📋 The Runbook
 
-### 1. The Supply Chain (Formula & Diapers)
-- **Step 1:** Use **Hema (Freshippo)** or **Sam's Club** for buying formula. These are high-trust nodes.
-- **Step 2:** For 30-min emergency delivery, use **Meituan** or **Ele.me**. Search: `奶粉` (Formula) or `纸尿裤` (Diapers).
-- **Verification:** **Critical Alert (Global Formula Recalls):** Before feeding any formula, verify the batch number via [SafeFeed Action](https://milesxlab.github.io/safefeed-action/) — covers Nestlé, Danone/Aptamil, and other brands. If flagged, switch brands immediately.
+### Buying Formula
+- **High-Trust Nodes:** Buy ONLY from **Hema (Freshippo)**, **Ole’**, **CitySuper**, or **Sam’s Club**. 
+- **Delivery (30-60 min):** Use **Meituan** or **Ele.me**. 
+  - **Search Terms:** `奶粉` (Infant Formula).
+- **⚠️ Formula Safety Check (Nestlé Recall — Jan 2026, Now Resolved):** 
+  - **Background:** A global recall affected Nestlé brands (NAN, BEBA, Lactogen) due to cereulide toxin risk from contaminated oat ingredients. The recall was declared January 2026 and affected batches identified by late January.
+  - **Current Status (Mar 2026):** The affected batches have been withdrawn from major retailers. However, **check any existing stock** (hotel mini-bars, older purchases) against the batch list on the **[Nestlé official recall page](https://www.nestle.com)** before feeding.
+  - **Safest choice:** Stick to **Aptamil** or **Friso** if unsure. See the [Formula Batch Checker guide](../milk-recall-check/) for full SOP.
 
 ### 2. The Pediatric Routing (Medical)
 - **Step 1:** If your child has a fever > 38.5°C, head to **Jiahui International Hospital** (Shanghai) or the **VIP Wing** of a public pediatric hospital.

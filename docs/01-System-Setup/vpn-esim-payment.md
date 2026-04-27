@@ -29,11 +29,11 @@ metadata:
 - **Verification:** Turn off Wi-Fi, enable eSIM. Open `google.com`. If it loads, you are "off-wall" without needing a VPN.
 - **Fallback:** If eSIM signal stalls, switch to **LetsVPN** or **LightningX**. Recent Feb 2026 reports suggest **ShadowFly** is also highly resilient against the latest firewall probes.
 
-### 2. Payment Layer: System Redundancy
-- **Step A:** Bind your card to **Alipay** and complete the KYC. 
-- **The "Wise" Move:** Link a **Wise** or **Revolut** card for the best exchange rates.
-- **Step B:** Repeat for **WeChat Pay**.
-- **Verification:** Try a small purchase (e.g., 1 RMB mobile top-up) within the app before you leave.
+### Option B: VPN Deployment (Encrypted Tunnels)
+Install these **BEFORE** you land. VPN effectiveness changes constantly as the Great Firewall evolves — verify the current best option on expat communities (e.g., Reddit r/chinalife or r/VPN) **1 week before departure**. As of early 2026, these have been reliable:
+1.  **LetsVPN (快连):** Strong on mobile, optimized for consumer use cases (social media, messaging). Good price ($5-9/month).
+2.  **ExpressVPN:** Reliable on **Lightway protocol + Obfuscation**. Better for high-bandwidth tasks (video calls, large downloads).
+3.  **Astrill VPN:** The "heavy-duty" option for laptops. Commonly used by long-term expats and remote workers.
 
 ---
 

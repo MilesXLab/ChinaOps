@@ -60,4 +60,10 @@ metadata:
 
 **Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
 
-[← Back to Guide Library](../)
+- **Valuables:** While theft is low, keep your passport in a secure pocket or the hotel safe. A photo of your passport on your phone is usually enough for daily ID checks.
+- **The Police & Security:** Officers and security guards (indicated by "Police," "Security," or 警察 Jǐngchá) are extremely friendly and generally prioritize foreign visitors' requests. If you are lost or need help, shout **"救命！" (Jiùmìng! = Help!)** or **"帮帮我！" (Bāng bāng wǒ! = Help me!)**, or show your character card.
+- **Language Help:** If you are stuck at a ticket machine or restaurant, look for **college-aged locals** (often wearing trendy gear or visible headphones). They almost always speak enough English to help you navigate a "system glitch" and are very friendly.
+
+### Local Hacks & Health Tips
+- **Stomach Comfort:** **"Boiled is best."** If you have a sensitive stomach, avoid raw vegetables/salads and ice in very cheap street stalls. Cooked street food (fried/boiled) is generally safer than pre-packaged cold sandwiches.
+- **Pharmacy:** Local pharmacies (药店 yàodiàn) are everywhere. They sell Western medicines (Ibuprofen, etc.) and Traditional Chinese Medicine (TCM). Use a translation app to show them your specific symptoms.

@@ -60,7 +60,16 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 
 ## Full Library
 
-### System Setup (9 Guides)
+### System Setup (7 Guides)
+| Title | What You'll Learn | Time |
+|-------|------------------|------|
+| [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation.md) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
+| [Pharmacy & Medications](docs/01-System-Setup/pharmacy-and-medications.md) | How to buy medicine, common drug names in Chinese | 12 min |
+| [VPN & eSIM / Payment Setup](docs/01-System-Setup/vpn-esim-payment.md) | Set up VPN, Alipay, WeChat Pay | 15 min |
+| [Alipay & WeChat Pay (Foreign Visitors)](docs/01-System-Setup/alipay-wechat-setup-foreigners.md) | International card binding, common errors, offline QR | 12 min |
+| [Power Bank Rules](docs/01-System-Setup/power-bank-rules.md) | Safe power banks, charging rules, outlets | 8 min |
+| [SIM Card Options](docs/01-System-Setup/sim-card-options.md) | Comparing carriers and plans | 10 min |
+| [Visa & Entry](docs/01-System-Setup/visa-and-entry.md) | 2026 免签 policies and digital cards | 12 min |
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
@@ -245,10 +254,9 @@ Thank you for supporting independent, open documentation.
 
 ## Update Log
 
-- **v1.1.0 (2026-02-11)**: Content refresh — 37 guides, new SOPs (lost phone/card, luggage, prescription, hotel, translation, car rental), homepage UI sync.
-- **v1.1.0 (2026-01-26)**: Infrastructure & SRE Standardization patch.
+- **v1.1 (2026-03-24)**: March audit fixes. 5 P1 errors corrected, 3 stub guides expanded, 1 new guide (Alipay foreign setup). index.json expanded to 28 docs.
 - **v1.0.0 (2026-01-23)**: Official v1.0.0 release. 28 comprehensive guides.
 
 ---
 
-*Last Updated: Feb 11, 2026 | Licensed under CC BY-NC 4.0*
+*Last Updated: Mar 24, 2026 | Licensed under CC BY-NC 4.0*

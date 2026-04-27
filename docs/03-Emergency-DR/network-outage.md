@@ -1,70 +1,117 @@
 ---
 layout: guide
-title: "Network & VPN Outage Failover"
-metadata:
-  version: 1.1
-  last_validated: 2026-01-26
-  stability_status: "critical"
-  ttl_days: 90
+title: "Internet / Network Outage Survival SOP"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
-# 📡 Network & VPN Outage Failover
+# Internet / Network Outage Survival SOP
 
-**TL;DR:** Pre-install **LetsVPN** (Stable) and **ShadowFly** (Performance). Pre-download **Offline Maps**. If your VPN dies, switch to your **Travel eSIM** (which bypasses the wall natively).
-
-**Prerequisites:**
-- **App:** Two independent VPNs + One offline dictionary (Pleco).
-- **Offline Data:** Amap (AutoNavi) or Google Maps offline cache.
-- **eSIM:** A travel eSIM with data roaming active.
+**Last Updated:** Mar 2026 | **Author:** TechDadShanghai
 
 ---
 
-## 📋 The Runbook
-
-### 1. The VPN "Hot-Swap"
-- **Step 1:** If your primary VPN (e.g., ExpressVPN) stops connecting, immediately switch to your **"Stealth" VPN** (LetsVPN or LightningX).
-- **Step 2:** Change protocol to "TCP" or "Stealth" in the app settings.
-- **Verification:** Open a non-Chinese site (e.g., `nytimes.com`). If it loads, the tunnel is restored.
-
-### 2. The Native Bypass (eSIM Logic)
-- **Step 1:** Turn off Wi-Fi. 
-- **Step 2:** Enable your **Travel eSIM** (Trip.com, Yesim, etc.).
-- **Verification:** These eSIMs route traffic outside China. If your eSIM data is working, you don't need a VPN to access Google/WhatsApp. 
-
-### 3. The "Cold Boot" (Offline Survival)
-- **Step 1:** If all data is dead, switch to your **Offline Map**.
-- **Step 2:** Use **Pleco** (Dictionary) which works 100% offline for translation.
-- **Verification:** Use the GPS (which works without data) to find your current location on the offline map.
+## Problem
+VPN stops working, mobile data fails, or hotel Wi-Fi is blocked — leaving you offline in a country where your phone is your wallet, map, and translator.
 
 ---
 
-## 🚨 Fallback (Plan B)
+## Root Cause Analysis
 
-### If you have zero data and are lost:
-1. **The Starbucks Node:** Starbucks, Baker & Spice, and Wagas have stable Wi-Fi. Note: They often require an SMS code to log in. Provide your foreign number with the proper country code (e.g., +44).
-2. **Apple Store Public Hub:** If you are near an **Apple Store**, they have open, high-speed Wi-Fi that does not require an SMS login and often bypasses the firewall.
-3. **The "Screenshot" Failover:** Always maintain a photo album of your:
-   - Hotel address in Chinese.
-   - Return flight details.
-   - Insurance policy.
-
----
-
-## 💡 TechDad's Tips
-
-- **The "Great Firewall" Pulse:** Connectivity often drops during major government meetings or national holidays. Don't panic; just switch to a less common VPN.
-- **Power vs. Privacy:** VPNs drain your battery 30% faster. Keep it **OFF** when you are just using local apps like Didi or Alipay.
-- **WeChat "Keep-Alive":** WeChat works without a VPN. If everything else is dead, message your hotel or family via WeChat.
+| Cause | Symptom | Frequency |
+|:---|:---|:---|
+| **VPN server blocked** | Apps load without VPN; VPN apps fail silently | Very common during national events |
+| **GFW pattern update** | VPN connects but traffic drops after 30 sec | Regular, especially on holidays |
+| **Data plan exhausted** | Mobile data shows "no connection" | Common on short tourist SIMs |
+| **Hotel Wi-Fi port blocking** | VPN connects but no international traffic | Common in budget hotels |
+| **SIM registration issue** | No signal at all after airport purchase | Occasional, fixable |
 
 ---
 
-## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on a single VPN provider.
-- **Hotfix:** Purchase a 24-hour "Day Pass" for a second VPN the morning you land, just in case your primary provider hit a block overnight.
+## Triage Decision Tree
+
+```
+No Internet?
+├── Can you load Chinese sites (Baidu, WeChat)?
+│   ├── YES → VPN issue. Go to "VPN Fix" below.
+│   └── NO → Mobile data / SIM issue. Go to "SIM Fix" below.
+└── VPN connects but traffic still drops?
+    └── → GFW pattern block. Rotate protocol (see below).
+```
 
 ---
 
-**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+## Fix A: VPN Troubleshooting (Most Common)
 
-[← Back to Guide Library](../)
+### Step 1: Switch Protocol
+Most VPN apps support multiple protocols. In the app settings:
+- **ExpressVPN:** Settings → Protocol → Switch to **Lightway UDP** or **Lightway TCP**
+- **LetsVPN:** Switch server region (Hong Kong → Singapore → Japan)
+- **Astrill:** Protocol → **WireGuard** or **OpenWeb**
+
+### Step 2: Airplane Mode Cycle
+Toggle **Airplane Mode ON → wait 10 seconds → OFF**. This forces a fresh DNS registration and clears routing deadlocks.
+
+### Step 3: Switch Network Source
+- If on hotel Wi-Fi → switch to mobile data (or vice versa)
+- If hotel Wi-Fi blocks VPN ports: use **port 443 (HTTPS)** in your VPN settings — this is rarely blocked
+
+### Step 4: Switch VPN App
+If your primary VPN is down, switch to your backup:
+- Install **at least 2 VPN apps before arrival**
+- Recommended: LetsVPN (mobile) + ExpressVPN (backup)
+
+> [!IMPORTANT]
+> VPN landscape changes constantly. Check expat communities (Reddit r/chinalife) **1 week before departure** to verify which VPN is currently working.
+
+---
+
+## Fix B: Mobile Data / SIM Issues
+
+### "No Signal" — SIM Activation Failed
+1. Remove SIM and reinsert (or toggle Airplane Mode).
+2. Check carrier settings: Settings → Cellular → APN (Ask carrier for correct APN string).
+3. Call carrier hotline while on hotel Wi-Fi using WhatsApp/WeChat:
+   - **China Unicom:** 10010
+   - **China Mobile:** 10086
+   - **China Telecom:** 10000
+
+### "Data Exhausted" — Plan Topped-Up
+- Go to carrier app or WeChat mini-program to top up data.
+- China Unicom: Search "中国联通" in WeChat → top up online with Alipay.
+- Purchase a new data add-on (流量包) without changing your number.
+
+### eSIM Failover
+If your physical SIM fails, switch to your **backup eSIM** (Airalo/Nomad):
+- Settings → Cellular → Add eSIM (or activate pre-downloaded eSIM profile)
+- Keep the eSIM installed but inactive — switch it on only when needed
+
+---
+
+## Offline Survival Mode (When Nothing Works)
+
+These tools work **without internet**:
+
+| Tool | What it Does | Setup Required |
+|:---|:---|:---|
+| **Google Maps Offline** | Navigation without data | Download area before trip |
+| **Amap (高德) Offline** | More accurate in China | Download city map in-app |
+| **Pleco** | Chinese dictionary + offline mode | Download offline pack |
+| **WeChat** | Messaging works on any data (even 2G) | Pre-installed |
+| **Alipay QR** | Payment QR can be pre-generated | Open app and screenshot QR |
+| **12306 Offline Tickets** | Train tickets saved in app | Download before travel |
+
+---
+
+## Miles' Tips
+
+- **The "Two VPN" Rule:** Never travel to China with only one VPN app. The firewall evolves weekly. Install LetsVPN + ExpressVPN as your primary/backup pair.
+- **Pre-Cache Everything:** On the night of arrival (when Wi-Fi is most reliable), download offline maps, sync your email, and generate Alipay QR.
+- **Hotel Wi-Fi Trick:** If hotel Wi-Fi blocks VPN, plug directly into the LAN port in the room (port 443 TCP mode usually works on wired connections).
+- **Café Fallback:** Starbucks, Costa, and major convenience stores (FamilyMart, Lawson) provide reliable Wi-Fi. Use these as "offline recovery nodes" when mobile data fails.
+- **Low-data Mode:** In a crunch, WeChat still functions on 2G speeds. Keep WeChat as your last-resort communication tool.
+
+---
+
+## Related Guides
+
+- [VPN & eSIM Setup](../../01-System-Setup/vpn-esim-payment/) — Pre-trip VPN installation SOP
+- [Emergency Contacts Card](../emergency-contacts-card/) — Critical numbers for when you go fully offline

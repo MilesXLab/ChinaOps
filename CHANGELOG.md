@@ -4,42 +4,36 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
-## [v1.1.0] - 2026-02-11
+## [v1.1] - 2026-03-24
 
-### 🚀 SRE Infrastructure Patch
-- **TTL Validation System**: Implemented `scripts/ttl_check.py` to monitor SOP freshness.
-- **Metadata Standardization**: Added YAML frontmatter (`version`, `last_validated`, `ttl_days`) to all guides.
-- **Validation Workflows**: Added deployment protocol for validated state management.
-- **CI Upgrade**: Updated GitHub Actions to `checkout@v4` and `setup-python@v5`; added `requirements.txt`.
+### 🔧 March 2026 Content Audit & Fixes
 
-### ✨ New Content & SOPs (7 New Guides → Total: 37)
-- **The Landing Protocol**: Step-by-step SOP for the first 30 minutes in China (Immigration, Connectivity, Payment test).
-- **Domestic Transit SOP**: Comprehensive guide for International-to-Domestic transfers at PVG/PEK.
-- **Visual Signs Guide**: Visual reference for Metro, Restrooms, and Nursing areas.
-- **Hotel Check-in & Registration**: Passport verification, 24-hour police registration process.
-- **Translation Tools & Language Barrier**: Offline dictionaries, real-time translation, essential phrases.
-- **Lost or Delayed Luggage**: Airport reporting, PIR forms, and recovery protocol.
-- **Car Rental & Driving**: License requirements, temporary permits, and chauffeur services.
-- **Lost or Stolen Phone**: Remote lock, payment app freeze, SIM recovery.
-- **Lost or Stolen Bank Card**: Card freeze, payment app security, replacement process.
-- **Prescription Medication & Chronic Care**: Getting refills and managing chronic conditions in China.
+**Scope:** Content integrity audit identified 5 critical errors, 10 items requiring updates, 7 stub documents, and 12 uncatalogued files.
 
-### 🛠️ Helper Scripts
-- `passport_mrz_converter.py` — Format passport names for 12306 train tickets.
-- `child_medication_calculator.py` — Calculate safe medication doses for children.
-- `train_ticket_checker.py` — Verify booking details and availability.
+#### 🚨 P1 Critical Fixes
+- **Removed Mothercare** from diapers guide — brand went bankrupt globally in 2019, all China locations closed. Replaced with Kidswant (孩子王) + BabyCare.
+- **Removed Whole Foods** from food allergies guide — does not exist in mainland China. Replaced with Ole' / City'Super.
+- **Fixed emergency phrase error:** `Pĭngān` was incorrectly listed as a help call. Corrected to `救命！ Jiùmìng!` / `帮帮我！ Bāng bāng wǒ!` in both safety guides.
+- **Updated Nestlé recall status:** Jan 2026 event now shows "Resolved (Mar 2026)" with batch verification guidance.
+- **Fixed 2026 holiday table:** CNY marked as passed; Labor Day corrected to Apr 30–May 4 (was May 1–5); added 调休 (diàoxiū) explanation.
 
-### 🔧 UI/UX Improvements
-- Added v1.1.0 Live banner and version badges.
-- Added email feedback contact option (📧 Send Email Feedback).
-- Improved "How to Use This Guide" paths for easier navigation.
-- Enhanced "Back to Top" functionality and mobile responsiveness.
+#### 🟡 P2 Content Updates
+- `visa-and-entry.md`: Removed hardcoded "46+ countries", added dynamic verification reminder.
+- `vpn-esim-payment.md`: Removed absolute "Jan 2026 best VPN" claim; added "verify 1 week before departure" guidance.
+- `emergency-contacts-card.md`: Added official consulate website links and verification warning.
 
-### 📋 Content Refresh
-- Updated 2026 CNY dates and holiday schedule.
-- Refreshed VPN and payment policy references to Feb 2026.
-- Updated visa-free entry status for all eligible countries.
-- Cleaned up orphaned audit/report files from repository.
+#### 📖 Stub Document Expansions
+- `lost-passport.md`: 31 lines → full SOP with police report steps, embassy contacts, document checklist.
+- `network-outage.md`: 32 lines → triage decision tree, VPN protocol switching, SIM fix, offline tool table.
+- `milk-recall-check.md`: 31 lines → full Nestlé recall verification SOP with 3 verification methods.
+
+#### ✨ New Documents
+- `docs/01-System-Setup/alipay-wechat-setup-foreigners.md`: Complete Alipay/WeChat Pay setup for foreign visitors.
+
+#### 📄 index.json
+- Expanded from 16 → 28 documents catalogued.
+- Added `05-Event-Operations` section.
+- Added `description` field to all sections.
 
 ---
 
@@ -166,10 +160,10 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ## Version History
 
-- **v1.1.0** (2026-02-11) - Content refresh: 7 new SOPs, email feedback, CI upgrades (37 guides)
-- **v1.0.0** (2026-01-23) - Initial official release with 27 comprehensive guides
+- **v1.1** (2026-03-24) - March audit: 5 P1 fixes, 3 stub expansions, 1 new guide, index.json expanded to 28 docs.
+- **v1.0.0** (2026-01-23) - Initial official release with 28 comprehensive guides.
 
 ---
 
 **Maintained by:** TechDadShanghai  
-**Last Updated:** February 2026
+**Last Updated:** March 2026

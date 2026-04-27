@@ -22,21 +22,19 @@ metadata:
 
 ## 📋 The Runbook
 
-### 1. The 15-Day Booking Protocol
-- **Step 1:** Identify your travel date. Count back exactly 15 days.
-- **Step 2:** Log in to **12306** or **Trip.com** at 10:00 AM / 2:00 PM (check specific station release times).
-- **Verification:** Secure a "Waitlist" (后补 hòubǔ) spot immediately if tickets are sold out.
-- **Action:** If rail is dead, pivot to **Domestic Flights**. They are the only stable "failover" for Golden Week.
+> [!NOTE]
+> CNY (Feb 15–23) has passed. The remaining 2026 holidays are listed below.
+> China’s system includes **调休 (diàoxiū)** — mandatory weekend make-up days flanking holidays. Always check the full official schedule at **[gov.cn](https://www.gov.cn)** to know which weekends are affected.
 
-### 2. Supply Chain Hardening (CNY Special)
-- **Step 1:** Purchase 7 days of baby formula, diapers, and maintenance medication by **Feb 13, 2026** (3 days before CNY Eve on Feb 16).
-- **Step 2:** Meituan/Ele.me riders drop by 80% during the Spring Festival. Do not rely on 30-min delivery.
-- **Verification:** Confirm your neighborhood **ALDI** or **Hema** operating hours; they are the only nodes that stay open.
-
-### 3. Crowd Management (Anti-Collision)
-- **Step 1:** Be at attraction gates (Disney, Great Wall) **45 mins before opening**.
-- **Step 2:** Use **Shared Bikes** (HelloBike/Meituan) to bypass the 60+ min Didi wait times in tourist districts.
-- **Verification:** Check the "Live Population Heatmap" in Baidu Maps to see if an area is "Red" (avoid).
+| Holiday | Dates | Duration | Technical Profile |
+| :--- | :--- | :--- | :--- |
+| **New Year's Day** | Jan 1–3 ✅ | 3 Days | Passed. |
+| **Chinese New Year (CNY)** | **Feb 15–23** ✅ | **9 Days** | **Passed.** Make-up days were Feb 8 & Feb 22. |
+| **Qingming Festival** | Apr 4–6 🗓️ | 3 Days | **UPCOMING:** Short-distance family travel. Book HSR by late March. |
+| **Labor Day (5/1)** | **Apr 30 – May 4** 🗓️ | **5 Days** | **HIGH:** Massive domestic tourism. Book NOW. Make-up day Apr 27. |
+| **Dragon Boat Festival** | Jun 19–21 🗓️ | 3 Days | **Medium:** Scenic areas crowded. |
+| **Mid-Autumn Festival** | Oct 6–8 🗓️ | 3 Days | **Medium:** Evening peaks near parks. Coincides with National Day week. |
+| **National Day (10/1)** | **Oct 1–8** 🗓️ | **8 Days** | **CRITICAL:** “Golden Week.” Extreme crowds. Book 3+ months in advance. |
 
 ---
 

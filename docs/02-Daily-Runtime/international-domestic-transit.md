@@ -3,7 +3,7 @@ layout: guide
 title: "The Transit Protocol: International to Domestic"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-04-27
   stability_status: "critical"
   validation_method: "field_test"
   ttl_days: 90
@@ -57,6 +57,6 @@ metadata:
 
 ---
 
-**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

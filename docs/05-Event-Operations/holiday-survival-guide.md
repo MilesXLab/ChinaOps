@@ -3,7 +3,7 @@ layout: guide
 title: "2026 China Holiday Survival SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-02-05
+  last_validated: 2026-04-27
   stability_status: "critical"
   ttl_days: 90
 ---
@@ -11,7 +11,7 @@ metadata:
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏮 2026 China Holiday Survival SOP
 
-**TL;DR:** Avoid travel during **Feb 16–22 (CNY)** and **Oct 1–7 (National Day)** unless you enjoy extreme crowds. Book HSR tickets exactly 15 days in advance. Stock up on supplies 3 days *before* CNY starts.
+**TL;DR:** CNY (Feb) and Qingming (Apr 4–6) have passed. **Labor Day (May 1–5) starts this week** — book HSR NOW if not done. Next major peak: National Day Oct 1–8. Stock up on supplies 3 days before any holiday.
 
 **Prerequisites:**
 - **Booking Hub:** Trip.com (with pre-filled passport data).
@@ -30,8 +30,8 @@ metadata:
 | :--- | :--- | :--- | :--- |
 | **New Year's Day** | Jan 1–3 ✅ | 3 Days | Passed. |
 | **Chinese New Year (CNY)** | **Feb 15–23** ✅ | **9 Days** | **Passed.** Make-up days were Feb 8 & Feb 22. |
-| **Qingming Festival** | Apr 4–6 🗓️ | 3 Days | **UPCOMING:** Short-distance family travel. Book HSR by late March. |
-| **Labor Day (5/1)** | **Apr 30 – May 4** 🗓️ | **5 Days** | **HIGH:** Massive domestic tourism. Book NOW. Make-up day Apr 27. |
+| **Qingming Festival** | Apr 4–6 ✅ | 3 Days | **Passed.** |
+| **Labor Day (5/1)** | **May 1 – May 5** 🚨 | **5 Days** | **THIS WEEK:** Starts May 1. Extreme domestic travel. Make-up workday: **May 9 (Sat)**. Book trains NOW. |
 | **Dragon Boat Festival** | Jun 19–21 🗓️ | 3 Days | **Medium:** Scenic areas crowded. |
 | **Mid-Autumn Festival** | Oct 6–8 🗓️ | 3 Days | **Medium:** Evening peaks near parks. Coincides with National Day week. |
 | **National Day (10/1)** | **Oct 1–8** 🗓️ | **8 Days** | **CRITICAL:** “Golden Week.” Extreme crowds. Book 3+ months in advance. |
@@ -55,6 +55,6 @@ metadata:
 
 ---
 
-**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

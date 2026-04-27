@@ -3,7 +3,7 @@ layout: guide
 title: "Visa & Entry Requirements (2026 Update)"
 metadata:
   version: 1.1
-  last_validated: 2026-02-05
+  last_validated: 2026-04-27
   ttl_days: 90
   stability_status: "stable"
   validation_method: "official_audit"
@@ -13,7 +13,7 @@ metadata:
 
 # Visa & Entry Requirements (2026 Update)
 
-**TL;DR:** Many European and Asian countries now enjoy **30-day visa-free entry** until Dec 31, 2026. US/UK/Canada usually still require a visa or can use the **144-hour (or 240-hour)** Transit Visa-Free (TWOV).
+**TL;DR:** Many European, Asian, and Americas countries now enjoy **30-day visa-free entry** until Dec 31, 2026 — including **UK and Canada** (added Feb 17, 2026). The visa-free list has expanded to **50+ countries**. US citizens usually use the **144-hour or 240-hour** Transit Visa-Free (TWOV).
 
 ---
 
@@ -38,11 +38,10 @@ metadata:
 ## 📋 The Runbook
 
 ### 1. Check Eligibility (The "Is it Free?" Flow)
-- **30-Day Visa-Free (Pilot):** Citizens of **Germany, France, Italy, Spain, Australia, New Zealand, Japan, South Korea, and Sweden**. 
-- **Canada Alert:** As of Feb 2026, Canada's status for the 30-day visa-free pilot remains pending official confirmation. Always verify current eligibility on [en.nia.gov.cn](https://en.nia.gov.cn) before booking, as policy updates may occur without advance notice.
-- **144/240-Hour Transit Visa:** For US and UK citizens (and Canadians if the pilot hasn't started). 
-  - **Rule:** You must be flying to a *third* country (e.g., NYC -> Shanghai -> Tokyo).
-- **Verification:** Check the latest list on [en.nia.gov.cn](https://en.nia.gov.cn).
+- **30-Day Visa-Free (Pilot):** Citizens of **Germany, France, Italy, Spain, Australia, New Zealand, Japan, South Korea, Sweden, and 40+ more countries** — now including **UK** and **Canada** (both confirmed effective Feb 17, 2026).
+- **Verification:** Always confirm your country on [en.nia.gov.cn](https://en.nia.gov.cn) before booking.
+- **144/240-Hour Transit Visa:** For **US citizens** (and others not on the 30-day pilot).
+  - **Rule:** You must be flying to a *third* country (e.g., NYC → Shanghai → Tokyo).
 
 ### 2. The Digital Entry Card (Mandatory Nov 2025+)
 - **Step:** The traditional paper card is being phased out in favor of the **Digital Arrival Card** launched in late 2025. 
@@ -74,6 +73,6 @@ metadata:
 
 ---
 
-**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

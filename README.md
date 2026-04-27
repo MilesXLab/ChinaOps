@@ -25,7 +25,7 @@
 ### What is ChinaOps?
 A practical, non-commercial guide for travelers and families navigating China. Written by someone who's actually lived through these challenges.
 
-**37 Step-by-Step Guides** | **3 Helper Tools** | **No Ads or Sponsorships**
+**38 Step-by-Step Guides** | **3 Helper Tools** | **No Ads or Sponsorships**
 
 ### Choose Your Path:
 
@@ -60,7 +60,7 @@ Use **[Interactive Web Interface](index.html)** or see full list below
 
 ## Full Library
 
-### System Setup (7 Guides)
+### System Setup (10 Guides)
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation.md) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
@@ -254,9 +254,10 @@ Thank you for supporting independent, open documentation.
 
 ## Update Log
 
+- **v1.2 (2026-04-27)**: April freshness audit. Corrected holiday dates, visa expansions, and payment limits. Recovered 9 unindexed guides (Total: 31 catalogued, 38 total files).
 - **v1.1 (2026-03-24)**: March audit fixes. 5 P1 errors corrected, 3 stub guides expanded, 1 new guide (Alipay foreign setup). index.json expanded to 28 docs.
 - **v1.0.0 (2026-01-23)**: Official v1.0.0 release. 28 comprehensive guides.
 
 ---
 
-*Last Updated: Mar 24, 2026 | Licensed under CC BY-NC 4.0*
+*Last Updated: Apr 27, 2026 | Licensed under CC BY-NC 4.0*

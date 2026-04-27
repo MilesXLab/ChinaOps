@@ -3,7 +3,7 @@ layout: guide
 title: "Car Rental & Driving in China SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-02-05
+  last_validated: 2026-04-27
   stability_status: "stable"
   ttl_days: 90
 ---
@@ -106,6 +106,6 @@ metadata:
 
 ---
 
-**Last Updated:** Feb 5, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -6,7 +6,7 @@ description: "Complete step-by-step guide for foreigners to set up Alipay and We
 
 # Alipay & WeChat Pay Setup for Foreign Visitors
 
-**Last Updated:** Mar 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 ---
 
@@ -40,11 +40,16 @@ Since 2023, Alipay supports a dedicated international visitor flow — **no Chin
 2. Receive SMS verification code → enter it.
 3. Set a 6-digit payment PIN.
 
+### Step 2.5: Identity Verification (Mandatory)
+- In the app: **Me → Settings → Identity Information**.
+- Upload a photo of your **passport**. This is required to access full payment features.
+- Verification typically completes within minutes.
+
 ### Step 3: Bind International Card
 1. Go to **Profile → Bank Card → Add Card**.
 2. Enter Visa or Mastercard details (credit or debit).
 3. Complete 3D-Secure verification (SMS to your home number).
-4. **Spending limit:** International cards have a per-transaction limit (typically ¥5,000 / ~$700). For large purchases, multiple transactions may be needed.
+4. **Spending limit:** Verified foreign users have a single-transaction limit of **$5,000 USD (~¥35,000)**. For very large purchases, contact Alipay support to request a temporary increase.
 
 ### Step 4: Test Before You Fly
 - Send a small transfer to yourself or a friend using the app.
@@ -85,7 +90,8 @@ WeChat Pay is embedded inside the WeChat app. You must set up WeChat first.
 
 ### Metro (Shanghai)
 - **Alipay:** Search "Metro" → Generate transit QR → Scan at gate.
-- **Apple Wallet (iPhone):** Add Shanghai Metro Card → Tap and go (Express Mode, no unlock needed). Note: requires compatible iPhone model (check Support Apple page).
+- **Direct NFC Tap:** Shanghai Metro supports contactless **Visa, Mastercard, AmEx, and JCB** cards directly at the gate — no app needed. Ensure "small-amount password-free payment" is enabled on your card.
+- **Apple Wallet (iPhone):** Add Shanghai Metro Card → Tap and go (Express Mode, no unlock needed).
 
 ### Shared Bikes (HelloBike / Meituan)
 - **Alipay → HelloBike mini-program** → Scan bike QR → Ride starts automatically → Alipay charges on return.

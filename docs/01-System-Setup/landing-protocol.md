@@ -3,7 +3,7 @@ layout: guide
 title: "The Landing Protocol: First 30 Minutes in China"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-04-27
   ttl_days: 90
   stability_status: "critical"
   validation_method: "field_test"
@@ -65,6 +65,6 @@ metadata:
 
 ---
 
-**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

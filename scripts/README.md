@@ -85,7 +85,7 @@ Pre-verifies name format, travel date, and common issues before booking 12306 ti
 
 **Usage:**
 ```bash
-python train_ticket_checker.py --first-name John --last-name Smith --date 2026-02-15 --from BJS --to SHA
+python train_ticket_checker.py --first-name John --last-name Smith --date 2026-05-15 --from BJS --to SHA
 ```
 
 **Output:**
@@ -167,7 +167,7 @@ Summary: 36 OK, 1 expired, 0 missing metadata
 ```bash
 python passport_mrz_converter.py John Smith
 python child_medication_calculator.py --name "Ibuprofen" --weight 25 --dosage-per-kg 10
-python train_ticket_checker.py --first-name John --last-name Smith --date 2026-02-15
+python train_ticket_checker.py --first-name John --last-name Smith --date 2026-05-15
 ```
 
 **Option 2: Make Executable (macOS/Linux)**
@@ -189,7 +189,7 @@ python .\passport_mrz_converter.py John Smith
 
 ```bash
 # Step 1: Check if your name will work on 12306
-python train_ticket_checker.py --first-name Maria --last-name Garcia --date 2026-02-20
+python train_ticket_checker.py --first-name Maria --last-name Garcia --date 2026-05-20
 
 # Step 2: Get the correct MRZ format
 python passport_mrz_converter.py Maria Garcia
@@ -214,9 +214,9 @@ python child_medication_calculator.py --name "Paracetamol" --weight 15 --dosage-
 ### Scenario 3: Verify Multiple Family Members' Names
 
 ```bash
-python train_ticket_checker.py --first-name John --last-name Smith --date 2026-02-15
-python train_ticket_checker.py --first-name Mary --last-name Smith --date 2026-02-15
-python train_ticket_checker.py --first-name Emma --last-name Smith --date 2026-02-15
+python train_ticket_checker.py --first-name John --last-name Smith --date 2026-05-15
+python train_ticket_checker.py --first-name Mary --last-name Smith --date 2026-05-15
+python train_ticket_checker.py --first-name Emma --last-name Smith --date 2026-05-15
 
 # Book all family members together with verified names
 ```
@@ -274,5 +274,5 @@ Found a bug or want to add a script?
 ---
 
 **Author:** TechDadShanghai  
-**Last Updated:** Feb 2026  
+**Last Updated:** April 2026  
 **License:** CC BY-NC 4.0

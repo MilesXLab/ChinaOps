@@ -3,7 +3,7 @@ layout: guide
 title: "Safety & Common Scams (2026 Update)"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-04-27
   stability_status: "stable"
   ttl_days: 90
 ---
@@ -58,7 +58,7 @@ metadata:
 
 ---
 
-**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 - **Valuables:** While theft is low, keep your passport in a secure pocket or the hotel safe. A photo of your passport on your phone is usually enough for daily ID checks.
 - **The Police & Security:** Officers and security guards (indicated by "Police," "Security," or 警察 Jǐngchá) are extremely friendly and generally prioritize foreign visitors' requests. If you are lost or need help, shout **"救命！" (Jiùmìng! = Help!)** or **"帮帮我！" (Bāng bāng wǒ! = Help me!)**, or show your character card.

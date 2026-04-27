@@ -3,7 +3,7 @@ layout: guide
 title: "Visual Signs & Symbols Reconnaissance"
 metadata:
   version: 1.1
-  last_validated: 2026-01-26
+  last_validated: 2026-04-27
   stability_status: "stable"
   ttl_days: 90
 ---
@@ -77,6 +77,6 @@ metadata:
 
 ---
 
-**Last Updated:** Jan 26, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

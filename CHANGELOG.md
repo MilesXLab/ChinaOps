@@ -4,6 +4,32 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.3] - 2026-07-14
+
+### 🔧 July 2026 Freshness Audit & Critical Updates
+
+**Scope:** Project-wide update targeting recent regulatory changes, real-world payment realities, eSIM updates, and parenting-specific transit tips.
+
+#### 🚨 P1 Critical Updates
+- **Power Bank CCC & Traceability Rules:** Documented the new domestic flight requirements (effective March 1, 2026) regarding compulsory CCC marks and scannable traceability QR codes. Added terminal replacement details.
+- **Payment Verification & Account Ban Risks:** Documented mid-trip identity re-verification challenges (passport/video verification), WeChat Account lock sensitivity to SIM card switching, and random risk control declinatures on international cards. Added Payment Recovery SOP.
+- **UK/Canada Visa-Free Check:** Re-verified UK & Canada 30-day visa-free entry pilot program parameters.
+- **Border Kiosk Fallbacks:** Added instructions for using paper fallback cards in case of digital arrival card kiosk queues or system offline failures.
+
+#### 📶 Connectivity & Navigation Updates
+- **July 2026 eSIM Comparison Table:** Added comparative matrix of Trip.com, Holafly, Simify, and Nomad eSIM options outlining cost, speeds, bypass capability, and hotspot functionality.
+
+#### 🍼 Parenting Patch Updates
+- **High-Speed Rail Free Ticket Policy:** Documented the under-6 seat sharing rule vs. booking separate child tickets.
+- **Stroller vs Carrier Transit Decision Matrix:** Added comparison guide for station transit, highlighting accessibility bottlenecks (stairs/no lifts).
+- **Didi Child Seat Warnings:** Advised on child seat absence in Didi rides and mall playground alternatives.
+
+#### 🛠️ Helper Tools
+- **New Digital Entry Formatter Script:** Created `scripts/digital_entry_formatter.py` to format arrival card inputs correctly.
+- **Home Page Tool Integration:** Fully integrated tool links, version tags, and badges on `index.html` to reflect v1.3.
+
+---
+
 ## [v1.2] - 2026-04-27
 
 ### 🔧 April 2026 Freshness Audit

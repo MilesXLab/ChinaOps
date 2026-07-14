@@ -6,7 +6,7 @@ description: "Complete step-by-step guide for foreigners to set up Alipay and We
 
 # Alipay & WeChat Pay Setup for Foreign Visitors
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
 
 ---
 
@@ -55,14 +55,17 @@ Since 2023, Alipay supports a dedicated international visitor flow — **no Chin
 - Send a small transfer to yourself or a friend using the app.
 - Or simply buy something small on AliExpress (linked ecosystem) to confirm the card works.
 
-**Common Errors:**
+**Common Errors & 2026 Payment Realities:**
 
-| Error Message | Fix |
-|:---|:---|
-| "Card not supported" | Try a different Visa/Mastercard; some prepaid cards are blocked |
-| "Verification failed" | Ensure 3D-Secure is enabled on your card (call your bank) |
-| "Limit reached" | Standard per-day limit; ask hotel/merchant for alternative method |
-| App in Chinese only | Tap the globe icon or check Settings → Language |
+| Error / Reality | Description / Cause | Fix / Mitigation SOP |
+|:---|:---|:---|
+| "Card not supported" | Try a different Visa/Mastercard; some prepaid/virtual cards are blocked | Bind a standard credit/debit card from a major bank. |
+| "Verification failed" | Ensure 3D-Secure is enabled on your card (call your bank) | Call your card issuer to enable international SMS and 3D-Secure before you fly. |
+| "Limit reached" | Standard per-day limit or transaction caps | Contact Alipay/WeChat support, or swap to your backup card. |
+| **Mid-Trip KYC Audit** | Suddenly triggered after 3-5 days of usage for security reasons. | Keep your physical passport handy. Re-upload passport photos and perform the video verification immediately in-app. |
+| **WeChat Account Lock** | WeChat is extremely sensitive to SIM profile or device swapping. | **Do not log out or swap SIM profiles** on the device running WeChat. Use a secondary phone or eSIM hotspot for data to keep the WeChat environment stable. |
+| **Random Risk Decline** | Vague security decline at the POS terminal when using international cards. | Immediately switch payment apps (Alipay to WeChat or vice versa) or choose a different backup card inside the payment screen. |
+| App in Chinese only | Language settings defaulted to Chinese | Tap the globe icon or navigate to: Settings (齿轮) → Language (语言). |
 
 ---
 

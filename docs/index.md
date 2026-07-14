@@ -5,7 +5,7 @@ title: "Documentation Library"
 
 # 📚 Full Documentation Library
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
+![v1.3.0 Verified](https://img.shields.io/badge/v1.3.0-Verified-brightgreen)
 
 Welcome to the ChinaOps technical runbook. Here you will find step-by-step SOPs for navigating life and travel in China.
 

@@ -13,10 +13,14 @@ def check_links(file_path):
         links = re.findall(r'\[[^\]]*\]\(([^)]+)\)', content)
 
     base_dir = os.path.dirname(file_path)
+    filename = os.path.basename(file_path)
+    # Simulate Jekyll pretty permalinks: non-index markdown files are served as folders (excluding README.md)
+    if not is_html and filename not in ('index.md', 'README.md') and file_path.endswith('.md'):
+        base_dir = os.path.join(base_dir, filename[:-3])
     failures = []
 
     for link in links:
-        if link.startswith(('http', 'mailto:', '#', 'javascript:')):
+        if link.startswith(('http', 'mailto:', '#', 'javascript:', 'data:')):
             continue
         
         clean_link = link.split('?')[0].split('#')[0]

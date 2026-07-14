@@ -1,78 +1,69 @@
 ---
 layout: guide
-title: "Visa & Entry Requirements (2026 Update)"
+title: "Visa & Entry Requirements"
 metadata:
-  version: 1.1
-  last_validated: 2026-04-27
+  version: 1.2
+  last_validated: 2026-07-14
   ttl_days: 90
   stability_status: "stable"
   validation_method: "official_audit"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
+![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 
-# Visa & Entry Requirements (2026 Update)
+# Visa & Entry Requirements
 
-**TL;DR:** Many European, Asian, and Americas countries now enjoy **30-day visa-free entry** until Dec 31, 2026 — including **UK and Canada** (added Feb 17, 2026). The visa-free list has expanded to **50+ countries**. US citizens usually use the **144-hour or 240-hour** Transit Visa-Free (TWOV).
+**TL;DR:** Citizens of **50+ countries** (including the **UK and Canada** since Feb 17, 2026) enjoy **30-day visa-free entry** for tourism and family visits. US citizens generally rely on the **144-hour or 240-hour** Transit Visa-Free (TWOV) system. Fill out the **Digital Arrival Card** before flight, but keep a paper fallback in mind.
 
 ---
 
 ## Visa Types & Eligibility
 
 ### 1. 30-Day Visa-Free (Pilot Program)
-- **Eligibility:** Citizens of a growing list of countries (as of early 2026, 46+ and expanding). Always verify your country's current status at **[en.nia.gov.cn](https://en.nia.gov.cn)** or your local Chinese consulate — the list is updated regularly.
-- **Duration:** Typically 30 days for tourism, business, or visiting family.
-- **Rule:** No prior application is needed; just fly in with a valid passport.
-- **⚠️ Verify before travel:** Policy changes (expansions or suspensions) happen with short notice. Check 2 weeks before departure.
+- **Eligibility:** Citizens of a growing list of countries (as of July 2026, 50+ countries). Always verify your country's current status at **[en.nia.gov.cn](https://en.nia.gov.cn)** — the list is subject to expansion.
+- **Key Inclusions:** **UK and Canada** citizens enjoy 30-day visa-free entry (confirmed effective Feb 17, 2026, running through the end of 2026). Other countries include Germany, France, Italy, Spain, Australia, New Zealand, Japan, South Korea, Sweden, and more.
+- **Duration:** 30 days for tourism, business, sightseeing, or visiting relatives.
+- **Rule:** No prior consulate application required. Just enter with a valid passport (minimum 6 months validity).
 
 ### 2. 240-Hour (10-Day) Transit Visa-Free (TWOV)
-- **Eligibility:** Available for US, Canadian, UK, and Australian citizens (among others) when transiting through major hubs like Shanghai, Beijing, or Guangzhou.
-- **Requirement:** You **must** be flying to a third country (e.g., London -> Shanghai -> Tokyo). A simple round trip (London -> Shanghai -> London) does **not** qualify.
-- **Duration:** 10 days (240 hours) within the specific region of entry.
-
-### 3. Standard L-Visa (Tourism)
-- For countries not covered by the above, you must apply at a Chinese Visa Application Service Center (CVASC) in your home country.
+- **Eligibility:** Available for citizens of the US (and other countries not eligible for the 30-day visa-free pilot) when transiting through specific ports (e.g., Shanghai, Beijing, Guangzhou).
+- **Requirement:** You **must** show a ticket to a third country (e.g., London -> Shanghai -> Tokyo). A simple round trip (London -> Shanghai -> London) does **not** qualify.
+- **Duration:** Up to 240 hours (10 days) restricted to the designated entry region.
 
 ---
 
 ## 📋 The Runbook
 
-### 1. Check Eligibility (The "Is it Free?" Flow)
-- **30-Day Visa-Free (Pilot):** Citizens of **Germany, France, Italy, Spain, Australia, New Zealand, Japan, South Korea, Sweden, and 40+ more countries** — now including **UK** and **Canada** (both confirmed effective Feb 17, 2026).
-- **Verification:** Always confirm your country on [en.nia.gov.cn](https://en.nia.gov.cn) before booking.
-- **144/240-Hour Transit Visa:** For **US citizens** (and others not on the 30-day pilot).
-  - **Rule:** You must be flying to a *third* country (e.g., NYC → Shanghai → Tokyo).
+### 1. The Digital Entry Card (Pre-Flight)
+- **Step 1:** The traditional paper card is being phased out in favor of the **Digital Arrival Card**.
+- **Step 2:** Search "Digital Entry Card" in the **Alipay** or **WeChat** app, or use the official NIA portal. Complete the form 24 hours prior to departure.
+- **Verification:** You will receive an entry QR code. **Screenshot this QR code immediately.** Network coverage inside the arrival terminal is often spotty.
 
-### 2. The Digital Entry Card (Mandatory Nov 2025+)
-- **Step:** The traditional paper card is being phased out in favor of the **Digital Arrival Card** launched in late 2025. 
-- **Action:** Fill it out in the **Alipay** app (search "Digital Entry Card") before you board.
-- **Verification:** Receive a QR code. **Screenshot it immediately.** You will need it to "Self-Serve" through the kiosks at arrival.
+### 2. Verification Loop & Border Experience (At the Border)
+- **Step 1:** Scan your passport and Digital Arrival Card QR code at the self-service kiosks.
+- **Step 2:** Print the "Verified" slip from the kiosk.
+- **Step 3:** Queue for the immigration officer and present the slip, passport, and boarding pass.
+- **Verification:** Receive your entry stamp. **Check the date immediately** to ensure it aligns with your visa-free/transit allowance.
 
----
-
-## 3. Verification Loop (At the Border)
-- [ ] Scan QR code at the kiosk.
-- [ ] Print the "Verified" slip.
-- [ ] Submit slip and passport to the officer.
-- [ ] Receive entry stamp (Check it! Ensure the date is correct).
+> [!WARNING]
+> **Kiosk Bottlenecks & Chaotic Ports:** Real-world reports from mid-2026 indicate that during peak international arrivals or at newer land border checkpoints, self-service kiosks can fail, experience API timeouts, or generate massive queues. If you see long, slow lines at the kiosks, or if the machines are malfunctioning:
+> - **Action:** Immediately walk to the nearby writing desks. Locate the physical **Blue and Yellow Arrival Cards** (kept as legacy paper fallbacks), write down your details manually, and join the manual immigration queue. It is often faster than waiting for a stuck kiosk network. Keep a ballpoint pen in your carry-on for this reason.
 
 ---
 
 ## 🚨 Fallback (Plan B)
-- **Kiosk is Down:** Look for physical **Blue/Yellow paper cards** on the tables. They are still kept as a legacy backup.
-- **Dispute at Border:** Call the NIA Hotline **12367**. They have 24/7 English support and can resolve visa-free eligibility disputes on the spot.
-- **Lost Proof:** If your digital booking won't load, use your **Offline Screenshots** of the hotel confirmation.
+- **Kiosk API Outage:** Use the physical paper card backup as mentioned above.
+- **Dispute at Border:** Call the National Immigration Administration (NIA) Hotline at **12367** (select English). They provide 24/7 support and can intervene if a carrier or border clerk is confused about your visa-free country eligibility.
+- **Lost Booking Proofs:** Ensure all return tickets and hotel bookings are saved as **offline PDFs** on your phone. Do not rely on cloud apps.
 
 ---
 
 ## 💡 TechDad's Tips
-
-- **The "Transit" Trap:** Hong Kong and Taiwan count as "Third Countries" for the 144/240-hour TWOV. A trip like London -> Shanghai -> Hong Kong is a valid "Third Country" transit.
-- **Purpose of Stay:** Keep it simple: **"Tourism"**. Avoid saying "Business" unless you have an official invitation letter, or you'll trigger an unnecessary audit.
-- **Registration Hack:** If staying with friends, you **must** register at a police station within 24 hours. Many cities like Shanghai now allow this via a **"Self-help Declaration"** WeChat mini-program. Ask your host for the QR code.
+- **The "Transit" Definition:** Hong Kong, Macau, and Taiwan count as "Third Countries" for transit visa purposes. Flying NYC -> Shanghai -> Hong Kong is a fully valid transit.
+- **Police Registration:** If staying in a hotel, the front desk automatically registers you. If staying at an Airbnb or friend's house, you must register at the local police station within 24 hours. Many Tier-1 cities now provide a **"Self-help Declaration"** mini-program to submit this online. Ask your host for the local link/QR code.
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -2,16 +2,16 @@
 layout: guide
 title: "Baby & Toddler Survival Runbook (2026)"
 metadata:
-  version: 1.1
-  last_validated: 2026-04-27
+  version: 1.2
+  last_validated: 2026-07-14
   stability_status: "critical"
   ttl_days: 90
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
+![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 🍼 Baby & Toddler Survival Runbook
 
-**TL;DR:** Never land without a 72-hour supply buffer. Use **Hema/Freshippo** for trusted formula. High-speed rail **First Class** is your "Nap Hub." Use **Manual Lanes** at all transit gates.
+**TL;DR:** Never land without a 72-hour supply buffer. Use **Hema/Freshippo** for trusted formula. High-speed rail: kids <6 are free but must share a seat. Transit nodes feature hidden staircases; keep a baby carrier ready.
 
 **Prerequisites:**
 - **Child's Passport:** Physical original required for all hospital/hotel registration.
@@ -22,24 +22,31 @@ metadata:
 
 ## 📋 The Runbook
 
-### Buying Formula
-- **High-Trust Nodes:** Buy ONLY from **Hema (Freshippo)**, **Ole’**, **CitySuper**, or **Sam’s Club**. 
-- **Delivery (30-60 min):** Use **Meituan** or **Ele.me**. 
-  - **Search Terms:** `奶粉` (Infant Formula).
-- **⚠️ Formula Safety Check (Nestlé Recall — Jan 2026, Now Resolved):** 
-  - **Background:** A global recall affected Nestlé brands (NAN, BEBA, Lactogen) due to cereulide toxin risk from contaminated oat ingredients. The recall was declared January 2026 and affected batches identified by late January.
-  - **Current Status (Mar 2026):** The affected batches have been withdrawn from major retailers. However, **check any existing stock** (hotel mini-bars, older purchases) against the batch list on the **[Nestlé official recall page](https://www.nestle.com)** before feeding.
-  - **Safest choice:** Stick to **Aptamil** or **Friso** if unsure. See the [Formula Batch Checker guide](../milk-recall-check/) for full SOP.
+### 1. Buying Formula & Supplies
+- **High-Trust Nodes:** Buy ONLY from **Hema (Freshippo)**, **Ole’**, **CitySuper**, or **Sam’s Club**.
+- **Delivery (30-60 min):** Use **Meituan** or **Ele.me** (Search: `奶粉` for formula, `纸尿裤` for diapers).
+- **⚠️ Formula Safety Check (Nestlé Recall — Jan 2026, Now Resolved):**
+  - **Current Status:** The affected batches ( NAN, BEBA, Lactogen) from late January 2026 have been cleared. However, always run check on older or hotel mini-bar stocks.
+  - **Safest choices:** Stick to **Aptamil** or **Friso** if unsure. See the [Formula Batch Checker guide](../milk-recall-check/) for full SOP.
 
 ### 2. The Pediatric Routing (Medical)
-- **Step 1:** If your child has a fever > 38.5°C, head to **Jiahui International Hospital** (Shanghai) or the **VIP Wing** of a public pediatric hospital.
+- **Step 1:** If your child has a fever > 38.5°C, head to **Jiahui International Hospital** (Shanghai) or the **VIP Wing (Te-xu / 特需)** of a public pediatric hospital.
 - **Step 2:** Say: **"Értóng fārè ménzhěn zài nǎlǐ?"** (Where is the pediatric fever clinic?).
 - **Verification:** Ensure you have the child's physical passport. Digital copies are often rejected at the registration window.
 
 ### 3. Transit & Mobility SOP
-- **Step 1 (Trains):** Book **First Class** on High-Speed Rail. The extra 30cm of legroom allows you to keep a stroller unfolded.
-- **Step 2 (Metro):** Do not use e-gates. Go to the **Manual Lane** on the far end. Staff will wave strollers through.
-- **Verification:** Check every carriage end for the **100°C Boiling Water Node** for sterilizing bottles.
+- **Step 1 (High-Speed Rail Ticket Rules):** Children **under 6 years old** travel free of charge, but they **must share a seat** with an accompanying adult (no separate seat allocated). 
+  - **Action:** If you want a dedicated seat for your child to nap or play, you **must purchase a Child Ticket** (usually 50% discount) when booking.
+- **Step 2 (Metro & Station Barriers):** Do not use standard e-gates. Go to the **Manual Lane** on the far end. Station staff will wave strollers and carriers through.
+- **Step 3 (Bottle Prep):** Verify the presence of the **100°C Boiling Water Node** (located at the end of every carriage on high-speed trains) for sterilizing bottles.
+
+#### 🚶‍♂️ Stroller vs. Carrier Transit Decision Matrix
+Navigating Chinese cities requires balancing portability against accessibility.
+
+| Option | Pros | Cons | Best For |
+| :--- | :--- | :--- | :--- |
+| **Lightweight Cabin Stroller** (e.g., Babyzen YOYO) | Child can sleep easily; storage space for bags. | ⚠️ **Accessibility Bottlenecks:** Many older metro exits and HSR footbridges have long staircases without elevators, forcing you to carry both stroller and child. | Long walks in flat areas (parks, modern shopping malls, Bund promenade). |
+| **Ergonomic Baby Carrier** (e.g., Ergobaby) | Hands-free mobility; fast navigation through station crowds; zero stairs friction. | Exhausting in wet summer heat; no nap support for toddlers. | **HSR Stations, Subways, and Airports.** Essential for moving quickly through security and boarding queues. |
 
 ---
 
@@ -54,12 +61,15 @@ metadata:
 
 ## 💡 TechDad's Tips
 
-- **The Stroller Rule:** Leave the 15kg "Monster Stroller" at home. Bring a **lightweight cabin-fold stroller** (e.g., Babyzen YOYO). Chinese subways are 95% elevator-accessible, but that 5% will break your back.
-- **Safe Havens (母婴室):** Shanghai malls like **Reel** or **IFC** have nursing rooms better than most hotel rooms. Use them.
-- **Didi Car Seats:** They don't exist in 99% of cars. If you aren't bringing a car seat, use the **Metro** or **Official Taxis**; they are generally safer than unlicensed private drivers.
+- **Didi & Taxi Car Seats:** Child seats are virtually **non-existent** in Chinese ride-hailing fleets. Didi does not offer a child seat option. If you are not bringing a portable travel vest or car seat, the **Metro** and **High-Speed Rail** are significantly safer transport mediums.
+- **Safe Havens (母婴室):** High-end shopping malls (like MixC, IFC, or Taikoo Hui) have premium nursing rooms equipped with hot water, diaper changers, and private feeding stalls. Many malls also feature indoor play areas (children's play centers) on upper floors—excellent air-conditioned sanctuaries during hot/rainy seasons.
+- **Social Landscapes & Environmental Prep:**
+  - **Crowd Warmth:** Chinese locals are incredibly warm towards foreign children. Expect people to wave, take photos, or interact. If you are uncomfortable with photos, politely say **"Bù hǎoyìsi, bù zhào xiàng"** (Sorry, no photos).
+  - **Noise & Smoking:** Chinese environments can be loud (loud talking, speakers). Outdoor smoking is still common near restaurant entrances and streets. Keep your carrier high to avoid street-level smoke.
+  - **Humid Summer Heat:** July/August is extremely wet and hot. Pack small portable USB stroller fans and light UV-blocking stroller covers.
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

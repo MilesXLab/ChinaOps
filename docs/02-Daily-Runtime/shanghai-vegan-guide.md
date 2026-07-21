@@ -3,13 +3,28 @@ layout: guide
 title: "Vegetarian & Vegan Survival SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "shanghai"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🥗 Vegetarian & Vegan Survival SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Say clearly you eat no meat, fish, or animal broth. Temple and vegan restaurants are safer than standard kitchens.</p>
+  <p>Use short Chinese phrases; Shanghai has more vegan options than smaller cities.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我吃素，不要肉和鱼</div>
+  <div class="py">wǒ chī sù, bú yào ròu hé yú</div>
+  <div class="en">I am vegetarian — no meat or fish.</div>
+</div>
+
 
 **TL;DR:** Use **HappyCow** or **Dianping** (search `素食`). Stick to **Buddhist Temple Restaurants** for 100% plant-based purity. Avoid street-food "vegetable" buns as they often contain lard or egg.
 
@@ -63,6 +78,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

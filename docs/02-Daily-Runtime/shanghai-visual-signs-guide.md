@@ -3,13 +3,28 @@ layout: guide
 title: "Visual Signs & Symbols Reconnaissance"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 👁️ Visual Signs & Symbols Reconnaissance
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Learn a few symbols for metro, toilets, taxis, and nursing rooms so you can move without reading full Chinese.</p>
+  <p>Symbols are mostly national; examples use Shanghai photos where noted.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">地铁站怎么走？</div>
+  <div class="py">dìtiě zhàn zěnme zǒu?</div>
+  <div class="en">How do I get to the metro station?</div>
+</div>
+
 
 **TL;DR:** Red "M" = Metro. `出口` (Chūkǒu) = Exit. `卫生间` (Wèishēngjiān) = Toilet. `公章` (Red Stamp) = Official Document. Use your camera translator for anything else.
 
@@ -77,6 +92,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -3,13 +3,28 @@ layout: guide
 title: "Shanghai Food & Dining SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "shanghai"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🥟 Shanghai Food & Dining SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Order with app photos or point at the menu. Xiaolongbao and local breakfast spots get crowded — go early.</p>
+  <p>Shanghai-focused; flavors and chains differ elsewhere.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">不要香菜</div>
+  <div class="py">bú yào xiāngcài</div>
+  <div class="en">No cilantro, please.</div>
+</div>
+
 
 **TL;DR:** Use **Dianping** to find restaurants and buy vouchers. Master the **Xiaolongbao** technique (soup first). Stick to **Hema/ALDI** for safe, clean, pre-packaged meals.
 
@@ -68,6 +83,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -3,13 +3,28 @@ layout: guide
 title: "Connectivity: SIM & eSIM Options"
 metadata:
   version: 1.2
-  last_validated: 2026-07-14
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 📶 Connectivity: SIM & eSIM Options
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Compare China Mobile / Unicom / Telecom tourist SIMs and travel eSIMs by price, hotspot support, and whether they bypass the firewall.</p>
+  <p>Register with your passport; keep the receipt.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">有没有上网流量套餐？</div>
+  <div class="py">yǒu méiyǒu shàngwǎng liúliàng tàocān?</div>
+  <div class="en">Do you have a mobile data plan?</div>
+</div>
+
 
 **TL;DR:** For 100% "Firewall Bypass," use a **Travel eSIM** (Trip.com, Holafly, Simify, or Nomad). For local services (receiving SMS, booking Didi, or registering at local hotspots), you need a **Physical SIM** from China Unicom or China Telecom. 
 
@@ -66,6 +81,6 @@ metadata:
 
 ---
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

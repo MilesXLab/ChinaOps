@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps Pre-flight Checklist</title>
+  <meta name="description" content="Interactive pre-flight checklist for China travel: power bank, eSIM, payments, hotel address, offline maps.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✅</text></svg>">
+  <link rel="stylesheet" href="./assets/css/chinaops.css">
+  <style>
+    .preflight-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      background: var(--bg-raised);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+    }
+    .preflight-item input {
+      width: 22px;
+      height: 22px;
+      margin-top: 2px;
+      flex-shrink: 0;
+      accent-color: var(--success);
+    }
+    .preflight-item label {
+      flex: 1;
+      cursor: pointer;
+      color: var(--fg-1);
+      font-size: var(--text-md);
+      line-height: 1.45;
+    }
+    .preflight-item .hint {
+      display: block;
+      margin-top: 4px;
+      font-size: var(--text-sm);
+      color: var(--fg-3);
+      font-weight: 500;
+    }
+    .preflight-item input:checked + label {
+      color: var(--fg-2);
+    }
+    .preflight-item input:checked + label .title-line {
+      text-decoration: line-through;
+      opacity: 0.85;
+    }
+    #preflightProgress {
+      font-weight: 700;
+      color: var(--brand);
+      margin: 0 0 16px;
+    }
+    #preflightProgress.is-complete {
+      color: var(--success-strong);
+    }
+    .preflight-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body class="home-body">
+  <div class="home-wrap">
+    <header class="home-header">
+      <h1>✅ Pre-flight checklist</h1>
+      <p class="home-tagline"><strong>Do these at home — not in the airport queue</strong></p>
+      <p class="home-lead">
+        Tap each box as you finish. Progress is saved in this browser only (localStorage).
+        Without JavaScript, print this page and check by hand.
+      </p>
+      <div class="home-cta-row">
+        <a class="btn btn-brand" href="./docs/01-System-Setup/landing-protocol/">Landing Protocol</a>
+        <a class="btn btn-critical" href="./print-hub.html">Print pack</a>
+        <a class="btn btn-dark" href="./index.html">← Home</a>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="preflight-toolbar">
+        <p id="preflightProgress" aria-live="polite">0 / 0 done</p>
+        <button type="button" class="btn btn-dark" id="preflightReset">Reset all</button>
+      </div>
+
+      <p class="section-kicker">
+        Next busy periods: <strong>Mid-Autumn (Sep 25–27, 2026)</strong> ·
+        <strong>National Day (Oct 1–7, 2026)</strong> — book HSR early.
+      </p>
+
+      <div id="preflightList" data-storage-key="chinaops-preflight-v1">
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-power" data-id="power" />
+          <label for="pf-power">
+            <span class="title-line"><strong>Power bank in carry-on</strong> (not checked bag)</span>
+            <span class="hint">Domestic flights may need CCC + QR mark · see Power Bank guide</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-esim" data-id="esim" />
+          <label for="pf-esim">
+            <span class="title-line"><strong>eSIM / SIM + VPN tested at home</strong></span>
+            <span class="hint">Confirm data works before you land · dual path if possible</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-pay" data-id="pay" />
+          <label for="pf-pay">
+            <span class="title-line"><strong>Alipay + WeChat Pay cards bound</strong></span>
+            <span class="hint">Tell your bank about China travel · keep a backup card</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-cash" data-id="cash" />
+          <label for="pf-cash">
+            <span class="title-line"><strong>Small cash plan</strong> (ATM / ~500 RMB buffer)</span>
+            <span class="hint">Digital pay can fail mid-trip</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-hotel" data-id="hotel" />
+          <label for="pf-hotel">
+            <span class="title-line"><strong>Hotel address screenshot in 汉字</strong></span>
+            <span class="hint">Show taxi/Didi drivers offline</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-passport" data-id="passport" />
+          <label for="pf-passport">
+            <span class="title-line"><strong>Passport photo page + booking screenshots offline</strong></span>
+            <span class="hint">Album “EMERGENCY” on your phone</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-maps" data-id="maps" />
+          <label for="pf-maps">
+            <span class="title-line"><strong>Offline maps + dictionary downloaded</strong></span>
+            <span class="hint">Amap / Apple Maps area + Pleco or similar</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-hospital" data-id="hospital" />
+          <label for="pf-hospital">
+            <span class="title-line"><strong>One hospital / clinic saved in maps</strong></span>
+            <span class="hint">Prefer international desk if traveling with kids</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-print" data-id="print" />
+          <label for="pf-print">
+            <span class="title-line"><strong>Print pack printed or PDF saved</strong></span>
+            <span class="hint">A4 duplex recommended · numbers + phrases</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-entry" data-id="entry" />
+          <label for="pf-entry">
+            <span class="title-line"><strong>Digital arrival card ready (or know paper fallback)</strong></span>
+            <span class="hint">Screenshot QR · pen for paper card</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-kids" data-id="kids" />
+          <label for="pf-kids">
+            <span class="title-line"><strong>If with kids: formula / meds / allergy card packed</strong></span>
+            <span class="hint">Skip if solo · check milk batch tools if feeding formula</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="pf-hsr" data-id="hsr" />
+          <label for="pf-hsr">
+            <span class="title-line"><strong>Peak travel? HSR / hotels booked</strong></span>
+            <span class="hint">Mid-Autumn &amp; Golden Week sell out early</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="callout callout-success" style="margin-top:24px;">
+        <p class="callout-title">When all critical boxes are done</p>
+        <p style="margin:0;color:var(--fg-2);">
+          You’re ready for the <a href="./docs/01-System-Setup/landing-protocol/">Landing Protocol</a>
+          (first 30 minutes). If something fails later, use the
+          <a href="./docs/symptom-index/">Symptom Index</a>.
+        </p>
+      </div>
+    </section>
+
+    <footer class="home-footer">
+      <p><strong>ChinaOps</strong> · Checklist saves only on this device · CC BY-NC 4.0</p>
+    </footer>
+  </div>
+  <script src="./assets/js/chinaops.js" defer></script>
+</body>
+</html>

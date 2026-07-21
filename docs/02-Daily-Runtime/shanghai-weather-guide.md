@@ -3,13 +3,28 @@ layout: guide
 title: "Shanghai Weather & AQI SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "shanghai"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🌦️ Shanghai Weather & AQI SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Pack for humidity, sudden rain, and winter cold snaps. Check AQI on bad air days and limit outdoor time with kids.</p>
+  <p>Typhoon season needs flexible plans — Shanghai-focused calendar.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">今天空气质量怎么样？</div>
+  <div class="py">jīntiān kōngqì zhìliàng zěnmeyàng?</div>
+  <div class="en">How is the air quality today?</div>
+</div>
+
 
 **TL;DR:** Shanghai is "Damp Cold" in Winter and "Steamy Hot" in Summer. Use **AirVisual** for AQI monitoring. If a **Typhoon Red Alert** is issued, outdoor city operations (Disney, Bund, Metro Line 3/4) will shut down.
 
@@ -62,6 +77,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

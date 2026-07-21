@@ -1,11 +1,32 @@
 ---
 layout: guide
 title: "Internet / Network Outage Survival SOP"
+metadata:
+  version: 1.1
+  last_validated: 2026-07-21
+  ttl_days: 90
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
 # Internet / Network Outage Survival SOP
 
-**Last Updated:** Mar 2026 | **Author:** TechDadShanghai
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>When VPN or data dies, switch network path: other eSIM, hotel Wi‑Fi, offline maps, and cash.</p>
+  <p>Do not wait until 1% battery to fix connectivity.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">这里有没有Wi‑Fi？</div>
+  <div class="py">zhèlǐ yǒu méiyǒu Wi‑Fi?</div>
+  <div class="en">Is there Wi‑Fi here?</div>
+</div>
+
+
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 ---
 

@@ -3,13 +3,28 @@ layout: guide
 title: "Baby & Toddler Survival Runbook (2026)"
 metadata:
   version: 1.2
-  last_validated: 2026-07-14
+  last_validated: 2026-07-21
   stability_status: "critical"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 🍼 Baby & Toddler Survival Runbook
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Plan milk, diapers, sleep, and transport with kids before peak hours. Malls often have nursing rooms.</p>
+  <p>Many tips are national; Shanghai examples appear where useful.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">有没有儿童座椅？</div>
+  <div class="py">yǒu méiyǒu értóng zuòyǐ?</div>
+  <div class="en">Do you have a child seat?</div>
+</div>
+
 
 **TL;DR:** Never land without a 72-hour supply buffer. Use **Hema/Freshippo** for trusted formula. High-speed rail: kids <6 are free but must share a seat. Transit nodes feature hidden staircases; keep a baby carrier ready.
 
@@ -70,6 +85,6 @@ Navigating Chinese cities requires balancing portability against accessibility.
 
 ---
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

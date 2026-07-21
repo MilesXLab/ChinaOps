@@ -2,11 +2,33 @@
 layout: guide
 title: "Alipay & WeChat Pay Setup for Foreign Visitors"
 description: "Complete step-by-step guide for foreigners to set up Alipay and WeChat Pay in China: international card binding, common errors, and payment troubleshooting"
+metadata:
+  version: 1.2
+  last_validated: 2026-07-21
+  ttl_days: 30
+  churn: high
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
 # Alipay & WeChat Pay Setup for Foreign Visitors
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>You need Alipay and usually WeChat Pay for daily life. Link a foreign Visa/Mastercard, finish identity checks, and keep a backup card ready.</p>
+  <p>If payment fails, try the other app, another card, or cash — do not panic at the counter.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">可以用支付宝吗？</div>
+  <div class="py">kěyǐ yòng Zhīfùbǎo ma?</div>
+  <div class="en">Can I pay with Alipay?</div>
+</div>
+
+
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 ---
 

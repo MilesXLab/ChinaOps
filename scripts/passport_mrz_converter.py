@@ -38,15 +38,18 @@ def format_mrz_name(first_name: str, last_name: str) -> str:
     # Clean inputs
     first = remove_accents(first_name.strip()).upper()
     last = remove_accents(last_name.strip()).upper()
-    
-    # Remove hyphens and apostrophes
-    first = first.replace('-', '').replace("'", '')
-    last = last.replace('-', '').replace("'", '')
-    
+
+    # Remove hyphens, apostrophes, spaces (MRZ uses letters only between <<)
+    for ch in ("-", "'", " "):
+        first = first.replace(ch, "")
+        last = last.replace(ch, "")
+
+    # Keep A–Z only (matches browser mrz-tool.html)
+    first = "".join(c for c in first if "A" <= c <= "Z")
+    last = "".join(c for c in last if "A" <= c <= "Z")
+
     # Format: LASTNAME<<FIRSTNAME
-    mrz = f"{last}<<{first}"
-    
-    return mrz
+    return f"{last}<<{first}"
 
 
 def main():

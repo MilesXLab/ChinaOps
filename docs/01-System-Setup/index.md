@@ -5,16 +5,23 @@ title: "System Setup"
 
 # ✈️ System Setup
 
-Get your essentials working: phone, VPN, payments, and medications. These are the first things you need to handle upon arrival in China.
+**Plain English:** Get phone, data, payments, and entry basics working *before* you need them in the city.
 
-### Guides in this section (9 Guides):
+Get your essentials ready: phone, VPN/eSIM, payments, and medications. Do most of this before or right after landing.
 
-*   [**The Landing Protocol**](landing-protocol/) — Your first 30 mins: Immigration & Connectivity.
-*   [**VPN & Payments Setup**](vpn-esim-payment/) — Essential firewall bypass and digital pay.
-*   [**Mobile Number & Activation**](mobile-number-and-activation/) — Local SIM vs. eSIM routing.
-*   [**Visa & Entry Requirements**](visa-and-entry/) — 2026 Visa-free (免签) policies.
-*   [**Hotel Check-in & Registration**](hotel-check-in/) — Passport verification and 24-hour police registration.
-*   [**Translation Tools & Language Barrier**](translation-tools/) — Offline dictionaries, real-time translation, essential phrases.
-*   [**Pharmacy & Medications**](pharmacy-and-medications/) — OTC rules and medicine sourcing.
-*   [**Power Bank Rules**](power-bank-rules/) — Flight safety for portable batteries.
-*   [**SIM Card Options**](sim-card-options/) — Carrier coverage and pricing.
+### Guides in this section (10 guides)
+
+*   [**The Landing Protocol**](landing-protocol/) — First 30 minutes: immigration & connectivity
+*   [**VPN & Payments Setup**](vpn-esim-payment/) — eSIM, firewall bypass, digital pay *(high-churn)*
+*   [**Alipay & WeChat Pay (Foreign Visitors)**](alipay-wechat-setup-foreigners/) — Card binding & common errors *(high-churn)*
+*   [**Mobile Number & Activation**](mobile-number-and-activation/) — Local SIM vs eSIM
+*   [**Visa & Entry Requirements**](visa-and-entry/) — 2026 visa-free (免签) policies *(high-churn)*
+*   [**Hotel Check-in & Registration**](hotel-check-in/) — Passport check & 24-hour police registration
+*   [**Translation Tools & Language Barrier**](translation-tools/) — Offline dictionaries & phrases
+*   [**Pharmacy & Medications**](pharmacy-and-medications/) — OTC rules and medicine sourcing
+*   [**Power Bank Rules**](power-bank-rules/) — Flight safety for portable batteries *(high-churn)*
+*   [**SIM Card Options**](sim-card-options/) — Carrier coverage and pricing
+
+### Stuck? Match a symptom
+
+→ [Symptom Index](../symptom-index/) — payment failed, no data, hotel issues, etc.

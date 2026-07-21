@@ -1,0 +1,13 @@
+{
+  "name": "chinaops",
+  "private": true,
+  "description": "Build helpers for ChinaOps static search (Pagefind)",
+  "scripts": {
+    "build:fulltext": "python scripts/build_fulltext_index.py",
+    "build:pagefind": "python scripts/build_fulltext_index.py && pagefind --site _pagefind_src --output-path pagefind",
+    "build:search": "npm run build:pagefind"
+  },
+  "devDependencies": {
+    "pagefind": "^1.3.0"
+  }
+}

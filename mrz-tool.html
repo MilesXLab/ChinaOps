@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps MRZ Name Tool — 12306</title>
+  <meta name="description" content="Convert passport given name + surname to 12306 MRZ format (LASTNAME&lt;&lt;FIRSTNAME). Runs entirely in your browser.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚄</text></svg>">
+  <link rel="stylesheet" href="./assets/css/chinaops.css">
+  <style>
+    .tool-grid {
+      display: grid;
+      gap: 14px;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .tool-grid label {
+      display: block;
+      font-weight: 700;
+      font-size: var(--text-sm);
+      color: var(--fg-2);
+      margin-bottom: 6px;
+    }
+    .tool-grid input {
+      width: 100%;
+      min-height: 44px;
+      font: inherit;
+      font-size: var(--text-md);
+      padding: 10px 12px;
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      box-sizing: border-box;
+    }
+    .tool-grid input:focus {
+      outline: 2px solid var(--brand);
+      border-color: var(--brand);
+    }
+    .mrz-out {
+      font-family: var(--font-mono);
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 16px;
+      background: var(--bg-brand-soft);
+      border: 1px solid #c3dafe;
+      border-radius: var(--radius-md);
+      word-break: break-all;
+      min-height: 52px;
+    }
+    .tool-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .msg { font-size: var(--text-sm); color: var(--fg-3); min-height: 1.2em; }
+    .msg.ok { color: var(--success-strong); font-weight: 600; }
+  </style>
+</head>
+<body class="home-body">
+  <div class="home-wrap">
+    <header class="home-header">
+      <h1>🚄 12306 MRZ name tool</h1>
+      <p class="home-tagline"><strong>Passport name → LASTNAME&lt;&lt;FIRSTNAME</strong></p>
+      <p class="home-lead">
+        Runs only in your browser — names are not uploaded. Same rules as
+        <code>scripts/passport_mrz_converter.py</code>.
+        Full guide: <a href="./docs/02-Daily-Runtime/train-ticket-trap/">Train Ticket Trap</a>.
+      </p>
+      <div class="home-cta-row">
+        <a class="btn btn-brand" href="./search-fulltext.html">Full-text search</a>
+        <a class="btn btn-dark" href="./index.html">← Home</a>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="tool-grid">
+        <div>
+          <label for="firstName">Given name(s) / First name</label>
+          <input id="firstName" type="text" autocomplete="given-name" placeholder="e.g. John" />
+        </div>
+        <div>
+          <label for="lastName">Surname / Last name / Family name</label>
+          <input id="lastName" type="text" autocomplete="family-name" placeholder="e.g. Smith" />
+        </div>
+        <div>
+          <label for="mrzOut">MRZ for 12306 (copy this)</label>
+          <div class="mrz-out" id="mrzOut" aria-live="polite">—</div>
+        </div>
+        <div class="tool-actions">
+          <button type="button" class="btn btn-brand" id="btnCopy">Copy MRZ</button>
+          <button type="button" class="btn btn-dark" id="btnClear">Clear</button>
+        </div>
+        <p class="msg" id="msg"></p>
+      </div>
+
+      <div class="callout callout-info" style="margin-top:24px;">
+        <p class="callout-title">Rules applied</p>
+        <ul style="margin:0;padding-left:1.2em;color:var(--fg-2);">
+          <li>Uppercase ASCII (accents stripped, e.g. José → JOSE)</li>
+          <li>Hyphens and apostrophes removed</li>
+          <li>Format: <code>LASTNAME&lt;&lt;FIRSTNAME</code></li>
+          <li>Verify in 12306 ~24h before travel; bring passport to the station</li>
+        </ul>
+      </div>
+
+      <div class="callout callout-warning" style="margin-top:16px;">
+        <p class="callout-title">Privacy</p>
+        <p style="margin:0;color:var(--fg-2);">Nothing is sent to a server. Clear the form when done if you share this device.</p>
+      </div>
+    </section>
+
+    <footer class="home-footer">
+      <p><strong>ChinaOps</strong> · Personal use only · CC BY-NC 4.0</p>
+    </footer>
+  </div>
+  <script>
+(function () {
+  function removeAccents(text) {
+    try {
+      return text.normalize("NFD").replace(/\p{M}/gu, "");
+    } catch (e) {
+      // older browsers without unicode property escapes
+      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+  }
+
+  function formatMrz(firstName, lastName) {
+    var first = removeAccents(String(firstName || "").trim()).toUpperCase();
+    var last = removeAccents(String(lastName || "").trim()).toUpperCase();
+    first = first.replace(/[-']/g, "").replace(/\s+/g, "");
+    last = last.replace(/[-']/g, "").replace(/\s+/g, "");
+    // keep letters only for safety
+    first = first.replace(/[^A-Z]/g, "");
+    last = last.replace(/[^A-Z]/g, "");
+    if (!first && !last) return "";
+    return last + "<<" + first;
+  }
+
+  var firstEl = document.getElementById("firstName");
+  var lastEl = document.getElementById("lastName");
+  var outEl = document.getElementById("mrzOut");
+  var msgEl = document.getElementById("msg");
+
+  function update() {
+    var mrz = formatMrz(firstEl.value, lastEl.value);
+    outEl.textContent = mrz || "—";
+    msgEl.textContent = "";
+    msgEl.className = "msg";
+  }
+
+  firstEl.addEventListener("input", update);
+  lastEl.addEventListener("input", update);
+
+  document.getElementById("btnClear").addEventListener("click", function () {
+    firstEl.value = "";
+    lastEl.value = "";
+    update();
+    firstEl.focus();
+  });
+
+  document.getElementById("btnCopy").addEventListener("click", function () {
+    var mrz = formatMrz(firstEl.value, lastEl.value);
+    if (!mrz) {
+      msgEl.textContent = "Enter first and last name first.";
+      return;
+    }
+    function ok() {
+      msgEl.textContent = "Copied: " + mrz;
+      msgEl.className = "msg ok";
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(mrz).then(ok).catch(function () {
+        window.prompt("Copy MRZ:", mrz);
+      });
+    } else {
+      window.prompt("Copy MRZ:", mrz);
+      ok();
+    }
+  });
+
+  update();
+})();
+  </script>
+</body>
+</html>

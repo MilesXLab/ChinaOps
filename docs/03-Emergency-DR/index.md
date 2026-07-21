@@ -3,9 +3,13 @@ layout: default
 title: "Incident Response & Disaster Recovery"
 ---
 
-# 🚨 Incident Response & Disaster Recovery
+# 🚨 Emergency: When Things Go Wrong
 
-Technical SOPs for when the system fails or encounters unexpected input.
+**Plain English:** Hospitals, lost passport/phone/card, scams, and no-network survival.
+
+Technical SOPs for when plans fail. Most steps are **national**; Shanghai Safety adds city detail.
+
+→ Stuck? Use the [Symptom Index](../symptom-index/).
 
 ### 🏥 Life Safety
 *   [**Hospital Access**](hospital-access/) — Finding international departments and pediatrician routing.

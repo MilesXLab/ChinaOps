@@ -76,7 +76,9 @@ ChinaOps provides **real-world tested solutions** for travelers and families in 
 
 1. **Copy the template:** [TEMPLATE_ENHANCED_SOP.md](TEMPLATE_ENHANCED_SOP.md)
 
-2. **Fill in all 10 sections:**
+2. **Phrases:** follow [docs/00-Maintenance/phrase-style-guide.md](docs/00-Maintenance/phrase-style-guide.md) (one card per scene). High-frequency offline phrases may also go in [print-pack.html](print-pack.html).
+
+3. **Fill in all 10 sections:**
    - Problem Statement
    - Root Cause Analysis
    - Step-by-step Solution
@@ -88,16 +90,17 @@ ChinaOps provides **real-world tested solutions** for travelers and families in 
    - FAQ (5-10 questions)
    - Contacts & Resources
 
-3. **Quality checks:**
+4. **Quality checks:**
    - [ ] Written for English-speaking travelers
    - [ ] Chinese terms in parentheses with pinyin
+   - [ ] Phrase cards use the shared HTML component (see phrase style guide)
    - [ ] Real contact numbers/addresses (verified)
    - [ ] Safety warnings included (use ⚠️ emoji)
    - [ ] Multiple solution paths (if Plan A fails, here's Plan B)
    - [ ] Estimated costs in RMB/USD
    - [ ] Tested information (not just theory)
 
-4. **Submit:**
+5. **Submit:**
    ```
    Title: [New SOP] - [Topic Name]
    
@@ -218,17 +221,43 @@ Add this line to the SOP:
 ### Step 2: Create Your Content
 
 See guides above for:
-- New SOPs → Copy template
+- New SOPs → Copy [TEMPLATE_ENHANCED_SOP.md](TEMPLATE_ENHANCED_SOP.md)
 - Updates → Explain what changed
 - Issues → Use issue template
 
-### Step 3: Submit for Review
+### Step 3: Data & release checklist (required for PRs)
 
-1. **GitHub Issues:** Perfect for bug reports and suggestions
-2. **Pull Requests:** For new SOPs or significant updates
-3. **GitHub Issues:** Use the Issues tab for all feedback and contributions.
+Before you open a PR that adds or changes a guide:
 
-### Step 4: Review & Feedback
+- [ ] **SOP body** follows the template (Plain English block, Action / Verification / Fallback)
+- [ ] **Frontmatter** includes `layout`, `title`, and `metadata` (`last_validated`, `ttl_days`, `validation_method`)
+- [ ] **High-churn topics** (payments, visa, power banks, holidays, formula recalls) use `ttl_days: 30` and `churn: high` — see [high-churn registry](docs/00-Maintenance/high-churn-registry.md)
+- [ ] **Field tests** (preferred for high-churn): use [field-retest-checklist.md](docs/00-Maintenance/field-retest-checklist.md) and set `validation_method: field_test`
+- [ ] **Only bump `last_validated`** if you actually re-checked the claims (not a cosmetic edit)
+- [ ] **Register the guide** in [`index.json`](index.json) (path + human title)
+- [ ] **Link it** from the category `docs/.../index.md` and, if useful, [symptom-index.md](docs/symptom-index.md)
+- [ ] **Scope note** if Shanghai-only vs national
+- [ ] Run locally:
+  ```bash
+  python scripts/ttl_check.py
+  python scripts/verify_links.py
+  python scripts/check_catalog.py
+  python scripts/check_static_assets.py
+  ```
+- [ ] If you changed guide **body text** (not just metadata), rebuild search indexes:
+  ```bash
+  npm install
+  npm run build:search
+  ```
+  Commit updated `assets/search/fulltext.json` and `pagefind/` when shipping.
+- [ ] Mention user-facing changes in `CHANGELOG.md` when shipping a release
+
+### Step 4: Submit for Review
+
+1. **GitHub Issues:** Bug reports and suggestions
+2. **Pull Requests:** New SOPs or significant updates
+
+### Step 5: Review & Feedback
 
 - Maintainers will review within 1 week
 - May request clarifications or changes

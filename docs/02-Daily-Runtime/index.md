@@ -3,9 +3,13 @@ layout: default
 title: "Production Runtime: Navigation & Travel"
 ---
 
-# 🚗 Production Runtime: Navigation & Travel
+# 🚗 Daily Runtime: Navigation & Travel
 
-Technical guides for managing your daily operations in Chinese cities. From high-speed rail to shared bikes.
+**Plain English:** Day-to-day movement — trains, taxis, metro, maps, and Shanghai living tips.
+
+Technical guides for daily operations in Chinese cities. From high-speed rail to shared bikes.
+
+**Scope:** Transit and payments are mostly **national**. The “Shanghai Specifics” block is **Shanghai-first** (other cities may differ).
 
 ### 🚄 Regional Transit
 *   [**International-Domestic Transit SOP**](international-domestic-transit/) — Managing the PVG/BJS luggage loop.
@@ -18,7 +22,7 @@ Technical guides for managing your daily operations in Chinese cities. From high
 *   [**Taxis & Didi**](taxi-payment/) — Calling cars and handling payments.
 *   [**Maps & Facilities**](maps-and-toilets/) — Finding your way and locating bathrooms.
 
-### 🏘️ Shanghai Specifics
+### 🏘️ Shanghai Specifics *(Shanghai-first)*
 *   [**Shanghai Local Hacks**](shanghai-local-hacks/) — Stroller safety and local app recommendations.
 *   [**Weather & AQI Guide**](shanghai-weather-guide/) — Seasonal gear and air quality patches.
 *   [**Attractions & Nodes**](shanghai-attractions-guide/) — Skyline hacks and family-friendly spots.

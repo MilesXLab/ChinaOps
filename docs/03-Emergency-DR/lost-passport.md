@@ -1,11 +1,30 @@
 ---
 layout: guide
 title: "Lost Passport / Important Documents SOP"
+metadata:
+  version: 1.1
+  last_validated: 2026-07-21
+  ttl_days: 90
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
 # Lost Passport / Important Documents SOP
 
-**Last Updated:** Mar 2026 | **Author:** TechDadShanghai
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>If your passport is gone: search quickly, then get a Chinese police report, then contact your embassy for an emergency travel document. Hotels and flights often need that paper trail.</p>
+  <p><span class="scope-badge">Scope: national</span> Embassy steps differ by country — always confirm with your consulate.</p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我的护照丢了</div>
+  <div class="py">wǒ de hùzhào diū le</div>
+  <div class="en">I lost my passport.</div>
+</div>
+
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 ---
 

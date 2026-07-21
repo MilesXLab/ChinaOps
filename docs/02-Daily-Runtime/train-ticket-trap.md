@@ -3,13 +3,28 @@ layout: guide
 title: "12306 Train Tickets: The MRZ Name Hack"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚄 12306 Train Tickets: The MRZ Name Hack
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>12306 needs your name in MRZ-style format. Register early, pass real-name checks, then book in the open window.</p>
+  <p>Use the browser <a href="../../../mrz-tool.html">MRZ name tool</a> (or <code>passport_mrz_converter.py</code>) if registration fails on name format.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我要买高铁票</div>
+  <div class="py">wǒ yào mǎi gāotiě piào</div>
+  <div class="en">I want to buy a high-speed train ticket.</div>
+</div>
+
 
 **TL;DR:** The 12306 system only recognizes a single string from your passport. Match the **MRZ code** (bottom of passport) in **ALL CAPS**. If your name is >15 chars, truncation logic applies.
 
@@ -58,6 +73,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

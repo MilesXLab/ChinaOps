@@ -3,15 +3,32 @@ layout: guide
 title: "The Emergency Contacts Reference"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🆘 The Emergency Contacts Reference
 
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Print or screenshot police, ambulance, embassy, and your hotel address before you need them.</p>
+  <p>Share the card with family traveling with you.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请帮我叫救护车</div>
+  <div class="py">qǐng bāng wǒ jiào jiùhùchē</div>
+  <div class="en">Please call an ambulance for me.</div>
+</div>
+
+
 **TL;DR:** Police: **110**. Ambulance: **120**. International Hospital (SH): **400-868-3000** (Jiahui). Carry a physical hotel card with the Chinese address.
+
+**Print this faster:** open repo-root **`print-pack.html`** (or site `/print-pack.html`) for a one-click emergency card + phrase sheet.
 
 **Prerequisites:**
 - **Physical Printout:** Do not rely on your phone's screen if the battery dies.
@@ -76,6 +93,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

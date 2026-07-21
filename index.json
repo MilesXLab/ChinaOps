@@ -1,7 +1,25 @@
 {
   "project": "ChinaOps - Technical Runbook for Travelers & Parents",
   "description": "Real-world solutions for travelers and families in China. Comprehensive SOPs with step-by-step guides, safety tips, and helper tools.",
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-21",
+  "version": "1.12.0",
+  "navigation": [
+    {"name": "Symptom Index", "path": "docs/symptom-index.md"},
+    {"name": "Full-text Search", "path": "search-fulltext.html"},
+    {"name": "Search Guides (titles)", "path": "search.html"},
+    {"name": "MRZ Tool (12306)", "path": "mrz-tool.html"},
+    {"name": "Pre-flight Checklist", "path": "preflight-checklist.html"},
+    {"name": "Landing Checklist", "path": "landing-checklist.html"},
+    {"name": "Print Hub", "path": "print-hub.html"},
+    {"name": "Design Tokens", "path": "docs/00-Maintenance/design-tokens.md"},
+    {"name": "Print Pack A4 Duplex", "path": "print-pack-a4.html"},
+    {"name": "Print Pack Bilingual", "path": "print-pack-bilingual.html"},
+    {"name": "Print Pack Standard", "path": "print-pack.html"},
+    {"name": "High-Churn Registry", "path": "docs/00-Maintenance/high-churn-registry.md"},
+    {"name": "Phrase Style Guide", "path": "docs/00-Maintenance/phrase-style-guide.md"},
+    {"name": "Field Re-test Checklist", "path": "docs/00-Maintenance/field-retest-checklist.md"},
+    {"name": "Field Re-test Log", "path": "docs/00-Maintenance/field-retest-log.md"}
+  ],
   "sections": [
     {
       "title": "01-System-Setup",

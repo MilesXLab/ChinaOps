@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps Landing Checklist — First 30 Minutes</title>
+  <meta name="description" content="Interactive landing protocol checklist: immigration, connectivity, payment test, transport — clear to leave the airport.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛫</text></svg>">
+  <link rel="stylesheet" href="./assets/css/chinaops.css">
+  <style>
+    .preflight-item {
+      display: flex; gap: 12px; align-items: flex-start;
+      padding: 14px 16px; margin-bottom: 10px;
+      background: var(--bg-raised); border: 1px solid var(--border-default);
+      border-radius: var(--radius-md); box-shadow: var(--shadow-sm);
+    }
+    .preflight-item input {
+      width: 22px; height: 22px; margin-top: 2px; flex-shrink: 0;
+      accent-color: var(--success);
+    }
+    .preflight-item label { flex: 1; cursor: pointer; line-height: 1.45; font-size: var(--text-md); }
+    .preflight-item .hint { display: block; margin-top: 4px; font-size: var(--text-sm); color: var(--fg-3); }
+    .preflight-item input:checked + label .title-line { text-decoration: line-through; opacity: 0.85; }
+    #preflightProgress { font-weight: 700; color: var(--brand); margin: 0; }
+    #preflightProgress.is-complete { color: var(--success-strong); }
+    .preflight-toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+    .step-num {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 22px; height: 22px; border-radius: 50%; background: var(--bg-brand-soft);
+      color: var(--brand); font-size: 0.75rem; font-weight: 800; margin-right: 6px;
+    }
+  </style>
+</head>
+<body class="home-body landing-checklist-page">
+  <div class="home-wrap">
+    <header class="home-header">
+      <h1>🛫 Landing checklist</h1>
+      <p class="home-tagline"><strong>First 30 minutes — do not leave until green</strong></p>
+      <p class="home-lead">
+        Airport Wi‑Fi is your last high-bandwidth hub. Tick each gate in order.
+        Saved only on this device. Full write-up:
+        <a href="./docs/01-System-Setup/landing-protocol/">Landing Protocol</a>.
+      </p>
+      <div class="home-cta-row">
+        <a class="btn btn-brand" href="./preflight-checklist.html">Pre-flight list</a>
+        <a class="btn btn-critical" href="./print-hub.html">Print pack</a>
+        <a class="btn btn-dark" href="./index.html">← Home</a>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="preflight-toolbar">
+        <p id="preflightProgress" aria-live="polite">0 / 0 done</p>
+        <button type="button" class="btn btn-dark" id="preflightReset">Reset</button>
+      </div>
+
+      <div class="callout callout-warning" style="margin-bottom:16px;">
+        <p class="callout-title">Order matters</p>
+        <p style="margin:0;color:var(--fg-2);">Immigration → Connectivity → Payment test → Transport → Offline proof. If any fail, use the fallback in the full SOP before exiting the terminal.</p>
+      </div>
+
+      <div id="preflightList" data-storage-key="chinaops-landing-v1">
+        <div class="preflight-item">
+          <input type="checkbox" id="ld-imm" data-id="landing-imm" />
+          <label for="ld-imm">
+            <span class="title-line"><span class="step-num">1</span><strong>Immigration / digital arrival done</strong></span>
+            <span class="hint">Kiosk QR or paper blue/yellow card · stamp checked</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="ld-data" data-id="landing-data" />
+          <label for="ld-data">
+            <span class="title-line"><span class="step-num">2</span><strong>eSIM / data works</strong> (Google or WhatsApp loads)</span>
+            <span class="hint">If not: airport Wi‑Fi fallback · see VPN/eSIM guide</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="ld-pay" data-id="landing-pay" />
+          <label for="ld-pay">
+            <span class="title-line"><span class="step-num">3</span><strong>Payment test</strong> — small buy with Alipay/WeChat</span>
+            <span class="hint">FamilyMart / Lawson / café · physical card or cash if fail</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="ld-ride" data-id="landing-ride" />
+          <label for="ld-ride">
+            <span class="title-line"><span class="step-num">4</span><strong>Transport ready</strong> — DiDi/Alipay location OK or official taxi stand</span>
+            <span class="hint">Never follow unsolicited “taxi?” offers in the hall</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="ld-offline" data-id="landing-offline" />
+          <label for="ld-offline">
+            <span class="title-line"><span class="step-num">5</span><strong>Offline proof</strong> — hotel address 汉字 screenshot</span>
+            <span class="hint">Plus passport photo page + booking in phone album</span>
+          </label>
+        </div>
+        <div class="preflight-item">
+          <input type="checkbox" id="ld-battery" data-id="landing-battery" />
+          <label for="ld-battery">
+            <span class="title-line"><span class="step-num">6</span><strong>Battery safe</strong> — charge or compliant power bank</span>
+            <span class="hint">Dead phone = no wallet, map, or ride</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="callout callout-success" style="margin-top:20px;">
+        <p class="callout-title">Clear to leave?</p>
+        <p style="margin:0;color:var(--fg-2);">
+          When all boxes are checked, you may leave the airport.
+          If something breaks later → <a href="./docs/symptom-index/">Symptom Index</a>
+          or <a href="./search.html">Search guides</a>.
+        </p>
+      </div>
+
+      <div class="phrase-card" style="margin-top:20px;">
+        <div class="zh">请带我去这个地址</div>
+        <div class="py">qǐng dài wǒ qù zhège dìzhǐ</div>
+        <div class="en">Please take me to this address.</div>
+      </div>
+    </section>
+
+    <footer class="home-footer">
+      <p><strong>ChinaOps</strong> Landing gate · localStorage only · CC BY-NC 4.0</p>
+    </footer>
+  </div>
+  <script src="./assets/js/chinaops.js" defer></script>
+</body>
+</html>

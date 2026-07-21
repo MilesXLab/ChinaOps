@@ -3,13 +3,28 @@ layout: guide
 title: "Public Transport: Metro, Bikes & Buses"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚇 Public Transport: Metro, Bikes & Buses
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Metro is usually the fastest city option. Pay with a transit QR in Alipay/WeChat or a physical card.</p>
+  <p>Keep bags close in crowds; follow exit numbers, not only station names.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">这是哪一站？</div>
+  <div class="py">zhè shì nǎ yī zhàn?</div>
+  <div class="en">Which station is this?</div>
+</div>
+
 
 **TL;DR:** Use **Alipay's "Transport"** QR code for everything (Metro, Bus, Ferry). Add a **Shanghai Transit Card** to your Apple/Android wallet for tap-and-go. Avoid Peak Hours (8-9 AM, 5:30-7 PM).
 
@@ -65,6 +80,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

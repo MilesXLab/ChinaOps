@@ -3,13 +3,28 @@ layout: guide
 title: "Safety & Common Scams (2026 Update)"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚨 Safety & Common Scams (2026 Update)
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Most cities are safe for normal tourism. Watch tea-house scams, unofficial taxis, and “too friendly” strangers near tourist spots.</p>
+  <p>If it feels rushed or secret, walk away.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">不需要，谢谢</div>
+  <div class="py">bù xūyào, xièxie</div>
+  <div class="en">No need, thank you. (polite refusal)</div>
+</div>
+
 
 **TL;DR:** China is extremely safe from physical crime, but "Social Engineering" scams target foreigners in tourist hubs. If a stranger is "too friendly" and suggests a specific location, it's a trap.
 
@@ -58,7 +73,7 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 - **Valuables:** While theft is low, keep your passport in a secure pocket or the hotel safe. A photo of your passport on your phone is usually enough for daily ID checks.
 - **The Police & Security:** Officers and security guards (indicated by "Police," "Security," or 警察 Jǐngchá) are extremely friendly and generally prioritize foreign visitors' requests. If you are lost or need help, shout **"救命！" (Jiùmìng! = Help!)** or **"帮帮我！" (Bāng bāng wǒ! = Help me!)**, or show your character card.

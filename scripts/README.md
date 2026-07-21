@@ -12,6 +12,8 @@ Converts your passport name into the format required by 12306 (China Railways).
 
 **Problem Solved:** 12306 rejects foreign names because it doesn't parse First Name / Last Name separately. It needs MRZ format (LASTNAME<<FIRSTNAME).
 
+**Browser UI (no install):** open **`mrz-tool.html`** on the site — same rules, runs entirely in the browser.
+
 **Usage:**
 ```bash
 python passport_mrz_converter.py John Smith
@@ -33,6 +35,29 @@ Copy this into 12306 account registration
 - ✅ Removes hyphens (Mary-Jane → MARYJANE)
 - ✅ Converts to uppercase
 - ✅ Formats as LASTNAME<<FIRSTNAME
+
+---
+
+### 1b. **Full-text search index** (`build_fulltext_index.py`)
+
+Exports SOP bodies for search:
+
+1. `assets/search/fulltext.json` — client fallback used by `search-fulltext.html`
+2. `_pagefind_src/` — HTML tree for Pagefind (gitignored scratch)
+
+**Usage:**
+```bash
+# JSON + HTML export only
+python scripts/build_fulltext_index.py
+
+# Full Pagefind bundle (needs Node once: npm install)
+npm run build:search
+```
+
+**When to Use:**
+- After editing guide content that should be searchable
+- Before release if `pagefind/` or `fulltext.json` is stale
+- CI rebuilds `fulltext.json` on each health check
 
 ---
 
@@ -125,7 +150,15 @@ WH = Wuhan           |  JN = Jinan          |  CS = Changsha
 
 ### 4. **SOP Health Check (TTL Audit)** (`ttl_check.py`)
 
-Scans all SOP files and validates their metadata freshness based on TTL (time-to-live) thresholds.
+Scans all SOP files (skips hubs like `index.md` / `symptom-index.md`) and validates metadata freshness. Tags high-churn guides (`churn: high` or `ttl_days ≤ 30`) as `[HIGH]`. Exits `1` if expired or missing `metadata`.
+
+### 5. **Catalog Sync** (`check_catalog.py`)
+
+Fails if `index.json` and on-disk SOPs drift (missing file or uncatalogued guide).
+
+### 6. **Static assets** (`check_static_assets.py`)
+
+Fails if required entry HTML/CSS/JS files are missing (print packs, search, checklists).
 
 **Problem Solved:** SOPs can become stale without anyone noticing. This script flags guides whose `last_validated` date has exceeded their `ttl_days` limit.
 
@@ -274,5 +307,5 @@ Found a bug or want to add a script?
 ---
 
 **Author:** TechDadShanghai  
-**Last Updated:** April 2026  
+**Last Updated:** July 2026  
 **License:** CC BY-NC 4.0

@@ -1,11 +1,33 @@
 ---
 layout: guide
 title: "Formula Batch Checker: Recall Verification SOP"
+metadata:
+  version: 1.1
+  last_validated: 2026-07-21
+  ttl_days: 30
+  churn: high
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
 # Formula Batch Checker: Recall Verification SOP
 
-**Last Updated:** Mar 2026 | **Author:** TechDadShanghai
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Check formula brand and batch before you open a new can, especially after any global recall news.</p>
+  <p>Use official notices or SafeFeed Action; when unsure, do not feed that can.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">这个奶粉批次安全吗？</div>
+  <div class="py">zhège nǎifěn pīcì ānquán ma?</div>
+  <div class="en">Is this formula batch safe?</div>
+</div>
+
+
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 ---
 
@@ -17,7 +39,7 @@ Following the January 2026 Nestlé global recall (NAN, BEBA, Lactogen — cereul
 ## 2026 Nestlé Recall: Current Status
 
 > [!NOTE]
-> **Status as of March 2026: Resolved.** Affected batches have been identified and withdrawn from major retail chains. However, older stock in hotel mini-bars, gifted cans, or small independent shops may still be in circulation. **Always verify before opening a new can.**
+> **Status as of July 2026: Resolved (still verify).** The January 2026 Nestlé recall batches were withdrawn from major retail chains. Older stock in hotel mini-bars, gifted cans, or small shops may still appear. **Always check the batch before opening a new can.** Use [SafeFeed Action](https://milesxlab.github.io/safefeed-action/) when you can.
 
 | Brand | Affected Regions | Batch Identifier | Status |
 |:---|:---|:---|:---|

@@ -3,13 +3,28 @@ layout: guide
 title: "Food Allergies & Dietary Restrictions SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🍽️ Food Allergies & Dietary Restrictions SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Carry a written allergy card in Chinese. Show it before ordering; do not rely on English menus alone.</p>
+  <p>When unsure, choose simpler dishes or cook at the hotel.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我对花生过敏</div>
+  <div class="py">wǒ duì huāshēng guòmǐn</div>
+  <div class="en">I am allergic to peanuts.</div>
+</div>
+
 
 **TL;DR:** Always use a printed **Allergy Card** in Chinese. Order "Plain/Clear Stir-fry" (清炒) to minimize hidden oils. In 2026, **Jiahui** and **United Family** hospitals remain the primary nodes for anaphylaxis response.
 
@@ -57,7 +72,7 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 #### Option A: Use Allergy Card (Recommended)
 

@@ -3,13 +3,28 @@ layout: guide
 title: "Taxi & Mobility SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚕 Taxi & Mobility SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Prefer Didi or official taxi stands. Pay by QR when possible; refuse unsolicited “helpers” in arrival halls.</p>
+  <p>Screenshot the plate number before the ride starts.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请打表</div>
+  <div class="py">qǐng dǎ biǎo</div>
+  <div class="en">Please use the meter.</div>
+</div>
+
 
 **TL;DR:** Use **DiDi (International)** app or the **Alipay "Transport"** mini-program. Do not hail on the street unless you have the destination address in **Chinese characters**. Always ask for a **receipt (fàpiào)**.
 
@@ -65,6 +80,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

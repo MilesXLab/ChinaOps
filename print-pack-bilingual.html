@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps 中英应急单页 · Bilingual One-Pager</title>
+  <meta name="description" content="Single A4 bilingual emergency and phrase sheet — English + 简体中文.">
+  <style>
+    :root { --ink:#111; --muted:#444; --line:#bbb; --brand:#4c5fc7; --warn:#b91c1c; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: #e2e8f0;
+      font-size: 9.5pt;
+      line-height: 1.3;
+    }
+    .screen-bar {
+      max-width: 210mm; margin: 12px auto; padding: 0 8px;
+      display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;
+    }
+    .screen-bar h1 { font-size: 1rem; margin: 0; color: var(--brand); }
+    .screen-bar p { margin: 2px 0 0; font-size: 0.8rem; color: var(--muted); }
+    .btn {
+      background: var(--brand); color: #fff; border: 0; padding: 8px 12px;
+      border-radius: 6px; font-weight: 700; cursor: pointer; font-size: 0.85rem;
+    }
+    .modes a { margin-right: 6px; font-size: 0.8rem; }
+    .page {
+      width: 210mm; min-height: 297mm; margin: 0 auto 16px; background: #fff;
+      padding: 9mm 10mm; box-shadow: 0 4px 16px rgba(0,0,0,.12);
+    }
+    .head {
+      display: flex; justify-content: space-between; gap: 8px;
+      border-bottom: 2.5px solid var(--ink); padding-bottom: 6px; margin-bottom: 8px;
+    }
+    .head h2 { margin: 0; font-size: 12pt; }
+    .head .sub { font-size: 8pt; color: var(--muted); }
+    .big-nums {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 8px;
+    }
+    .num-box {
+      border: 1.5px solid var(--ink); border-radius: 6px; text-align: center; padding: 6px 4px;
+    }
+    .num-box strong { display: block; font-size: 16pt; color: var(--warn); line-height: 1.1; }
+    .num-box span { font-size: 8pt; }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 10px; }
+    h3 {
+      margin: 0 0 4px; font-size: 9pt; background: #f1f5f9; padding: 3px 6px; border-radius: 4px;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    td { padding: 2px 3px; border-bottom: 1px solid #eee; vertical-align: top; font-size: 8.5pt; }
+    .zh { font-weight: 700; font-size: 9.5pt; }
+    .en { color: var(--muted); }
+    .fill {
+      border: 1px dashed #999; border-radius: 4px; padding: 5px; font-size: 8pt; color: var(--muted);
+      min-height: 48px; margin-top: 4px;
+    }
+    .foot { margin-top: 6px; font-size: 7.5pt; color: var(--muted); text-align: center; }
+    @media screen and (max-width: 900px) {
+      .page { width: auto; min-height: 0; margin: 8px; padding: 12px; }
+      .big-nums { grid-template-columns: 1fr 1fr; }
+    }
+    @media print {
+      @page { size: A4; margin: 7mm; }
+      body { background: #fff; }
+      .screen-bar { display: none !important; }
+      .page { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="screen-bar">
+    <div>
+      <h1>Bilingual One-Pager 中英应急单页</h1>
+      <p>Single A4 · English + 简体中文 · densest offline card</p>
+      <div class="modes">
+        <a href="./print-pack.html">Standard</a>
+        <a href="./print-pack-a4.html">A4 duplex</a>
+        <a href="./index.html">Home</a>
+      </div>
+    </div>
+    <button type="button" class="btn" onclick="window.print()">Print / PDF</button>
+  </div>
+
+  <section class="page">
+    <div class="head">
+      <div>
+        <h2>ChinaOps 应急卡 · Emergency Card</h2>
+        <div class="sub">One page · EN + 中文 · v1.8 · 个人使用 · Personal use only</div>
+      </div>
+      <div class="sub" style="text-align:right;">
+        Flip not required<br>单页即可
+      </div>
+    </div>
+
+    <div class="big-nums">
+      <div class="num-box"><strong>110</strong><span>Police 警察</span></div>
+      <div class="num-box"><strong>120</strong><span>Ambulance 急救</span></div>
+      <div class="num-box"><strong>119</strong><span>Fire 火警</span></div>
+      <div class="num-box"><strong>12367</strong><span>Visa/NIA 移民</span></div>
+    </div>
+
+    <div class="cols">
+      <div>
+        <h3>EN — What to do</h3>
+        <table>
+          <tr><td>1. Call 110/120; say “English, please.”</td></tr>
+          <tr><td>2. Show hotel card with Chinese address.</td></tr>
+          <tr><td>3. If phone dead: big hotel lobby → help/charge.</td></tr>
+          <tr><td>4. Freeze Alipay/WeChat if phone/card lost.</td></tr>
+        </table>
+        <h3>中文 — 怎么做</h3>
+        <table>
+          <tr><td>1. 拨打 110/120，可尝试说 English。</td></tr>
+          <tr><td>2. 出示酒店中文地址名片。</td></tr>
+          <tr><td>3. 手机没电：去大酒店前台求助/充电。</td></tr>
+          <tr><td>4. 手机/卡丢失：尽快冻结支付与银行卡。</td></tr>
+        </table>
+        <div class="fill">
+          Hotel 酒店中文: _________________________<br>
+          Address 地址: ____________________________<br>
+          Embassy 使领馆电话: ______________________
+        </div>
+      </div>
+      <div>
+        <h3>Phrases 常用句 · 中文 / EN</h3>
+        <table>
+          <tr><td><div class="zh">救命！</div></td><td class="en">Help!</td></tr>
+          <tr><td><div class="zh">请帮我叫救护车</div></td><td class="en">Call ambulance</td></tr>
+          <tr><td><div class="zh">请帮我报警</div></td><td class="en">Call police</td></tr>
+          <tr><td><div class="zh">我要看急诊</div></td><td class="en">Need ER</td></tr>
+          <tr><td><div class="zh">请带我去这个地址</div></td><td class="en">This address</td></tr>
+          <tr><td><div class="zh">可以用支付宝吗？</div></td><td class="en">Alipay OK?</td></tr>
+          <tr><td><div class="zh">请打表</div></td><td class="en">Use meter</td></tr>
+          <tr><td><div class="zh">请问卫生间在哪里？</div></td><td class="en">Toilet?</td></tr>
+          <tr><td><div class="zh">请说慢一点</div></td><td class="en">Speak slowly</td></tr>
+          <tr><td><div class="zh">我吃素，不要肉和鱼</div></td><td class="en">Vegetarian</td></tr>
+          <tr><td><div class="zh">我对花生过敏</div></td><td class="en">Peanut allergy</td></tr>
+          <tr><td><div class="zh">我的护照丢了</div></td><td class="en">Lost passport</td></tr>
+          <tr><td><div class="zh">我的手机丢了</div></td><td class="en">Lost phone</td></tr>
+          <tr><td><div class="zh">网络连不上</div></td><td class="en">No network</td></tr>
+          <tr><td><div class="zh">不需要，谢谢</div></td><td class="en">No need, thanks</td></tr>
+          <tr><td><div class="zh">我迷路了</div></td><td class="en">I'm lost</td></tr>
+        </table>
+      </div>
+    </div>
+    <p class="foot">
+      ChinaOps Print Pack · Full guides when online · 完整指南见网站 · CC BY-NC 4.0 · 严禁商用
+    </p>
+  </section>
+</body>
+</html>

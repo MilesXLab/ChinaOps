@@ -3,13 +3,28 @@ layout: guide
 title: "Prescription Medication & Chronic Care SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 💊 Prescription Medication & Chronic Care SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Bring enough chronic meds for the whole trip plus a paper prescription and generic drug names.</p>
+  <p>Refills may need a Chinese doctor visit — plan extra days.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我需要这个药的处方</div>
+  <div class="py">wǒ xūyào zhège yào de chǔfāng</div>
+  <div class="en">I need a prescription for this medicine.</div>
+</div>
+
 
 **TL;DR:** Most prescription medications require a **hospital prescription** in China. International hospitals (Jiahui, United Family) can write prescriptions for common medications. Controlled substances (ADHD meds, opioids) may require special permits. Always bring a 3-month supply and a doctor's note from home.
 
@@ -99,6 +114,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

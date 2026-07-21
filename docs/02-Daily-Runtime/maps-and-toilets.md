@@ -3,13 +3,28 @@ layout: guide
 title: "Maps & Public Toilets SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗺️ Maps & Public Toilets SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Google Maps is weak offline for China navigation. Use Amap (Gaode) or Apple Maps with Chinese address text.</p>
+  <p>Public toilets are common in malls and metro stations; carry tissues.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请问卫生间在哪里？</div>
+  <div class="py">qǐngwèn wèishēngjiān zài nǎlǐ?</div>
+  <div class="en">Where is the toilet?</div>
+</div>
+
 
 **TL;DR:** Use **Amap (Gao-de)** for navigation; Google Maps is 20-50m shifted due to encryption. Search `厕所` (Cè suǒ) for toilets. Malls (IFC, IAPM) always have "Premium" toilets.
 
@@ -64,6 +79,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -3,13 +3,28 @@ layout: guide
 title: "Pharmacy & OTC Medication SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 💊 Pharmacy & OTC Medication SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Many common cold and pain medicines are sold over the counter. Know the Chinese name or show a photo of the box.</p>
+  <p>Some drugs need a hospital prescription — do not argue at the counter; go to a clinic.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我需要退烧药</div>
+  <div class="py">wǒ xūyào tuìshāo yào</div>
+  <div class="en">I need fever medicine.</div>
+</div>
+
 
 **TL;DR:** Use **Chemical/Generic names** (e.g., Ibuprofen), not brand names (Advil). Use **Meituan** for 30-min delivery to your hotel. Antibiotics require a physical hospital prescription.
 
@@ -71,6 +86,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

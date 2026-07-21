@@ -3,14 +3,21 @@ layout: guide
 title: "The Landing Protocol: First 30 Minutes in China"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   ttl_days: 90
   stability_status: "critical"
   validation_method: "field_test"
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🛫 The Landing Protocol: First 30 Minutes
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Do not leave the airport until your phone data, a small test payment, and a ride option all work. Airport Wi‑Fi is your backup if mobile data fails.</p>
+  <p><span class="scope-badge">Scope: national</span> Order of steps matters more than which airport.</p>
+</div>
 
 **TL;DR:** Don't leave the airport until your "Digital Life" is stable. Airport Wi-Fi is your last "safe hub" with high bandwidth.
 
@@ -45,6 +52,14 @@ metadata:
 - **Verification:** If the app shows your location correctly on the map, you're good.
 - **Fallback:** Follow the signs to the **Official Taxi Stand**. Never, ever follow a "driver" who approaches you in the hall saying "Taxi? Cheap!" (The Black Cab Trap).
 
+Show the driver your hotel address (screenshot + say it slowly):
+
+<div class="phrase-card">
+  <div class="zh">请带我去这个地址</div>
+  <div class="py">qǐng dài wǒ qù zhè ge dì zhǐ</div>
+  <div class="en">Please take me to this address.</div>
+</div>
+
 ---
 
 ## TechDad's Tips (Landing Reality)
@@ -56,15 +71,19 @@ metadata:
 ---
 
 ## Verification Loop
+
+**Interactive:** open **[landing-checklist.html](../../../landing-checklist.html)** (saves ticks on this device).
+
 1. [ ] eSIM Data? (Check Google/WhatsApp)
 2. [ ] Payment? (Try a small purchase)
 3. [ ] Transport? (App location set)
 4. [ ] Offline Proof? (Hotel address screenshot)
+5. [ ] Battery safe? (charge or compliant bank)
 
-**If all 4 are [X], you are cleared to leave the airport.**
+**If all gates are [X], you are cleared to leave the airport.**
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

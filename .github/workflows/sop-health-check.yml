@@ -27,7 +27,23 @@ jobs:
           python scripts/ttl_check.py
         id: audit
 
+      - name: Catalog sync (index.json ↔ docs)
+        run: |
+          python scripts/check_catalog.py
+
+      - name: Link check
+        run: |
+          python scripts/verify_links.py
+
+      - name: Rebuild fulltext JSON
+        run: |
+          python scripts/build_fulltext_index.py
+
+      - name: Static entry assets
+        run: |
+          python scripts/check_static_assets.py
+
       - name: Report Failures
         if: failure()
         run: |
-          echo "SOPs have expired or have missing metadata! Please check the audit logs."
+          echo "SOP health failed: expired/missing metadata, catalog drift, broken links, or missing static assets."

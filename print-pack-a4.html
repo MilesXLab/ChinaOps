@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps Print Pack — A4 Duplex (1 sheet)</title>
+  <meta name="description" content="Compact A4 double-sided print: emergency numbers on front, essential phrases on back.">
+  <style>
+    :root { --ink:#111; --muted:#444; --line:#999; --brand:#4c5fc7; --warn:#b91c1c; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: #e2e8f0;
+      line-height: 1.25;
+      font-size: 10.5pt;
+    }
+    .screen-bar {
+      max-width: 210mm;
+      margin: 12px auto;
+      padding: 0 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .screen-bar h1 { font-size: 1rem; margin: 0; color: var(--brand); }
+    .screen-bar p { margin: 2px 0 0; font-size: 0.8rem; color: var(--muted); }
+    .btn {
+      background: var(--brand); color: #fff; border: 0; padding: 8px 12px;
+      border-radius: 6px; font-weight: 700; cursor: pointer; text-decoration: none; font-size: 0.85rem;
+    }
+    .btn.secondary { background: #2d3748; }
+    .modes a { margin-right: 6px; font-size: 0.8rem; }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto 16px;
+      background: #fff;
+      padding: 10mm 11mm;
+      box-shadow: 0 4px 16px rgba(0,0,0,.12);
+    }
+    .head {
+      display: flex; justify-content: space-between; gap: 8px;
+      border-bottom: 2px solid var(--ink); padding-bottom: 6px; margin-bottom: 8px;
+    }
+    .head h2 { margin: 0; font-size: 13pt; }
+    .head .nums { text-align: right; font-size: 10pt; font-weight: 700; line-height: 1.35; }
+    .head .nums span { color: var(--warn); }
+    h3 {
+      margin: 8px 0 4px; font-size: 9pt; text-transform: uppercase; letter-spacing: .04em;
+      color: var(--brand); border-bottom: 1px solid #ccc; padding-bottom: 2px;
+    }
+    h3.warn { color: var(--warn); }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; }
+    table { width: 100%; border-collapse: collapse; }
+    td, th { padding: 2px 3px; vertical-align: top; border-bottom: 1px solid #eee; font-size: 9pt; }
+    .zh { font-weight: 700; font-size: 10pt; }
+    .py { color: var(--muted); font-size: 8pt; font-style: italic; }
+    .fill {
+      border: 1px dashed #aaa; border-radius: 4px; padding: 6px; min-height: 54px;
+      font-size: 8.5pt; color: var(--muted);
+    }
+    .foot { margin-top: 6px; font-size: 7.5pt; color: var(--muted); }
+    .tip { font-size: 8.5pt; margin: 4px 0 0; }
+    @media screen and (max-width: 900px) {
+      .page { width: auto; min-height: 0; margin: 8px; padding: 14px; }
+    }
+    @media print {
+      @page { size: A4; margin: 8mm; }
+      body { background: #fff; }
+      .screen-bar { display: none !important; }
+      .page {
+        width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none;
+      }
+      .page.back { break-before: page; }
+    }
+  </style>
+</head>
+<body>
+  <div class="screen-bar">
+    <div>
+      <h1>A4 Duplex Print Pack</h1>
+      <p>One sheet · Front = emergency · Back = phrases · Print both sides</p>
+      <div class="modes">
+        <a href="./print-pack.html">Standard (2 pages)</a>
+        <a href="./print-pack-bilingual.html">Bilingual one-pager</a>
+        <a href="./index.html">Home</a>
+      </div>
+    </div>
+    <button type="button" class="btn" onclick="window.print()">Print / PDF (duplex)</button>
+  </div>
+
+  <!-- FRONT -->
+  <section class="page front">
+    <div class="head">
+      <div>
+        <h2>🆘 ChinaOps Emergency · A4 Front</h2>
+        <div style="font-size:8.5pt;color:var(--muted);">Wallet / bag · v1.8 · Personal use only</div>
+      </div>
+      <div class="nums">
+        Police <span>110</span><br>
+        Ambulance <span>120</span><br>
+        Fire <span>119</span><br>
+        Visa/NIA <span>12367</span>
+      </div>
+    </div>
+    <div class="cols">
+      <div>
+        <h3 class="warn">Critical numbers</h3>
+        <table>
+          <tr><td><strong>110</strong> Police</td><td>Say “English, please.”</td></tr>
+          <tr><td><strong>120</strong> Ambulance</td><td>Location + 救护车</td></tr>
+          <tr><td><strong>119</strong> Fire</td><td>Active fire only</td></tr>
+          <tr><td><strong>12367</strong> Immigration</td><td>24/7 English support</td></tr>
+        </table>
+        <p class="tip">SH clinic example (verify): Jiahui <strong>400-868-3000</strong></p>
+        <h3>If phone is dead</h3>
+        <table>
+          <tr><td>1</td><td>Large hotel lobby → concierge / charge</td></tr>
+          <tr><td>2</td><td>Show hotel card: 请带我去这个地址</td></tr>
+          <tr><td>3</td><td>Police booth near metro / main road</td></tr>
+        </table>
+      </div>
+      <div>
+        <h3 class="warn">Handwrite your details</h3>
+        <div class="fill">
+          Hotel (中文): ____________________________<br><br>
+          Address (中文): __________________________<br><br>
+          Room / phone: ____________________________
+        </div>
+        <div class="fill" style="margin-top:6px;">
+          Embassy: _________________________________<br><br>
+          Embassy phone: ____________________________
+        </div>
+        <h3>Crisis phrases</h3>
+        <table>
+          <tr><td><div class="zh">救命！</div><div class="py">jiù mìng</div></td><td>Help!</td></tr>
+          <tr><td><div class="zh">请帮我叫救护车</div><div class="py">qǐng bāng wǒ jiào jiùhùchē</div></td><td>Ambulance</td></tr>
+          <tr><td><div class="zh">请帮我报警</div><div class="py">qǐng bāng wǒ bào jǐng</div></td><td>Police</td></tr>
+          <tr><td><div class="zh">我要看急诊</div><div class="py">wǒ yào kàn jízhěn</div></td><td>ER</td></tr>
+          <tr><td><div class="zh">我的护照丢了</div><div class="py">wǒ de hùzhào diū le</div></td><td>Lost passport</td></tr>
+        </table>
+      </div>
+    </div>
+    <p class="foot">ChinaOps · Verify embassy numbers online · CC BY-NC 4.0 · Flip page for phrases →</p>
+  </section>
+
+  <!-- BACK -->
+  <section class="page back">
+    <div class="head">
+      <div>
+        <h2>🗣️ Essential Phrases · A4 Back</h2>
+        <div style="font-size:8.5pt;color:var(--muted);">中文 · pinyin · English · ChinaOps v1.8</div>
+      </div>
+      <div class="nums" style="font-weight:600;font-size:9pt;color:var(--muted);">
+        Print duplex<br>flip on long edge
+      </div>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>Payment &amp; daily</h3>
+        <table>
+          <tr><td><div class="zh">可以用支付宝吗？</div><div class="py">kěyǐ yòng Zhīfùbǎo ma?</div></td><td>Alipay OK?</td></tr>
+          <tr><td><div class="zh">请打表</div><div class="py">qǐng dǎ biǎo</div></td><td>Use the meter</td></tr>
+          <tr><td><div class="zh">请带我去这个地址</div><div class="py">qǐng dài wǒ qù zhège dìzhǐ</div></td><td>This address</td></tr>
+          <tr><td><div class="zh">请问卫生间在哪里？</div><div class="py">qǐngwèn wèishēngjiān zài nǎlǐ?</div></td><td>Toilet?</td></tr>
+          <tr><td><div class="zh">请说慢一点</div><div class="py">qǐng shuō màn yīdiǎn</div></td><td>Speak slowly</td></tr>
+          <tr><td><div class="zh">不需要，谢谢</div><div class="py">bù xūyào, xièxie</div></td><td>No need, thanks</td></tr>
+          <tr><td><div class="zh">网络连不上</div><div class="py">wǎngluò lián bu shàng</div></td><td>No network</td></tr>
+          <tr><td><div class="zh">这里有没有Wi‑Fi？</div><div class="py">zhèlǐ yǒu méiyǒu Wi‑Fi?</div></td><td>Wi‑Fi here?</td></tr>
+        </table>
+        <h3>Travel</h3>
+        <table>
+          <tr><td><div class="zh">我要买高铁票</div><div class="py">wǒ yào mǎi gāotiě piào</div></td><td>HSR ticket</td></tr>
+          <tr><td><div class="zh">这是哪一站？</div><div class="py">zhè shì nǎ yī zhàn?</div></td><td>Which station?</td></tr>
+          <tr><td><div class="zh">地铁站怎么走？</div><div class="py">dìtiě zhàn zěnme zǒu?</div></td><td>To the metro</td></tr>
+          <tr><td><div class="zh">我是免签入境</div><div class="py">wǒ shì miǎnqiān rùjìng</div></td><td>Visa-free entry</td></tr>
+        </table>
+      </div>
+      <div>
+        <h3>Hotel / food / kids</h3>
+        <table>
+          <tr><td><div class="zh">我有预订</div><div class="py">wǒ yǒu yùdìng</div></td><td>I have a booking</td></tr>
+          <tr><td><div class="zh">我吃素，不要肉和鱼</div><div class="py">wǒ chī sù, bú yào ròu hé yú</div></td><td>Vegetarian</td></tr>
+          <tr><td><div class="zh">我对花生过敏</div><div class="py">wǒ duì huāshēng guòmǐn</div></td><td>Peanut allergy</td></tr>
+          <tr><td><div class="zh">不要香菜</div><div class="py">bú yào xiāngcài</div></td><td>No cilantro</td></tr>
+          <tr><td><div class="zh">母婴室在哪里？</div><div class="py">mǔyīng shì zài nǎlǐ?</div></td><td>Nursing room?</td></tr>
+          <tr><td><div class="zh">我需要退烧药</div><div class="py">wǒ xūyào tuìshāo yào</div></td><td>Fever medicine</td></tr>
+          <tr><td><div class="zh">纸尿裤在哪里？</div><div class="py">zhǐniàokù zài nǎlǐ?</div></td><td>Diapers?</td></tr>
+        </table>
+        <h3>Lost items</h3>
+        <table>
+          <tr><td><div class="zh">我的手机丢了</div><div class="py">wǒ de shǒujī diū le</div></td><td>Lost phone</td></tr>
+          <tr><td><div class="zh">我的银行卡丢了</div><div class="py">wǒ de yínháng kǎ diū le</div></td><td>Lost bank card</td></tr>
+          <tr><td><div class="zh">我的行李没有出来</div><div class="py">wǒ de xíngli méiyǒu chūlái</div></td><td>No luggage</td></tr>
+          <tr><td><div class="zh">我迷路了</div><div class="py">wǒ mílù le</div></td><td>I'm lost</td></tr>
+        </table>
+      </div>
+    </div>
+    <p class="foot">Full SOPs: ChinaOps Symptom Index when you have data · Do not sell this sheet · CC BY-NC 4.0</p>
+  </section>
+</body>
+</html>

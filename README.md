@@ -8,7 +8,7 @@
 
 ---
 
-> ChinaOps is currently in v1.
+> ChinaOps is currently in **v1.12.0**.
 >
 > This version is intentionally free, minimal, and text-first.
 > The goal is to help travelers and parents solve real-world problems in China — not to sell recommendations.
@@ -25,36 +25,46 @@
 ### What is ChinaOps?
 A practical, non-commercial guide for travelers and families navigating China. Written by someone who's actually lived through these challenges.
 
-**38 Step-by-Step Guides** | **3 Helper Tools** | **No Ads or Sponsorships**
+**38 Step-by-Step Guides** | **Browser tools (search + MRZ)** | **No Ads or Sponsorships**
 
 ### Choose Your Path:
 
+#### Something broke right now?
+Open the **[Symptom Index](docs/symptom-index.md)** — match payment / data / passport / train issues to a guide.
+
+#### Flying soon?
+1. **[Pre-flight checklist](preflight-checklist.html)** — at home  
+2. **[Landing checklist](landing-checklist.html)** — first 30 minutes at the airport  
+3. **[Print Hub](print-hub.html)** — offline numbers + phrases  
+4. **[Full-text search](search-fulltext.html)** — search inside guide bodies (or [title search](search.html))  
+5. **[12306 MRZ tool](mrz-tool.html)** — format passport name for train tickets
+
 #### First-Time Traveler?
-Start with **[System Setup](docs/01-System-Setup//)** 
-- Get your phone/SIM card working
-- Set up VPN and payments
-- Find pharmacies and medications
+Start with **[System Setup](docs/01-System-Setup/)**  
+- Get your phone/SIM card working  
+- Set up VPN and payments  
+- Find pharmacies and medications  
 
 #### Traveling with Kids?
-Go to **[Parenting Guide](docs/04-Parenting-Patch//)**
-- Handle diapers & baby supplies
-- Manage food allergies
-- Check milk recall status
+Go to **[Parenting Guide](docs/04-Parenting-Patch/)**  
+- Handle diapers & baby supplies  
+- Manage food allergies  
+- Check milk recall status  
 
 #### Emergency?
-Check **[Emergency/DR](docs/03-Emergency-DR//)**
-- Hospital access & procedures
-- Lost passport recovery
-- Mobile phone safety & scams
+Check **[Emergency/DR](docs/03-Emergency-DR/)**  
+- Hospital access & procedures  
+- Lost passport recovery  
+- Mobile phone safety & scams  
 
 #### Vegetarian / Vegan?
-Go to **[Vegetarian & Vegan Guide](docs/02-Daily-Runtime/shanghai-vegan-guide/)**
-- Plant-based survival in Standard restaurants
-- Temple food & 2026 vegan nodes
-- Critical phrases for waiters
+Go to **[Vegetarian & Vegan Guide](docs/02-Daily-Runtime/shanghai-vegan-guide.md)**  
+- Plant-based survival in restaurants  
+- Temple food & vegan options  
+- Critical phrases for waiters  
 
 #### Browse Everything?
-Use **[Interactive Web Interface](index.html)** or see full list below
+Use the **[web interface](index.html)** or the **[full library](docs/index.md)**
 
 ---
 

@@ -3,15 +3,31 @@ layout: guide
 title: "Visa & Entry Requirements"
 metadata:
   version: 1.2
-  last_validated: 2026-07-14
-  ttl_days: 90
-  stability_status: "stable"
-  validation_method: "official_audit"
+  last_validated: 2026-07-21
+  ttl_days: 30
+  churn: high
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
 ![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 
 # Visa & Entry Requirements
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Check if your passport gets visa-free entry for your stay length. Complete the digital arrival card early to avoid queue stress.</p>
+  <p>Rules change by nationality and pilot programs — confirm on official sources before you fly.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我是免签入境</div>
+  <div class="py">wǒ shì miǎnqiān rùjìng</div>
+  <div class="en">I am entering visa-free.</div>
+</div>
+
 
 **TL;DR:** Citizens of **50+ countries** (including the **UK and Canada** since Feb 17, 2026) enjoy **30-day visa-free entry** for tourism and family visits. US citizens generally rely on the **144-hour or 240-hour** Transit Visa-Free (TWOV) system. Fill out the **Digital Arrival Card** before flight, but keep a paper fallback in mind.
 
@@ -20,8 +36,9 @@ metadata:
 ## Visa Types & Eligibility
 
 ### 1. 30-Day Visa-Free (Pilot Program)
-- **Eligibility:** Citizens of a growing list of countries (as of July 2026, 50+ countries). Always verify your country's current status at **[en.nia.gov.cn](https://en.nia.gov.cn)** — the list is subject to expansion.
-- **Key Inclusions:** **UK and Canada** citizens enjoy 30-day visa-free entry (confirmed effective Feb 17, 2026, running through the end of 2026). Other countries include Germany, France, Italy, Spain, Australia, New Zealand, Japan, South Korea, Sweden, and more.
+- **Eligibility:** Citizens of a growing list of countries (as of July 2026, **50+**). Always verify your passport country on **[en.nia.gov.cn](https://en.nia.gov.cn)** the week you fly — the pilot list expands and is not frozen.
+- **Key Inclusions (illustrative, not exhaustive):** **UK and Canada** 30-day visa-free (from Feb 17, 2026, currently described as through end of 2026). Also commonly listed in the same era of pilots: Germany, France, Italy, Spain, Australia, New Zealand, Japan, South Korea, Sweden, and others.
+- **Desktop re-check (Jul 21, 2026):** Kept UK/Canada callout; directed readers to NIA for the live list rather than treating this paragraph as a complete roster.
 - **Duration:** 30 days for tourism, business, sightseeing, or visiting relatives.
 - **Rule:** No prior consulate application required. Just enter with a valid passport (minimum 6 months validity).
 
@@ -64,6 +81,6 @@ metadata:
 
 ---
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

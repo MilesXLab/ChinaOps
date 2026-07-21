@@ -5,261 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | ChinaOps</title>
+    <meta name="description" content="{{ page.description | default: page.title }} — ChinaOps technical runbook">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #667eea;
-            --secondary: #764ba2;
-            --text: #1a202c;
-            --bg: #f7fafc;
-            --sidebar-bg: #ffffff;
-            --border: #e2e8f0;
-            --accent: #ed64a6;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.625;
-            color: var(--text);
-            background-color: var(--bg);
-            display: flex;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            width: 280px;
-            height: 100vh;
-            background: var(--sidebar-bg);
-            border-right: 1px solid var(--border);
-            position: fixed;
-            left: 0;
-            top: 0;
-            padding: 30px 20px;
-            overflow-y: auto;
-            z-index: 100;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .sidebar-brand {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 40px;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .sidebar-nav {
-            list-style: none;
-        }
-
-        .nav-group {
-            margin-bottom: 25px;
-        }
-
-        .nav-label {
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: #a0aec0;
-            letter-spacing: 0.05em;
-            margin-bottom: 10px;
-        }
-
-        .nav-item {
-            margin-bottom: 5px;
-        }
-
-        .nav-link {
-            display: block;
-            padding: 8px 12px;
-            color: #4a5568;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 0.95rem;
-            transition: all 0.2s ease;
-        }
-
-        .nav-link:hover {
-            background: #f1f5f9;
-            color: var(--primary);
-        }
-
-        .nav-link.active {
-            background: #ebf4ff;
-            color: var(--primary);
-            font-weight: 600;
-        }
-
-        /* Main Content */
-        .main-content {
-            margin-left: 280px;
-            padding: 60px 80px;
-            max-width: 1000px;
-            width: 100%;
-            min-height: 100vh;
-            background: white;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: #1a202c;
-            margin-bottom: 30px;
-            line-height: 1.2;
-        }
-
-        h2 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            color: #2d3748;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 10px;
-        }
-
-        h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #4a5568;
-            margin-top: 30px;
-            margin-bottom: 15px;
-        }
-
-        p {
-            margin-bottom: 20px;
-            font-size: 1.1rem;
-            color: #4a5568;
-        }
-
-        ul,
-        ol {
-            margin-bottom: 25px;
-            margin-left: 25px;
-        }
-
-        li {
-            margin-bottom: 8px;
-            font-size: 1.1rem;
-            color: #4a5568;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 30px 0;
-            font-size: 0.95rem;
-        }
-
-        th {
-            background: #f8fafc;
-            text-align: left;
-            padding: 12px;
-            border: 1px solid var(--border);
-            font-weight: 600;
-        }
-
-        td {
-            padding: 12px;
-            border: 1px solid var(--border);
-        }
-
-        blockquote {
-            border-left: 4px solid var(--primary);
-            background: #f0f4ff;
-            padding: 20px;
-            margin: 30px 0;
-            border-radius: 0 8px 8px 0;
-        }
-
-        hr {
-            border: 0;
-            border-top: 1px solid var(--border);
-            margin: 50px 0;
-        }
-
-        /* Tags/Labels */
-        .tag {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-right: 10px;
-        }
-
-        .tag-blue {
-            background: #ebf4ff;
-            color: #3182ce;
-        }
-
-        .tag-green {
-            background: #f0fff4;
-            color: #38a169;
-        }
-
-        /* Responsible */
-        @media (max-width: 1024px) {
-            .sidebar {
-                display: none;
-            }
-
-            .main-content {
-                margin-left: 0;
-                padding: 40px 20px;
-            }
-        }
-
-        /* Print settings */
-        @media print {
-            .sidebar {
-                display: none;
-            }
-
-            .main-content {
-                margin-left: 0;
-                padding: 0;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/chinaops.css">
 </head>
 
-<body>
-    <nav class="sidebar">
+<body class="docs-body">
+    <header class="mobile-bar" role="banner">
+        <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteSidebar" aria-label="Open menu">☰</button>
+        <a class="mobile-bar-title" href="{{ site.baseurl }}/">ChinaOps</a>
+    </header>
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <nav class="sidebar" id="siteSidebar" aria-label="Site navigation">
         <a href="{{ site.baseurl }}/" class="sidebar-brand">
             <span>ChinaOps 📚</span>
         </a>
 
         <div class="sidebar-nav">
             <div class="nav-group">
-                <p class="nav-label">General</p>
+                <p class="nav-label">General <span class="plain">Start here</span></p>
                 <div class="nav-item"><a href="{{ site.baseurl }}/" class="nav-link">Home</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/symptom-index/" class="nav-link">Symptom Index</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/print-hub.html" class="nav-link">Print Hub</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/preflight-checklist.html" class="nav-link">Pre-flight list</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/landing-checklist.html" class="nav-link">Landing gates</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/search-fulltext.html" class="nav-link">Full-text search</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/search.html" class="nav-link">Title search</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/mrz-tool.html" class="nav-link">MRZ · 12306</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/" class="nav-link">Full library</a></div>
             </div>
 
             <div class="nav-group">
-                <p class="nav-label">01 System Setup</p>
+                <p class="nav-label">01 System Setup <span class="plain">Before you arrive</span></p>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/landing-protocol/" class="nav-link">Landing Protocol</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/vpn-esim-payment/" class="nav-link">VPN & Payments</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/vpn-esim-payment/" class="nav-link">VPN &amp; Payments</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/alipay-wechat-setup-foreigners/" class="nav-link">Alipay &amp; WeChat Pay</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/mobile-number-and-activation/" class="nav-link">Mobile Number</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/visa-and-entry/" class="nav-link">Visa & Entry</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/visa-and-entry/" class="nav-link">Visa &amp; Entry</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/hotel-check-in/" class="nav-link">Hotel Check-in</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/translation-tools/" class="nav-link">Translation Tools</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/01-System-Setup/pharmacy-and-medications/" class="nav-link">Medications</a></div>
@@ -268,64 +51,64 @@
             </div>
 
             <div class="nav-group">
-                <p class="nav-label">02 Daily Runtime</p>
+                <p class="nav-label">02 Daily Runtime <span class="plain">Day-to-day life</span></p>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/international-domestic-transit/" class="nav-link">Domestic Transit</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/train-ticket-trap/" class="nav-link">Train Tickets</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/taxi-payment/" class="nav-link">Taxis & Didi</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/maps-and-toilets/" class="nav-link">Maps & Toilets</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/taxi-payment/" class="nav-link">Taxis &amp; Didi</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/maps-and-toilets/" class="nav-link">Maps &amp; Toilets</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/public-transport-tips/" class="nav-link">Public Transport</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/lost-luggage/" class="nav-link">Lost Luggage</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/car-rental/" class="nav-link">Car Rental & Driving</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/car-rental/" class="nav-link">Car Rental &amp; Driving</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-local-hacks/" class="nav-link">Shanghai Local Hacks</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-weather-guide/" class="nav-link">Shanghai Weather</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-attractions-guide/" class="nav-link">Shanghai Attractions</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-food-guide/" class="nav-link">Shanghai Food</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-vegan-guide/" class="nav-link">Vegetarian & Vegan</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-vegan-guide/" class="nav-link">Vegetarian &amp; Vegan</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/02-Daily-Runtime/shanghai-visual-signs-guide/" class="nav-link">Visual Signs Guide</a></div>
             </div>
 
             <div class="nav-group">
-                <p class="nav-label">03 Emergency / DR</p>
+                <p class="nav-label">03 Emergency <span class="plain">When things go wrong</span></p>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/hospital-access/" class="nav-link">Hospital Access</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/lost-passport/" class="nav-link">Lost Passport</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/lost-phone/" class="nav-link">Lost Phone</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/lost-bank-card/" class="nav-link">Lost Bank Card</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/prescription-refill/" class="nav-link">Prescription Refill</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/network-outage/" class="nav-link">Network Issues</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/safety-and-common-scams/" class="nav-link">Safety & Scams</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/safety-and-common-scams/" class="nav-link">Safety &amp; Scams</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/shanghai-safety-guide/" class="nav-link">Shanghai Safety</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/03-Emergency-DR/emergency-contacts-card/" class="nav-link">Emergency Contacts</a></div>
             </div>
 
             <div class="nav-group">
-                <p class="nav-label">04 Parenting Patch</p>
+                <p class="nav-label">04 Parenting <span class="plain">Traveling with kids</span></p>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions/" class="nav-link">Food Allergies</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/diapers-and-stores/" class="nav-link">Diapers & Supplies</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/diapers-and-stores/" class="nav-link">Diapers &amp; Supplies</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/milk-recall-check/" class="nav-link">Milk Safety Check</a></div>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/nursing-rooms/" class="nav-link">Nursing Rooms</a></div>
-                <div class="nav-item"><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/baby-survival-master-runbook/" class="nav-link">Baby & Toddler Guide</a></div>
+                <div class="nav-item"><a href="{{ site.baseurl }}/docs/04-Parenting-Patch/baby-survival-master-runbook/" class="nav-link">Baby &amp; Toddler Guide</a></div>
             </div>
 
             <div class="nav-group">
-                <p class="nav-label">05 Event Operations</p>
+                <p class="nav-label">05 Events <span class="plain">Holidays &amp; peak travel</span></p>
                 <div class="nav-item"><a href="{{ site.baseurl }}/docs/05-Event-Operations/holiday-survival-guide/" class="nav-link">Holiday Survival</a></div>
             </div>
         </div>
 
-        <footer
-            style="margin-top: auto; padding-top: 20px; border-top: 1px solid var(--border); font-size: 0.8rem; color: #a0aec0;">
+        <footer class="sidebar-foot">
             <p>© 2026 ChinaOps</p>
-            <p>Non-commercial Runbook | <a href="https://github.com/MilesXLab/ChinaOps"
-                    style="color: #667eea; text-decoration: none;">GitHub</a></p>
-            <p style="font-size: 0.7rem; margin-top: 5px;">Personal Use Only | 个人使用，严禁商用</p>
+            <p>Non-commercial runbook | <a href="https://github.com/MilesXLab/ChinaOps">GitHub</a></p>
+            <p style="margin-top: 6px;">Personal use only | 个人使用，严禁商用</p>
         </footer>
     </nav>
 
     <main class="main-content">
-        <article class="container">
+        <article class="docs-container">
             {{ content }}
         </article>
     </main>
+
+    <script src="{{ site.baseurl }}/assets/js/chinaops.js" defer></script>
 </body>
 
 </html>

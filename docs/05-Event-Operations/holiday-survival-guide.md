@@ -3,15 +3,32 @@ layout: guide
 title: "2026 China Holiday Survival SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "critical"
-  ttl_days: 90
+  ttl_days: 30
+  churn: high
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏮 2026 China Holiday Survival SOP
 
-**TL;DR:** CNY (Feb) and Qingming (Apr 4–6) have passed. **Labor Day (May 1–5) starts this week** — book HSR NOW if not done. Next major peak: National Day Oct 1–8. Stock up on supplies 3 days before any holiday.
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Golden Week and Spring Festival mean sold-out trains and crowded attractions. Book early or travel against the peak.</p>
+  <p>Confirm official holiday dates and make-up workdays each year — they change.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">现在人太多了</div>
+  <div class="py">xiànzài rén tài duō le</div>
+  <div class="en">There are too many people right now.</div>
+</div>
+
+
+**TL;DR:** As of **July 2026**, early-year holidays have passed. **Next big peaks:** Mid-Autumn (**Sep 25–27**) and **National Day Golden Week (Oct 1–7)**. Book HSR and hotels early; stock supplies 3 days before any long holiday.
 
 **Prerequisites:**
 - **Booking Hub:** Trip.com (with pre-filled passport data).
@@ -23,18 +40,20 @@ metadata:
 ## 📋 The Runbook
 
 > [!NOTE]
-> CNY (Feb 15–23) has passed. The remaining 2026 holidays are listed below.
-> China’s system includes **调休 (diàoxiū)** — mandatory weekend make-up days flanking holidays. Always check the full official schedule at **[gov.cn](https://www.gov.cn)** to know which weekends are affected.
+> China’s calendar uses **调休 (diàoxiū)** — make-up workdays on weekends around holidays. Always re-check the official notice at **[gov.cn](https://www.gov.cn)** before you book; tables below are a field-oriented summary, not a legal gazette.
 
-| Holiday | Dates | Duration | Technical Profile |
+| Holiday | Dates (2026) | Duration | Status as of Jul 2026 |
 | :--- | :--- | :--- | :--- |
-| **New Year's Day** | Jan 1–3 ✅ | 3 Days | Passed. |
-| **Chinese New Year (CNY)** | **Feb 15–23** ✅ | **9 Days** | **Passed.** Make-up days were Feb 8 & Feb 22. |
-| **Qingming Festival** | Apr 4–6 ✅ | 3 Days | **Passed.** |
-| **Labor Day (5/1)** | **May 1 – May 5** 🚨 | **5 Days** | **THIS WEEK:** Starts May 1. Extreme domestic travel. Make-up workday: **May 9 (Sat)**. Book trains NOW. |
-| **Dragon Boat Festival** | Jun 19–21 🗓️ | 3 Days | **Medium:** Scenic areas crowded. |
-| **Mid-Autumn Festival** | Oct 6–8 🗓️ | 3 Days | **Medium:** Evening peaks near parks. Coincides with National Day week. |
-| **National Day (10/1)** | **Oct 1–8** 🗓️ | **8 Days** | **CRITICAL:** “Golden Week.” Extreme crowds. Book 3+ months in advance. |
+| **New Year's Day** | Jan 1–3 | 3 days | ✅ Passed |
+| **Chinese New Year (CNY)** | Feb 15–23 | ~9 days | ✅ Passed (make-up workdays earlier that month) |
+| **Qingming Festival** | Apr 4–6 | 3 days | ✅ Passed |
+| **Labor Day (5/1)** | May 1–5 | 5 days | ✅ Passed · make-up workday was **May 9 (Sat)** |
+| **Dragon Boat Festival** | Jun 19–21 | 3 days | ✅ Passed · scenic areas were busy |
+| **Mid-Autumn Festival** | **Sep 25–27** | 3 days | 🔜 **Next** · parks/evening peaks; book HSR soon |
+| **National Day (Golden Week)** | **Oct 1–7** | 7 days | 🚨 **Critical peak** · book trains/hotels months ahead |
+
+> [!IMPORTANT]
+> **Desktop re-check (Jul 21, 2026):** Removed stale “Labor Day starts this week” language (valid only in late April). Upcoming peaks aligned with project Mid-Autumn / National Day guidance. Re-confirm exact make-up workdays on gov.cn before travel.
 
 ---
 
@@ -55,6 +74,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

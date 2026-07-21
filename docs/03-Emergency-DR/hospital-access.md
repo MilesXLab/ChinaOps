@@ -3,13 +3,28 @@ layout: guide
 title: "Hospital & Medical Care: The Recovery SOP"
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
   stability_status: "stable"
   ttl_days: 90
+  scope: "national"
 ---
 
 ![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏥 Hospital & Medical Care: The Recovery SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>For serious issues go to a large hospital or international clinic. Bring passport and payment method; expect registration first.</p>
+  <p>English help varies — use translation apps and write symptoms down.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我要看急诊</div>
+  <div class="py">wǒ yào kàn jízhěn</div>
+  <div class="en">I need the emergency department.</div>
+</div>
+
 
 **TL;DR:** For emergencies, head to **Jiahui International** or **United Family**. Public hospitals may be crowded during winter months (Dec-Feb) due to seasonal flu/HMPV peaks. Carry your **physical passport**; digital will not work for registration.
 
@@ -57,6 +72,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

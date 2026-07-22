@@ -47,7 +47,11 @@ jobs:
         run: |
           python scripts/check_sop_format.py
 
+      - name: Browser tool smoke (static)
+        run: |
+          python scripts/test_tools.py
+
       - name: Report Failures
         if: failure()
         run: |
-          echo "SOP health failed: expired/missing metadata, catalog drift, broken links, or missing static assets."
+          echo "SOP health failed: expired/missing metadata, catalog drift, broken links, static assets, format, or tool smoke."

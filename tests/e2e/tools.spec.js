@@ -105,27 +105,27 @@ test.describe("ChinaOps browser tools", () => {
 
   test("fulltext search page boots (Pagefind or fallback)", async ({ page }) => {
     await page.goto("/search-fulltext.html");
-    await expect(page.locator("#engineBadge")).toBeVisible();
-    // Either Pagefind UI appears or fallback activates
-    await page.waitForTimeout(1500);
-    const badge = (await page.locator("#engineBadge").textContent()) || "";
+    const badge = page.locator("#engineBadge");
+    await expect(badge).toBeVisible();
+    // Wait until engine detection finishes (no fixed sleep)
+    await expect(badge).toHaveText(/pagefind|fallback/i, { timeout: 15_000 });
+
+    const badgeText = ((await badge.textContent()) || "").toLowerCase();
     const pagefindVisible = await page.locator(".pagefind-ui").count();
     const fallbackActive = await page.locator("#fallbackBox.active").count();
     expect(
-      badge.toLowerCase().includes("pagefind") ||
-        badge.toLowerCase().includes("fallback") ||
+      badgeText.includes("pagefind") ||
+        badgeText.includes("fallback") ||
         pagefindVisible > 0 ||
         fallbackActive > 0
     ).toBeTruthy();
 
     // Fallback path with ?q= if fallback is active
-    if (fallbackActive > 0 || badge.toLowerCase().includes("fallback")) {
+    if (fallbackActive > 0 || badgeText.includes("fallback")) {
       await page.goto("/search-fulltext.html?q=alipay");
-      await page.waitForTimeout(800);
       const fb = page.locator("#fbInput");
-      if (await fb.isVisible()) {
-        await expect(fb).toHaveValue("alipay");
-      }
+      await expect(fb).toBeVisible({ timeout: 15_000 });
+      await expect(fb).toHaveValue("alipay");
     }
   });
 

@@ -48,7 +48,9 @@ def format_mrz_name(first_name: str, last_name: str) -> str:
     first = "".join(c for c in first if "A" <= c <= "Z")
     last = "".join(c for c in last if "A" <= c <= "Z")
 
-    # Format: LASTNAME<<FIRSTNAME
+    # Format: LASTNAME<<FIRSTNAME (empty if both parts missing — same as mrz-tool.html)
+    if not first and not last:
+        return ""
     return f"{last}<<{first}"
 
 

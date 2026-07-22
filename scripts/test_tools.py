@@ -8,25 +8,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS = ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
 
-# Mirror mrz-tool.html / passport_mrz_converter.py letter rules
-def format_mrz_js_style(first_name: str, last_name: str) -> str:
-    import unicodedata
-
-    def strip_acc(s: str) -> str:
-        nfd = unicodedata.normalize("NFD", s)
-        return "".join(c for c in nfd if unicodedata.category(c) != "Mn")
-
-    first = strip_acc(first_name.strip()).upper()
-    last = strip_acc(last_name.strip()).upper()
-    for ch in ("-", "'", " "):
-        first = first.replace(ch, "")
-        last = last.replace(ch, "")
-    first = "".join(c for c in first if "A" <= c <= "Z")
-    last = "".join(c for c in last if "A" <= c <= "Z")
-    if not first and not last:
-        return ""
-    return f"{last}<<{first}"
+from passport_mrz_converter import format_mrz_name  # noqa: E402  single source of truth
 
 
 def main() -> int:
@@ -72,11 +58,25 @@ def main() -> int:
         ("Jean Luc", "Picard", "PICARD<<JEANLUC"),
     ]
     for first, last, expect in cases:
-        got = format_mrz_js_style(first, last)
+        got = format_mrz_name(first, last)
         if got != expect:
             errors.append(f"MRZ {first}/{last}: got {got!r} want {expect!r}")
         else:
             print(f"  OK MRZ {first} {last} -> {got}")
+
+    # Browser tool must still embed the same letter-cleanup contract (not a full re-parse)
+    mrz_html = (ROOT / "mrz-tool.html").read_text(encoding="utf-8")
+    mrz_needles = (
+        'return last + "<<" + first',
+        'replace(/[-\']/g, "")',
+        'replace(/[^A-Z]/g, "")',
+    )
+    missing = [n for n in mrz_needles if n not in mrz_html]
+    if missing:
+        for n in missing:
+            errors.append(f"mrz-tool.html missing expected rule fragment: {n!r}")
+    else:
+        print("  OK mrz-tool.html rule fragments present")
 
     # fulltext index
     ft = ROOT / "assets" / "search" / "fulltext.json"

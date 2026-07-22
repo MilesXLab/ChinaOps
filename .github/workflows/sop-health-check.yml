@@ -41,6 +41,16 @@ jobs:
         run: |
           python scripts/build_fulltext_index.py
 
+      - name: Fulltext index must match committed assets
+        run: |
+          # Fail if docs changed but assets/search/fulltext.json was not rebuilt/committed.
+          git diff --exit-code -- assets/search/fulltext.json
+          if [ -n "$(git status --porcelain -- assets/search/fulltext.json)" ]; then
+            echo "fulltext.json is untracked or dirty after rebuild"
+            git status --porcelain -- assets/search/fulltext.json
+            exit 1
+          fi
+
       - name: Static entry assets
         run: |
           python scripts/check_static_assets.py

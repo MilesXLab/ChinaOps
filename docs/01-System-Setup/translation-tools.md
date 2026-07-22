@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Translation Tools & Language Barrier SOP"
-description: "Practical ChinaOps guide: Translation Tools & Language Barrier SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Download offline translation before you lose data. Screenshots of hotel address and key phrases beat live typing in a rush."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

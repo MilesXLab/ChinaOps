@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Baby & Toddler Survival Runbook (2026)"
-description: "Practical ChinaOps guide: Baby & Toddler Survival Runbook (2026). Step-by-step checks, fallbacks, and field tips."
+description: "Plan milk, diapers, sleep, and transport with kids before peak hours. Malls often have nursing rooms."
 metadata:
   version: 1.2
   last_validated: 2026-07-21

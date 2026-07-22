@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Shanghai Physical Safety & Urban Defense"
-description: "Practical ChinaOps guide: Shanghai Physical Safety & Urban Defense. Step-by-step checks, fallbacks, and field tips."
+description: "Shanghai is generally safe; focus on petty theft awareness and social-engineering scams in tourist zones."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

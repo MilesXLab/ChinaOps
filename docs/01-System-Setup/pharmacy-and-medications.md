@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Pharmacy & OTC Medication SOP"
-description: "Practical ChinaOps guide: Pharmacy & OTC Medication SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Many common cold and pain medicines are sold over the counter. Know the Chinese name or show a photo of the box."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

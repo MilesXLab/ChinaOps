@@ -8,7 +8,7 @@
 
 ---
 
-> ChinaOps is currently in **v1.15.0**.
+> ChinaOps is currently in **v1.16.0**.
 >
 > This version is intentionally free, minimal, and text-first.
 > The goal is to help travelers and parents solve real-world problems in China — not to sell recommendations.

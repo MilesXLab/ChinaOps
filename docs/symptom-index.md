@@ -80,7 +80,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 | Symptom | Open this guide |
 |---------|-----------------|
-| 12306 rejects my name | [Train ticket trap](../02-Daily-Runtime/train-ticket-trap/) · run `passport_mrz_converter.py` |
+| 12306 rejects my name | [Train ticket trap](../02-Daily-Runtime/train-ticket-trap/) · [MRZ tool](../../mrz-tool.html) |
 | International → domestic flight connection | [Transit protocol](../02-Daily-Runtime/international-domestic-transit/) |
 | Taxi / Didi issues or cash vs QR | [Taxi & payment](../02-Daily-Runtime/taxi-payment/) |
 | Metro, bus, ferry basics | [Public transport](../02-Daily-Runtime/public-transport-tips/) |

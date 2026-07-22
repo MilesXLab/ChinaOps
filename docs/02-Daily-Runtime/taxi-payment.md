@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Taxi & Mobility SOP"
-description: "Practical ChinaOps guide: Taxi & Mobility SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Prefer Didi or official taxi stands. Pay by QR when possible; refuse unsolicited “helpers” in arrival halls."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

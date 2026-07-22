@@ -49,6 +49,11 @@ Travelers bounce GZ ↔ SZ on short HSR hops and under-budget weather, luggage h
 
 **Action:** Match hotel district to **first meeting / first tourist node**, not “city name only.”
 
+### First-night corridor (Guangzhou / Shenzhen)
+- **Guangzhou:** Prefer hotels near **Tianhe / Zhujiang New Town** if flying into CAN and working downtown; match rail arrivals to **Guangzhou South** vs city stations.
+- **Shenzhen:** Pick **Futian / Nanshan / Luohu** based on meetings or border plans — the city is wide.
+- **Move:** Metro QR + DiDi; do not assume one hotel covers both GZ and SZ on the same night without a transfer plan.
+
 ### 2. Metro & pay
 
 - Transit QR via Alipay/WeChat is the default tourist path (enable the correct city in-app).

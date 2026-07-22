@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Power Bank & Hardware Rules"
-description: "Practical ChinaOps guide: Power Bank & Hardware Rules. Step-by-step checks, fallbacks, and field tips."
+description: "Power banks go in carry-on, not checked bags. Domestic flights may require CCC marks and a scannable traceability code."
 metadata:
   version: 1.2
   last_validated: 2026-07-21

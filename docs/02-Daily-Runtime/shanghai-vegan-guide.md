@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Vegetarian & Vegan Survival SOP"
-description: "Practical ChinaOps guide: Vegetarian & Vegan Survival SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Say clearly you eat no meat, fish, or animal broth. Temple and vegan restaurants are safer than standard kitchens."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

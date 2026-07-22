@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Shanghai Food & Dining SOP"
-description: "Practical ChinaOps guide: Shanghai Food & Dining SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Order with app photos or point at the menu. Xiaolongbao and local breakfast spots get crowded — go early."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

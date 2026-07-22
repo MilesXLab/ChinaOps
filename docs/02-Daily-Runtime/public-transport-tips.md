@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Public Transport: Metro, Bikes & Buses"
-description: "Practical ChinaOps guide: Public Transport: Metro, Bikes & Buses. Step-by-step checks, fallbacks, and field tips."
+description: "Metro is usually the fastest city option. Pay with a transit QR in Alipay/WeChat or a physical card."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

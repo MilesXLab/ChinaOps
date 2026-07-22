@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Lost or Stolen Bank Card Recovery SOP"
-description: "Practical ChinaOps guide: Lost or Stolen Bank Card Recovery SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Freeze the card in your bank app, then freeze linked Alipay/WeChat wallets if needed."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

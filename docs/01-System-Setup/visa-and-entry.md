@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Visa & Entry Requirements"
-description: "Practical ChinaOps guide: Visa & Entry Requirements. Step-by-step checks, fallbacks, and field tips."
+description: "Check if your passport gets visa-free entry for your stay length. Complete the digital arrival card early to avoid queue stress."
 metadata:
   version: 1.2
   last_validated: 2026-07-21

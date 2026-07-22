@@ -44,6 +44,11 @@ Shanghai flat-grid intuition fails on hills, bridges, and multi-level malls. Peo
 - Airport / rail to core can cross bridges and long metro rides — don’t schedule tight meetings after landing.
 - DiDi pickup points can be multi-level; follow app pin + floor signs.
 
+### First-night corridor (Chongqing)
+- **Default first night:** Jiefangbei / Guanyinqiao / business hotels with elevator luggage access (vertical city).
+- **From airport/rail:** Follow DiDi **floor + exit** pins; “nearby” walks can mean stairs and bridges.
+- **Move:** Prefer metro to a station with elevator, then short DiDi with bags.
+
 ### 2. Metro & monorail
 - Alipay/WeChat transit QR (city enabled).
 - Note **exit numbers** — wrong exit can mean a huge climb.

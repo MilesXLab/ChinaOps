@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Shanghai Attractions: High-Load Nodes"
-description: "Practical ChinaOps guide: Shanghai Attractions: High-Load Nodes. Step-by-step checks, fallbacks, and field tips."
+description: "Plan big sights with booking apps and weekday mornings when you can. Bund, museums, and theme parks need different ticket rules."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

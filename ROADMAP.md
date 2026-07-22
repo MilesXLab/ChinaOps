@@ -1,7 +1,7 @@
 # ChinaOps Roadmap
 
-## v1.0 → v1.15.0 (Current — Jul 2026)
-**Release Focus:** 72h offline survival pack, Xi'an/Chongqing deltas
+## v1.0 → v1.16.0 (Current — Jul 2026)
+**Release Focus:** Traveler review fixes (MRZ consistency, hospital scope, trip-stage home)
 
 ✅ **Completed (v1.0 — Jan 2026):**
 - 16 comprehensive SOPs across 4 categories
@@ -96,10 +96,13 @@
 - 72h survival printable pack + offline pack builder script.
 - City deltas: Xi'an · Chongqing.
 - Catalog at **49** guides.
+
+✅ **Completed (v1.16.0 — Jul 21, 2026):**
+- Traveler review P0–P2: MRZ consistency, hospital multi-city triage, preflight 72h, dose safety, home stages, description cleanup, first-night corridors.
 ---
 
 ## Next (v2.0 / community)
-- First **real** field_test log entry from an actual trip (pack is ready).
+- First **real** field_test log entry from an actual trip (pack + honesty banner ready).
 - Optional: CI artifact that runs `build_offline_pack.py --zip`.
 - Community-contributed city deltas / language packs (ZH UI).
 

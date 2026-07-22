@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Nursing & Baby Care Rooms SOP"
-description: "Practical ChinaOps guide: Nursing & Baby Care Rooms SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Look for nursing room signs in malls, museums, and big stations. Ask staff with a short Chinese phrase if needed."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

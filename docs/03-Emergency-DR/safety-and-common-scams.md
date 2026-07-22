@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Safety & Common Scams (2026 Update)"
-description: "Practical ChinaOps guide: Safety & Common Scams (2026 Update). Step-by-step checks, fallbacks, and field tips."
+description: "Most cities are safe for normal tourism. Watch tea-house scams, unofficial taxis, and “too friendly” strangers near tourist spots."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

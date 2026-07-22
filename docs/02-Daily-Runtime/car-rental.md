@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Car Rental & Driving in China SOP"
-description: "Practical ChinaOps guide: Car Rental & Driving in China SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Driving needs the right license paperwork. Many visitors use a chauffeur or Didi instead of self-drive."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

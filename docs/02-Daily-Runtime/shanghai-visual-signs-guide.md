@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Visual Signs & Symbols Reconnaissance"
-description: "Practical ChinaOps guide: Visual Signs & Symbols Reconnaissance. Step-by-step checks, fallbacks, and field tips."
+description: "Learn a few symbols for metro, toilets, taxis, and nursing rooms so you can move without reading full Chinese."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

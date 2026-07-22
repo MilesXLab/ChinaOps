@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Hotel Check-in & Registration SOP"
-description: "Practical ChinaOps guide: Hotel Check-in & Registration SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Hotels must register foreign guests with the police. Bring your passport and expect a scan or photo of it."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

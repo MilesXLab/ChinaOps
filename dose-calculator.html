@@ -56,11 +56,13 @@
       <div class="tool-grid">
         <label for="preset">Common preset (optional)</label>
         <select id="preset">
-          <option value="">Custom / enter mg per kg</option>
-          <option value="paracetamol">Paracetamol / acetaminophen · 15 mg/kg</option>
-          <option value="ibuprofen">Ibuprofen · 10 mg/kg</option>
-          <option value="amox">Amoxicillin (example) · 25 mg/kg — Rx only</option>
+          <option value="">Custom / enter mg per kg from the bottle label</option>
+          <option value="paracetamol">Paracetamol / acetaminophen · 15 mg/kg (OTC reference)</option>
+          <option value="ibuprofen">Ibuprofen · 10 mg/kg (OTC reference)</option>
         </select>
+        <p style="margin:6px 0 0;font-size:var(--text-sm);color:var(--fg-3);">
+          No prescription antibiotics here. Antibiotics require a clinician — do not self-start.
+        </p>
 
         <label for="medName">Medication name</label>
         <input id="medName" type="text" placeholder="e.g. Paracetamol" />
@@ -103,8 +105,7 @@
 (function () {
   var PRESETS = {
     paracetamol: { name: "Paracetamol / acetaminophen", perKg: 15, max: 1000 },
-    ibuprofen: { name: "Ibuprofen", perKg: 10, max: 400 },
-    amox: { name: "Amoxicillin (example only)", perKg: 25, max: null }
+    ibuprofen: { name: "Ibuprofen", perKg: 10, max: 400 }
   };
 
   var preset = document.getElementById("preset");

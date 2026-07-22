@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Lost or Stolen Phone Recovery SOP"
-description: "Practical ChinaOps guide: Lost or Stolen Phone Recovery SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Lock or erase the phone remotely if you can. Freeze payments tied to that device and suspend the SIM."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

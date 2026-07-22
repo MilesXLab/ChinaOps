@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "VPN, eSIM & Payment Setup"
-description: "Practical ChinaOps guide: VPN, eSIM & Payment Setup. Step-by-step checks, fallbacks, and field tips."
+description: "Before you fly: install a travel eSIM (or know your SIM plan), set up Alipay and WeChat Pay with more than one card, and keep a little cash. Apps may ask for a passport selfie again mid-trip — that is normal risk…"
 metadata:
   version: 1.2
   last_validated: 2026-07-21

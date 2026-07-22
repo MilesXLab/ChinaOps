@@ -1,9 +1,9 @@
 ---
 layout: guide
 title: "12306 Train Tickets: The MRZ Name Hack"
-description: "Practical ChinaOps guide: 12306 Train Tickets: The MRZ Name Hack. Step-by-step checks, fallbacks, and field tips."
+description: "Register on 12306 with passport MRZ-style name (SURNAME<<GIVEN), pass real-name check, then book — with Trip.com fallback."
 metadata:
-  version: 1.1
+  version: 1.2
   last_validated: 2026-07-21
   ttl_days: 90
   stability_status: "stable"
@@ -16,7 +16,7 @@ metadata:
 <div class="plain-summary">
   <strong class="plain-summary-label">Plain English</strong>
   <p>12306 needs your name in MRZ-style format. Register early, pass real-name checks, then book in the open window.</p>
-  <p>Use the browser <a href="../../../mrz-tool.html">MRZ name tool</a> (or <code>passport_mrz_converter.py</code>) if registration fails on name format.</p>
+  <p>Prefer the browser <a href="../../../mrz-tool.html">MRZ name tool</a> (same rules as <code>passport_mrz_converter.py</code>). Do not mix formats on repeated submissions.</p>
   <p><span class="scope-badge">Scope: national</span></p>
 </div>
 
@@ -27,10 +27,10 @@ metadata:
 </div>
 
 
-**TL;DR:** The 12306 system only recognizes a single string from your passport. Match the **MRZ code** (bottom of passport) in **ALL CAPS**. If your name is >15 chars, truncation logic applies.
+**TL;DR:** Build the name as **`SURNAME<<GIVENNAMES`** (ALL CAPS) with the [MRZ tool](../../../mrz-tool.html). Register **2–3 days** before travel. Use the **manual passport lane** at the station.
 
 **Prerequisites:**
-- **App:** 12306 (Global/English version).
+- **App:** 12306 (Global/English version) and/or Trip.com as backup booking path.
 - **ID:** Original Passport.
 - **Time:** Register 2-3 days before travel (KYC verification latency is real).
 
@@ -38,11 +38,21 @@ metadata:
 
 ## 📋 The Runbook
 
-### 1. The Name String Protocol
-- **Step 1:** Look at the bottom lines of your passport (The MRZ zone).
-- **Step 2:** Enter your name in **ALL CAPS**. Use a single space where your passport has `<`.
-- **Step 3 (The 15-Char Rule):** The backend often truncates at **15 characters**. If your name is long, ensure the first 15 letters match exactly; the rest is lower priority but should be included until the field stops.
-- **Verification:** Status must change from "Verifying" to "Verified" (typically 24h).
+### 1. The Name String Protocol (single source of truth)
+
+**Canonical format (use this first):**
+
+1. Open **[mrz-tool.html](../../../mrz-tool.html)** (or `python scripts/passport_mrz_converter.py Given Surname`).
+2. Enter **given name(s)** and **surname** as on the passport.
+3. Copy the result: **`SURNAME<<GIVENNAMES`** — uppercase ASCII, accents stripped, hyphens/spaces inside names removed (e.g. `Mary-Jane` → `MARYJANE`, `José` → `JOSE`).
+4. In 12306:
+   - If there is a **single full-name** field → paste the tool output as-is.
+   - If the UI splits **Surname / Given name** → fill the two boxes from your passport; do **not** also paste `<<` into both boxes.
+5. **Long names:** some backends effectively care most about the first ~15 letters of the surname+given block. Include the full legal string until the field stops accepting input; do not invent a shortened legal name.
+
+**Do not mix formats:** pick tool output **or** the split fields for one registration attempt. Resubmitting alternating `SMITH<<JOHN` and `SMITH JOHN` can prolong “Verifying” failures.
+
+**Verification:** Status must change from "Verifying" to "Verified" (often ~24h).
 
 ### 2. The Boarding Procedure
 - **Step 1:** Use your Passport at the gate. **Do not use the automated e-gates** with a foreign passport; they fail 50% of the time.

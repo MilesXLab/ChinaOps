@@ -44,6 +44,11 @@ People under-plan West Lake crowds and over-plan “it’s just like Shanghai.�
 - HSR is the default; verify name format on 12306 ([MRZ tool](../../../mrz-tool.html)).
 - Arrive **East / other stations** — confirm which station your ticket uses before booking hotel.
 
+### First-night corridor (Hangzhou)
+- **From Shanghai:** HSR to the station printed on your ticket (often East or other — verify); metro/DiDi to hotel.
+- **Default first night:** Near metro **1–2 stops from West Lake** if lake hotels are sold out or expensive.
+- **Day trip mode:** If returning to Shanghai same night, hold a **late return seat** before you leave the station area.
+
 ### 2. Local move
 - Metro + DiDi for lake edges; walking density high on scenic paths.
 - Bikes common; need working Alipay deposit flow ([App stack](../../01-System-Setup/china-app-stack/)).

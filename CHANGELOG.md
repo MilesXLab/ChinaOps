@@ -4,6 +4,20 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.16.0] - 2026-07-21
+
+### 🔧 Traveler review fixes (P0–P2)
+- **12306 name protocol:** single source of truth = MRZ tool `SURNAME<<GIVEN` (removed conflicting “space for `<`” instruction).
+- **Hospital access:** national triage first; Shanghai clinic names labeled; scope `multi-city`.
+- **Pre-flight:** checkbox for **72h survival pack** PDF/print.
+- **Dose calculator:** removed antibiotic preset; OTC-only presets + stronger warning.
+- **Home:** trip stages (before flight / landed / broke) + desktop-review honesty note + field-test pack link.
+- **SEO descriptions:** replaced ~30 template descriptions with plain-summary sentences.
+- **City deltas:** first-night corridor on all six city sheets.
+- Symptom Index: 12306 → MRZ tool link.
+
+---
+
 ## [v1.15.0] - 2026-07-21
 
 ### 🧳 Offline 72h survival

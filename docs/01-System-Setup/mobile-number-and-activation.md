@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Local Mobile Number SOP"
-description: "Practical ChinaOps guide: Local Mobile Number SOP. Step-by-step checks, fallbacks, and field tips."
+description: "A Chinese number helps with SMS codes for apps and delivery. Choose eSIM before the trip or a physical SIM after landing."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

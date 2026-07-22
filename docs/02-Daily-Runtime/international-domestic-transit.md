@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "The Transit Protocol: International to Domestic"
-description: "Practical ChinaOps guide: The Transit Protocol: International to Domestic. Step-by-step checks, fallbacks, and field tips."
+description: "Changing from an international to a domestic flight can mean leaving security, collecting bags, and re-checking in."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

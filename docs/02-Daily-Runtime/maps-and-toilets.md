@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Maps & Public Toilets SOP"
-description: "Practical ChinaOps guide: Maps & Public Toilets SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Google Maps is weak offline for China navigation. Use Amap (Gaode) or Apple Maps with Chinese address text."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "2026 China Holiday Survival SOP"
-description: "Practical ChinaOps guide: 2026 China Holiday Survival SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Golden Week and Spring Festival mean sold-out trains and crowded attractions. Book early or travel against the peak."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

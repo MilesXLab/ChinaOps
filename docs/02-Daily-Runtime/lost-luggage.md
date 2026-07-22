@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Lost or Delayed Luggage Recovery SOP"
-description: "Practical ChinaOps guide: Lost or Delayed Luggage Recovery SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Report delayed bags at the airline desk before you leave the airport. Keep the PIR reference number."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

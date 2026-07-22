@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Diapers & Baby Supplies SOP"
-description: "Practical ChinaOps guide: Diapers & Baby Supplies SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Buy diapers at large pharmacies, supermarkets, or delivery apps. Know your size in cm/weight, not only brand names."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

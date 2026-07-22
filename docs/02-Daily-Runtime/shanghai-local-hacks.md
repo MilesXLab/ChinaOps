@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Shanghai Local Optimization Hacks"
-description: "Practical ChinaOps guide: Shanghai Local Optimization Hacks. Step-by-step checks, fallbacks, and field tips."
+description: "Resident-style tips: delivery apps, shared bikes, quieter hours, and stroller-friendly routes."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

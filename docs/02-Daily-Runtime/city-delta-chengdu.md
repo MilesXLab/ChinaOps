@@ -44,6 +44,11 @@ Shanghai timing habits undershoot Chengdu tourism queues and overestimate “mil
 - Airport (CTU area) and high-speed rail stations can be far from your hotel — match district to first activity.
 - Official taxi / DiDi only; same black-cab rule as other cities.
 
+### First-night corridor (Chengdu)
+- **Default first night:** Chunxi Road / Taikoo Li / wide business hotels near metro (passport-ready desks).
+- **From CTU / rail:** DiDi or metro with luggage buffer — do not schedule a tight dinner after landing.
+- **Next morning:** Only then day-trip to panda bases if tickets are already held.
+
 ### 2. Metro & pay
 - Transit QR via Alipay/WeChat (enable correct city).
 - Core tourist lines get crowded at weekends — leave luggage buffer.

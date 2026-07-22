@@ -49,6 +49,11 @@ Shanghai-first habits (short metro hops, Bund mental map) fail in Beijing’s sc
 
 **Action:** Confirm which airport is on your ticket **before** booking hotel shuttles. Use official taxi queue or DiDi — same black-cab rule as Shanghai.
 
+### First-night corridor (Beijing)
+- **Airports:** Confirm **PEK vs PKX** on the ticket before booking a hotel transfer.
+- **Default first night:** CBD / Guomao / Sanlitun-class business hotels (passport desks used to foreigners).
+- **Move:** Official taxi queue or DiDi from the correct airport — budget **60–120+ min** door-to-door from PKX.
+
 ### 2. Metro & pay
 
 - Alipay / WeChat transit QR works on Beijing Subway in normal tourist flows (confirm in-app city).

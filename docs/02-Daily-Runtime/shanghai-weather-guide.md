@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Shanghai Weather & AQI SOP"
-description: "Practical ChinaOps guide: Shanghai Weather & AQI SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Pack for humidity, sudden rain, and winter cold snaps. Check AQI on bad air days and limit outdoor time with kids."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

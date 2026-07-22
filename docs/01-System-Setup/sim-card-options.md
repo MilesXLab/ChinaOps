@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Connectivity: SIM & eSIM Options"
-description: "Practical ChinaOps guide: Connectivity: SIM & eSIM Options. Step-by-step checks, fallbacks, and field tips."
+description: "Compare China Mobile / Unicom / Telecom tourist SIMs and travel eSIMs by price, hotspot support, and whether they bypass the firewall."
 metadata:
   version: 1.2
   last_validated: 2026-07-21

@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: "Prescription Medication & Chronic Care SOP"
-description: "Practical ChinaOps guide: Prescription Medication & Chronic Care SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Bring enough chronic meds for the whole trip plus a paper prescription and generic drug names."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

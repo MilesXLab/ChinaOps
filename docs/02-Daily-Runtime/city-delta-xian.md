@@ -44,6 +44,11 @@ Day-trippers under-plan transfer time to the Terracotta site and over-trust frie
 - Airport and North rail station can be long rides from the wall — match hotel to tomorrow’s plan.
 - Official taxi / DiDi only.
 
+### First-night corridor (Xi'an)
+- **Default first night:** Inside or just south of the **city wall** / Bell Tower metro area (walkable + tourist police presence).
+- **Terracotta:** treat as a **next-day** trip with official bus/tour — not a same-hour landing plan.
+- **Move:** Metro + DiDi; ignore touts at exits.
+
 ### 2. Metro & pay
 - Transit QR via Alipay/WeChat (correct city).
 - Far heritage sites often need metro + bus / official shuttle — budget time.

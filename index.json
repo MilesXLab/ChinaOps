@@ -2,7 +2,7 @@
   "project": "ChinaOps - Technical Runbook for Travelers & Parents",
   "description": "Real-world solutions for travelers and families in China. Comprehensive SOPs with step-by-step guides, safety tips, and helper tools.",
   "lastUpdated": "2026-07-21",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "navigation": [
     {
       "name": "Symptom Index",
@@ -23,6 +23,14 @@
     {
       "name": "Next Trip Field-Test Pack",
       "path": "docs/00-Maintenance/field-retest-next-trip.md"
+    },
+    {
+      "name": "72h Survival Notes",
+      "path": "docs/survival-72h.md"
+    },
+    {
+      "name": "72h Survival Pack",
+      "path": "survival-72h.html"
     },
     {
       "name": "Child Dose Calculator",
@@ -215,6 +223,14 @@
         {
           "name": "City Delta: Hangzhou",
           "path": "docs/02-Daily-Runtime/city-delta-hangzhou.md"
+        },
+        {
+          "name": "City Delta: Xi'an",
+          "path": "docs/02-Daily-Runtime/city-delta-xian.md"
+        },
+        {
+          "name": "City Delta: Chongqing",
+          "path": "docs/02-Daily-Runtime/city-delta-chongqing.md"
         }
       ]
     },

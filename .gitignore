@@ -1,6 +1,8 @@
 # Dependencies / build scratch
 node_modules/
 _pagefind_src/
+_offline_pack/
+chinaops-offline-72h.zip
 
 # OS / editor
 .DS_Store

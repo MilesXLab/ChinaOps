@@ -20,6 +20,7 @@ SKIP_NAMES = {
     "field-retest-log.md",
     "design-tokens.md",
     "preflight-checklist.md",
+    "survival-72h.md",
 }
 
 

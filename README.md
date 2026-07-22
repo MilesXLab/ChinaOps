@@ -8,7 +8,7 @@
 
 ---
 
-> ChinaOps is currently in **v1.14.0**.
+> ChinaOps is currently in **v1.15.0**.
 >
 > This version is intentionally free, minimal, and text-first.
 > The goal is to help travelers and parents solve real-world problems in China — not to sell recommendations.
@@ -25,7 +25,7 @@
 ### What is ChinaOps?
 A practical, non-commercial guide for travelers and families navigating China. Written by someone who's actually lived through these challenges.
 
-**47 Step-by-Step Guides** | **Browser tools (search · MRZ · cards · dose)** | **No Ads or Sponsorships**
+**49 Step-by-Step Guides** | **Browser tools + 72h offline pack** | **No Ads or Sponsorships**
 
 ### Choose Your Path:
 
@@ -35,7 +35,7 @@ Open the **[Symptom Index](docs/symptom-index.md)** — match payment / data / p
 #### Flying soon?
 1. **[Pre-flight checklist](preflight-checklist.html)** — at home  
 2. **[Landing checklist](landing-checklist.html)** — first 30 minutes at the airport  
-3. **[Print Hub](print-hub.html)** — offline numbers + phrases  
+3. **[72h survival pack](survival-72h.html)** / **[Print Hub](print-hub.html)** — offline paper before you fly  
 4. **[Full-text search](search-fulltext.html)** — search inside guide bodies (or [title search](search.html))  
 5. **[12306 MRZ tool](mrz-tool.html)** — format passport name for train tickets  
 6. **[Phrase / allergy card](phrase-card-tool.html)** — printable bilingual staff card  

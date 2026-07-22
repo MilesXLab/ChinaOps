@@ -1,7 +1,7 @@
 # ChinaOps Roadmap
 
-## v1.0 → v1.14.0 (Current — Jul 2026)
-**Release Focus:** Dose tool, more city deltas, long-stay boundaries, field-test pack
+## v1.0 → v1.15.0 (Current — Jul 2026)
+**Release Focus:** 72h offline survival pack, Xi'an/Chongqing deltas
 
 ✅ **Completed (v1.0 — Jan 2026):**
 - 16 comprehensive SOPs across 4 categories
@@ -91,13 +91,17 @@
 - Long-stay risk boundaries SOP.
 - Next-trip field-test pack for maintainers.
 - Catalog at **47** guides.
+
+✅ **Completed (v1.15.0 — Jul 21, 2026):**
+- 72h survival printable pack + offline pack builder script.
+- City deltas: Xi'an · Chongqing.
+- Catalog at **49** guides.
 ---
 
 ## Next (v2.0 / community)
 - First **real** field_test log entry from an actual trip (pack is ready).
-- Optional: PDF export CI artifact of print packs.
-- More city deltas (Xi’an, Chongqing) if demand appears.
-- Optional offline zip of “72h survival” subset.
+- Optional: CI artifact that runs `build_offline_pack.py --zip`.
+- Community-contributed city deltas / language packs (ZH UI).
 
 ## v2.0 (Planned)
 **Release Focus:** Visualization & deeper interactive tools

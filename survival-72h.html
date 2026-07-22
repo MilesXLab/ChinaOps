@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps 72-Hour Survival Pack (offline print)</title>
+  <meta name="description" content="Printable 72-hour survival pack for China: landing gates, money, network, emergency numbers, phrases, and offline checklist.">
+  <style>
+    :root { --ink:#111; --muted:#444; --brand:#4c5fc7; --warn:#b91c1c; --ok:#047857; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: #e2e8f0;
+      line-height: 1.3;
+      font-size: 10.5pt;
+    }
+    .screen-bar {
+      max-width: 210mm; margin: 12px auto; padding: 0 8px;
+      display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;
+    }
+    .screen-bar h1 { font-size: 1.05rem; margin: 0; color: var(--brand); }
+    .screen-bar p { margin: 2px 0 0; font-size: 0.8rem; color: var(--muted); }
+    .btn {
+      background: var(--brand); color: #fff; border: 0; padding: 8px 12px;
+      border-radius: 6px; font-weight: 700; cursor: pointer; text-decoration: none; font-size: 0.85rem;
+      display: inline-block;
+    }
+    .btn.secondary { background: #2d3748; }
+    .links a { margin-right: 8px; font-size: 0.8rem; }
+    .page {
+      width: 210mm; min-height: 297mm; margin: 0 auto 16px; background: #fff;
+      padding: 10mm 11mm; box-shadow: 0 4px 16px rgba(0,0,0,.12);
+    }
+    .head {
+      display: flex; justify-content: space-between; gap: 8px;
+      border-bottom: 2px solid var(--ink); padding-bottom: 6px; margin-bottom: 8px;
+    }
+    .head h2 { margin: 0; font-size: 14pt; }
+    .head .tag { font-size: 9pt; font-weight: 700; color: var(--warn); text-align: right; }
+    h3 {
+      margin: 10px 0 4px; font-size: 9.5pt; text-transform: uppercase; letter-spacing: .04em;
+      color: var(--brand); border-bottom: 1px solid #ccc; padding-bottom: 2px;
+    }
+    h3.warn { color: var(--warn); }
+    table { width: 100%; border-collapse: collapse; }
+    td, th { padding: 3px 4px; vertical-align: top; border-bottom: 1px solid #eee; font-size: 9.5pt; }
+    .zh { font-weight: 800; font-size: 10.5pt; }
+    .py { color: var(--muted); font-size: 8pt; font-style: italic; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; }
+    .box {
+      border: 1px solid #cbd5e0; border-radius: 6px; padding: 6px 8px; font-size: 9pt;
+    }
+    .box strong { color: var(--brand); }
+    .fill {
+      border: 1px dashed #aaa; border-radius: 4px; padding: 6px; min-height: 48px;
+      font-size: 8.5pt; color: var(--muted); margin-top: 4px;
+    }
+    .check li { margin: 2px 0; }
+    .foot { margin-top: 8px; font-size: 7.5pt; color: var(--muted); }
+    .big { font-size: 12pt; font-weight: 800; }
+    @media screen and (max-width: 900px) {
+      .page { width: auto; min-height: 0; margin: 8px; padding: 14px; }
+      .grid2 { grid-template-columns: 1fr; }
+    }
+    @media print {
+      @page { size: A4; margin: 8mm; }
+      body { background: #fff; }
+      .screen-bar { display: none !important; }
+      .page {
+        width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none;
+        break-after: page;
+      }
+      .page:last-child { break-after: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="screen-bar">
+    <div>
+      <h1>ChinaOps · 72-hour survival pack</h1>
+      <p>Print or Save PDF before you fly. Works offline once saved. Not a full guide library.</p>
+      <p class="links">
+        <a href="./print-hub.html">Print hub</a>
+        <a href="./print-pack-a4.html">A4 emergency card</a>
+        <a href="./docs/survival-72h/">Notes</a>
+        <a href="./index.html">Home</a>
+      </p>
+    </div>
+    <button type="button" class="btn" onclick="window.print()">Print / PDF</button>
+  </div>
+
+  <!-- PAGE 1: Landing + money + network -->
+  <article class="page">
+    <div class="head">
+      <div>
+        <h2>72h Survival · Page 1/3</h2>
+        <div style="font-size:9pt;color:var(--muted);">Landing · Money · Network</div>
+      </div>
+      <div class="tag">
+        110 Police · 120 Ambulance<br>
+        119 Fire · 12367 NIA
+      </div>
+    </div>
+
+    <h3>Write these now (before phone dies)</h3>
+    <div class="grid2">
+      <div>
+        <div class="fill">Hotel name + 中文地址:<br><br><br></div>
+      </div>
+      <div>
+        <div class="fill">Embassy / assist phone:<br><br>Insurance policy #:<br><br></div>
+      </div>
+    </div>
+
+    <h3>Landing gates (do not leave airport until ✓)</h3>
+    <ol class="check" style="margin:4px 0;padding-left:1.2em;">
+      <li>☐ Immigration / digital arrival card done</li>
+      <li>☐ Data works (open google.com or WhatsApp) — eSIM or airport Wi‑Fi</li>
+      <li>☐ Small test pay (Alipay or card) at FamilyMart / café</li>
+      <li>☐ Ride path ready (DiDi / Alipay transport <strong>or</strong> official taxi queue only)</li>
+      <li>☐ Hotel address screenshot + this paper card</li>
+      <li>☐ Battery safe (&gt;20% or charging)</li>
+    </ol>
+
+    <h3>Money stack (second life after Alipay)</h3>
+    <div class="grid2">
+      <div class="box">
+        <strong>Layers</strong><br>
+        A) Alipay + WeChat QR<br>
+        B) Physical Visa/Mastercard<br>
+        C) Cash ¥500–1500<br>
+        Prefer BOC / ICBC ATMs for foreign cards.
+      </div>
+      <div class="box">
+        <strong>If pay fails</strong><br>
+        1. Switch Alipay ↔ WeChat<br>
+        2. Other card in app<br>
+        3. Chip card at terminal<br>
+        4. Cash (break ¥100 at convenience store)
+      </div>
+    </div>
+
+    <h3>Network triage</h3>
+    <table>
+      <tr><th>Symptom</th><th>Do this</th></tr>
+      <tr><td>Chinese sites work, Google does not</td><td>VPN issue → switch server/protocol/app (need 2 VPNs)</td></tr>
+      <tr><td>Nothing loads</td><td>SIM/data → Airplane 10s → APN → backup eSIM → hotel Wi‑Fi</td></tr>
+      <tr><td>VPN connects then dies</td><td>Port 443 / other protocol · swap Wi‑Fi ↔ mobile</td></tr>
+      <tr><td>Total offline</td><td>Offline maps · cash · paper hotel card · 5★ lobby help</td></tr>
+    </table>
+
+    <h3 class="warn">Hard rules</h3>
+    <ul style="margin:4px 0;padding-left:1.2em;">
+      <li>Never follow hallway “Taxi? Cheap!” touts — official queue only.</li>
+      <li>Power banks: cabin only; domestic flights often need CCC + QR.</li>
+      <li>Hotels need physical passport for police registration (24h).</li>
+      <li>Do not casually log out of WeChat / swap SIM on payment phone.</li>
+    </ul>
+    <p class="foot">ChinaOps · personal use · CC BY-NC 4.0 · Verify live rules before travel</p>
+  </article>
+
+  <!-- PAGE 2: Emergency + phrases -->
+  <article class="page">
+    <div class="head">
+      <div>
+        <h2>72h Survival · Page 2/3</h2>
+        <div style="font-size:9pt;color:var(--muted);">Emergency · Phrases · Scams</div>
+      </div>
+      <div class="tag big">110 · 120 · 119</div>
+    </div>
+
+    <h3 class="warn">Emergency numbers</h3>
+    <table>
+      <tr><td><strong>Police</strong></td><td class="big">110</td><td>Say “English, please.”</td></tr>
+      <tr><td><strong>Ambulance</strong></td><td class="big">120</td><td>State location; show hotel card</td></tr>
+      <tr><td><strong>Fire</strong></td><td class="big">119</td><td>Active fire/rescue</td></tr>
+      <tr><td><strong>NIA hotline</strong></td><td class="big">12367</td><td>Visa/entry English support</td></tr>
+    </table>
+
+    <h3>If scammed or threatened</h3>
+    <div class="grid2">
+      <div class="box">
+        Stay public · say <span class="zh">我要报警</span><br>
+        <span class="py">wǒ yào bàojǐng</span><br>
+        Call 110 · freeze card/app pay
+      </div>
+      <div class="box">
+        Tea/art “students”, broken-meter taxis, QR stickers on shops — walk away.
+      </div>
+    </div>
+
+    <h3>Essential phrases</h3>
+    <table>
+      <tr><td class="zh">救命！</td><td><span class="py">jiù mìng</span><br>Help!</td></tr>
+      <tr><td class="zh">请帮我叫救护车</td><td><span class="py">qǐng bāng wǒ jiào jiùhùchē</span><br>Please call an ambulance</td></tr>
+      <tr><td class="zh">请带我去这个地址</td><td><span class="py">qǐng dài wǒ qù zhè ge dìzhǐ</span><br>Take me to this address</td></tr>
+      <tr><td class="zh">我有预订</td><td><span class="py">wǒ yǒu yùdìng</span><br>I have a reservation</td></tr>
+      <tr><td class="zh">可以用支付宝吗？</td><td><span class="py">kěyǐ yòng Zhīfùbǎo ma?</span><br>Can I use Alipay?</td></tr>
+      <tr><td class="zh">我想取现金</td><td><span class="py">wǒ xiǎng qǔ xiànjīn</span><br>I want to withdraw cash</td></tr>
+      <tr><td class="zh">这里有没有Wi‑Fi？</td><td><span class="py">zhèlǐ yǒu méiyǒu Wi‑Fi?</span><br>Is there Wi‑Fi?</td></tr>
+      <tr><td class="zh">我对…过敏</td><td><span class="py">wǒ duì … guòmǐn</span><br>I am allergic to…</td></tr>
+      <tr><td class="zh">不要太辣</td><td><span class="py">bú yào tài là</span><br>Not too spicy</td></tr>
+      <tr><td class="zh">不需要，谢谢</td><td><span class="py">bù xūyào, xièxie</span><br>No need, thanks</td></tr>
+    </table>
+
+    <h3>Hospital / insurance (minimum pack)</h3>
+    <ul style="margin:4px 0;padding-left:1.2em;font-size:9.5pt;">
+      <li>Passport + payment + insurance assist phone</li>
+      <li>Keep: diagnosis, itemized bill, payment proof, fapiao if any</li>
+      <li>Many places are pay-first then claim — call assist when safe</li>
+    </ul>
+    <p class="foot">Full tools online: phrase-card-tool.html · dose-calculator.html · mrz-tool.html</p>
+  </article>
+
+  <!-- PAGE 3: 72h checklist + offline map -->
+  <article class="page">
+    <div class="head">
+      <div>
+        <h2>72h Survival · Page 3/3</h2>
+        <div style="font-size:9pt;color:var(--muted);">Checklist · Where to go deeper</div>
+      </div>
+      <div class="tag">Save PDF offline</div>
+    </div>
+
+    <h3>Hour 0–6</h3>
+    <ul class="check" style="padding-left:1.2em;">
+      <li>☐ Landing gates complete (page 1)</li>
+      <li>☐ Reach hotel · passport registration done</li>
+      <li>☐ Cash buffer + second pay method tested</li>
+      <li>☐ Two VPNs still connect</li>
+    </ul>
+
+    <h3>Hour 6–24</h3>
+    <ul class="check" style="padding-left:1.2em;">
+      <li>☐ Metro / transit QR works once</li>
+      <li>☐ Offline map region downloaded</li>
+      <li>☐ Screenshot Alipay QR only as emergency (rotates ~60s)</li>
+      <li>☐ Embassy + hotel pinned in maps</li>
+    </ul>
+
+    <h3>Hour 24–72</h3>
+    <ul class="check" style="padding-left:1.2em;">
+      <li>☐ Train / flight names verified (MRZ if 12306)</li>
+      <li>☐ Know nearest 24h ATM + pharmacy (药店)</li>
+      <li>☐ Family each has emergency paper card</li>
+      <li>☐ If multi-week: SIM expiry + status calendar set</li>
+    </ul>
+
+    <h3>When you have data again — open these SOPs</h3>
+    <table>
+      <tr><th>Problem</th><th>Guide (site path)</th></tr>
+      <tr><td>Something broke</td><td>docs/symptom-index/</td></tr>
+      <tr><td>Pay / ATM / fapiao</td><td>docs/01-System-Setup/money-runtime/</td></tr>
+      <tr><td>Apps / WeChat lock risk</td><td>docs/01-System-Setup/china-app-stack/</td></tr>
+      <tr><td>No network</td><td>docs/03-Emergency-DR/network-outage/</td></tr>
+      <tr><td>Hotel / foreigner refused</td><td>docs/01-System-Setup/stay-beyond-hotel/</td></tr>
+      <tr><td>Hospital bills</td><td>docs/03-Emergency-DR/insurance-and-hospital-bills/</td></tr>
+      <tr><td>Long stay grey zones</td><td>docs/01-System-Setup/long-stay-risk-boundaries/</td></tr>
+      <tr><td>Other city</td><td>docs/02-Daily-Runtime/city-delta-*/</td></tr>
+    </table>
+
+    <h3>Offline file set (optional zip)</h3>
+    <p style="font-size:9.5pt;margin:4px 0;">
+      Maintainers: run <code>python scripts/build_offline_pack.py</code> to copy this pack + print packs + tools + CSS/JS into
+      <code>_offline_pack/</code> (and optional zip). Users: save this HTML + print PDFs to phone Files app.
+    </p>
+
+    <div class="fill">
+      Your notes / local SIMs / eSIM ICCIDs (no full card numbers):<br><br><br><br>
+    </div>
+    <p class="foot">ChinaOps 72h pack · not legal or medical advice · re-check high-churn rules each trip</p>
+  </article>
+</body>
+</html>

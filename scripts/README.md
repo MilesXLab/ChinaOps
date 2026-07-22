@@ -38,6 +38,17 @@ Copy this into 12306 account registration
 
 ---
 
+### 1d. **Offline 72h pack** (`build_offline_pack.py`)
+
+Copies survival pack, print packs, browser tools, and assets into `_offline_pack/` for USB/phone copy.
+
+```bash
+python scripts/build_offline_pack.py
+python scripts/build_offline_pack.py --zip   # also writes chinaops-offline-72h.zip
+```
+
+Open `survival-72h.html` from the folder; print PDFs before you fly.
+
 ### 1c. **SOP format audit** (`check_sop_format.py`)
 
 Strict checks for guide markdown: required metadata, balanced HTML, phrase-cards, tables, orphan content after footers.

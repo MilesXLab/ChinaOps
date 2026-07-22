@@ -20,6 +20,7 @@ REQUIRED = [
     "mrz-tool.html",
     "phrase-card-tool.html",
     "dose-calculator.html",
+    "survival-72h.html",
     "assets/css/chinaops.css",
     "assets/js/chinaops.js",
     "assets/search/fulltext.json",

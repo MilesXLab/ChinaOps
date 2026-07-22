@@ -68,7 +68,8 @@ description: "When something breaks in China, match your symptom to the right Ch
 | Homestay / apartment / refused as foreigner | [Stay beyond hotel](../01-System-Setup/stay-beyond-hotel/) |
 | Nobody understands my English | [Translation tools](../01-System-Setup/translation-tools/) · [Phrase card tool](../../phrase-card-tool.html) |
 | Cannot read metro / toilet / facility signs | [Visual signs guide](../02-Daily-Runtime/shanghai-visual-signs-guide/) |
-| Leaving Shanghai for other cities | [Beijing](../02-Daily-Runtime/city-delta-beijing/) · [GZ & SZ](../02-Daily-Runtime/city-delta-guangzhou-shenzhen/) · [Chengdu](../02-Daily-Runtime/city-delta-chengdu/) · [Hangzhou](../02-Daily-Runtime/city-delta-hangzhou/) |
+| Leaving Shanghai for other cities | [Beijing](../02-Daily-Runtime/city-delta-beijing/) · [GZ & SZ](../02-Daily-Runtime/city-delta-guangzhou-shenzhen/) · [Chengdu](../02-Daily-Runtime/city-delta-chengdu/) · [Hangzhou](../02-Daily-Runtime/city-delta-hangzhou/) · [Xi'an](../02-Daily-Runtime/city-delta-xian/) · [Chongqing](../02-Daily-Runtime/city-delta-chongqing/) |
+| Need offline paper for first 3 days | [72h survival pack](../../survival-72h.html) · [Print hub](../../print-hub.html) |
 | Staying months — work/banking grey areas | [Long-stay risk boundaries](../01-System-Setup/long-stay-risk-boundaries/) |
 
 </div>

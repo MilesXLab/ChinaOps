@@ -4,6 +4,20 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.15.0] - 2026-07-21
+
+### 🧳 Offline 72h survival
+- **`survival-72h.html`**: 3-page printable pack (landing · money · network · emergency · phrases · 0–72h checklist).
+- **`scripts/build_offline_pack.py`**: copy tools + print packs + assets to `_offline_pack/` (optional `--zip`).
+- Print Hub links the 72h pack; notes in `docs/survival-72h.md`.
+
+### 🏙️ City deltas
+- **Xi'an** and **Chongqing** (heritage peaks / vertical city navigation).
+- City delta set now: BJ · GZ/SZ · CD · HZ · XA · CQ.
+- Catalog **49** guides.
+
+---
+
 ## [v1.14.0] - 2026-07-21
 
 ### 💊 Tools

@@ -26,6 +26,8 @@ SKIP_NAMES = {
     "field-retest-log.md",
     "high-churn-registry.md",
     "design-tokens.md",
+    "field-retest-next-trip.md",
+    "survival-72h.md",
 }
 
 REQUIRED_META = (

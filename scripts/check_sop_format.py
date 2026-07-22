@@ -28,6 +28,7 @@ SKIP_NAMES = {
     "design-tokens.md",
     "field-retest-next-trip.md",
     "survival-72h.md",
+    "release-notes-v1.16.md",
 }
 
 REQUIRED_META = (

@@ -21,6 +21,7 @@ SKIP_NAMES = {
     "design-tokens.md",
     "preflight-checklist.md",
     "survival-72h.md",
+    "release-notes-v1.16.md",
 }
 
 

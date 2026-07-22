@@ -1,0 +1,13 @@
+# ChinaOps — https://milesxlab.github.io/ChinaOps/
+User-agent: *
+Allow: /
+
+# Maintainer / internal docs (also noindex in HTML)
+Disallow: /ChinaOps/docs/00-Maintenance/
+
+# Thin print sheet variants (hub + 72h pack remain allowed)
+Disallow: /ChinaOps/print-pack.html
+Disallow: /ChinaOps/print-pack-a4.html
+Disallow: /ChinaOps/print-pack-bilingual.html
+
+Sitemap: https://milesxlab.github.io/ChinaOps/sitemap.xml

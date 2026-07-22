@@ -2,8 +2,11 @@
 title: ChinaOps
 description: Technical Runbook for Travelers & Parents
 author: TechDadShanghai
-url: "https://MilesXLab.github.io"
+# Canonical host must match the live GH Pages hostname (lowercase).
+url: "https://milesxlab.github.io"
 baseurl: "/ChinaOps"
+lang: en
+author: TechDadShanghai
 
 # Build settings
 markdown: kramdown

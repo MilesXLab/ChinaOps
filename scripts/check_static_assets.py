@@ -9,6 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
     "index.html",
     "index.json",
+    "robots.txt",
+    "sitemap.xml",
+    "images/og-default.png",
     "print-hub.html",
     "print-pack.html",
     "print-pack-a4.html",

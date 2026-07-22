@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
+{% assign seo_root = site.url | append: site.baseurl %}
+{% assign seo_path = page.url | default: '/' %}
+{% assign seo_canonical = seo_root | append: seo_path %}
+{% assign seo_desc = page.description | default: page.title | append: ' — ChinaOps technical runbook' %}
+{% assign seo_title = page.title | append: ' | ChinaOps Guide' %}
+{% assign seo_image = seo_root | append: '/images/og-default.png' %}
+{% assign seo_robots = page.robots | default: 'index, follow' %}
+{% if page.path contains '00-Maintenance' %}
+  {% assign seo_robots = 'noindex, follow' %}
+{% endif %}
+{% assign seo_modified = page.metadata.last_validated | default: site.time | date: '%Y-%m-%d' %}
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | ChinaOps Guide</title>
-    <meta name="description" content="{{ page.description | default: page.title }} — ChinaOps technical runbook">
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_desc }}">
+    <meta name="robots" content="{{ seo_robots }}">
+    <meta name="author" content="{{ site.author | default: 'TechDadShanghai' }}">
+    <link rel="canonical" href="{{ seo_canonical }}">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="ChinaOps">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ seo_desc }}">
+    <meta property="og:url" content="{{ seo_canonical }}">
+    <meta property="og:image" content="{{ seo_image }}">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ seo_desc }}">
+    <meta name="twitter:image" content="{{ seo_image }}">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/chinaops.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ seo_desc | jsonify }},
+      "author": {
+        "@type": "Person",
+        "name": {{ site.author | default: 'TechDadShanghai' | jsonify }}
+      },
+      "dateModified": {{ seo_modified | jsonify }},
+      "mainEntityOfPage": {{ seo_canonical | jsonify }},
+      "image": {{ seo_image | jsonify }},
+      "publisher": {
+        "@type": "Organization",
+        "name": "ChinaOps",
+        "url": {{ seo_root | append: '/' | jsonify }}
+      },
+      "isAccessibleForFree": true,
+      "inLanguage": "en"
+    }
+    </script>
 </head>
 
 <body class="docs-body">

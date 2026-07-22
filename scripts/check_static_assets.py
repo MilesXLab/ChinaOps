@@ -18,6 +18,7 @@ REQUIRED = [
     "search.html",
     "search-fulltext.html",
     "mrz-tool.html",
+    "phrase-card-tool.html",
     "assets/css/chinaops.css",
     "assets/js/chinaops.js",
     "assets/search/fulltext.json",

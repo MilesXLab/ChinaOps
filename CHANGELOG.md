@@ -4,6 +4,23 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.13.0] - 2026-07-21
+
+### 💰 Money, stay, apps (72h → 30–90 days)
+- **Money Runtime:** ATM cash, pre-auth freezes, visitor pay modes, fapiao invoices (`money-runtime.md`).
+- **Stay Beyond Hotel:** homestay registration, refused foreigner check-in, short-term Plan B (`stay-beyond-hotel.md`).
+- **China App Stack:** install order + WeChat/Alipay account hygiene (`china-app-stack.md`).
+
+### 🏙️ City deltas
+- **Beijing** and **Guangzhou & Shenzhen** delta sheets vs Shanghai defaults.
+
+### 🧾 Insurance + tools
+- **Insurance & hospital bills** claim-pack SOP.
+- **Phrase / allergy card generator** (`phrase-card-tool.html`) — browser-only print/PDF.
+- Symptom Index, home library, and catalog updated (**44 guides**).
+
+---
+
 ## [v1.12.0] - 2026-07-21
 
 ### 🔎 Full-text search

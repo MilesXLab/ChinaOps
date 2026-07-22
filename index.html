@@ -30,7 +30,7 @@
       <h1>ChinaOps 📚</h1>
       <p class="home-tagline"><strong>Step-by-step runbook for life in China</strong></p>
       <p class="plain" style="color: var(--fg-3);">Plain English · Real fixes · Free &amp; non-commercial</p>
-      <div class="version-badge">v1.12.0 · Updated Jul 21, 2026</div>
+      <div class="version-badge">v1.13.0 · Updated Jul 21, 2026</div>
       <p class="home-lead">
         When payment fails, apps break, or kids need help — open a short checklist, not a travel brochure.
       </p>
@@ -42,18 +42,18 @@
       </div>
 
       <div class="whats-new" aria-label="What is new">
-        <h3>What is new (v1.12.0)</h3>
+        <h3>What is new (v1.13.0)</h3>
         <ul>
-          <li><strong>Full-text search (Pagefind):</strong> search inside SOP bodies — <a href="./search-fulltext.html" style="color:inherit;font-weight:700;">search-fulltext.html</a>.</li>
-          <li><strong>MRZ tool:</strong> browser 12306 name formatter — <a href="./mrz-tool.html" style="color:inherit;font-weight:700;">mrz-tool.html</a>.</li>
-          <li>Fallback fulltext JSON if Pagefind bundle is missing.</li>
-          <li>v1.11: catalog search, landing checklist, static asset CI.</li>
+          <li><strong>Money / stay / apps:</strong> cash·ATM·fapiao, beyond-hotel stays, China app install order.</li>
+          <li><strong>City deltas:</strong> Beijing · Guangzhou &amp; Shenzhen (vs Shanghai defaults).</li>
+          <li><strong>Insurance bills</strong> + <a href="./phrase-card-tool.html" style="color:inherit;font-weight:700;">phrase/allergy card tool</a>.</li>
+          <li>v1.12: full-text search (Pagefind) + MRZ tool.</li>
         </ul>
       </div>
 
       <div class="home-stats">
         <div class="stat">
-          <div class="stat-number">38</div>
+          <div class="stat-number">44</div>
           <div class="stat-label">Guides</div>
         </div>
         <div class="stat">
@@ -91,7 +91,7 @@
         </div>
         <div>
           <h3 style="color: var(--success-strong); margin: 0 0 8px;">Need one topic</h3>
-          <p class="path-desc">Scroll the <strong>Full guide library</strong> — 38 guides with reading times.</p>
+          <p class="path-desc">Scroll the <strong>Full guide library</strong> — 44 guides with reading times.</p>
         </div>
       </div>
       <p class="callout callout-info" style="margin-top: 20px; margin-bottom: 0;">
@@ -188,6 +188,24 @@
           <div class="path-plain">Name formatter in browser</div>
           <div class="path-desc">Convert passport names to LASTNAME&lt;&lt;FIRSTNAME for train tickets.</div>
         </a>
+        <a href="./phrase-card-tool.html" class="path-card">
+          <div class="path-emoji">🪪</div>
+          <div class="path-title">Phrase / allergy card</div>
+          <div class="path-plain">Printable bilingual card</div>
+          <div class="path-desc">Build allergy or emergency cards to show staff — print or PDF.</div>
+        </a>
+        <a href="./docs/01-System-Setup/money-runtime/" class="path-card">
+          <div class="path-emoji">💰</div>
+          <div class="path-title">Money runtime</div>
+          <div class="path-plain">ATM · cash · fapiao</div>
+          <div class="path-desc">Second money stack after Alipay works.</div>
+        </a>
+        <a href="./docs/02-Daily-Runtime/city-delta-beijing/" class="path-card">
+          <div class="path-emoji">🏙️</div>
+          <div class="path-title">City deltas</div>
+          <div class="path-plain">Beijing · GZ / SZ</div>
+          <div class="path-desc">What changes when you leave Shanghai defaults.</div>
+        </a>
       </div>
     </details>
 
@@ -196,7 +214,7 @@
         📚 Full guide library
         <span class="plain">All 38 guides by category</span>
       </h2>
-<h3 class="cat-heading">✈️ System Setup (10 guides)<span class="plain">Before you arrive — phone, VPN, payments</span></h3>
+<h3 class="cat-heading">✈️ System Setup (13 guides)<span class="plain">Before you arrive — phone, VPN, money, stay, apps</span></h3>
       <div class="table-scroll"><table class="guides-table">
         <tr>
           <th>Guide</th>
@@ -253,9 +271,24 @@
           <td>International card binding, common errors, QR payment setup</td>
           <td>12 min</td>
         </tr>
+        <tr>
+          <td><a href="./docs/01-System-Setup/money-runtime/">💰 Money Runtime</a></td>
+          <td>ATM cash, pre-auth freezes, Tour Pass vs full account, fapiao invoices</td>
+          <td>12 min</td>
+        </tr>
+        <tr>
+          <td><a href="./docs/01-System-Setup/stay-beyond-hotel/">🏠 Stay Beyond Hotel</a></td>
+          <td>Homestay registration, refused check-in, short-term rental Plan B</td>
+          <td>12 min</td>
+        </tr>
+        <tr>
+          <td><a href="./docs/01-System-Setup/china-app-stack/">📱 China App Stack</a></td>
+          <td>Install order, WeChat/Alipay hygiene, phone-number lockouts</td>
+          <td>10 min</td>
+        </tr>
       </table>
 
-      <h3 class="cat-heading">🚗 Daily Runtime (13 guides)<span class="plain">Day-to-day life — trains, taxis, maps</span></h3>
+      <h3 class="cat-heading">🚗 Daily Runtime (15 guides)<span class="plain">Day-to-day life — trains, city deltas, maps</span></h3>
       <div class="table-scroll"><table class="guides-table">
         <tr>
           <th>Guide</th>
@@ -327,9 +360,19 @@
           <td>Recognizing metro, toilet, taxi, nursing room, and facility symbols</td>
           <td>8 min</td>
         </tr>
+        <tr>
+          <td><a href="./docs/02-Daily-Runtime/city-delta-beijing/">🏙️ City Delta: Beijing</a></td>
+          <td>Airports PEK/PKX, metro, embassies, AQI — vs Shanghai defaults</td>
+          <td>10 min</td>
+        </tr>
+        <tr>
+          <td><a href="./docs/02-Daily-Runtime/city-delta-guangzhou-shenzhen/">🏙️ City Delta: Guangzhou &amp; Shenzhen</a></td>
+          <td>Hubs, heat/rain, districts, border-adjacent awareness</td>
+          <td>10 min</td>
+        </tr>
       </table></div>
 
-      <h3 class="cat-heading">🚨 Emergency (9 guides)<span class="plain">When things go wrong — hospital, lost docs</span></h3>
+      <h3 class="cat-heading">🚨 Emergency (10 guides)<span class="plain">When things go wrong — hospital, bills, lost docs</span></h3>
       <div class="table-scroll"><table class="guides-table">
         <tr>
           <th>Guide</th>
@@ -340,6 +383,11 @@
           <td><a href="./docs/03-Emergency-DR/hospital-access/">🏥 Hospital Access</a></td>
           <td>Finding hospitals, language help, insurance, costs</td>
           <td>15 min</td>
+        </tr>
+        <tr>
+          <td><a href="./docs/03-Emergency-DR/insurance-and-hospital-bills/">🧾 Insurance &amp; Hospital Bills</a></td>
+          <td>Direct bill vs pay-and-claim, claim documents, cost shock control</td>
+          <td>12 min</td>
         </tr>
         <tr>
           <td><a href="./docs/03-Emergency-DR/lost-passport/">📜 Lost Passport</a></td>
@@ -533,7 +581,7 @@
     <footer class="home-footer">
       <p><strong>ChinaOps</strong> — technical runbook for travelers &amp; parents</p>
       <p style="font-size: 0.9rem;">Created by a full-time dad. Real-world solutions for families and solo explorers.</p>
-      <p style="margin-top: 12px;">Last updated: Jul 21, 2026 · v1.12.0 · Author: <strong>TechDadShanghai</strong></p>
+      <p style="margin-top: 12px;">Last updated: Jul 21, 2026 · v1.13.0 · Author: <strong>TechDadShanghai</strong></p>
       <p style="color: var(--fg-3); font-size: 0.9rem; margin-top: 16px;">
         Made for travelers, by travelers ·
         <a href="https://github.com/MilesXLab/ChinaOps">View on GitHub</a>

@@ -2,91 +2,282 @@
   "project": "ChinaOps - Technical Runbook for Travelers & Parents",
   "description": "Real-world solutions for travelers and families in China. Comprehensive SOPs with step-by-step guides, safety tips, and helper tools.",
   "lastUpdated": "2026-07-21",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "navigation": [
-    {"name": "Symptom Index", "path": "docs/symptom-index.md"},
-    {"name": "Full-text Search", "path": "search-fulltext.html"},
-    {"name": "Search Guides (titles)", "path": "search.html"},
-    {"name": "MRZ Tool (12306)", "path": "mrz-tool.html"},
-    {"name": "Pre-flight Checklist", "path": "preflight-checklist.html"},
-    {"name": "Landing Checklist", "path": "landing-checklist.html"},
-    {"name": "Print Hub", "path": "print-hub.html"},
-    {"name": "Design Tokens", "path": "docs/00-Maintenance/design-tokens.md"},
-    {"name": "Print Pack A4 Duplex", "path": "print-pack-a4.html"},
-    {"name": "Print Pack Bilingual", "path": "print-pack-bilingual.html"},
-    {"name": "Print Pack Standard", "path": "print-pack.html"},
-    {"name": "High-Churn Registry", "path": "docs/00-Maintenance/high-churn-registry.md"},
-    {"name": "Phrase Style Guide", "path": "docs/00-Maintenance/phrase-style-guide.md"},
-    {"name": "Field Re-test Checklist", "path": "docs/00-Maintenance/field-retest-checklist.md"},
-    {"name": "Field Re-test Log", "path": "docs/00-Maintenance/field-retest-log.md"}
+    {
+      "name": "Symptom Index",
+      "path": "docs/symptom-index.md"
+    },
+    {
+      "name": "Full-text Search",
+      "path": "search-fulltext.html"
+    },
+    {
+      "name": "Search Guides (titles)",
+      "path": "search.html"
+    },
+    {
+      "name": "Phrase / Allergy Card Tool",
+      "path": "phrase-card-tool.html"
+    },
+    {
+      "name": "MRZ Tool (12306)",
+      "path": "mrz-tool.html"
+    },
+    {
+      "name": "Pre-flight Checklist",
+      "path": "preflight-checklist.html"
+    },
+    {
+      "name": "Landing Checklist",
+      "path": "landing-checklist.html"
+    },
+    {
+      "name": "Print Hub",
+      "path": "print-hub.html"
+    },
+    {
+      "name": "Design Tokens",
+      "path": "docs/00-Maintenance/design-tokens.md"
+    },
+    {
+      "name": "Print Pack A4 Duplex",
+      "path": "print-pack-a4.html"
+    },
+    {
+      "name": "Print Pack Bilingual",
+      "path": "print-pack-bilingual.html"
+    },
+    {
+      "name": "Print Pack Standard",
+      "path": "print-pack.html"
+    },
+    {
+      "name": "High-Churn Registry",
+      "path": "docs/00-Maintenance/high-churn-registry.md"
+    },
+    {
+      "name": "Phrase Style Guide",
+      "path": "docs/00-Maintenance/phrase-style-guide.md"
+    },
+    {
+      "name": "Field Re-test Checklist",
+      "path": "docs/00-Maintenance/field-retest-checklist.md"
+    },
+    {
+      "name": "Field Re-test Log",
+      "path": "docs/00-Maintenance/field-retest-log.md"
+    },
+    {
+      "name": "Money Runtime",
+      "path": "docs/01-System-Setup/money-runtime.md"
+    }
   ],
   "sections": [
     {
       "title": "01-System-Setup",
-      "description": "Pre-trip setup: connectivity, payments, entry requirements, and gear",
+      "description": "Pre-trip setup: connectivity, payments, money runtime, stay, apps, entry, gear",
       "files": [
-        {"name": "Visa & Entry Requirements", "path": "docs/01-System-Setup/visa-and-entry.md"},
-        {"name": "VPN, eSIM & Payment Setup", "path": "docs/01-System-Setup/vpn-esim-payment.md"},
-        {"name": "Alipay & WeChat Pay (Foreign Visitors)", "path": "docs/01-System-Setup/alipay-wechat-setup-foreigners.md"},
-        {"name": "Mobile Number & Activation", "path": "docs/01-System-Setup/mobile-number-and-activation.md"},
-        {"name": "SIM Card Options", "path": "docs/01-System-Setup/sim-card-options.md"},
-        {"name": "Power Bank Rules", "path": "docs/01-System-Setup/power-bank-rules.md"},
-        {"name": "Pharmacy & Medications", "path": "docs/01-System-Setup/pharmacy-and-medications.md"},
-        {"name": "Hotel Check-in & Registration SOP", "path": "docs/01-System-Setup/hotel-check-in.md"},
-        {"name": "The Landing Protocol: First 30 Minutes", "path": "docs/01-System-Setup/landing-protocol.md"},
-        {"name": "Translation Tools & Language Barrier SOP", "path": "docs/01-System-Setup/translation-tools.md"}
+        {
+          "name": "Visa & Entry Requirements",
+          "path": "docs/01-System-Setup/visa-and-entry.md"
+        },
+        {
+          "name": "VPN, eSIM & Payment Setup",
+          "path": "docs/01-System-Setup/vpn-esim-payment.md"
+        },
+        {
+          "name": "Alipay & WeChat Pay (Foreign Visitors)",
+          "path": "docs/01-System-Setup/alipay-wechat-setup-foreigners.md"
+        },
+        {
+          "name": "Mobile Number & Activation",
+          "path": "docs/01-System-Setup/mobile-number-and-activation.md"
+        },
+        {
+          "name": "SIM Card Options",
+          "path": "docs/01-System-Setup/sim-card-options.md"
+        },
+        {
+          "name": "Power Bank Rules",
+          "path": "docs/01-System-Setup/power-bank-rules.md"
+        },
+        {
+          "name": "Pharmacy & Medications",
+          "path": "docs/01-System-Setup/pharmacy-and-medications.md"
+        },
+        {
+          "name": "Hotel Check-in & Registration SOP",
+          "path": "docs/01-System-Setup/hotel-check-in.md"
+        },
+        {
+          "name": "The Landing Protocol: First 30 Minutes",
+          "path": "docs/01-System-Setup/landing-protocol.md"
+        },
+        {
+          "name": "Translation Tools & Language Barrier SOP",
+          "path": "docs/01-System-Setup/translation-tools.md"
+        },
+        {
+          "name": "Money Runtime: Cash, ATM, Pre-auth & Invoices",
+          "path": "docs/01-System-Setup/money-runtime.md"
+        },
+        {
+          "name": "Stay Beyond Hotel (Short-term & Rejected Check-in)",
+          "path": "docs/01-System-Setup/stay-beyond-hotel.md"
+        },
+        {
+          "name": "China App Stack: Install Order & Account Hygiene",
+          "path": "docs/01-System-Setup/china-app-stack.md"
+        }
       ]
     },
     {
       "title": "02-Daily-Runtime",
-      "description": "Day-to-day operations: transport, navigation, food, and local hacks",
+      "description": "Day-to-day ops: transport, city deltas, food, local hacks",
       "files": [
-        {"name": "Train Ticket Trap (12306 MRZ Hack)", "path": "docs/02-Daily-Runtime/train-ticket-trap.md"},
-        {"name": "Taxi & Mobile Payment", "path": "docs/02-Daily-Runtime/taxi-payment.md"},
-        {"name": "Public Transport: Metro, Bikes & Ferries", "path": "docs/02-Daily-Runtime/public-transport-tips.md"},
-        {"name": "Maps & Toilet Locations", "path": "docs/02-Daily-Runtime/maps-and-toilets.md"},
-        {"name": "Shanghai Attractions Guide", "path": "docs/02-Daily-Runtime/shanghai-attractions-guide.md"},
-        {"name": "Shanghai Food Guide", "path": "docs/02-Daily-Runtime/shanghai-food-guide.md"},
-        {"name": "Shanghai Vegetarian & Vegan Guide", "path": "docs/02-Daily-Runtime/shanghai-vegan-guide.md"},
-        {"name": "Shanghai Weather & AQI Guide", "path": "docs/02-Daily-Runtime/shanghai-weather-guide.md"},
-        {"name": "Shanghai Visual Signs Guide", "path": "docs/02-Daily-Runtime/shanghai-visual-signs-guide.md"},
-        {"name": "Shanghai Local Hacks", "path": "docs/02-Daily-Runtime/shanghai-local-hacks.md"},
-        {"name": "Car Rental & Driving in China SOP", "path": "docs/02-Daily-Runtime/car-rental.md"},
-        {"name": "Transit Protocol: International to Domestic", "path": "docs/02-Daily-Runtime/international-domestic-transit.md"},
-        {"name": "Lost or Delayed Luggage Recovery SOP", "path": "docs/02-Daily-Runtime/lost-luggage.md"}
+        {
+          "name": "Train Ticket Trap (12306 MRZ Hack)",
+          "path": "docs/02-Daily-Runtime/train-ticket-trap.md"
+        },
+        {
+          "name": "Taxi & Mobile Payment",
+          "path": "docs/02-Daily-Runtime/taxi-payment.md"
+        },
+        {
+          "name": "Public Transport: Metro, Bikes & Ferries",
+          "path": "docs/02-Daily-Runtime/public-transport-tips.md"
+        },
+        {
+          "name": "Maps & Toilet Locations",
+          "path": "docs/02-Daily-Runtime/maps-and-toilets.md"
+        },
+        {
+          "name": "Shanghai Attractions Guide",
+          "path": "docs/02-Daily-Runtime/shanghai-attractions-guide.md"
+        },
+        {
+          "name": "Shanghai Food Guide",
+          "path": "docs/02-Daily-Runtime/shanghai-food-guide.md"
+        },
+        {
+          "name": "Shanghai Vegetarian & Vegan Guide",
+          "path": "docs/02-Daily-Runtime/shanghai-vegan-guide.md"
+        },
+        {
+          "name": "Shanghai Weather & AQI Guide",
+          "path": "docs/02-Daily-Runtime/shanghai-weather-guide.md"
+        },
+        {
+          "name": "Shanghai Visual Signs Guide",
+          "path": "docs/02-Daily-Runtime/shanghai-visual-signs-guide.md"
+        },
+        {
+          "name": "Shanghai Local Hacks",
+          "path": "docs/02-Daily-Runtime/shanghai-local-hacks.md"
+        },
+        {
+          "name": "Car Rental & Driving in China SOP",
+          "path": "docs/02-Daily-Runtime/car-rental.md"
+        },
+        {
+          "name": "Transit Protocol: International to Domestic",
+          "path": "docs/02-Daily-Runtime/international-domestic-transit.md"
+        },
+        {
+          "name": "Lost or Delayed Luggage Recovery SOP",
+          "path": "docs/02-Daily-Runtime/lost-luggage.md"
+        },
+        {
+          "name": "City Delta: Beijing",
+          "path": "docs/02-Daily-Runtime/city-delta-beijing.md"
+        },
+        {
+          "name": "City Delta: Guangzhou & Shenzhen",
+          "path": "docs/02-Daily-Runtime/city-delta-guangzhou-shenzhen.md"
+        }
       ]
     },
     {
       "title": "03-Emergency-DR",
       "description": "Emergency procedures: medical, security, lost documents, and network failures",
       "files": [
-        {"name": "Emergency Contacts Reference Card", "path": "docs/03-Emergency-DR/emergency-contacts-card.md"},
-        {"name": "Hospital Access", "path": "docs/03-Emergency-DR/hospital-access.md"},
-        {"name": "Lost Passport / Important Documents", "path": "docs/03-Emergency-DR/lost-passport.md"},
-        {"name": "Network Outage Survival SOP", "path": "docs/03-Emergency-DR/network-outage.md"},
-        {"name": "Safety & Common Scams", "path": "docs/03-Emergency-DR/safety-and-common-scams.md"},
-        {"name": "Shanghai Safety Guide", "path": "docs/03-Emergency-DR/shanghai-safety-guide.md"},
-        {"name": "Lost or Stolen Bank Card Recovery SOP", "path": "docs/03-Emergency-DR/lost-bank-card.md"},
-        {"name": "Lost or Stolen Phone Recovery SOP", "path": "docs/03-Emergency-DR/lost-phone.md"},
-        {"name": "Prescription Medication & Chronic Care SOP", "path": "docs/03-Emergency-DR/prescription-refill.md"}
+        {
+          "name": "Emergency Contacts Reference Card",
+          "path": "docs/03-Emergency-DR/emergency-contacts-card.md"
+        },
+        {
+          "name": "Hospital Access",
+          "path": "docs/03-Emergency-DR/hospital-access.md"
+        },
+        {
+          "name": "Lost Passport / Important Documents",
+          "path": "docs/03-Emergency-DR/lost-passport.md"
+        },
+        {
+          "name": "Network Outage Survival SOP",
+          "path": "docs/03-Emergency-DR/network-outage.md"
+        },
+        {
+          "name": "Safety & Common Scams",
+          "path": "docs/03-Emergency-DR/safety-and-common-scams.md"
+        },
+        {
+          "name": "Shanghai Safety Guide",
+          "path": "docs/03-Emergency-DR/shanghai-safety-guide.md"
+        },
+        {
+          "name": "Lost or Stolen Bank Card Recovery SOP",
+          "path": "docs/03-Emergency-DR/lost-bank-card.md"
+        },
+        {
+          "name": "Lost or Stolen Phone Recovery SOP",
+          "path": "docs/03-Emergency-DR/lost-phone.md"
+        },
+        {
+          "name": "Prescription Medication & Chronic Care SOP",
+          "path": "docs/03-Emergency-DR/prescription-refill.md"
+        },
+        {
+          "name": "Insurance & Hospital Bills",
+          "path": "docs/03-Emergency-DR/insurance-and-hospital-bills.md"
+        }
       ]
     },
     {
       "title": "04-Parenting-Patch",
       "description": "Family and parenting: formula safety, supplies, nursing, and dietary restrictions",
       "files": [
-        {"name": "Baby & Toddler Survival Runbook", "path": "docs/04-Parenting-Patch/baby-survival-master-runbook.md"},
-        {"name": "Formula Batch Checker (Recall SOP)", "path": "docs/04-Parenting-Patch/milk-recall-check.md"},
-        {"name": "Diapers & Baby Supplies", "path": "docs/04-Parenting-Patch/diapers-and-stores.md"},
-        {"name": "Nursing & Changing Rooms", "path": "docs/04-Parenting-Patch/nursing-rooms.md"},
-        {"name": "Food Allergies & Dietary Restrictions", "path": "docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.md"}
+        {
+          "name": "Baby & Toddler Survival Runbook",
+          "path": "docs/04-Parenting-Patch/baby-survival-master-runbook.md"
+        },
+        {
+          "name": "Formula Batch Checker (Recall SOP)",
+          "path": "docs/04-Parenting-Patch/milk-recall-check.md"
+        },
+        {
+          "name": "Diapers & Baby Supplies",
+          "path": "docs/04-Parenting-Patch/diapers-and-stores.md"
+        },
+        {
+          "name": "Nursing & Changing Rooms",
+          "path": "docs/04-Parenting-Patch/nursing-rooms.md"
+        },
+        {
+          "name": "Food Allergies & Dietary Restrictions",
+          "path": "docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions.md"
+        }
       ]
     },
     {
       "title": "05-Event-Operations",
       "description": "Seasonal events and high-load periods: holiday survival and crowd management",
       "files": [
-        {"name": "2026 China Holiday Survival: Golden Week SOP", "path": "docs/05-Event-Operations/holiday-survival-guide.md"}
+        {
+          "name": "2026 China Holiday Survival: Golden Week SOP",
+          "path": "docs/05-Event-Operations/holiday-survival-guide.md"
+        }
       ]
     }
   ]

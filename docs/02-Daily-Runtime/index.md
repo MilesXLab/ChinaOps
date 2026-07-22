@@ -22,6 +22,10 @@ Technical guides for daily operations in Chinese cities. From high-speed rail to
 *   [**Taxis & Didi**](taxi-payment/) — Calling cars and handling payments.
 *   [**Maps & Facilities**](maps-and-toilets/) — Finding your way and locating bathrooms.
 
+### 🏙️ City deltas *(multi-city)*
+*   [**Beijing**](city-delta-beijing/) — Airports, metro, embassies, AQI vs Shanghai defaults.
+*   [**Guangzhou & Shenzhen**](city-delta-guangzhou-shenzhen/) — Hubs, heat/rain, districts, border awareness.
+
 ### 🏘️ Shanghai Specifics *(Shanghai-first)*
 *   [**Shanghai Local Hacks**](shanghai-local-hacks/) — Stroller safety and local app recommendations.
 *   [**Weather & AQI Guide**](shanghai-weather-guide/) — Seasonal gear and air quality patches.

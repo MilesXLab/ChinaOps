@@ -36,7 +36,8 @@ description: "When something breaks in China, match your symptom to the right Ch
 |---------|-----------------|
 | Alipay / WeChat will not accept my foreign card | [Alipay & WeChat Pay (foreign visitors)](../01-System-Setup/alipay-wechat-setup-foreigners/) |
 | Payment works then suddenly locks / asks for selfie | [VPN, eSIM & Payment Setup](../01-System-Setup/vpn-esim-payment/) (Payment Recovery) |
-| I need cash or ATM fallback | [Landing Protocol](../01-System-Setup/landing-protocol/) · [Taxi & payment](../02-Daily-Runtime/taxi-payment/) |
+| I need cash, ATM, or invoice (fapiao) | [Money Runtime](../01-System-Setup/money-runtime/) · [Landing Protocol](../01-System-Setup/landing-protocol/) |
+| Hotel / card pre-auth freeze will not clear | [Money Runtime](../01-System-Setup/money-runtime/) |
 | Lost bank card / need to freeze cards | [Lost bank card](../03-Emergency-DR/lost-bank-card/) |
 
 </div>
@@ -49,6 +50,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 |---------|-----------------|
 | Google / WhatsApp / Instagram will not load | [VPN, eSIM & Payment](../01-System-Setup/vpn-esim-payment/) · [Network outage](../03-Emergency-DR/network-outage/) |
 | Need a Chinese number for SMS / apps | [Mobile number & activation](../01-System-Setup/mobile-number-and-activation/) · [SIM options](../01-System-Setup/sim-card-options/) |
+| Which apps to install / WeChat might lock | [China App Stack](../01-System-Setup/china-app-stack/) |
 | Phone lost or stolen | [Lost phone](../03-Emergency-DR/lost-phone/) |
 | Maps or Wi‑Fi fail; I am offline | [Network outage](../03-Emergency-DR/network-outage/) · [Maps & toilets](../02-Daily-Runtime/maps-and-toilets/) |
 
@@ -62,9 +64,11 @@ description: "When something breaks in China, match your symptom to the right Ch
 |---------|-----------------|
 | First 30 minutes after landing — what order? | [Landing Protocol](../01-System-Setup/landing-protocol/) |
 | Digital arrival card / visa-free confusion | [Visa & entry](../01-System-Setup/visa-and-entry/) |
-| Hotel will not check me in / police registration | [Hotel check-in](../01-System-Setup/hotel-check-in/) |
-| Nobody understands my English | [Translation tools](../01-System-Setup/translation-tools/) |
+| Hotel will not check me in / police registration | [Hotel check-in](../01-System-Setup/hotel-check-in/) · [Stay beyond hotel](../01-System-Setup/stay-beyond-hotel/) |
+| Homestay / apartment / refused as foreigner | [Stay beyond hotel](../01-System-Setup/stay-beyond-hotel/) |
+| Nobody understands my English | [Translation tools](../01-System-Setup/translation-tools/) · [Phrase card tool](../../phrase-card-tool.html) |
 | Cannot read metro / toilet / facility signs | [Visual signs guide](../02-Daily-Runtime/shanghai-visual-signs-guide/) |
+| Leaving Shanghai for Beijing / GZ / SZ | [Beijing delta](../02-Daily-Runtime/city-delta-beijing/) · [GZ & Shenzhen delta](../02-Daily-Runtime/city-delta-guangzhou-shenzhen/) |
 
 </div>
 
@@ -91,10 +95,11 @@ description: "When something breaks in China, match your symptom to the right Ch
 | Symptom | Open this guide |
 |---------|-----------------|
 | Need a hospital / clinic with English help | [Hospital access](../03-Emergency-DR/hospital-access/) |
+| How to pay hospital / use insurance / claim | [Insurance & hospital bills](../03-Emergency-DR/insurance-and-hospital-bills/) |
 | Need OTC medicine / pharmacy phrases | [Pharmacy & medications](../01-System-Setup/pharmacy-and-medications/) |
 | Chronic meds / prescription refill | [Prescription refill](../03-Emergency-DR/prescription-refill/) |
 | Possible scam (tea, taxi, QR) | [Safety & scams](../03-Emergency-DR/safety-and-common-scams/) · [Shanghai safety](../03-Emergency-DR/shanghai-safety-guide/) |
-| Need emergency numbers on one card | [Emergency contacts card](../03-Emergency-DR/emergency-contacts-card/) |
+| Need emergency numbers on one card | [Emergency contacts card](../03-Emergency-DR/emergency-contacts-card/) · [Phrase card tool](../../phrase-card-tool.html) |
 | Passport lost or stolen | [Lost passport](../03-Emergency-DR/lost-passport/) |
 
 </div>
@@ -123,7 +128,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 |---------|-----------------|
 | Formula batch / recall worry | [Milk safety / recall](../04-Parenting-Patch/milk-recall-check/) · [SafeFeed Action](https://milesxlab.github.io/safefeed-action/) |
 | Diapers and baby supplies | [Diapers & stores](../04-Parenting-Patch/diapers-and-stores/) |
-| Food allergies at restaurants | [Food allergies](../04-Parenting-Patch/food-allergies-and-dietary-restrictions/) |
+| Food allergies at restaurants | [Food allergies](../04-Parenting-Patch/food-allergies-and-dietary-restrictions/) · [Print allergy card](../../phrase-card-tool.html) |
 | Need a nursing / pumping room | [Nursing rooms](../04-Parenting-Patch/nursing-rooms/) |
 | Full baby/toddler playbook | [Baby survival runbook](../04-Parenting-Patch/baby-survival-master-runbook/) |
 

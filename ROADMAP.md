@@ -1,7 +1,7 @@
 # ChinaOps Roadmap
 
-## v1.0 → v1.12.0 (Current — Jul 2026)
-**Release Focus:** Full-text search (Pagefind), MRZ browser tool, guide search + ESL + print stack
+## v1.0 → v1.13.0 (Current — Jul 2026)
+**Release Focus:** Money/stay/app stack for longer stays, city deltas, insurance bills, phrase-card tool
 
 ✅ **Completed (v1.0 — Jan 2026):**
 - 16 comprehensive SOPs across 4 categories
@@ -77,12 +77,20 @@
 - Full-text body search (`search-fulltext.html`) via Pagefind + `fulltext.json` fallback.
 - Browser MRZ name tool for 12306 (`mrz-tool.html`).
 - `npm run build:search` / `scripts/build_fulltext_index.py` pipeline.
+
+✅ **Completed (v1.13.0 — Jul 21, 2026):**
+- Money Runtime, Stay Beyond Hotel, China App Stack SOPs.
+- City deltas: Beijing · Guangzhou & Shenzhen.
+- Insurance & hospital bills SOP.
+- Phrase/allergy card generator (`phrase-card-tool.html`).
+- Catalog at **44** guides.
 ---
 
 ## Next (v2.0 / community)
 - First completed **field_test** log entry from a real trip.
 - Optional: PDF export CI artifact of print packs.
-- More browser UIs for remaining Python helpers (dose calculator, train checker).
+- Child dose calculator Web UI; more city deltas (Chengdu/Hangzhou).
+- Deeper long-stay banking / work-permit boundary notes (risk-only).
 
 ## v2.0 (Planned)
 **Release Focus:** Visualization & deeper interactive tools

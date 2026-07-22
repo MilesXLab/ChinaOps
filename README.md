@@ -8,7 +8,7 @@
 
 ---
 
-> ChinaOps is currently in **v1.12.0**.
+> ChinaOps is currently in **v1.13.0**.
 >
 > This version is intentionally free, minimal, and text-first.
 > The goal is to help travelers and parents solve real-world problems in China — not to sell recommendations.
@@ -25,7 +25,7 @@
 ### What is ChinaOps?
 A practical, non-commercial guide for travelers and families navigating China. Written by someone who's actually lived through these challenges.
 
-**38 Step-by-Step Guides** | **Browser tools (search + MRZ)** | **No Ads or Sponsorships**
+**44 Step-by-Step Guides** | **Browser tools (search · MRZ · phrase cards)** | **No Ads or Sponsorships**
 
 ### Choose Your Path:
 
@@ -37,7 +37,9 @@ Open the **[Symptom Index](docs/symptom-index.md)** — match payment / data / p
 2. **[Landing checklist](landing-checklist.html)** — first 30 minutes at the airport  
 3. **[Print Hub](print-hub.html)** — offline numbers + phrases  
 4. **[Full-text search](search-fulltext.html)** — search inside guide bodies (or [title search](search.html))  
-5. **[12306 MRZ tool](mrz-tool.html)** — format passport name for train tickets
+5. **[12306 MRZ tool](mrz-tool.html)** — format passport name for train tickets  
+6. **[Phrase / allergy card](phrase-card-tool.html)** — printable bilingual staff card  
+7. **[Money Runtime](docs/01-System-Setup/money-runtime.md)** — ATM, cash, invoices after Alipay works
 
 #### First-Time Traveler?
 Start with **[System Setup](docs/01-System-Setup/)**  

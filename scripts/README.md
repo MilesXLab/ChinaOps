@@ -12,6 +12,8 @@ Converts your passport name into the format required by 12306 (China Railways).
 
 **Problem Solved:** 12306 rejects foreign names because it doesn't parse First Name / Last Name separately. It needs MRZ format (LASTNAME<<FIRSTNAME).
 
+**Browser UI (no install):** open **`mrz-tool.html`** on the site — same rules, runs entirely in the browser.
+
 **Usage:**
 ```bash
 python passport_mrz_converter.py John Smith
@@ -36,9 +38,69 @@ Copy this into 12306 account registration
 
 ---
 
+### 1e. **Tool smoke tests** (`test_tools.py`)
+
+Checks tool HTML presence, MRZ name rules parity, fulltext index shape, checklist storage keys, and dose-tool safety (no antibiotic preset).
+
+```bash
+python scripts/test_tools.py
+# Browser E2E (Playwright — first time: npx playwright install chromium)
+npm test
+```
+
+### 1d. **Offline 72h pack** (`build_offline_pack.py`)
+
+Copies survival pack, print packs, browser tools, and assets into `_offline_pack/` for USB/phone copy.
+
+```bash
+python scripts/build_offline_pack.py
+python scripts/build_offline_pack.py --zip   # also writes chinaops-offline-72h.zip
+```
+
+Open `survival-72h.html` from the folder; print PDFs before you fly.
+
+### 1c. **SOP format audit** (`check_sop_format.py`)
+
+Strict checks for guide markdown: required metadata, balanced HTML, phrase-cards, tables, orphan content after footers.
+
+```bash
+python scripts/check_sop_format.py
+```
+
+Optional bulk normalizer (metadata, badges, footer orphans):
+
+```bash
+python scripts/fix_sop_format.py
+```
+
+### 1b. **Full-text search index** (`build_fulltext_index.py`)
+
+Exports SOP bodies for search:
+
+1. `assets/search/fulltext.json` — client fallback used by `search-fulltext.html`
+2. `_pagefind_src/` — HTML tree for Pagefind (gitignored scratch)
+
+**Usage:**
+```bash
+# JSON + HTML export only
+python scripts/build_fulltext_index.py
+
+# Full Pagefind bundle (needs Node once: npm install)
+npm run build:search
+```
+
+**When to Use:**
+- After editing guide content that should be searchable
+- Before release if `pagefind/` or `fulltext.json` is stale
+- CI rebuilds `fulltext.json` on each health check
+
+---
+
 ### 2. **Child Medication Dose Calculator** (`child_medication_calculator.py`)
 
 Calculates appropriate medication dosage for children based on weight.
+
+**Browser UI (no install):** open **`dose-calculator.html`** — same weight × mg/kg math, reference only.
 
 **Problem Solved:** Unfamiliar with Chinese dosing systems; parents need reliable dose calculations for common children's medications.
 
@@ -125,7 +187,15 @@ WH = Wuhan           |  JN = Jinan          |  CS = Changsha
 
 ### 4. **SOP Health Check (TTL Audit)** (`ttl_check.py`)
 
-Scans all SOP files and validates their metadata freshness based on TTL (time-to-live) thresholds.
+Scans all SOP files (skips hubs like `index.md` / `symptom-index.md`) and validates metadata freshness. Tags high-churn guides (`churn: high` or `ttl_days ≤ 30`) as `[HIGH]`. Exits `1` if expired or missing `metadata`.
+
+### 5. **Catalog Sync** (`check_catalog.py`)
+
+Fails if `index.json` and on-disk SOPs drift (missing file or uncatalogued guide).
+
+### 6. **Static assets** (`check_static_assets.py`)
+
+Fails if required entry HTML/CSS/JS files are missing (print packs, search, checklists).
 
 **Problem Solved:** SOPs can become stale without anyone noticing. This script flags guides whose `last_validated` date has exceeded their `ttl_days` limit.
 
@@ -274,5 +344,5 @@ Found a bug or want to add a script?
 ---
 
 **Author:** TechDadShanghai  
-**Last Updated:** April 2026  
+**Last Updated:** July 2026  
 **License:** CC BY-NC 4.0

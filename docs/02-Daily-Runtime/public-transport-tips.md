@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Public Transport: Metro, Bikes & Buses"
+description: "Metro is usually the fastest city option. Pay with a transit QR in Alipay/WeChat or a physical card."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚇 Public Transport: Metro, Bikes & Buses
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Metro is usually the fastest city option. Pay with a transit QR in Alipay/WeChat or a physical card.</p>
+  <p>Keep bags close in crowds; follow exit numbers, not only station names.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">这是哪一站？</div>
+  <div class="py">zhè shì nǎ yī zhàn?</div>
+  <div class="en">Which station is this?</div>
+</div>
+
 
 **TL;DR:** Use **Alipay's "Transport"** QR code for everything (Metro, Bus, Ferry). Add a **Shanghai Transit Card** to your Apple/Android wallet for tap-and-go. Avoid Peak Hours (8-9 AM, 5:30-7 PM).
 
@@ -25,7 +41,7 @@ metadata:
 ### 1. The Metro QR Entry
 - **Step 1:** Open **Alipay**. Tap `Transport` (出行) at the top.
 - **Step 2:** Choose `Metro` (地铁) and select your city (e.g., Shanghai).
-- **Step 3:** Scan the QR code at the turnstile. 
+- **Step 3:** Scan the QR code at the turnstile.
 - **Verification:** The gate will open instantly. Payment is deducted after you exit at your destination.
 
 ### 2. The Apple Wallet / NFC Hack
@@ -37,7 +53,7 @@ metadata:
 - **Step 1:** Find a **HelloBike** (Blue - Alipay) or **Meituan Bike** (Yellow).
 - **Step 2:** Scan the QR code on the handlebar or lock.
 - **Step 3:** Purchase a "7-Day Unlimited" pass if staying for >3 days.
-- **Verification:** The lock will pop open. 
+- **Verification:** The lock will pop open.
 
 ---
 
@@ -65,6 +81,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -1,16 +1,31 @@
 ---
 layout: guide
 title: "The Transit Protocol: International to Domestic"
+description: "Changing from an international to a domestic flight can mean leaving security, collecting bags, and re-checking in."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
+  last_validated: 2026-07-21
+  ttl_days: 90
   stability_status: "critical"
   validation_method: "field_test"
-  ttl_days: 90
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # ✈️ The Transit Protocol: International to Domestic
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Changing from an international to a domestic flight can mean leaving security, collecting bags, and re-checking in.</p>
+  <p>Leave long buffers; do not assume airside transfer like in some other countries.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">国内航班在哪里值机？</div>
+  <div class="py">guónèi hángbān zài nǎlǐ zhíjī?</div>
+  <div class="en">Where do I check in for domestic flights?</div>
+</div>
+
 
 **TL;DR:** Pre-clear your **Digital Entry Card**. Allow at least **3.5 hours** for transit. You **must** pick up your luggage and re-check it; there is no "automatic" through-check for international arrivals in 2026.
 
@@ -34,7 +49,7 @@ metadata:
 - **Verification:** Ensure you have all bags before heading to the "Domestic Departures" level.
 
 ### 3. Re-Check & Security
-- **Step:** Head to the Domestic Departure counters (e.g., PVG T2 for China Eastern). 
+- **Step:** Head to the Domestic Departure counters (e.g., PVG T2 for China Eastern).
 - **Step:** Re-scan your power banks at security. **Critical Alert:** Ensure your power bank capacity is clearly labeled (<160Wh). If not labeled, security *will* confiscate it.
 - **Verification:** Confirm your gate number on the big board (gate changes are frequent).
 
@@ -57,6 +72,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

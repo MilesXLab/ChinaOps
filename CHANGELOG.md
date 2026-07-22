@@ -4,6 +4,258 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.16.1] - 2026-07-21
+
+### 🧪 Tool hardening + E2E
+- Browser tools fixes: MRZ a11y/validation, dose kg/lb + empty errors, search aliases/URLs, landing→72h.
+- `scripts/test_tools.py` static smoke + **Playwright E2E** (`npm test`, 10 cases).
+
+---
+
+## [v1.16.0] - 2026-07-21
+
+### 🔧 Traveler review fixes (P0–P2)
+- **12306 name protocol:** single source of truth = MRZ tool `SURNAME<<GIVEN` (removed conflicting “space for `<`” instruction).
+- **Hospital access:** national triage first; Shanghai clinic names labeled; scope `multi-city`.
+- **Pre-flight:** checkbox for **72h survival pack** PDF/print.
+- **Dose calculator:** removed antibiotic preset; OTC-only presets + stronger warning.
+- **Home:** trip stages (before flight / landed / broke) + desktop-review honesty note + field-test pack link.
+- **SEO descriptions:** replaced ~30 template descriptions with plain-summary sentences.
+- **City deltas:** first-night corridor on all six city sheets.
+- Symptom Index: 12306 → MRZ tool link.
+
+---
+
+## [v1.15.0] - 2026-07-21
+
+### 🧳 Offline 72h survival
+- **`survival-72h.html`**: 3-page printable pack (landing · money · network · emergency · phrases · 0–72h checklist).
+- **`scripts/build_offline_pack.py`**: copy tools + print packs + assets to `_offline_pack/` (optional `--zip`).
+- Print Hub links the 72h pack; notes in `docs/survival-72h.md`.
+
+### 🏙️ City deltas
+- **Xi'an** and **Chongqing** (heritage peaks / vertical city navigation).
+- City delta set now: BJ · GZ/SZ · CD · HZ · XA · CQ.
+- Catalog **49** guides.
+
+---
+
+## [v1.14.0] - 2026-07-21
+
+### 💊 Tools
+- **Child dose calculator** (`dose-calculator.html`): weight × mg/kg reference, common presets, browser-only.
+- Links from parenting symptom paths and scripts README.
+
+### 🏙️ City deltas
+- **Chengdu** and **Hangzhou** delta sheets (with existing Beijing / GZ–SZ set).
+
+### ⚖️ Long-stay
+- **Long-stay risk boundaries** SOP: status, banking, SIM lock-in, work grey zones (explicitly not legal advice).
+
+### 🧪 Field-test readiness
+- **Next trip field-test pack** under `docs/00-Maintenance/`.
+- Money Runtime added to high-churn registry watch list.
+- Catalog **47** guides.
+
+---
+
+## [v1.13.0] - 2026-07-21
+
+### 💰 Money, stay, apps (72h → 30–90 days)
+- **Money Runtime:** ATM cash, pre-auth freezes, visitor pay modes, fapiao invoices (`money-runtime.md`).
+- **Stay Beyond Hotel:** homestay registration, refused foreigner check-in, short-term Plan B (`stay-beyond-hotel.md`).
+- **China App Stack:** install order + WeChat/Alipay account hygiene (`china-app-stack.md`).
+
+### 🏙️ City deltas
+- **Beijing** and **Guangzhou & Shenzhen** delta sheets vs Shanghai defaults.
+
+### 🧾 Insurance + tools
+- **Insurance & hospital bills** claim-pack SOP.
+- **Phrase / allergy card generator** (`phrase-card-tool.html`) — browser-only print/PDF.
+- Symptom Index, home library, and catalog updated (**44 guides**).
+
+---
+
+## [v1.12.0] - 2026-07-21
+
+### 🔎 Full-text search
+- New **`search-fulltext.html`**: body search across SOP content.
+- **Pagefind** index (`pagefind/`) with auto-fallback to **`assets/search/fulltext.json`** when the bundle is missing.
+- Build pipeline: `scripts/build_fulltext_index.py` + `npm run build:search`.
+- Title-only catalog search remains at `search.html`.
+
+### 🚄 MRZ browser tool
+- New **`mrz-tool.html`**: passport given + surname → `LASTNAME<<FIRSTNAME` for 12306 (client-side only).
+- Linked from Train Ticket Trap guide, nav, and home “More paths”.
+
+### 🧰 Maintenance
+- Static asset CI requires `search-fulltext.html`, `mrz-tool.html`, and `fulltext.json`.
+- CI rebuilds fulltext JSON on each health check.
+
+---
+
+## [v1.11.0] - 2026-07-21
+
+### 🔍 Guide search
+- New **`search.html`**: client-side search over `index.json` with alias expansion (payment, passport, train…).
+- Quick-tag chips; links to Jekyll pretty paths.
+
+### 🛫 Landing checklist
+- New **`landing-checklist.html`**: ordered airport gates with localStorage (separate key from pre-flight).
+- Linked from Landing Protocol verification loop + home “Before your flight”.
+
+### 🧰 CI
+- **`scripts/check_static_assets.py`** + workflow step: required HTML/CSS/JS entry points must exist.
+
+---
+
+## [v1.10.0] - 2026-07-21
+
+### 🔎 Symptom search
+- Search field on Symptom Index filters **table rows** by keyword (works with category chips).
+- Clear button + live count; full list remains visible without JavaScript.
+
+### ✅ Pre-flight checklist
+- Interactive **`preflight-checklist.html`** with localStorage progress + reset.
+- Markdown mirror `docs/preflight-checklist.md`; linked from home “Before your flight”.
+
+### 🎨 Design tokens doc
+- Contributor reference: `docs/00-Maintenance/design-tokens.md` (tokens, components, a11y rules).
+
+---
+
+## [v1.9.0] - 2026-07-21
+
+### 🎨 UI/UX (task-first)
+- **Home:** calm light background (no full purple wash); primary CTA row; **4 main tasks** only; extra paths under collapsible “More paths”.
+- **Print Hub** (`print-hub.html`): one decision page — A4 duplex recommended, bilingual, standard.
+- **Mobile library tables → cards** (no horizontal scroll) via CSS.
+- **Guide pages:** sticky bottom action bar (Symptom · Print · Report); mobile sticky H2 TOC strip.
+- **Symptom filters** sticky under mobile bar; larger chip touch targets.
+- Critical path cards use stronger red semantic accent.
+
+---
+
+## [v1.8.0] - 2026-07-21
+
+### 🖨️ Print pack variants
+- **`print-pack-a4.html`**: compact **A4 duplex** — emergency on front, phrases on back (one sheet).
+- **`print-pack-bilingual.html`**: single A4 **EN + 简体中文** emergency + phrase one-pager.
+- Cross-links among Standard / A4 / Bilingual; homepage recommends A4 duplex.
+
+### 🧪 Field re-test log
+- New **`docs/00-Maintenance/field-retest-log.md`**: copy-paste trip log template + sample shape for the first real field-test PR.
+- Checklist + log + registry form the full “next trip” maintenance loop.
+
+---
+
+## [v1.7.0] - 2026-07-21
+
+### 🖨️ Offline Print Pack
+- New **`print-pack.html`**: two-page printable emergency card + essential phrase sheet (browser Print / Save PDF).
+- Guide wrapper: `docs/print-pack.md` with usage notes.
+- Linked from homepage path cards, sidebars, README, docs library.
+
+### 📐 Contributor quality
+- **Phrase style guide:** `docs/00-Maintenance/phrase-style-guide.md` (one card per scene, shared HTML component, dedup rules).
+- CONTRIBUTING updated for phrases + field-test expectations.
+
+### 🧪 Field re-test readiness
+- **Field re-test checklist:** `docs/00-Maintenance/field-retest-checklist.md` for payments, eSIM/VPN, power banks, visa, holidays, formula.
+- High-churn registry points maintainers at the checklist for true `validation_method: field_test` bumps.
+
+---
+
+## [v1.6.0] - 2026-07-21
+
+### 🗣️ Phrase cards everywhere that needed them
+- Injected Chinese / pinyin / English cards into **27** additional SOPs (payments, SIM, visa, trains, lost items, safety, parenting, holidays, etc.).
+- Library coverage: essentially all traveler-facing guides now include at least one phrase card.
+
+### 🔎 Symptom Index filters
+- Tag chips (Payment, Phone, Arrival, Transport, Health, Food, Kids, Holidays) with show/hide sections.
+- CSS + JS in `chinaops.css` / `chinaops.js` (`aria-pressed`, live count text).
+
+### ⏱️ High-churn desktop re-check
+- **Holiday guide:** fixed outdated Labor Day “this week” copy; next peaks Mid-Autumn + National Day Golden Week.
+- **Visa:** clarify list is illustrative; always re-check NIA.
+- **Power banks:** domestic vs international enforcement note refreshed.
+- Registry log expanded in `docs/00-Maintenance/high-churn-registry.md`.
+
+### 🛠️ Tooling
+- `scripts/apply_v16_phrases.py`
+
+---
+
+## [v1.5.0] - 2026-07-21
+
+### ✍️ Plain English on every SOP
+- All **38 guides** now open with a `.plain-summary` block (short sentences, ESL-friendly).
+- Frontmatter **`scope: national | shanghai`** on every SOP.
+
+### 🗣️ Phrase cards (high-value scenes)
+Added Chinese / pinyin / English cards for:
+- Hotel reservation, pharmacy fever meds, toilet ask
+- Taxi meter, vegetarian order, food allergy, nursing room
+- Ambulance call, emergency department
+- Food “no cilantro” (Shanghai dining)
+
+### 🗺️ Regional honesty
+- Category hubs label **Shanghai-first** vs national content.
+- Shanghai-specific guides badge: “Other cities may differ”.
+
+### 🛠️ Tooling
+- `scripts/apply_v15_content.py` for bulk Plain English + scope + phrase injection.
+
+---
+
+## [v1.4.0] - 2026-07-21
+
+### 🔎 Find guides by symptom
+- New **[Symptom Index](docs/symptom-index.md)**: payment, connectivity, transport, health, kids, holidays → correct SOP.
+- Linked from homepage path cards, docs library, and sidebar navigation.
+
+### ⏱️ High-churn content governance
+- New **[High-Churn Registry](docs/00-Maintenance/high-churn-registry.md)** with 30-day re-check rules.
+- Marked 6 critical guides `churn: high` + `ttl_days: 30`: VPN/payments, Alipay foreigners, visa/entry, power banks, holidays, milk recall.
+- `ttl_check.py` reports `[HIGH]` items and counts high-churn due within 7 days.
+
+### 📋 Contribution quality gates
+- Restored **[TEMPLATE_ENHANCED_SOP.md](TEMPLATE_ENHANCED_SOP.md)** (Plain English, Action/Verify/Fallback, glossary, scope).
+- **CONTRIBUTING.md** PR checklist: metadata, `index.json`, symptom links, local scripts.
+- New **`scripts/check_catalog.py`**: fails if disk SOPs and `index.json` drift.
+- CI workflow now runs TTL + catalog + link verification.
+
+### ✍️ ESL content samples
+- Plain English summary blocks on Landing Protocol, VPN/Payments, Lost Passport.
+- System Setup hub fixed to list **10 guides** (added Alipay foreigners) + symptom link.
+
+---
+
+## [v1.3.1] - 2026-07-21
+
+### 🎨 Design system & ESL readability
+- **Shared tokens:** added `assets/css/chinaops.css` (foreground/background/border/brand/semantic tokens, callouts, path cards, phrase/term components).
+- **No Google Fonts:** system UI stack for reliability inside China; honors `prefers-reduced-motion`.
+- **Plain-English labels:** category dual labels (e.g. Daily Runtime → *Day-to-day life*) on home paths, sidebar, and docs index.
+- **Static “What’s new”:** replaced dense marquee-style update banner with a scannable list.
+- **Mobile nav:** hamburger + drawer for guide/default layouts (sidebar no longer disappears without alternative).
+- **Home rebuild:** `index.html` uses the shared stylesheet and clearer first-visit copy.
+
+### 🔧 Data health
+- **Missing SOP metadata fixed** on 4 guides: Alipay/WeChat foreigners, lost passport, network outage, milk recall.
+- **TTL refresh:** `last_validated` bumped to 2026-07-21 across all 38 SOPs (desktop/link maintenance pass).
+- **`ttl_check.py`:** skips `index.md` hubs; exits non-zero on expired *or* missing metadata (CI-safe).
+- **`index.json`:** `lastUpdated` → 2026-07-21.
+- **Nav completeness:** Alipay & WeChat Pay guide added to guide/default sidebars.
+- **Milk recall status note** refreshed for July 2026 + SafeFeed link.
+
+### 🛠️ Tooling
+- `scripts/refresh_sop_metadata.py` — metadata maintenance helper.
+- `scripts/rebuild_index_html.py` — regenerates home page shell while preserving library tables.
+
+---
+
 ## [v1.3] - 2026-07-14
 
 ### 🔧 July 2026 Freshness Audit & Critical Updates

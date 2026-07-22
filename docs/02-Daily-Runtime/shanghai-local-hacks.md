@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Shanghai Local Optimization Hacks"
+description: "Resident-style tips: delivery apps, shared bikes, quieter hours, and stroller-friendly routes."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏘️ Shanghai Local Optimization Hacks
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Resident-style tips: delivery apps, shared bikes, quieter hours, and stroller-friendly routes.</p>
+  <p>Verify hours after holidays; Shanghai-specific.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">怎么用这个App？</div>
+  <div class="py">zěnme yòng zhège App?</div>
+  <div class="en">How do I use this app?</div>
+</div>
+
 
 **TL;DR:** Use the **2 RMB Ferry** for the best skyline view. Take the **Maglev** for 40 RMB (show your plane ticket). Use **Dianping** to save 30% on food.
 
@@ -34,7 +50,7 @@ metadata:
 - **Verification:** You get a 10-minute view of the Oriental Pearl Tower for 1/50th the price of a tourist boat.
 
 ### 3. The Dianping Voucher Strategy
-- **Step 1:** Find a restaurant you like. 
+- **Step 1:** Find a restaurant you like.
 - **Step 2:** Open **Dianping (大众点评)** and search for the restaurant's name.
 - **Step 3:** Look for **"Tuan gou"** (团购 - Group buy) vouchers. Buy the voucher.
 - **Verification:** Show the voucher QR code to the waiter *before* paying. Instant 20-40% savings.
@@ -65,6 +81,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

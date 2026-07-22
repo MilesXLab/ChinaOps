@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps Search Guides</title>
+  <meta name="description" content="Search ChinaOps guides by name or keyword. Works offline after first load if index.json is cached.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
+  <link rel="stylesheet" href="./assets/css/chinaops.css">
+  <style>
+    .search-shell { max-width: 720px; margin: 0 auto; }
+    .search-status { color: var(--fg-3); font-size: var(--text-sm); margin: 8px 0 16px; min-height: 1.2em; }
+    .search-results { list-style: none; margin: 0; padding: 0; }
+    .search-results li { margin: 0 0 10px; }
+    .search-results a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 14px 16px;
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      background: var(--bg-raised);
+      box-shadow: var(--shadow-sm);
+      min-height: 44px;
+      transition: border-color var(--dur-fast), box-shadow var(--dur-fast);
+    }
+    .search-results a:hover {
+      border-color: var(--brand);
+      box-shadow: var(--shadow-md);
+    }
+    .search-results .name { font-weight: 700; color: var(--fg-1); font-size: var(--text-md); }
+    .search-results .meta { margin-top: 4px; font-size: var(--text-sm); color: var(--fg-3); }
+    .search-results mark {
+      background: #fefcbf;
+      color: inherit;
+      padding: 0 2px;
+      border-radius: 2px;
+    }
+    .quick-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+    .quick-tags button { cursor: pointer; }
+  </style>
+</head>
+<body class="home-body">
+  <div class="home-wrap">
+    <header class="home-header">
+      <h1>🔍 Search guides</h1>
+      <p class="home-tagline"><strong>Find an SOP by name or problem word</strong></p>
+      <p class="home-lead">
+        Catalog titles only. For words inside steps, use
+        <a href="./search-fulltext.html">full-text search</a>.
+        For “payment failed” problems, try the <a href="./docs/symptom-index/">Symptom Index</a>.
+      </p>
+      <div class="home-cta-row">
+        <a class="btn btn-brand" href="./search-fulltext.html">Full-text search</a>
+        <a class="btn btn-brand" href="./docs/symptom-index/">Symptom Index</a>
+        <a class="btn btn-dark" href="./index.html">← Home</a>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="search-shell">
+        <label class="visually-hidden" for="guideSearch">Search guides</label>
+        <input type="search" id="guideSearch" class="symptom-search" placeholder="e.g. alipay, passport, train, vegan, hospital…" autocomplete="off" autofocus />
+        <p class="search-status" id="searchStatus" aria-live="polite">Loading catalog…</p>
+        <div class="quick-tags" id="quickTags" aria-label="Suggested searches">
+          <button type="button" class="filter-chip" data-q="payment">payment</button>
+          <button type="button" class="filter-chip" data-q="passport">passport</button>
+          <button type="button" class="filter-chip" data-q="train">train</button>
+          <button type="button" class="filter-chip" data-q="hospital">hospital</button>
+          <button type="button" class="filter-chip" data-q="baby">baby</button>
+          <button type="button" class="filter-chip" data-q="vpn">vpn</button>
+          <button type="button" class="filter-chip" data-q="vegan">vegan</button>
+        </div>
+        <ul class="search-results" id="searchResults"></ul>
+      </div>
+    </section>
+  </div>
+  <script>
+(function () {
+  var ALIASES = {
+    payment: "alipay wechat pay card money cash atm fapiao invoice runtime",
+    pay: "alipay wechat pay card money runtime",
+    cash: "money runtime atm cash",
+    atm: "money runtime cash",
+    fapiao: "money runtime invoice fapiao",
+    invoice: "money runtime fapiao",
+    alipay: "alipay wechat pay foreign",
+    wechat: "wechat pay app stack",
+    passport: "lost passport documents embassy",
+    phone: "lost phone sim mobile number app stack",
+    train: "12306 train ticket mrz",
+    12306: "train ticket mrz",
+    mrz: "12306 train ticket mrz",
+    hospital: "hospital emergency medical clinic insurance bills",
+    insurance: "insurance hospital bills claim",
+    ambulance: "hospital emergency",
+    allergy: "food allergies dietary phrase card",
+    dose: "pharmacy medications baby dose",
+    vpn: "vpn esim payment network firewall",
+    esim: "esim sim vpn mobile app stack",
+    baby: "baby toddler diaper milk formula parenting",
+    milk: "milk formula recall",
+    vegan: "vegan vegetarian food",
+    hotel: "hotel check-in registration stay beyond",
+    stay: "stay beyond hotel rental",
+    taxi: "taxi didi payment",
+    metro: "public transport metro",
+    power: "power bank battery",
+    holiday: "holiday golden week cny",
+    scams: "safety scams",
+    wifi: "network outage wifi",
+    luggage: "lost luggage baggage",
+    beijing: "city delta beijing",
+    chengdu: "city delta chengdu",
+    hangzhou: "city delta hangzhou",
+    shenzhen: "city delta guangzhou shenzhen",
+    guangzhou: "city delta guangzhou shenzhen",
+    xian: "city delta xian",
+    chongqing: "city delta chongqing",
+    longstay: "long-stay risk boundaries banking work"
+  };
+
+  var input = document.getElementById("guideSearch");
+  var statusEl = document.getElementById("searchStatus");
+  var listEl = document.getElementById("searchResults");
+  var guides = [];
+
+  function toUrl(path) {
+    // docs/foo/bar.md -> docs/foo/bar/ (Jekyll pretty)
+    return "./" + path.replace(/\.md$/i, "/");
+  }
+
+  function sectionLabel(title) {
+    return (title || "")
+      .replace(/^\d+-/, "")
+      .replace(/-/g, " ");
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function highlight(text, q) {
+    if (!q) return escapeHtml(text);
+    var safe = escapeHtml(text);
+    var re;
+    try {
+      re = new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+    } catch (e) {
+      return safe;
+    }
+    return safe.replace(re, "<mark>$1</mark>");
+  }
+
+  function expandQuery(q) {
+    var parts = q.toLowerCase().split(/\s+/).filter(Boolean);
+    var bag = parts.slice();
+    parts.forEach(function (p) {
+      if (ALIASES[p]) bag.push(ALIASES[p]);
+    });
+    return bag.join(" ");
+  }
+
+  function scoreItem(item, q) {
+    if (!q) return 1;
+    var expanded = expandQuery(q);
+    var tokens = expanded.split(/\s+/).filter(Boolean);
+    var hay = (item.name + " " + item.section + " " + item.sectionDesc + " " + item.path).toLowerCase();
+    var score = 0;
+    tokens.forEach(function (t) {
+      if (item.name.toLowerCase().indexOf(t) !== -1) score += 5;
+      else if (hay.indexOf(t) !== -1) score += 2;
+    });
+    // require at least one original token hit for short queries
+    var orig = q.toLowerCase().split(/\s+/).filter(Boolean);
+    var anyOrig = orig.some(function (t) {
+      return hay.indexOf(t) !== -1 || expandQuery(t).split(/\s+/).some(function (x) {
+        return hay.indexOf(x) !== -1;
+      });
+    });
+    if (!anyOrig && orig.length) return 0;
+    return score;
+  }
+
+  function render(q) {
+    var scored = guides
+      .map(function (g) {
+        return { g: g, s: scoreItem(g, q) };
+      })
+      .filter(function (x) {
+        return !q || x.s > 0;
+      })
+      .sort(function (a, b) {
+        return b.s - a.s || a.g.name.localeCompare(b.g.name);
+      });
+
+    if (!q) {
+      scored = scored.slice(0, 12);
+      statusEl.textContent = "Showing first " + scored.length + " guides — type to filter all " + guides.length + ".";
+    } else {
+      statusEl.textContent = scored.length
+        ? scored.length + " match(es) for “" + q + "”"
+        : "No guides matched “" + q + "”. Try Symptom Index or fewer words.";
+    }
+
+    listEl.innerHTML = scored
+      .map(function (x) {
+        var g = x.g;
+        return (
+          "<li><a href=\"" +
+          escapeHtml(toUrl(g.path)) +
+          "\"><div class=\"name\">" +
+          highlight(g.name, q) +
+          "</div><div class=\"meta\">" +
+          escapeHtml(sectionLabel(g.section)) +
+          " · " +
+          escapeHtml(g.path) +
+          "</div></a></li>"
+        );
+      })
+      .join("");
+  }
+
+  fetch("./index.json")
+    .then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      guides = [];
+      (data.sections || []).forEach(function (sec) {
+        (sec.files || []).forEach(function (f) {
+          guides.push({
+            name: f.name,
+            path: f.path,
+            section: sec.title,
+            sectionDesc: sec.description || ""
+          });
+        });
+      });
+      statusEl.textContent = "Loaded " + guides.length + " guides.";
+      render(input.value || "");
+    })
+    .catch(function () {
+      statusEl.textContent =
+        "Could not load index.json (open via a local server or GitHub Pages). Symptom Index still works as markdown.";
+    });
+
+  input.addEventListener("input", function () {
+    render(input.value.replace(/^\s+|\s+$/g, ""));
+  });
+
+  document.querySelectorAll("#quickTags [data-q]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      input.value = btn.getAttribute("data-q") || "";
+      render(input.value);
+      input.focus();
+    });
+  });
+})();
+  </script>
+</body>
+</html>

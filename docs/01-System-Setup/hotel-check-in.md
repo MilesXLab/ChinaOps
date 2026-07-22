@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Hotel Check-in & Registration SOP"
+description: "Hotels must register foreign guests with the police. Bring your passport and expect a scan or photo of it."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏨 Hotel Check-in & Registration SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Hotels must register foreign guests with the police. Bring your passport and expect a scan or photo of it.</p>
+  <p>If the front desk says they cannot accept foreigners, ask for another hotel or call your booking platform support.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我有预订</div>
+  <div class="py">wǒ yǒu yùdìng</div>
+  <div class="en">I have a reservation.</div>
+</div>
+
 
 **TL;DR:** All hotels in China require passport verification and **24-hour registration** with local police. International chain hotels handle this automatically; smaller hotels may need manual assistance. Always carry your **physical passport** (digital copies are not accepted).
 
@@ -93,6 +109,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

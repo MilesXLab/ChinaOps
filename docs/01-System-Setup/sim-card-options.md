@@ -1,17 +1,33 @@
 ---
 layout: guide
 title: "Connectivity: SIM & eSIM Options"
+description: "Compare China Mobile / Unicom / Telecom tourist SIMs and travel eSIMs by price, hotspot support, and whether they bypass the firewall."
 metadata:
   version: 1.2
-  last_validated: 2026-07-14
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 📶 Connectivity: SIM & eSIM Options
 
-**TL;DR:** For 100% "Firewall Bypass," use a **Travel eSIM** (Trip.com, Holafly, Simify, or Nomad). For local services (receiving SMS, booking Didi, or registering at local hotspots), you need a **Physical SIM** from China Unicom or China Telecom. 
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Compare China Mobile / Unicom / Telecom tourist SIMs and travel eSIMs by price, hotspot support, and whether they bypass the firewall.</p>
+  <p>Register with your passport; keep the receipt.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">有没有上网流量套餐？</div>
+  <div class="py">yǒu méiyǒu shàngwǎng liúliàng tàocān?</div>
+  <div class="en">Do you have a mobile data plan?</div>
+</div>
+
+
+**TL;DR:** For 100% "Firewall Bypass," use a **Travel eSIM** (Trip.com, Holafly, Simify, or Nomad). For local services (receiving SMS, booking Didi, or registering at local hotspots), you need a **Physical SIM** from China Unicom or China Telecom.
 
 **Prerequisites:**
 - **Unlocked Phone:** Crucial. Check with your home carrier before departure.
@@ -61,11 +77,11 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on a data-only eSIM for a 3-week family trip. 
+**Single Point of Failure:** Relying on a data-only eSIM for a 3-week family trip.
 - **Hotfix:** Get a local physical SIM for the primary traveler (+86 number for bookings/Didi) and travel eSIMs for the rest of the family.
 
 ---
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

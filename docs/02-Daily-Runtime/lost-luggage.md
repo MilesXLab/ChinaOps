@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Lost or Delayed Luggage Recovery SOP"
+description: "Report delayed bags at the airline desk before you leave the airport. Keep the PIR reference number."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🧳 Lost or Delayed Luggage Recovery SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Report delayed bags at the airline desk before you leave the airport. Keep the PIR reference number.</p>
+  <p>Photograph essentials you still carry; ask about delivery to your hotel.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我的行李没有出来</div>
+  <div class="py">wǒ de xíngli méiyǒu chūlái</div>
+  <div class="en">My luggage did not come out.</div>
+</div>
+
 
 **TL;DR:** Report missing luggage immediately at the airport **before leaving**. Get a Property Irregularity Report (PIR) with a reference number. Airlines typically deliver delayed luggage within 24-48 hours. Keep receipts for essential purchases (toiletry, clothing) for reimbursement claims.
 
@@ -99,6 +115,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

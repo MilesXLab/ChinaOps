@@ -5,11 +5,13 @@ title: "Parenting Patch"
 
 # 👨‍👩‍👧 Parenting Patch
 
-Child-specific challenges and safety: diapers, allergies, milk safety, and nursing rooms.
+**Plain English:** Traveling with kids — formula safety, diapers, allergies, nursing rooms, and a full baby runbook.
 
-### Guides in this section (5 Guides):
+**Scope:** Mostly **national**. Milk recall is **high-churn** (re-check often).
 
-*   [**Milk Safety Check**](milk-recall-check/) — Verifying formula batches and safety databases.
+### Guides in this section (5 guides)
+
+*   [**Milk Safety Check**](milk-recall-check/) — Formula batches & recalls *(high-churn)*
 *   [**Diapers & Supplies**](diapers-and-stores/) — Where to buy trusted brands and baby essentials.
 *   [**Food Allergies**](food-allergies-and-dietary-restrictions/) — Communicating dietary restrictions in restaurants.
 *   [**Nursing Rooms**](nursing-rooms/) — Locating facilities and cultural etiquette.

@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Shanghai Food & Dining SOP"
+description: "Order with app photos or point at the menu. Xiaolongbao and local breakfast spots get crowded — go early."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🥟 Shanghai Food & Dining SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Order with app photos or point at the menu. Xiaolongbao and local breakfast spots get crowded — go early.</p>
+  <p>Shanghai-focused; flavors and chains differ elsewhere.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">不要香菜</div>
+  <div class="py">bú yào xiāngcài</div>
+  <div class="en">No cilantro, please.</div>
+</div>
+
 
 **TL;DR:** Use **Dianping** to find restaurants and buy vouchers. Master the **Xiaolongbao** technique (soup first). Stick to **Hema/ALDI** for safe, clean, pre-packaged meals.
 
@@ -23,10 +39,10 @@ metadata:
 ## 📋 The Runbook
 
 ### 1. The "Dumpling" Protocol
-- **A. Xiaolongbao (Soup Dumplings):** 
-  - **Step:** Place on a flat spoon, poke a hole to drain steam, drink the soup, then eat. 
+- **A. Xiaolongbao (Soup Dumplings):**
+  - **Step:** Place on a flat spoon, poke a hole to drain steam, drink the soup, then eat.
   - **Top Node:** **Jia Jia Tang Bao** (People's Square).
-- **B. Shengjianbao (Pan-fried Buns):** 
+- **B. Shengjianbao (Pan-fried Buns):**
   - **Step:** Bite the corner carefully. The bottom is crispy, the top is soft.
   - **Top Node:** **Da Hu Chun** or **Yang’s**.
 - **Verification:** No burnt tongues or soup-sprayed shirts.
@@ -38,7 +54,7 @@ metadata:
 - **Verification:** Confirm the price in the app before you pay at the counter.
 
 ### 3. The Delivery Failover (Meituan/Ele.me)
-- **Step 1:** If tired, order via **Meituan**. 
+- **Step 1:** If tired, order via **Meituan**.
 - **Step 2:** Search for your hotel name. Meet the rider in the lobby (most hotels don't allow riders up elevators).
 - **Verification:** Check the tamper-evident seal before opening.
 
@@ -63,11 +79,11 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Ordering spicy food without a "Mild" fallback. 
+**Single Point of Failure:** Ordering spicy food without a "Mild" fallback.
 - **Hotfix:** Always say **"Bù là"** (Not spicy) or **"Wēi là"** (Lightly spicy) even if you like spice—Chinese "Medium" is often "Extreme" by Western standards.
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

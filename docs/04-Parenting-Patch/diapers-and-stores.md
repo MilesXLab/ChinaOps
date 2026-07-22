@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Diapers & Baby Supplies SOP"
+description: "Buy diapers at large pharmacies, supermarkets, or delivery apps. Know your size in cm/weight, not only brand names."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 👶 Diapers & Baby Supplies SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Buy diapers at large pharmacies, supermarkets, or delivery apps. Know your size in cm/weight, not only brand names.</p>
+  <p>Stock up before holidays when shops thin out.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">纸尿裤在哪里？</div>
+  <div class="py">zhǐniàokù zài nǎlǐ?</div>
+  <div class="en">Where are the diapers?</div>
+</div>
+
 
 **TL;DR:** Don't buy diapers at convenience stores (limited stock). Use **Hema/Freshippo** or **Meituan** for 30-min doorstep delivery. **ALDI** is the best node for "Western-spec" wipes and snacks.
 
@@ -64,11 +80,11 @@ These stores carry imported brands (Pampers, Merries, Moony, organic puffs, and 
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on a single delivery app. 
+**Single Point of Failure:** Relying on a single delivery app.
 - **Hotfix:** Always have both **Meituan** and **Ele.me** installed and linked to payment. If one app's rider network is down (common during heavy rain), the other might still be active.
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

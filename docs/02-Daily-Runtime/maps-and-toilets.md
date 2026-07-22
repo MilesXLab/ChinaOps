@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Maps & Public Toilets SOP"
+description: "Google Maps is weak offline for China navigation. Use Amap (Gaode) or Apple Maps with Chinese address text."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗺️ Maps & Public Toilets SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Google Maps is weak offline for China navigation. Use Amap (Gaode) or Apple Maps with Chinese address text.</p>
+  <p>Public toilets are common in malls and metro stations; carry tissues.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请问卫生间在哪里？</div>
+  <div class="py">qǐngwèn wèishēngjiān zài nǎlǐ?</div>
+  <div class="en">Where is the toilet?</div>
+</div>
+
 
 **TL;DR:** Use **Amap (Gao-de)** for navigation; Google Maps is 20-50m shifted due to encryption. Search `厕所` (Cè suǒ) for toilets. Malls (IFC, IAPM) always have "Premium" toilets.
 
@@ -34,7 +50,7 @@ metadata:
 - **Verification:** Public toilets in China are **100% Free**. If someone asks for money, you are probably at a non-official tourist gimmick.
 
 ### 3. The "Nursing Room" Protocol
-- **Step 1 (Parent Patch):** Search for `母婴室` (Mǔ yīng shì). 
+- **Step 1 (Parent Patch):** Search for `母婴室` (Mǔ yīng shì).
 - **Step 2:** In major malls, these are hotel-quality with change tables and nursing chairs.
 - **Verification:** Look for the "Bottle/Baby" icon outside the restroom area.
 
@@ -51,7 +67,7 @@ metadata:
 
 ## 💡 TechDad's Tips
 
-- **Paper Protocol:** Most public toilets in 2026 have facial-recognition paper dispensers. If you see a weird screen, just stand in front of it and it will spit out a short roll. 
+- **Paper Protocol:** Most public toilets in 2026 have facial-recognition paper dispensers. If you see a weird screen, just stand in front of it and it will spit out a short roll.
 - **Squat vs. Sit:** Most public toilets have one "Western" (sitting) stall and several "Squat" stalls. Look for the sign on the door. The Western stall is often used by mothers or the elderly.
 - **Sanitizer:** Always carry hand sanitizer. Soap dispensers in public street toilets are hit-or-miss.
 - **The "Smart Map" Hack:** Amap has a "Toilet Heatmap" that tells you how many stalls are currently vacant in major public facilities.
@@ -64,6 +80,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

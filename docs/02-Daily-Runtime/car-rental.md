@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Car Rental & Driving in China SOP"
+description: "Driving needs the right license paperwork. Many visitors use a chauffeur or Didi instead of self-drive."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚗 Car Rental & Driving in China SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Driving needs the right license paperwork. Many visitors use a chauffeur or Didi instead of self-drive.</p>
+  <p>If you rent, clarify insurance, tolls, and where you may not park.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我有国际驾照</div>
+  <div class="py">wǒ yǒu guójì jiàzhào</div>
+  <div class="en">I have an international driving permit.</div>
+</div>
+
 
 **TL;DR:** International driving permits are **not recognized** in China. You need a **Chinese driver's license** (obtained through a test) or a **temporary license** (valid 3 months, requires home license + translation). Most travelers use **chauffeur services** or **rental cars with drivers** instead of self-driving.
 
@@ -106,6 +122,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

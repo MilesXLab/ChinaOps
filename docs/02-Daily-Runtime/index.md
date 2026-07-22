@@ -3,9 +3,13 @@ layout: default
 title: "Production Runtime: Navigation & Travel"
 ---
 
-# 🚗 Production Runtime: Navigation & Travel
+# 🚗 Daily Runtime: Navigation & Travel
 
-Technical guides for managing your daily operations in Chinese cities. From high-speed rail to shared bikes.
+**Plain English:** Day-to-day movement — trains, taxis, metro, maps, and Shanghai living tips.
+
+Technical guides for daily operations in Chinese cities. From high-speed rail to shared bikes.
+
+**Scope:** Transit and payments are mostly **national**. The “Shanghai Specifics” block is **Shanghai-first** (other cities may differ).
 
 ### 🚄 Regional Transit
 *   [**International-Domestic Transit SOP**](international-domestic-transit/) — Managing the PVG/BJS luggage loop.
@@ -18,7 +22,15 @@ Technical guides for managing your daily operations in Chinese cities. From high
 *   [**Taxis & Didi**](taxi-payment/) — Calling cars and handling payments.
 *   [**Maps & Facilities**](maps-and-toilets/) — Finding your way and locating bathrooms.
 
-### 🏘️ Shanghai Specifics
+### 🏙️ City deltas *(multi-city)*
+*   [**Beijing**](city-delta-beijing/) — Airports, metro, embassies, AQI vs Shanghai defaults.
+*   [**Guangzhou & Shenzhen**](city-delta-guangzhou-shenzhen/) — Hubs, heat/rain, districts, border awareness.
+*   [**Chengdu**](city-delta-chengdu/) — Spice food, panda peaks, relaxed pace.
+*   [**Hangzhou**](city-delta-hangzhou/) — West Lake peaks, short HSR from Shanghai.
+*   [**Xi'an**](city-delta-xian/) — Heritage peaks, dry climate, tourist-scam awareness.
+*   [**Chongqing**](city-delta-chongqing/) — Vertical city, monorail, spicy defaults.
+
+### 🏘️ Shanghai Specifics *(Shanghai-first)*
 *   [**Shanghai Local Hacks**](shanghai-local-hacks/) — Stroller safety and local app recommendations.
 *   [**Weather & AQI Guide**](shanghai-weather-guide/) — Seasonal gear and air quality patches.
 *   [**Attractions & Nodes**](shanghai-attractions-guide/) — Skyline hacks and family-friendly spots.

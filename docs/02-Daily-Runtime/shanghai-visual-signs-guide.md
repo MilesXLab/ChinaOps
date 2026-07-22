@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Visual Signs & Symbols Reconnaissance"
+description: "Learn a few symbols for metro, toilets, taxis, and nursing rooms so you can move without reading full Chinese."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 👁️ Visual Signs & Symbols Reconnaissance
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Learn a few symbols for metro, toilets, taxis, and nursing rooms so you can move without reading full Chinese.</p>
+  <p>Symbols are mostly national; examples use Shanghai photos where noted.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">地铁站怎么走？</div>
+  <div class="py">dìtiě zhàn zěnme zǒu?</div>
+  <div class="en">How do I get to the metro station?</div>
+</div>
+
 
 **TL;DR:** Red "M" = Metro. `出口` (Chūkǒu) = Exit. `卫生间` (Wèishēngjiān) = Toilet. `公章` (Red Stamp) = Official Document. Use your camera translator for anything else.
 
@@ -63,7 +79,7 @@ metadata:
 
 - **The "Red Stamp" (Gōngzhāng):** In China, a red circular stamp is the only thing that makes a document "Official." An ink signature alone is often rejected.
 - **Exit Numbers:** In Shanghai Metro, a station might have 20 exits. **Always** check the map for the specific Exit Number (e.g., "Exit 4") before you go up the escalator.
-- **Color Coding:** 
+- **Color Coding:**
   - **Green:** Safety / Exit.
   - **Red:** Warning / Metro entrance.
   - **Blue:** Information / Direction.
@@ -72,11 +88,11 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on English subtitles on signs. 
+**Single Point of Failure:** Relying on English subtitles on signs.
 - **Hotfix:** Outside of central Shanghai (Jing'an/Xuhui), English subtitles disappear or are mistranslated. Rely on the **Icons** and the **Camera Translator**.
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Shanghai Weather & AQI SOP"
+description: "Pack for humidity, sudden rain, and winter cold snaps. Check AQI on bad air days and limit outdoor time with kids."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🌦️ Shanghai Weather & AQI SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Pack for humidity, sudden rain, and winter cold snaps. Check AQI on bad air days and limit outdoor time with kids.</p>
+  <p>Typhoon season needs flexible plans — Shanghai-focused calendar.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">今天空气质量怎么样？</div>
+  <div class="py">jīntiān kōngqì zhìliàng zěnmeyàng?</div>
+  <div class="en">How is the air quality today?</div>
+</div>
+
 
 **TL;DR:** Shanghai is "Damp Cold" in Winter and "Steamy Hot" in Summer. Use **AirVisual** for AQI monitoring. If a **Typhoon Red Alert** is issued, outdoor city operations (Disney, Bund, Metro Line 3/4) will shut down.
 
@@ -50,18 +66,18 @@ metadata:
 ## 💡 TechDad's Tips
 
 - **The "Uniqlo" Node:** If you under-dressed for a cold snap, find a **Uniqlo** (they are in every major mall). Their "Ultra Light Down" and "Heattech" are the most cost-effective patches for Shanghai's weather.
-- **Sun Protection:** In Spring (April/May), the sun is deceptive. High UV levels can burn you even if it's only 20°C. 
+- **Sun Protection:** In Spring (April/May), the sun is deceptive. High UV levels can burn you even if it's only 20°C.
 - **Air Quality Perception:** Don't trust your eyes. "Blue Sky" doesn't always mean low AQI; it could be high Ozone or Fine Particulates (PM2.5). Check the app.
 - **The "FamilyMart" Umbrella:** If you're caught in rain, don't buy from street hawkers. Go to **FamilyMart**; their 39 RMB umbrellas are of superior engineering.
 
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Assuming the weather forecast is accurate for more than 48 hours. 
+**Single Point of Failure:** Assuming the weather forecast is accurate for more than 48 hours.
 - **Hotfix:** Shanghai is a coastal city; weather systems move fast. Check the "Hourly" forecast on your app every morning before you head out.
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

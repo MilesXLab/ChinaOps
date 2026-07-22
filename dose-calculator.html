@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps Child Dose Calculator</title>
+  <meta name="description" content="Weight-based child medication dose reference for common OTC. Browser-only; not medical advice.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💊</text></svg>">
+  <link rel="stylesheet" href="./assets/css/chinaops.css">
+  <style>
+    .tool-grid { max-width: 520px; margin: 0 auto; display: grid; gap: 4px; }
+    .tool-grid label {
+      display: block; font-weight: 700; font-size: var(--text-sm);
+      color: var(--fg-2); margin: 12px 0 6px;
+    }
+    .tool-grid input, .tool-grid select {
+      width: 100%; min-height: 44px; font: inherit; font-size: var(--text-md);
+      padding: 10px 12px; border: 1px solid var(--border-default);
+      border-radius: var(--radius-md); box-sizing: border-box;
+    }
+    .result-box {
+      margin-top: 18px; padding: 16px; border-radius: var(--radius-md);
+      background: var(--bg-brand-soft); border: 1px solid #c3dafe;
+    }
+    .result-box .dose {
+      font-size: 1.5rem; font-weight: 800; font-family: var(--font-mono);
+      letter-spacing: 0.02em;
+    }
+    .result-box .cap { color: var(--warning-strong); font-weight: 700; margin-top: 6px; }
+    .tool-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .disclaimer {
+      margin-top: 16px; padding: 12px 14px; border-radius: var(--radius-md);
+      background: var(--bg-warning-soft); border: 1px solid #f6e05e;
+      font-size: var(--text-sm); color: var(--fg-2);
+    }
+  </style>
+</head>
+<body class="home-body">
+  <div class="home-wrap">
+    <header class="home-header">
+      <h1>💊 Child dose calculator</h1>
+      <p class="home-tagline"><strong>Weight × mg/kg reference only</strong></p>
+      <p class="home-lead">
+        Same math as <code>scripts/child_medication_calculator.py</code>.
+        Runs in your browser — not medical advice. Confirm with a pediatrician or pharmacist.
+        Related: <a href="./docs/01-System-Setup/pharmacy-and-medications/">Pharmacy</a> ·
+        <a href="./docs/04-Parenting-Patch/baby-survival-master-runbook/">Baby runbook</a>.
+      </p>
+      <div class="home-cta-row">
+        <a class="btn btn-brand" href="./phrase-card-tool.html">Phrase card</a>
+        <a class="btn btn-dark" href="./index.html">← Home</a>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="tool-grid">
+        <label for="preset">Common preset (optional)</label>
+        <select id="preset">
+          <option value="">Custom / enter mg per kg from the bottle label</option>
+          <option value="paracetamol">Paracetamol / acetaminophen · 15 mg/kg (OTC reference)</option>
+          <option value="ibuprofen">Ibuprofen · 10 mg/kg (OTC reference)</option>
+        </select>
+        <p style="margin:6px 0 0;font-size:var(--text-sm);color:var(--fg-3);">
+          No prescription antibiotics here. Antibiotics require a clinician — do not self-start.
+        </p>
+
+        <label for="medName">Medication name</label>
+        <input id="medName" type="text" placeholder="e.g. Paracetamol" />
+
+        <label for="weight">Child weight</label>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <input id="weight" type="number" min="0.5" max="400" step="0.1" placeholder="e.g. 15" inputmode="decimal" style="flex:1;" />
+          <select id="weightUnit" aria-label="Weight unit" style="width:auto;min-width:4.5rem;">
+            <option value="kg" selected>kg</option>
+            <option value="lb">lb</option>
+          </select>
+        </div>
+
+        <label for="perKg">Dose per kg (mg/kg) for one dose</label>
+        <input id="perKg" type="number" min="0.1" step="0.1" placeholder="e.g. 15" inputmode="decimal" />
+
+        <label for="maxDose">Max single dose cap mg (optional)</label>
+        <input id="maxDose" type="number" min="0" step="1" placeholder="Leave blank if none" inputmode="decimal" />
+
+        <div class="tool-actions">
+          <button type="button" class="btn btn-brand" id="btnCalc">Calculate</button>
+          <button type="button" class="btn btn-dark" id="btnClear">Clear</button>
+        </div>
+        <p class="msg" id="doseMsg" role="status" style="min-height:1.2em;font-size:var(--text-sm);color:var(--fg-3);margin:8px 0 0;"></p>
+
+        <div class="result-box" id="result" hidden>
+          <div id="resultTitle" style="font-weight:700;margin-bottom:6px;"></div>
+          <div class="dose" id="resultDose">—</div>
+          <div id="resultCap" class="cap" hidden>Capped at maximum single dose</div>
+          <ul id="resultTips" style="margin:12px 0 0;padding-left:1.2em;color:var(--fg-2);font-size:var(--text-sm);"></ul>
+        </div>
+
+        <div class="disclaimer">
+          <strong>Warning:</strong> Concentrations of syrups differ by brand (mg/mL).
+          This tool outputs <em>mg per dose</em>, not mL. Convert using the bottle label.
+          Never give adult tablets crushed without professional advice. Chinese OTC brand names vary — show the pharmacist this mg figure and the product in hand.
+        </div>
+      </div>
+    </section>
+
+    <footer class="home-footer">
+      <p><strong>ChinaOps</strong> · Personal use only · CC BY-NC 4.0 · Not a substitute for clinical care</p>
+    </footer>
+  </div>
+
+  <script>
+(function () {
+  var PRESETS = {
+    paracetamol: { name: "Paracetamol / acetaminophen", perKg: 15, max: 1000 },
+    ibuprofen: { name: "Ibuprofen", perKg: 10, max: 400 }
+  };
+
+  var preset = document.getElementById("preset");
+  var medName = document.getElementById("medName");
+  var weight = document.getElementById("weight");
+  var weightUnit = document.getElementById("weightUnit");
+  var perKg = document.getElementById("perKg");
+  var maxDose = document.getElementById("maxDose");
+  var result = document.getElementById("result");
+  var msg = document.getElementById("doseMsg");
+
+  preset.addEventListener("change", function () {
+    var p = PRESETS[preset.value];
+    if (!p) return;
+    medName.value = p.name;
+    perKg.value = String(p.perKg);
+    maxDose.value = p.max != null ? String(p.max) : "";
+    calc(false);
+  });
+
+  function weightKg() {
+    var w = parseFloat(weight.value);
+    if (!(w > 0)) return NaN;
+    if (weightUnit.value === "lb") return w * 0.45359237;
+    return w;
+  }
+
+  function calc(showErrors) {
+    var w = weightKg();
+    var d = parseFloat(perKg.value);
+    var max = maxDose.value === "" ? null : parseFloat(maxDose.value);
+    var name = (medName.value || "Medication").trim();
+    msg.textContent = "";
+
+    if (!(w > 0) || !(d > 0)) {
+      result.hidden = true;
+      if (showErrors) {
+        msg.textContent = "Enter a positive weight and mg/kg (from the bottle or clinician).";
+      }
+      return;
+    }
+    if (w < 2) {
+      msg.textContent = "Weight under 2 kg — confirm with a clinician before any medicine.";
+    }
+    if (w > 80) {
+      msg.textContent = "Weight over 80 kg — re-check unit (kg vs lb) and age; adult rules may apply.";
+    }
+
+    var dose = w * d;
+    var capped = false;
+    if (max != null && !isNaN(max) && max > 0 && dose > max) {
+      dose = max;
+      capped = true;
+    }
+
+    document.getElementById("resultTitle").textContent =
+      name + " · " + w.toFixed(2) + " kg · " + d + " mg/kg";
+    document.getElementById("resultDose").textContent =
+      dose.toFixed(1) + " mg per dose";
+    document.getElementById("resultCap").hidden = !capped;
+
+    var tips = document.getElementById("resultTips");
+    tips.innerHTML =
+      "<li>This is <strong>mg per dose</strong>, not mL. Convert with the syrup concentration on the label.</li>" +
+      "<li>Typical spacing often every 6–8 hours — follow product or doctor, not this list alone.</li>" +
+      "<li>Illustrative sketch if 4 doses: <strong>" +
+      (dose * 4).toFixed(1) +
+      " mg/day</strong> — real daily max may be lower (often ~60 mg/kg/day for paracetamol — confirm label).</li>" +
+      "<li>Show this number to a pharmacist with the bottle in hand.</li>";
+
+    result.hidden = false;
+  }
+
+  document.getElementById("btnCalc").addEventListener("click", function () {
+    calc(true);
+  });
+  ["weight", "perKg", "maxDose", "medName"].forEach(function (id) {
+    document.getElementById(id).addEventListener("input", function () {
+      calc(false);
+    });
+  });
+  weightUnit.addEventListener("change", function () {
+    calc(false);
+  });
+
+  document.getElementById("btnClear").addEventListener("click", function () {
+    preset.value = "";
+    medName.value = "";
+    weight.value = "";
+    weightUnit.value = "kg";
+    perKg.value = "";
+    maxDose.value = "";
+    msg.textContent = "";
+    result.hidden = true;
+  });
+})();
+  </script>
+</body>
+</html>

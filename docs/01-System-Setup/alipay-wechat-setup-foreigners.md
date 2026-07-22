@@ -1,129 +1,127 @@
 ---
 layout: guide
 title: "Alipay & WeChat Pay Setup for Foreign Visitors"
-description: "Complete step-by-step guide for foreigners to set up Alipay and WeChat Pay in China: international card binding, common errors, and payment troubleshooting"
+description: "Set up Alipay and WeChat Pay with a foreign Visa/Mastercard: identity checks, card binding, metro QR, and what to do when payment fails."
+metadata:
+  version: 1.3
+  last_validated: 2026-07-21
+  ttl_days: 30
+  churn: "high"
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
 # Alipay & WeChat Pay Setup for Foreign Visitors
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>You need Alipay and usually WeChat Pay for daily life. Link a foreign Visa/Mastercard, finish identity checks, and keep a backup card ready.</p>
+  <p>If payment fails, try the other app, another card, or cash — do not panic at the counter.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">可以用支付宝吗？</div>
+  <div class="py">kěyǐ yòng Zhīfùbǎo ma?</div>
+  <div class="en">Can I pay with Alipay?</div>
+</div>
+
+**TL;DR:** Set up **both** Alipay and WeChat Pay **before or right after landing**. Bind a major Visa/Mastercard, finish passport KYC, and test a small purchase. Cashless is default almost everywhere.
+
+**Prerequisites:**
+- Passport (photo ready for in-app KYC)
+- Foreign Visa or Mastercard (credit/debit; avoid obscure prepaid/virtual cards)
+- Working phone number for SMS / 3D-Secure
+- Optional: ¥500–1000 cash buffer
 
 ---
 
 ## Problem
-Cashless payment is nearly universal in China. Without Alipay or WeChat Pay, you cannot pay at most restaurants, taxis, convenience stores, or buy metro tickets. Foreigners have historically faced friction — but as of 2023–2026, both apps have significantly simplified the process.
 
----
+Cashless payment is nearly universal in China. Without Alipay or WeChat Pay you will struggle at restaurants, taxis, convenience stores, and many metro gates. Foreign cards work in both apps with an international visitor flow — but setup and mid-trip KYC still fail often enough that you need a Plan B.
 
-## The Two-App Strategy
-
-| App | Best For | Foreign-Friendliness |
+| App | Best for | Foreign-friendliness |
 |:---|:---|:---|
-| **Alipay (支付宝)** | Shopping, metro, bikes, delivery | ⭐⭐⭐⭐⭐ — Dedicated international flow |
-| **WeChat Pay (微信支付)** | Restaurants, WeChat mini-programs, transfers | ⭐⭐⭐⭐ — Works once card is linked |
+| **Alipay (支付宝)** | Shopping, metro, bikes, delivery | Dedicated international flow |
+| **WeChat Pay (微信支付)** | Restaurants, mini-programs, transfers | Works once card is linked |
 
 > [!TIP]
-> Set up **both** apps. Some merchants accept only one or the other. Having both is your payment redundancy layer.
+> Set up **both**. Some merchants accept only one. Dual apps are your payment redundancy layer.
 
 ---
 
-## Part 1: Alipay International Setup
+## 📋 The Runbook
 
-Since 2023, Alipay supports a dedicated international visitor flow — **no Chinese bank account required**.
+### 1. Alipay international setup
+1. Download **Alipay** → open **International** flow (or auto-detect region).
+2. Register with your **foreign phone number** → SMS code → 6-digit payment PIN.
+3. **Identity:** Me → Settings → Identity Information → upload **passport** photo.
+4. **Bind card:** Profile → Bank Card → Add → Visa/Mastercard → complete 3D-Secure.
+5. **Limit note:** Verified foreign users often face ~**$5,000 USD** single-transaction caps; contact support for large purchases.
+6. **Verification:** Make a tiny test payment or transfer **before you rely on it in China**. Prefer binding at home so 3D-Secure SMS arrives quickly.
 
-### Step 1: Download & Open
-- Download **Alipay** from your local App Store.
-- Open → Select **"International Version"** or it will auto-detect your region.
+### 2. WeChat Pay setup
+1. Download **WeChat** → register with your foreign number.
+2. Complete **friend verification** if prompted (a WeChat user registered 6+ months scans your QR). Ask hotel staff, colleagues, or a Chinese contact.
+3. **Me → Services → Wallet** → bind Visa/Mastercard (AmEx is inconsistent).
+4. **In store:** Me → Pay → show QR, or Scan the merchant code.
+5. **Verification:** Wallet shows a usable payment method and a successful test pay.
 
-### Step 2: Register
-1. Enter your **foreign phone number** (your home country number works for registration).
-2. Receive SMS verification code → enter it.
-3. Set a 6-digit payment PIN.
+### 3. Metro & bikes (Shanghai example)
+- **Alipay:** Search “Metro” → transit QR → scan at gate.
+- **NFC:** Shanghai Metro often accepts contactless Visa/Mastercard/AmEx/JCB at the gate (enable small-amount password-free on the card).
+- **Apple Wallet:** Shanghai Metro Card → Express Mode.
+- **Bikes:** Alipay → HelloBike / Meituan mini-program → scan; 7-day passes are cheap for multi-day stays.
 
-### Step 2.5: Identity Verification (Mandatory)
-- In the app: **Me → Settings → Identity Information**.
-- Upload a photo of your **passport**. This is required to access full payment features.
-- Verification typically completes within minutes.
+### 4. Zero-data payment snapshot
+1. Open Alipay → **Pay** → screenshot the QR.
+2. Show quickly — codes **rotate (~60s)**; this is last resort only.
 
-### Step 3: Bind International Card
-1. Go to **Profile → Bank Card → Add Card**.
-2. Enter Visa or Mastercard details (credit or debit).
-3. Complete 3D-Secure verification (SMS to your home number).
-4. **Spending limit:** Verified foreign users have a single-transaction limit of **$5,000 USD (~¥35,000)**. For very large purchases, contact Alipay support to request a temporary increase.
+---
 
-### Step 4: Test Before You Fly
-- Send a small transfer to yourself or a friend using the app.
-- Or simply buy something small on AliExpress (linked ecosystem) to confirm the card works.
+## 🚨 Fallback (Plan B)
 
-**Common Errors & 2026 Payment Realities:**
+### Payment declined at the counter
+1. Switch **Alipay ↔ WeChat Pay**.
+2. Choose a **second card** inside the app.
+3. Pay with **physical chip card** if the terminal allows.
+4. Use **cash** (FamilyMart/Lawson are good for breaking ¥100 notes).
 
-| Error / Reality | Description / Cause | Fix / Mitigation SOP |
+### Common errors (quick table)
+
+| Error / reality | Cause | Fix |
 |:---|:---|:---|
-| "Card not supported" | Try a different Visa/Mastercard; some prepaid/virtual cards are blocked | Bind a standard credit/debit card from a major bank. |
-| "Verification failed" | Ensure 3D-Secure is enabled on your card (call your bank) | Call your card issuer to enable international SMS and 3D-Secure before you fly. |
-| "Limit reached" | Standard per-day limit or transaction caps | Contact Alipay/WeChat support, or swap to your backup card. |
-| **Mid-Trip KYC Audit** | Suddenly triggered after 3-5 days of usage for security reasons. | Keep your physical passport handy. Re-upload passport photos and perform the video verification immediately in-app. |
-| **WeChat Account Lock** | WeChat is extremely sensitive to SIM profile or device swapping. | **Do not log out or swap SIM profiles** on the device running WeChat. Use a secondary phone or eSIM hotspot for data to keep the WeChat environment stable. |
-| **Random Risk Decline** | Vague security decline at the POS terminal when using international cards. | Immediately switch payment apps (Alipay to WeChat or vice versa) or choose a different backup card inside the payment screen. |
-| App in Chinese only | Language settings defaulted to Chinese | Tap the globe icon or navigate to: Settings (齿轮) → Language (语言). |
+| Card not supported | Prepaid/virtual blocked | Major bank Visa/MC |
+| Verification failed | 3D-Secure / SMS | Call issuer; enable international SMS |
+| Limit reached | Daily/TX caps | Support or other card |
+| Mid-trip KYC audit | Security review after a few days | Re-upload passport + video KYC with physical passport |
+| WeChat account lock | SIM/device swap | Do not log out/swap SIM on the WeChat phone; hotspot from another device |
+| Random risk decline | POS risk engine | Other app/card immediately |
+| App in Chinese only | Locale reset | Globe icon or Settings (齿轮) → Language (语言) |
+
+### Network dead
+- Screenshot Alipay QR while online; use hotel Wi‑Fi; see [Network Outage](../../03-Emergency-DR/network-outage/) and [VPN & eSIM](../vpn-esim-payment/).
 
 ---
 
-## Part 2: WeChat Pay Setup
+## 💡 TechDad's Tips
 
-WeChat Pay is embedded inside the WeChat app. You must set up WeChat first.
-
-### Step 1: Register WeChat
-1. Download **WeChat** → Register with **your foreign number**.
-2. You will be asked to have a **friend verify your account** (a WeChat user who has been registered for 6+ months must scan a QR code to approve you). This is a one-time friction point.
-   - **Workaround:** Ask a colleague, hotel staff, or use an existing Chinese contact.
-
-### Step 2: Enable WeChat Pay
-1. In WeChat → **Me → Services → Wallet**.
-2. Follow the card-binding flow (similar to Alipay).
-3. Visa and Mastercard are supported; American Express support is inconsistent.
-
-### Step 3: Using WeChat Pay
-- For in-store payments: **Me → Pay → Show QR Code** to the cashier.
-- Or scan the merchant's QR code: use the "Scan" function on the home screen.
+- **Bind before you land** so 3D-Secure SMS is instant (in China, foreign SMS can lag 5–10 minutes).
+- Carry **¥500–1000** small bills for stalls and glitching taxis.
+- Check Alipay supermarket mini-programs (Hema, ALDI) for new-user coupons.
+- False declines are often timeouts — swap apps before assuming the card is dead.
 
 ---
 
-## Using Both Apps at the Metro & Bikes
+## Related guides
 
-### Metro (Shanghai)
-- **Alipay:** Search "Metro" → Generate transit QR → Scan at gate.
-- **Direct NFC Tap:** Shanghai Metro supports contactless **Visa, Mastercard, AmEx, and JCB** cards directly at the gate — no app needed. Ensure "small-amount password-free payment" is enabled on your card.
-- **Apple Wallet (iPhone):** Add Shanghai Metro Card → Tap and go (Express Mode, no unlock needed).
-
-### Shared Bikes (HelloBike / Meituan)
-- **Alipay → HelloBike mini-program** → Scan bike QR → Ride starts automatically → Alipay charges on return.
-- Buy a **7-Day Unlimited Pass** (~10 RMB) for stays of 3+ days.
+- [VPN & eSIM Setup](../vpn-esim-payment/)
+- [Mobile Number & Activation](../mobile-number-and-activation/)
+- [Public Transport Tips](../../02-Daily-Runtime/public-transport-tips/)
 
 ---
 
-## Backup: QR Code Screenshot (Zero Data Needed)
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
-If your VPN or data fails:
-1. Open Alipay → Go to **"Pay"** → Take a **screenshot of your QR code**.
-2. Show the screenshot to the merchant → most POS terminals can scan a static QR.
-
-> [!WARNING]
-> Your Alipay QR code **rotates every 60 seconds** for security. The screenshot trick only works if the cashier scans it quickly. Use it as a last resort.
-
----
-
-## Miles' Tips
-
-- **Do This Before You Land:** Bind your card at home where your 3D-Secure SMS arrives instantly. In China, international SMS can be delayed 5–10 minutes.
-- **Cash Buffer (Always):** Carry ¥500–1000 (RMB) in small bills. Some street stalls and rural taxis might have payment system issues. Small convenience stores are your cash-to-small-change converters (buy a drink at FamilyMart).
-- **App Coupons:** Inside Alipay, check supermarket mini-programs (Hema, ALDI) for "New User" coupons — often ¥10–20 off.
-- **Payment Declined?** Try switching between Alipay and WeChat Pay before assuming the card is blocked. Network timeouts cause false declines.
-
----
-
-## Related Guides
-
-- [VPN & eSIM Setup](../vpn-esim-payment/) — Ensuring your apps stay connected
-- [Mobile Number & Activation](../mobile-number-and-activation/) — Getting a local number for SMS verification
-- [Public Transport Tips](../../02-Daily-Runtime/public-transport-tips/) — Using QR codes at metro gates
+[← Back to Guide Library](../)

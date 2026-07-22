@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Baby & Toddler Survival Runbook (2026)"
+description: "Plan milk, diapers, sleep, and transport with kids before peak hours. Malls often have nursing rooms."
 metadata:
   version: 1.2
-  last_validated: 2026-07-14
-  stability_status: "critical"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 🍼 Baby & Toddler Survival Runbook
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Plan milk, diapers, sleep, and transport with kids before peak hours. Malls often have nursing rooms.</p>
+  <p>Many tips are national; Shanghai examples appear where useful.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">有没有儿童座椅？</div>
+  <div class="py">yǒu méiyǒu értóng zuòyǐ?</div>
+  <div class="en">Do you have a child seat?</div>
+</div>
+
 
 **TL;DR:** Never land without a 72-hour supply buffer. Use **Hema/Freshippo** for trusted formula. High-speed rail: kids <6 are free but must share a seat. Transit nodes feature hidden staircases; keep a baby carrier ready.
 
@@ -35,7 +51,7 @@ metadata:
 - **Verification:** Ensure you have the child's physical passport. Digital copies are often rejected at the registration window.
 
 ### 3. Transit & Mobility SOP
-- **Step 1 (High-Speed Rail Ticket Rules):** Children **under 6 years old** travel free of charge, but they **must share a seat** with an accompanying adult (no separate seat allocated). 
+- **Step 1 (High-Speed Rail Ticket Rules):** Children **under 6 years old** travel free of charge, but they **must share a seat** with an accompanying adult (no separate seat allocated).
   - **Action:** If you want a dedicated seat for your child to nap or play, you **must purchase a Child Ticket** (usually 50% discount) when booking.
 - **Step 2 (Metro & Station Barriers):** Do not use standard e-gates. Go to the **Manual Lane** on the far end. Station staff will wave strollers and carriers through.
 - **Step 3 (Bottle Prep):** Verify the presence of the **100°C Boiling Water Node** (located at the end of every carriage on high-speed trains) for sterilizing bottles.
@@ -70,6 +86,6 @@ Navigating Chinese cities requires balancing portability against accessibility.
 
 ---
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

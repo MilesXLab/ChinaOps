@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Taxi & Mobility SOP"
+description: "Prefer Didi or official taxi stands. Pay by QR when possible; refuse unsolicited “helpers” in arrival halls."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚕 Taxi & Mobility SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Prefer Didi or official taxi stands. Pay by QR when possible; refuse unsolicited “helpers” in arrival halls.</p>
+  <p>Screenshot the plate number before the ride starts.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请打表</div>
+  <div class="py">qǐng dǎ biǎo</div>
+  <div class="en">Please use the meter.</div>
+</div>
+
 
 **TL;DR:** Use **DiDi (International)** app or the **Alipay "Transport"** mini-program. Do not hail on the street unless you have the destination address in **Chinese characters**. Always ask for a **receipt (fàpiào)**.
 
@@ -30,7 +46,7 @@ metadata:
 
 ### 2. The Street-Hail Protocol
 - **Step 1:** Look for taxis with a **green** (available) light in the window. **Red** means occupied.
-- **Step 2:** Show the driver your destination in **Chinese characters**. 
+- **Step 2:** Show the driver your destination in **Chinese characters**.
 - **Step 3:** Ensure the meter (Jìjiàqì) is flipped down (starting price typically 14-16 RMB in SH).
 - **Verification:** Receive a physical **fàpiào** (receipt) at the end. This is your only "trace" if you leave your bag in the car.
 
@@ -65,6 +81,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

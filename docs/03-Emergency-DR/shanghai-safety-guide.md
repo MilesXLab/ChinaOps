@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Shanghai Physical Safety & Urban Defense"
+description: "Shanghai is generally safe; focus on petty theft awareness and social-engineering scams in tourist zones."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🛡️ Shanghai Physical Safety & Urban Defense
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Shanghai is generally safe; focus on petty theft awareness and social-engineering scams in tourist zones.</p>
+  <p>Use official taxis/Didi at night; Shanghai-specific notes included.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请帮我报警</div>
+  <div class="py">qǐng bāng wǒ bào jǐng</div>
+  <div class="en">Please help me call the police.</div>
+</div>
+
 
 **TL;DR:** Shanghai is statistically one of the safest cities on earth. The primary physical risk is **Traffic (Scooters)**. Violent crime is near-zero. Phone battery at 0% is your biggest "threat."
 
@@ -57,11 +73,11 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on your phone for your destination address. 
+**Single Point of Failure:** Relying on your phone for your destination address.
 - **Hotfix:** Keep a physical business card of your hotel in your wallet at all times.
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

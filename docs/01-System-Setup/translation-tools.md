@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Translation Tools & Language Barrier SOP"
+description: "Download offline translation before you lose data. Screenshots of hotel address and key phrases beat live typing in a rush."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗣️ Translation Tools & Language Barrier SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Download offline translation before you lose data. Screenshots of hotel address and key phrases beat live typing in a rush.</p>
+  <p>Point-camera translate helps menus; for medical or legal talk, use a human or hospital interpreter when possible.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请说慢一点</div>
+  <div class="py">qǐng shuō màn yīdiǎn</div>
+  <div class="en">Please speak more slowly.</div>
+</div>
+
 
 **TL;DR:** Download **Pleco** (dictionary) and **Google Translate** (offline) before arrival. For real-time conversation, use **WeChat Translate** or **Baidu Translate**. Keep a printed **emergency phrase card** for critical situations (hospital, police, lost).
 
@@ -119,6 +135,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

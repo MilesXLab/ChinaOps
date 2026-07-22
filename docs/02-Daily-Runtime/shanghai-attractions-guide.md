@@ -1,17 +1,33 @@
 ---
 layout: guide
 title: "Shanghai Attractions: High-Load Nodes"
+description: "Plan big sights with booking apps and weekday mornings when you can. Bund, museums, and theme parks need different ticket rules."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗼 Shanghai Attractions: High-Load Nodes
 
-**TL;DR:** Use **Trip.com** for all tower bookings. Lights turn OFF at **22:00 (10 PM)** sharp. The **Disney App** is mandatory for survival at the park. 
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Plan big sights with booking apps and weekday mornings when you can. Bund, museums, and theme parks need different ticket rules.</p>
+  <p>This guide is Shanghai-first; other cities use similar apps but different queues.</p>
+  <p><span class="scope-badge">Scope: Shanghai-first</span> <span class="scope-badge">Other cities may differ</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">门票在哪里买？</div>
+  <div class="py">ménpiào zài nǎlǐ mǎi?</div>
+  <div class="en">Where can I buy tickets?</div>
+</div>
+
+
+**TL;DR:** Use **Trip.com** for all tower bookings. Lights turn OFF at **22:00 (10 PM)** sharp. The **Disney App** is mandatory for survival at the park.
 
 **Prerequisites:**
 - **App:** Trip.com (Bookings), Disney Resort (Wait times), WeChat (Museum bookings).
@@ -63,6 +79,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

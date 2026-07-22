@@ -1,17 +1,30 @@
 ---
 layout: guide
 title: "VPN, eSIM & Payment Setup"
+description: "Before you fly: install a travel eSIM (or know your SIM plan), set up Alipay and WeChat Pay with more than one card, and keep a little cash. Apps may ask for a passport selfie again mid-trip — that is normal risk…"
 metadata:
   version: 1.2
-  last_validated: 2026-07-14
+  last_validated: 2026-07-21
   ttl_days: 30
-  stability_status: "stable"
-  validation_method: "field_test"
+  churn: "high"
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
-
 # 🌐 VPN, eSIM & Payment Setup
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Before you fly: install a travel eSIM (or know your SIM plan), set up Alipay and WeChat Pay with more than one card, and keep a little cash. Apps may ask for a passport selfie again mid-trip — that is normal risk control, not always a permanent ban.</p>
+  <p><span class="scope-badge">Scope: national</span> <span class="scope-badge">High-churn</span> Re-check eSIM prices and payment rules often.</p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">网络连不上</div>
+  <div class="py">wǎngluò lián bu shàng</div>
+  <div class="en">The network will not connect.</div>
+</div>
 
 **TL;DR:** Install a **Travel eSIM** (Trip.com, Holafly, Simify, or Nomad) for native firewall bypass. Set up both **Alipay** and **WeChat Pay** with multiple card backups. Prepare for sudden mid-trip identity checks, and have **Cash** or **Alipay Tour Card** ready as a failover.
 
@@ -19,6 +32,7 @@ metadata:
 - **Unlocked Phone:** Verify with your home carrier before departure.
 - **Dual-Card Plan:** Keep your home SIM active for SMS OTPs, and use eSIM/local SIM for data.
 - **KYC Registration:** Upload passport photos to payment apps 48 hours before landing.
+  <span class="term"><span class="term-chip">KYC</span> <span class="term-def">= identity check (passport photo / selfie so the app knows it is you)</span></span>
 
 ---
 
@@ -73,6 +87,6 @@ If your payment fails at a POS terminal:
 
 ---
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Local Mobile Number SOP"
+description: "A Chinese number helps with SMS codes for apps and delivery. Choose eSIM before the trip or a physical SIM after landing."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "stable"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📱 Local Mobile Number SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>A Chinese number helps with SMS codes for apps and delivery. Choose eSIM before the trip or a physical SIM after landing.</p>
+  <p>Keep your home number working for bank OTPs if you can.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我要办一张电话卡</div>
+  <div class="py">wǒ yào bàn yī zhāng diànhuà kǎ</div>
+  <div class="en">I want to get a phone SIM card.</div>
+</div>
+
 
 **TL;DR:** Short-term travelers use **eSIM** (no KYC friction). Long-term residents must visit a **China Unicom** (preferred) or **China Mobile** hall with a physical passport.
 
@@ -23,12 +39,12 @@ metadata:
 ## 📋 The Runbook
 
 ### 1. Choose Your Entry Method
-- **Short Trip (Under 15 days):** Use Airalo, Yesim, or Nomad. No ID verification needed, but these often don't provide a "+86" number for app registrations. 
+- **Short Trip (Under 15 days):** Use Airalo, Yesim, or Nomad. No ID verification needed, but these often don't provide a "+86" number for app registrations.
 - **Digital Nomad / Long Stay:** You **must** have a "+86" number. Go to a China Unicom hall.
 
 ### 2. The Carrier Hall Protocol (Physical SIM)
 - **Step 1:** Use Baidu/Amap to find a "Main Business Hall" (营业厅). Smaller retail kiosks often cannot handle foreign passports.
-- **Step 2:** Request the **"Tourist Plan"** or **"Minimum Monthly Plan"** (Wǒ yào zuì dī tàocān). 
+- **Step 2:** Request the **"Tourist Plan"** or **"Minimum Monthly Plan"** (Wǒ yào zuì dī tàocān).
 - **Step 3:** Perform the "Face Scan" (人脸识别). This is a legal requirement for real-name registration.
 - **Verification:** Once the SIM is in, wait for a 10010/10086 SMS. Send `CXLL` to the carrier number to verify your data balance is active.
 
@@ -51,6 +67,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

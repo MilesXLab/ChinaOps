@@ -1,70 +1,105 @@
 ---
 layout: guide
 title: "The Landing Protocol: First 30 Minutes in China"
+description: "First 30 minutes after landing: immigration, data, test payment, and a safe ride — do not leave the airport until all four work."
 metadata:
-  version: 1.1
-  last_validated: 2026-04-27
+  version: 1.2
+  last_validated: 2026-07-21
   ttl_days: 90
   stability_status: "critical"
   validation_method: "field_test"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🛫 The Landing Protocol: First 30 Minutes
 
-**TL;DR:** Don't leave the airport until your "Digital Life" is stable. Airport Wi-Fi is your last "safe hub" with high bandwidth.
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Do not leave the airport until your phone data, a small test payment, and a ride option all work. Airport Wi‑Fi is your backup if mobile data fails.</p>
+  <p><span class="scope-badge">Scope: national</span> Order of steps matters more than which airport.</p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">请带我去这个地址</div>
+  <div class="py">qǐng dài wǒ qù zhè ge dì zhǐ</div>
+  <div class="en">Please take me to this address.</div>
+</div>
+
+**TL;DR:** Treat the airport as a **safe hub**. Clear immigration → fix connectivity → test payment → book official transport. Leave only when the verification loop is green.
 
 **Prerequisites:**
-- Passport (at least 6 months validity).
-- Physical Credit Card (Visa/Mastercard).
-- Phone with Roaming or pre-installed eSIM.
-- Address of your first hotel in **Chinese characters**.
+- Passport (6+ months validity)
+- Physical Visa/Mastercard
+- Phone with roaming or pre-installed travel eSIM
+- First hotel address in **Chinese characters** (screenshot)
+- Optional: DiDi International + Alipay already installed
 
 ---
 
-## The Sequence (Order of Operations)
+## Problem
 
-### 1. The Immigration Queue (The Digital Card SOP)
-- **Step:** Since Nov 2025, the **Digital Arrival Card** is mandatory. Do not wait until the line to fill it. Use the kiosks *before* the main line.
-- **Action:** Scan your passport at the kiosk and it will pull your pre-filled data from the **Alipay** "Digital Entry Card" mini-program.
-- **Verification:** Ensure you get the thermal paper receipt with the "Verified" timestamp.
-- **Fallback:** If the system is offline, physical **Blue/Yellow paper cards** are typically available on nearby desks. Grab one immediately and fill by hand to avoid losing your spot in line.
-
-### 2. The Connectivity Check
-- **Step:** Disable your home SIM's "Data Roaming" unless you have a global plan. Switch to your **Travel eSIM** (Airalo/Yesim/3HK).
-- **Verification:** Open `google.com`. If it loads, your eSIM is successfully bypassing the firewall.
-- **Fallback:** If eSIM fails, connect to **Airport Free Wi-Fi**. It usually requires a SMS code (which works on foreign numbers) or a Passport scan at a kiosk.
-
-### 3. The "Cold Start" Payment Test
-- **Step:** Go to the airport's FamilyMart, Lawson, or Starbucks. Buy a small item (water/coffee).
-- **Verification:** Pay using **Alipay** (linked to your foreign card). 
-- **Fallback:** If Alipay fails, use your **Physical Credit Card**. If that fails, go to the **Bank of China (BOC) ATM** in the arrival hall and withdraw 500 RMB.
-
-### 4. The Exit & Transport
-- **Step:** Download the **DiDi (International)** app or use the "Transport" mini-program inside Alipay.
-- **Verification:** If the app shows your location correctly on the map, you're good.
-- **Fallback:** Follow the signs to the **Official Taxi Stand**. Never, ever follow a "driver" who approaches you in the hall saying "Taxi? Cheap!" (The Black Cab Trap).
+Jet lag + a dead stack (no data, no pay, no ride) turns the first hour into a crisis. Airport Wi‑Fi and official taxi queues exist so you can recover **before** you enter the city.
 
 ---
 
-## TechDad's Tips (Landing Reality)
+## 📋 The Runbook
 
-- **The "Screenshot everything" Rule:** Grab screenshots of your hotel booking, your passport photo page, and your return flight. You will inevitably lose signal in a tunnel or elevator precisely when you need them.
-- **Power Bank Paradox:** If you need a power bank from a kiosk, you need a working phone to scan it. If your phone is at 5%, find a physical outlet in the airport (usually near the seats) before leaving.
-- **The "Small Bill" Strategy:** ATMs give 100 RMB notes. FamilyMart is your "Money Changer." Buy a 3 RMB water to get 10s and 20s. Taxis love small change if their digital payment glitches.
+### 1. Immigration (Digital Arrival Card)
+- **Action:** Complete the **Digital Arrival Card** at kiosks *before* the main queue (mandatory pattern since late 2025). Scan passport; pull pre-filled data from Alipay “Digital Entry Card” mini-program if you prepared it.
+- **Verification:** Thermal paper / screen shows a verified timestamp.
+- **If kiosks fail:** Use physical blue/yellow paper cards on nearby desks immediately so you do not lose queue position.
+
+### 2. Connectivity
+- **Action:** Disable home-SIM roaming unless you have a global plan. Enable travel **eSIM** (Airalo / Yesim / 3HK, etc.).
+- **Verification:** Open `google.com` or WhatsApp — if it loads, eSIM is working through the firewall.
+- **If eSIM fails:** Connect to **airport free Wi‑Fi** (SMS to foreign numbers or passport kiosk often works).
+
+### 3. Cold-start payment test
+- **Action:** Buy water/coffee at FamilyMart, Lawson, or Starbucks with **Alipay** (foreign card linked).
+- **Verification:** Payment succeeds and you get a receipt/success screen.
+- **If Alipay fails:** Physical credit card → else **Bank of China ATM** in arrivals → withdraw ~¥500.
+
+### 4. Exit transport
+- **Action:** Open **DiDi International** or Alipay **Transport** mini-program; confirm your map pin.
+- **Verification:** App shows correct airport location and a reasonable fare.
+- **If apps fail:** Follow signs to the **official taxi stand** only. Never follow a hallway “Taxi? Cheap!” tout (black-cab trap).
+- Show driver hotel screenshot + phrase card above.
+
+### 5. Verification loop (gate check)
+
+**Interactive:** [landing-checklist.html](../../../landing-checklist.html) (ticks save on this device).
+
+1. [ ] Data works (Google / WhatsApp)
+2. [ ] Payment works (small purchase)
+3. [ ] Transport works (app pin or official taxi queue)
+4. [ ] Offline proof (hotel address screenshot)
+5. [ ] Battery safe (charge or compliant power bank)
+
+**All checked → cleared to leave the airport.**
 
 ---
 
-## Verification Loop
-1. [ ] eSIM Data? (Check Google/WhatsApp)
-2. [ ] Payment? (Try a small purchase)
-3. [ ] Transport? (App location set)
-4. [ ] Offline Proof? (Hotel address screenshot)
+## 🚨 Fallback (Plan B)
 
-**If all 4 are [X], you are cleared to leave the airport.**
+| Failure | Immediate recovery |
+|:---|:---|
+| Digital card offline | Paper arrival cards at desks |
+| No mobile data | Airport Wi‑Fi → fix eSIM/APN later in hotel |
+| All digital pay dead | ATM cash + small-bill break at convenience store |
+| Ride apps broken | Official taxi queue only |
+| Phone under 10% battery | Charge at gate seats **before** exit; do not board a long ride at 5% |
+| Lost / confused | Airport information desk or police post; show hotel card |
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+## 💡 TechDad's Tips
+
+- **Screenshot vault:** hotel booking, passport bio page, return flight — tunnels kill signal at the worst time.
+- **Power-bank paradox:** shared banks need a working phone to scan; charge first if you are at 5%.
+- **Small bills:** ATMs spit ¥100 notes; buy a ¥3 water at FamilyMart to break change for taxis.
+
+---
+
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

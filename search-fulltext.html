@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps Full-text Search</title>
+  <meta name="description" content="Search inside ChinaOps SOP bodies. Uses Pagefind when available, otherwise a local full-text JSON index.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔎</text></svg>">
+  <link rel="stylesheet" href="./assets/css/chinaops.css">
+  <link href="./pagefind/pagefind-ui.css" rel="stylesheet" onerror="this.remove()">
+  <style>
+    .search-shell { max-width: 800px; margin: 0 auto; }
+    .engine-badge {
+      display: inline-block;
+      font-size: var(--text-xs);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      background: var(--bg-subtle);
+      color: var(--fg-2);
+      border: 1px solid var(--border-default);
+      margin-bottom: 12px;
+    }
+    .engine-badge.pagefind { background: var(--bg-success-soft); color: var(--success-strong); border-color: #9ae6b4; }
+    .engine-badge.fallback { background: var(--bg-warning-soft); color: var(--warning-strong); border-color: #f6e05e; }
+    #fallbackBox { display: none; }
+    #fallbackBox.active { display: block; }
+    #pagefindBox { min-height: 48px; }
+    .fb-results { list-style: none; margin: 16px 0 0; padding: 0; }
+    .fb-results li { margin: 0 0 10px; }
+    .fb-results a {
+      display: block; text-decoration: none; color: inherit;
+      padding: 14px 16px; border: 1px solid var(--border-default);
+      border-radius: var(--radius-md); background: var(--bg-raised);
+    }
+    .fb-results a:hover { border-color: var(--brand); }
+    .fb-results .name { font-weight: 700; }
+    .fb-results .snip { margin-top: 6px; font-size: var(--text-sm); color: var(--fg-2); line-height: 1.45; }
+    .fb-results mark { background: #fefcbf; padding: 0 2px; border-radius: 2px; }
+    .status { color: var(--fg-3); font-size: var(--text-sm); margin: 8px 0; min-height: 1.2em; }
+    /* Pagefind UI tune to ChinaOps */
+    .pagefind-ui { --pagefind-ui-primary: #5b6fd8; --pagefind-ui-text: #1a202c; --pagefind-ui-background: #fff; --pagefind-ui-border: #e2e8f0; --pagefind-ui-border-width: 1px; --pagefind-ui-border-radius: 10px; font-family: inherit; }
+  </style>
+</head>
+<body class="home-body">
+  <div class="home-wrap">
+    <header class="home-header">
+      <h1>🔎 Full-text search</h1>
+      <p class="home-tagline"><strong>Search inside guide bodies</strong></p>
+      <p class="home-lead">
+        Prefer this for words buried in steps (not just titles).
+        For failure symptoms, try <a href="./docs/symptom-index/">Symptom Index</a>.
+        Title-only search: <a href="./search.html">search.html</a>.
+      </p>
+      <div class="home-cta-row">
+        <a class="btn btn-brand" href="./mrz-tool.html">MRZ tool</a>
+        <a class="btn btn-dark" href="./index.html">← Home</a>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="search-shell">
+        <div class="engine-badge" id="engineBadge">Detecting search engine…</div>
+        <div id="pagefindBox"></div>
+        <div id="fallbackBox">
+          <label class="visually-hidden" for="fbInput">Full-text search</label>
+          <input type="search" id="fbInput" class="symptom-search" placeholder="Search guide text: e.g. CCC, 12306, selfie, 免签…" autocomplete="off" />
+          <p class="status" id="fbStatus" aria-live="polite"></p>
+          <ul class="fb-results" id="fbResults"></ul>
+        </div>
+        <div class="callout callout-info" style="margin-top:20px;">
+          <p class="callout-title">For maintainers</p>
+          <p style="margin:0;color:var(--fg-2);">
+            Rebuild index after content changes:<br>
+            <code>npm run build:search</code>
+            (or <code>python scripts/build_fulltext_index.py</code> then Pagefind).
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+(function () {
+  var badge = document.getElementById("engineBadge");
+  var pfBox = document.getElementById("pagefindBox");
+  var fbBox = document.getElementById("fallbackBox");
+  var base = "./";
+
+  function useFallback(reason) {
+    badge.textContent = "Fallback · fulltext.json";
+    badge.className = "engine-badge fallback";
+    pfBox.style.display = "none";
+    fbBox.classList.add("active");
+    initFallback();
+    if (reason) console.info("[search-fulltext]", reason);
+  }
+
+  function usePagefind() {
+    badge.textContent = "Pagefind · full-text index";
+    badge.className = "engine-badge pagefind";
+    // Pagefind UI
+    new PagefindUI({
+      element: "#pagefindBox",
+      bundlePath: "./pagefind/",
+      baseUrl: "./",
+      showImages: false,
+      resetStyles: false,
+      showSubResults: true,
+      excerptLength: 30,
+      processResult: function (result) {
+        if (result.url) {
+          var u = result.url
+            .replace(/\/index\.html$/i, "/")
+            .replace(/\.html$/i, "/");
+          if (u.indexOf("_pagefind_src/") !== -1) {
+            u = u.split("_pagefind_src/").pop();
+          }
+          // Prefer site-relative links that work on GH Pages /ChinaOps/
+          u = u.replace(/^\/ChinaOps\//, "./");
+          if (u.charAt(0) === "/") u = "." + u;
+          if (u.indexOf("./") !== 0 && u.indexOf("http") !== 0) {
+            u = "./" + u.replace(/^\//, "");
+          }
+          result.url = u;
+        }
+        return result;
+      }
+    });
+  }
+
+  // Try Pagefind bundle
+  var s = document.createElement("script");
+  s.src = "./pagefind/pagefind-ui.js";
+  s.onload = function () {
+    if (typeof PagefindUI === "undefined") {
+      useFallback("PagefindUI missing");
+      return;
+    }
+    usePagefind();
+  };
+  s.onerror = function () {
+    useFallback("pagefind-ui.js not found — run npm run build:search");
+  };
+  document.body.appendChild(s);
+
+  function initFallback() {
+    var input = document.getElementById("fbInput");
+    var status = document.getElementById("fbStatus");
+    var list = document.getElementById("fbResults");
+    var docs = [];
+
+    function esc(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
+
+    function snippet(text, q) {
+      var t = text || "";
+      var i = t.toLowerCase().indexOf(q.toLowerCase());
+      if (i < 0) return esc(t.slice(0, 160)) + (t.length > 160 ? "…" : "");
+      var start = Math.max(0, i - 60);
+      var end = Math.min(t.length, i + q.length + 100);
+      var slice = t.slice(start, end);
+      var re = new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+      return (start > 0 ? "…" : "") + esc(slice).replace(re, "<mark>$1</mark>") + (end < t.length ? "…" : "");
+    }
+
+    function render(q) {
+      q = (q || "").replace(/^\s+|\s+$/g, "");
+      if (!q || q.length < 2) {
+        status.textContent = docs.length
+          ? "Loaded " + docs.length + " guides. Type at least 2 characters."
+          : "Loading index…";
+        list.innerHTML = "";
+        return;
+      }
+      var ql = q.toLowerCase();
+      var hits = [];
+      docs.forEach(function (d) {
+        var hay = ((d.title || "") + " " + (d.text || "")).toLowerCase();
+        var idx = hay.indexOf(ql);
+        if (idx === -1) return;
+        var score = 0;
+        if ((d.title || "").toLowerCase().indexOf(ql) !== -1) score += 50;
+        score += Math.max(0, 20 - Math.min(20, idx / 200));
+        hits.push({ d: d, score: score });
+      });
+      hits.sort(function (a, b) { return b.score - a.score; });
+      hits = hits.slice(0, 40);
+      status.textContent = hits.length ? hits.length + " match(es)" : "No matches.";
+      list.innerHTML = hits
+        .map(function (h) {
+          var raw = h.d.url || h.d.path || "";
+          raw = String(raw).replace(/\.md$/i, "/");
+          if (raw.charAt(0) === "/") raw = raw.replace(/^\//, "");
+          if (raw.indexOf("./") !== 0 && raw.indexOf("http") !== 0) {
+            raw = "./" + raw;
+          }
+          // avoid ././docs
+          raw = raw.replace(/^\.\/\.\//, "./");
+          return (
+            "<li><a href=\"" +
+            esc(raw) +
+            "\"><div class=\"name\">" +
+            esc(h.d.title) +
+            "</div><div class=\"snip\">" +
+            snippet(h.d.text, q) +
+            "</div></a></li>"
+          );
+        })
+        .join("");
+    }
+
+    fetch("./assets/search/fulltext.json")
+      .then(function (r) {
+        if (!r.ok) throw new Error("no json");
+        return r.json();
+      })
+      .then(function (data) {
+        docs = data.documents || [];
+        status.textContent = "Fallback index ready (" + docs.length + " guides).";
+        input.addEventListener("input", function () {
+          render(input.value);
+        });
+        // Support deep-link ?q=
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var q0 = params.get("q");
+          if (q0) {
+            input.value = q0;
+            render(q0);
+          }
+        } catch (e) {}
+      })
+      .catch(function () {
+        status.textContent =
+          "No Pagefind and no fulltext.json. Run: python scripts/build_fulltext_index.py";
+      });
+  }
+})();
+  </script>
+</body>
+</html>

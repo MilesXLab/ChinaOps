@@ -1,15 +1,31 @@
 ---
 layout: guide
 title: "Lost or Stolen Phone Recovery SOP"
+description: "Lock or erase the phone remotely if you can. Freeze payments tied to that device and suspend the SIM."
 metadata:
   version: 1.1
-  last_validated: 2026-04-27
-  stability_status: "critical"
+  last_validated: 2026-07-21
   ttl_days: 90
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📱 Lost or Stolen Phone Recovery SOP
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Lock or erase the phone remotely if you can. Freeze payments tied to that device and suspend the SIM.</p>
+  <p>Your phone is also your map and wallet — restore access in that order.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">我的手机丢了</div>
+  <div class="py">wǒ de shǒujī diū le</div>
+  <div class="en">I lost my phone.</div>
+</div>
+
 
 **TL;DR:** Immediately lock your phone remotely, freeze Alipay/WeChat Pay, contact your carrier to suspend the SIM, then recover contacts/photos from cloud backup. Your payment apps are the highest priority.
 
@@ -90,6 +106,6 @@ metadata:
 
 ---
 
-**Last Updated:** Apr 27, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

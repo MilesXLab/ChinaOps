@@ -1,15 +1,32 @@
 ---
 layout: guide
 title: "Power Bank & Hardware Rules"
+description: "Power banks go in carry-on, not checked bags. Domestic flights may require CCC marks and a scannable traceability code."
 metadata:
   version: 1.2
-  last_validated: 2026-07-14
-  stability_status: "stable"
-  ttl_days: 90
+  last_validated: 2026-07-21
+  ttl_days: 30
+  churn: "high"
+  stability_status: "critical"
+  validation_method: "desktop_review"
+  scope: "national"
 ---
 
-![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 🔋 Power Bank & Hardware Rules
+
+<div class="plain-summary">
+  <strong class="plain-summary-label">Plain English</strong>
+  <p>Power banks go in carry-on, not checked bags. Domestic flights may require CCC marks and a scannable traceability code.</p>
+  <p>If security rejects your bank, buy a compliant one after security or in the city — do not force the old one through.</p>
+  <p><span class="scope-badge">Scope: national</span></p>
+</div>
+
+<div class="phrase-card">
+  <div class="zh">充电宝可以带上飞机吗？</div>
+  <div class="py">chōngdiàn bǎo kěyǐ dài shàng fēijī ma?</div>
+  <div class="en">Can I take this power bank on the plane?</div>
+</div>
+
 
 **TL;DR:** Max capacity **20,000mAh (100Wh)**. Labeling must be clearly visible. **Must be in carry-on.** From **March 1, 2026**, domestic flights strictly require a **CCC logo** and a **scannable QR traceability code** on the device. Non-compliant units are confiscated. Never let your phone hit 0% or you can't rent a shared bank.
 
@@ -27,7 +44,9 @@ metadata:
 - **Step 2:** If the label is worn out or scratched, replace the bank. Security will not "guess" the capacity.
 - **Step 3 (Critical 2026 Rule):** Ensure the device has the **CCC (China Compulsory Certification) logo** AND a **traceability QR code** printed/engraved on it.
   > [!IMPORTANT]
-  > **CCC & QR Enforcement (Since March 1, 2026):** All power banks carried onto domestic flights in China must have a valid CCC logo and a QR code that links to verification data. International inbound flights are occasionally more lenient, but domestic transit segments (e.g., Shanghai to Beijing) enforce this rule aggressively. Non-compliant banks will be confiscated at the checkpoint.
+  > **CCC & QR Enforcement (Since March 1, 2026):** All power banks carried onto **China domestic flights** must have a valid CCC logo and a QR code that links to verification data. International inbound segments can be more lenient, but **domestic legs** (e.g., PVG → PEK) enforce this aggressively. Non-compliant banks are confiscated.
+  >
+  > **Desktop re-check (Jul 21, 2026):** Rule still treated as in force for domestic aviation planning. Prefer buying a clearly labeled Anker/Xiaomi/Huawei unit in-city if your imported bank lacks CCC+QR.
 - **Verification:** Ensure both the "CCC" (3C) logo and the QR code are clearly legible before packing.
 
 ### 2. High-Speed Rail (HSR) Protocol
@@ -66,6 +85,6 @@ metadata:
 
 ---
 
-**Last Updated:** Jul 14, 2026 | **Author:** TechDadShanghai
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

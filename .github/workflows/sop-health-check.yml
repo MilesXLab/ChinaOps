@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 0 * * 1' # Every Monday at midnight
   push:
+    branches: [ main, 'release/**' ]
+  pull_request:
     branches: [ main ]
   workflow_dispatch:
 
@@ -27,7 +29,82 @@ jobs:
           python scripts/ttl_check.py
         id: audit
 
+      - name: Catalog sync (index.json ↔ docs)
+        run: |
+          python scripts/check_catalog.py
+
+      - name: Link check
+        run: |
+          python scripts/verify_links.py
+
+      - name: Rebuild fulltext JSON
+        run: |
+          python scripts/build_fulltext_index.py
+
+      - name: Fulltext index must match committed assets
+        run: |
+          # Fail if docs changed but assets/search/fulltext.json was not rebuilt/committed.
+          git diff --exit-code -- assets/search/fulltext.json
+          if [ -n "$(git status --porcelain -- assets/search/fulltext.json)" ]; then
+            echo "fulltext.json is untracked or dirty after rebuild"
+            git status --porcelain -- assets/search/fulltext.json
+            exit 1
+          fi
+
+      - name: Static entry assets
+        run: |
+          python scripts/check_static_assets.py
+
+      - name: SOP format audit
+        run: |
+          python scripts/check_sop_format.py
+
+      - name: Browser tool smoke (static)
+        run: |
+          python scripts/test_tools.py
+
       - name: Report Failures
         if: failure()
         run: |
-          echo "SOPs have expired or have missing metadata! Please check the audit logs."
+          echo "SOP health failed: expired/missing metadata, catalog drift, broken links, static assets, format, or tool smoke."
+
+  tools-e2e:
+    name: Browser tools E2E (Playwright)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install npm deps
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Static tool smoke
+        run: python scripts/test_tools.py
+
+      - name: Playwright E2E
+        run: npx playwright test
+        env:
+          CI: true
+
+      - name: Upload Playwright report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7

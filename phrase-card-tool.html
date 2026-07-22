@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChinaOps Phrase / Allergy Card Generator</title>
+  <meta name="description" content="Build a printable bilingual emergency or allergy card for China. Runs entirely in your browser.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪪</text></svg>">
+  <link rel="stylesheet" href="./assets/css/chinaops.css">
+  <style>
+    .tool-layout {
+      display: grid;
+      gap: 24px;
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 900px) {
+      .tool-layout { grid-template-columns: 1fr 1fr; align-items: start; }
+    }
+    .tool-grid label {
+      display: block;
+      font-weight: 700;
+      font-size: var(--text-sm);
+      color: var(--fg-2);
+      margin: 12px 0 6px;
+    }
+    .tool-grid input, .tool-grid textarea, .tool-grid select {
+      width: 100%;
+      font: inherit;
+      padding: 10px 12px;
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      box-sizing: border-box;
+    }
+    .tool-grid textarea { min-height: 72px; resize: vertical; }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .chip-row button {
+      border: 1px solid var(--border-default);
+      background: var(--bg-raised);
+      border-radius: var(--radius-pill);
+      padding: 8px 12px;
+      font: inherit;
+      font-size: var(--text-sm);
+      cursor: pointer;
+      min-height: 40px;
+    }
+    .chip-row button.is-on {
+      background: var(--bg-brand-soft);
+      border-color: var(--brand);
+      font-weight: 700;
+    }
+    .card-preview {
+      border: 2px solid #1a202c;
+      border-radius: 12px;
+      padding: 18px;
+      background: #fff;
+      color: #1a202c;
+      box-shadow: var(--shadow-md, 0 4px 14px rgba(0,0,0,.08));
+    }
+    .card-preview h2 {
+      margin: 0 0 8px;
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+    }
+    .card-preview .meta { font-size: 0.9rem; margin: 0 0 12px; color: #4a5568; }
+    .card-preview .block { margin: 12px 0; padding-top: 10px; border-top: 1px dashed #cbd5e0; }
+    .card-preview .zh { font-size: 1.25rem; font-weight: 800; line-height: 1.35; }
+    .card-preview .en { font-size: 0.95rem; color: #2d3748; margin-top: 4px; }
+    .card-preview .warn {
+      background: #fff5f5;
+      border: 1px solid #feb2b2;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-weight: 700;
+    }
+    .tool-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    @media print {
+      body * { visibility: hidden; }
+      #printArea, #printArea * { visibility: visible; }
+      #printArea {
+        position: absolute;
+        left: 0; top: 0;
+        width: 100%;
+        border: 2px solid #000;
+        box-shadow: none;
+      }
+      .home-header, .home-footer, .no-print { display: none !important; }
+    }
+  </style>
+</head>
+<body class="home-body">
+  <div class="home-wrap">
+    <header class="home-header no-print">
+      <h1>🪪 Phrase / allergy card</h1>
+      <p class="home-tagline"><strong>Bilingual card for restaurants &amp; ER</strong></p>
+      <p class="home-lead">
+        Build a card in your browser, then <strong>Print</strong> or Save as PDF.
+        Nothing is uploaded. Guides:
+        <a href="./docs/04-Parenting-Patch/food-allergies-and-dietary-restrictions/">Allergies</a> ·
+        <a href="./docs/03-Emergency-DR/emergency-contacts-card/">Emergency contacts</a>.
+      </p>
+      <div class="home-cta-row">
+        <a class="btn btn-brand" href="./mrz-tool.html">MRZ tool</a>
+        <a class="btn btn-dark" href="./index.html">← Home</a>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="tool-layout">
+        <div class="tool-grid no-print">
+          <label for="mode">Card type</label>
+          <select id="mode">
+            <option value="allergy">Food allergy / diet</option>
+            <option value="emergency">Emergency help</option>
+            <option value="custom">Custom message</option>
+          </select>
+
+          <label for="name">Name (optional)</label>
+          <input id="name" type="text" placeholder="e.g. Alex Chen" autocomplete="name" />
+
+          <label for="langNote">Show staff note</label>
+          <input id="langNote" type="text" value="请读中文。谢谢。" />
+
+          <div id="allergyBox">
+            <label>Tap common allergens (Chinese included)</label>
+            <div class="chip-row" id="allergyChips"></div>
+            <label for="allergyExtra">Extra allergens (English or Chinese)</label>
+            <textarea id="allergyExtra" placeholder="e.g. sesame, mango"></textarea>
+          </div>
+
+          <div id="emergencyBox" hidden>
+            <label for="ice">Emergency contact</label>
+            <input id="ice" type="text" placeholder="Name + phone" />
+            <label for="hotel">Hotel / address (Chinese if possible)</label>
+            <textarea id="hotel" placeholder="酒店中文地址"></textarea>
+            <label for="condition">Medical note (optional)</label>
+            <input id="condition" type="text" placeholder="e.g. asthma / diabetes" />
+          </div>
+
+          <div id="customBox" hidden>
+            <label for="customZh">Chinese text</label>
+            <textarea id="customZh" placeholder="中文句子"></textarea>
+            <label for="customEn">English text</label>
+            <textarea id="customEn" placeholder="English meaning"></textarea>
+          </div>
+
+          <div class="tool-actions">
+            <button type="button" class="btn btn-brand" id="btnPrint">Print / PDF</button>
+            <button type="button" class="btn btn-dark" id="btnCopy">Copy text</button>
+          </div>
+          <p class="msg" id="msg" style="min-height:1.2em;font-size:var(--text-sm);color:var(--fg-3);"></p>
+        </div>
+
+        <div>
+          <p class="no-print" style="font-size:var(--text-sm);color:var(--fg-3);margin:0 0 8px;">Preview</p>
+          <div class="card-preview" id="printArea" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="home-footer no-print">
+      <p><strong>ChinaOps</strong> · Personal use only · CC BY-NC 4.0 · Always verify medical facts with a professional.</p>
+    </footer>
+  </div>
+
+  <script>
+(function () {
+  var ALLERGENS = [
+    { en: "Peanuts", zh: "花生" },
+    { en: "Tree nuts", zh: "坚果" },
+    { en: "Shellfish", zh: "虾蟹贝类" },
+    { en: "Fish", zh: "鱼" },
+    { en: "Eggs", zh: "鸡蛋" },
+    { en: "Milk / dairy", zh: "牛奶/乳制品" },
+    { en: "Soy", zh: "大豆" },
+    { en: "Wheat / gluten", zh: "小麦/麸质" },
+    { en: "Sesame", zh: "芝麻" },
+    { en: "Peanut oil", zh: "花生油" }
+  ];
+
+  var selected = {};
+  var chips = document.getElementById("allergyChips");
+  ALLERGENS.forEach(function (a, i) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.textContent = a.en + " · " + a.zh;
+    b.dataset.i = String(i);
+    b.setAttribute("aria-pressed", "false");
+    b.addEventListener("click", function () {
+      if (selected[i]) {
+        delete selected[i];
+        b.classList.remove("is-on");
+        b.setAttribute("aria-pressed", "false");
+      } else {
+        selected[i] = a;
+        b.classList.add("is-on");
+        b.setAttribute("aria-pressed", "true");
+      }
+      render();
+    });
+    chips.appendChild(b);
+  });
+
+  var modeEl = document.getElementById("mode");
+  var ids = ["name", "langNote", "allergyExtra", "ice", "hotel", "condition", "customZh", "customEn"];
+  ids.forEach(function (id) {
+    document.getElementById(id).addEventListener("input", render);
+  });
+  modeEl.addEventListener("change", function () {
+    var m = modeEl.value;
+    document.getElementById("allergyBox").hidden = m !== "allergy";
+    document.getElementById("emergencyBox").hidden = m !== "emergency";
+    document.getElementById("customBox").hidden = m !== "custom";
+    render();
+  });
+
+  function esc(s) {
+    return String(s || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function render() {
+    var mode = modeEl.value;
+    var name = document.getElementById("name").value.trim();
+    var note = document.getElementById("langNote").value.trim() || "请读中文。谢谢。";
+    var html = "";
+    html += "<h2>CHINAOPS CARD · 中国出行卡片</h2>";
+    if (name) html += "<p class=\"meta\"><strong>Name / 姓名:</strong> " + esc(name) + "</p>";
+    html += "<p class=\"warn\">" + esc(note) + "</p>";
+
+    if (mode === "allergy") {
+      var items = Object.keys(selected).map(function (k) { return selected[k]; });
+      var extra = document.getElementById("allergyExtra").value.trim();
+      html += "<div class=\"block\"><div class=\"zh\">我有食物过敏，请不要放这些：</div>";
+      html += "<div class=\"en\">I have food allergies. Please do NOT use:</div></div>";
+      if (items.length) {
+        html += "<div class=\"block\"><div class=\"zh\">" +
+          esc(items.map(function (a) { return a.zh; }).join("、")) +
+          "</div><div class=\"en\">" +
+          esc(items.map(function (a) { return a.en; }).join(", ")) +
+          "</div></div>";
+      }
+      if (extra) {
+        html += "<div class=\"block\"><div class=\"zh\">其他: " + esc(extra) + "</div>";
+        html += "<div class=\"en\">Also: " + esc(extra) + "</div></div>";
+      }
+      html += "<div class=\"block\"><div class=\"zh\">请用干净锅，清炒/清蒸，不要酱。</div>";
+      html += "<div class=\"en\">Please use a clean wok. Steamed or plain stir-fry. No sauce.</div></div>";
+      html += "<div class=\"block\"><div class=\"zh\">如果过敏发作，请叫救护车 120。</div>";
+      html += "<div class=\"en\">If I react, call ambulance 120.</div></div>";
+    } else if (mode === "emergency") {
+      var ice = document.getElementById("ice").value.trim();
+      var hotel = document.getElementById("hotel").value.trim();
+      var cond = document.getElementById("condition").value.trim();
+      html += "<div class=\"block\"><div class=\"zh\">请帮我！我需要帮助。</div>";
+      html += "<div class=\"en\">Please help me. I need assistance.</div></div>";
+      html += "<div class=\"block\"><div class=\"zh\">报警 110 · 急救 120</div>";
+      html += "<div class=\"en\">Police 110 · Ambulance 120</div></div>";
+      if (ice) html += "<div class=\"block\"><div class=\"zh\">紧急联系人: " + esc(ice) + "</div><div class=\"en\">ICE: " + esc(ice) + "</div></div>";
+      if (hotel) html += "<div class=\"block\"><div class=\"zh\">地址: " + esc(hotel) + "</div><div class=\"en\">Address: " + esc(hotel) + "</div></div>";
+      if (cond) html += "<div class=\"block\"><div class=\"zh\">健康备注: " + esc(cond) + "</div><div class=\"en\">Medical: " + esc(cond) + "</div></div>";
+    } else {
+      var cz = document.getElementById("customZh").value.trim() || "（请填写中文）";
+      var ce = document.getElementById("customEn").value.trim() || "(Add English)";
+      html += "<div class=\"block\"><div class=\"zh\">" + esc(cz) + "</div><div class=\"en\">" + esc(ce) + "</div></div>";
+    }
+
+    html += "<p class=\"meta\" style=\"margin-top:16px;\">ChinaOps · personal use · not medical advice</p>";
+    document.getElementById("printArea").innerHTML = html;
+  }
+
+  document.getElementById("btnPrint").addEventListener("click", function () {
+    render();
+    window.print();
+  });
+
+  document.getElementById("btnCopy").addEventListener("click", function () {
+    var text = document.getElementById("printArea").innerText;
+    var msg = document.getElementById("msg");
+    function ok() {
+      msg.textContent = "Copied card text.";
+      msg.style.color = "var(--success-strong)";
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(ok).catch(function () {
+        window.prompt("Copy:", text);
+      });
+    } else {
+      window.prompt("Copy:", text);
+      ok();
+    }
+  });
+
+  render();
+})();
+  </script>
+</body>
+</html>

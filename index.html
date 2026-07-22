@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChinaOps - Technical Runbook for Travelers &amp; Parents | 38 Essential Guides</title>
+  <title>ChinaOps - Technical Runbook for Travelers &amp; Parents | 49 Guides</title>
   <meta name="description"
     content="Practical step-by-step guides for traveling in China: phone, payments, trains, hospitals, and travel with kids. Free, non-commercial runbook by TechDadShanghai.">
   <meta name="keywords"
@@ -14,12 +14,12 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="ChinaOps - Technical Runbook for Travelers &amp; Parents">
   <meta property="og:description"
-    content="38 essential guides for China: payments, trains, hospitals, baby supplies, and local tips.">
+    content="49 practical guides for China: payments, trains, hospitals, city deltas, baby supplies, plus browser tools.">
   <meta property="og:site_name" content="ChinaOps">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ChinaOps - Technical Runbook for Travelers &amp; Parents">
   <meta name="twitter:description"
-    content="38 essential guides for navigating China with real-world steps and fallbacks.">
+    content="49 practical guides for navigating China with real-world steps, fallbacks, and offline print packs.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
   <link rel="stylesheet" href="./assets/css/chinaops.css">
 </head>
@@ -247,7 +247,7 @@
     <section class="home-section">
       <h2 class="section-title">
         📚 Full guide library
-        <span class="plain">All 38 guides by category</span>
+        <span class="plain">All 49 guides by category</span>
       </h2>
 <h3 class="cat-heading">✈️ System Setup (14 guides)<span class="plain">Before you arrive — phone, VPN, money, stay, apps</span></h3>
       <div class="table-scroll"><table class="guides-table">
@@ -539,26 +539,42 @@
         </tr>
       </table></div>
 
-      <h3 class="cat-heading">🛠️ Helper tools<span class="plain">Optional utilities (web or local scripts)</span></h3>
+      <h3 class="cat-heading">🛠️ Helper tools<span class="plain">Browser tools first — scripts for maintainers</span></h3>
       <div class="tool-grid">
         <div class="tool-card">
-          <h4>1. SafeFeed Action</h4>
-          <p class="path-desc">Brand-agnostic global infant formula recall checker.
-            Covers Nestlé, Danone/Aptamil, and more.</p>
+          <h4>1. Full-text search</h4>
+          <p class="path-desc">Search inside guide bodies (Pagefind + offline JSON fallback).
+            For failure symptoms, use the Symptom Index.</p>
+          <a href="./search-fulltext.html" class="btn btn-brand">Open search</a>
+        </div>
+        <div class="tool-card">
+          <h4>2. MRZ name tool (12306)</h4>
+          <p class="path-desc">Convert passport names to <code>SURNAME&lt;&lt;GIVEN</code> for train tickets.
+            Runs in the browser — nothing is uploaded.</p>
+          <a href="./mrz-tool.html" class="btn btn-brand">Open MRZ tool</a>
+        </div>
+        <div class="tool-card">
+          <h4>3. Phrase / allergy card</h4>
+          <p class="path-desc">Build a bilingual card to show staff (allergy, emergency, hotel address).</p>
+          <a href="./phrase-card-tool.html" class="btn btn-brand">Open phrase card</a>
+        </div>
+        <div class="tool-card">
+          <h4>4. Child dose calculator</h4>
+          <p class="path-desc">Weight × mg/kg for common OTC liquid references only — confirm with a pharmacist or doctor.</p>
+          <a href="./dose-calculator.html" class="btn btn-brand">Open dose tool</a>
+        </div>
+        <div class="tool-card">
+          <h4>5. SafeFeed Action</h4>
+          <p class="path-desc">Brand-agnostic global infant formula recall checker
+            (Nestlé, Danone/Aptamil, and more).</p>
           <a href="https://milesxlab.github.io/safefeed-action/" target="_blank" rel="noopener noreferrer"
-            class="btn btn-critical">Open
-            Tool (Web)</a>
+            class="btn btn-critical">Open SafeFeed</a>
         </div>
         <div class="tool-card">
-          <h4>2. Digital Entry Formatter</h4>
-          <p class="path-desc">Pre-fill validation logic for the Alipay/WeChat Digital Entry Card. Run locally via Python.</p>
-          <code>python scripts/digital_entry_formatter.py</code>
-        </div>
-        <div class="tool-card">
-          <h4>3. Name String Fixer (MRZ Converter)</h4>
-          <p class="path-desc">Passport MRZ-to-12306 name format converter.
-            Run locally via Python.</p>
-          <code>python scripts/passport_mrz_converter.py John Smith</code>
+          <h4>6. Maintainer scripts (optional)</h4>
+          <p class="path-desc">CLI helpers if you clone the repo:</p>
+          <code style="display:block;margin-top:8px;font-size:0.8rem;line-height:1.5;">python scripts/passport_mrz_converter.py "John Smith"
+python scripts/digital_entry_formatter.py</code>
         </div>
       </div>
     </section>
@@ -586,13 +602,20 @@
 
     <section class="home-section callout callout-warning">
       <h2 class="section-title" style="color: var(--warning-strong); border-bottom-color: var(--warning);">
-        Coming in v2.0
-        <span class="plain">What should we build next?</span>
+        What&apos;s next
+        <span class="plain">Already shipped vs still open</span>
       </h2>
-      <p class="path-desc">Search, interactive checklists, and browser tools are on the roadmap.
-        Tell us what you need on the ground.</p>
+      <p class="path-desc" style="margin-bottom:10px;">
+        <strong>In v1.16 now:</strong> full-text search, preflight/landing checklists, MRZ · phrase · dose tools,
+        72h print pack, and 49 guides (including multi-city deltas).
+      </p>
+      <p class="path-desc">
+        <strong>Still open:</strong> live field re-tests after a real trip, more city coverage, and traveler-requested gaps.
+        Tell us what failed on the ground.
+      </p>
       <p style="margin-top: 12px;">
         <a class="btn btn-critical" href="https://github.com/MilesXLab/ChinaOps/issues">Suggest a feature →</a>
+        <a class="btn btn-brand" href="./docs/00-Maintenance/field-retest-next-trip/" style="margin-left:8px;">Field-test pack</a>
       </p>
     </section>
 

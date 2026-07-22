@@ -39,7 +39,9 @@ title: "Field Re-test Log"
 
 ## Entries
 
-_No field re-test entries yet. The next completed trip should add the first block above._
+_No field re-test entries yet._
+
+**Ready when you are:** use the [Next Trip Field-Test Pack](../field-retest-next-trip/) + [checklist](../field-retest-checklist/) on the next journey, then paste a real block below (delete or keep the example labeled as sample).
 
 ### Example shape only (not a real test)
 

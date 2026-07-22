@@ -4,6 +4,25 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.14.0] - 2026-07-21
+
+### 💊 Tools
+- **Child dose calculator** (`dose-calculator.html`): weight × mg/kg reference, common presets, browser-only.
+- Links from parenting symptom paths and scripts README.
+
+### 🏙️ City deltas
+- **Chengdu** and **Hangzhou** delta sheets (with existing Beijing / GZ–SZ set).
+
+### ⚖️ Long-stay
+- **Long-stay risk boundaries** SOP: status, banking, SIM lock-in, work grey zones (explicitly not legal advice).
+
+### 🧪 Field-test readiness
+- **Next trip field-test pack** under `docs/00-Maintenance/`.
+- Money Runtime added to high-churn registry watch list.
+- Catalog **47** guides.
+
+---
+
 ## [v1.13.0] - 2026-07-21
 
 ### 💰 Money, stay, apps (72h → 30–90 days)

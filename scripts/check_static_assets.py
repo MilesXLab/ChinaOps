@@ -19,6 +19,7 @@ REQUIRED = [
     "search-fulltext.html",
     "mrz-tool.html",
     "phrase-card-tool.html",
+    "dose-calculator.html",
     "assets/css/chinaops.css",
     "assets/js/chinaops.js",
     "assets/search/fulltext.json",

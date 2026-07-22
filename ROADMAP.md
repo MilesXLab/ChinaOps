@@ -1,7 +1,7 @@
 # ChinaOps Roadmap
 
-## v1.0 → v1.13.0 (Current — Jul 2026)
-**Release Focus:** Money/stay/app stack for longer stays, city deltas, insurance bills, phrase-card tool
+## v1.0 → v1.14.0 (Current — Jul 2026)
+**Release Focus:** Dose tool, more city deltas, long-stay boundaries, field-test pack
 
 ✅ **Completed (v1.0 — Jan 2026):**
 - 16 comprehensive SOPs across 4 categories
@@ -84,13 +84,20 @@
 - Insurance & hospital bills SOP.
 - Phrase/allergy card generator (`phrase-card-tool.html`).
 - Catalog at **44** guides.
+
+✅ **Completed (v1.14.0 — Jul 21, 2026):**
+- Child dose calculator Web UI.
+- City deltas: Chengdu · Hangzhou.
+- Long-stay risk boundaries SOP.
+- Next-trip field-test pack for maintainers.
+- Catalog at **47** guides.
 ---
 
 ## Next (v2.0 / community)
-- First completed **field_test** log entry from a real trip.
+- First **real** field_test log entry from an actual trip (pack is ready).
 - Optional: PDF export CI artifact of print packs.
-- Child dose calculator Web UI; more city deltas (Chengdu/Hangzhou).
-- Deeper long-stay banking / work-permit boundary notes (risk-only).
+- More city deltas (Xi’an, Chongqing) if demand appears.
+- Optional offline zip of “72h survival” subset.
 
 ## v2.0 (Planned)
 **Release Focus:** Visualization & deeper interactive tools

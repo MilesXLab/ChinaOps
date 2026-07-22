@@ -68,7 +68,8 @@ description: "When something breaks in China, match your symptom to the right Ch
 | Homestay / apartment / refused as foreigner | [Stay beyond hotel](../01-System-Setup/stay-beyond-hotel/) |
 | Nobody understands my English | [Translation tools](../01-System-Setup/translation-tools/) · [Phrase card tool](../../phrase-card-tool.html) |
 | Cannot read metro / toilet / facility signs | [Visual signs guide](../02-Daily-Runtime/shanghai-visual-signs-guide/) |
-| Leaving Shanghai for Beijing / GZ / SZ | [Beijing delta](../02-Daily-Runtime/city-delta-beijing/) · [GZ & Shenzhen delta](../02-Daily-Runtime/city-delta-guangzhou-shenzhen/) |
+| Leaving Shanghai for other cities | [Beijing](../02-Daily-Runtime/city-delta-beijing/) · [GZ & SZ](../02-Daily-Runtime/city-delta-guangzhou-shenzhen/) · [Chengdu](../02-Daily-Runtime/city-delta-chengdu/) · [Hangzhou](../02-Daily-Runtime/city-delta-hangzhou/) |
+| Staying months — work/banking grey areas | [Long-stay risk boundaries](../01-System-Setup/long-stay-risk-boundaries/) |
 
 </div>
 
@@ -131,6 +132,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 | Food allergies at restaurants | [Food allergies](../04-Parenting-Patch/food-allergies-and-dietary-restrictions/) · [Print allergy card](../../phrase-card-tool.html) |
 | Need a nursing / pumping room | [Nursing rooms](../04-Parenting-Patch/nursing-rooms/) |
 | Full baby/toddler playbook | [Baby survival runbook](../04-Parenting-Patch/baby-survival-master-runbook/) |
+| Need weight-based dose reference (mg) | [Dose calculator](../../dose-calculator.html) · [Pharmacy](../01-System-Setup/pharmacy-and-medications/) |
 
 </div>
 

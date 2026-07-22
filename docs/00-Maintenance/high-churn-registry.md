@@ -51,6 +51,9 @@ title: "High-Churn Content Registry"
 | Power Bank Rules | [power-bank-rules.md](../../01-System-Setup/power-bank-rules/) | CCC / QR / airline cabin rules |
 | Holiday Survival | [holiday-survival-guide.md](../../05-Event-Operations/holiday-survival-guide/) | Official dates, make-up workdays, HSR load |
 | Formula / milk recall | [milk-recall-check.md](../../04-Parenting-Patch/milk-recall-check/) | Active recalls, SafeFeed / brand notices |
+| Money Runtime | [money-runtime.md](../../01-System-Setup/money-runtime/) | ATM fees, pre-auth habits, fapiao flows |
+
+**Field-test pack:** [next-trip field-test](../field-retest-next-trip/) · [checklist](../field-retest-checklist/) · [log](../field-retest-log/)
 
 ---
 

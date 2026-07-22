@@ -25,6 +25,8 @@ Technical guides for daily operations in Chinese cities. From high-speed rail to
 ### 🏙️ City deltas *(multi-city)*
 *   [**Beijing**](city-delta-beijing/) — Airports, metro, embassies, AQI vs Shanghai defaults.
 *   [**Guangzhou & Shenzhen**](city-delta-guangzhou-shenzhen/) — Hubs, heat/rain, districts, border awareness.
+*   [**Chengdu**](city-delta-chengdu/) — Spice food, panda peaks, relaxed pace.
+*   [**Hangzhou**](city-delta-hangzhou/) — West Lake peaks, short HSR from Shanghai.
 
 ### 🏘️ Shanghai Specifics *(Shanghai-first)*
 *   [**Shanghai Local Hacks**](shanghai-local-hacks/) — Stroller safety and local app recommendations.

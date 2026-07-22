@@ -79,6 +79,8 @@ npm run build:search
 
 Calculates appropriate medication dosage for children based on weight.
 
+**Browser UI (no install):** open **`dose-calculator.html`** — same weight × mg/kg math, reference only.
+
 **Problem Solved:** Unfamiliar with Chinese dosing systems; parents need reliable dose calculations for common children's medications.
 
 **Usage:**

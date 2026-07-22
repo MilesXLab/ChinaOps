@@ -2,7 +2,7 @@
   "project": "ChinaOps - Technical Runbook for Travelers & Parents",
   "description": "Real-world solutions for travelers and families in China. Comprehensive SOPs with step-by-step guides, safety tips, and helper tools.",
   "lastUpdated": "2026-07-21",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "navigation": [
     {
       "name": "Symptom Index",
@@ -19,6 +19,14 @@
     {
       "name": "Phrase / Allergy Card Tool",
       "path": "phrase-card-tool.html"
+    },
+    {
+      "name": "Next Trip Field-Test Pack",
+      "path": "docs/00-Maintenance/field-retest-next-trip.md"
+    },
+    {
+      "name": "Child Dose Calculator",
+      "path": "dose-calculator.html"
     },
     {
       "name": "MRZ Tool (12306)",
@@ -129,6 +137,10 @@
         {
           "name": "China App Stack: Install Order & Account Hygiene",
           "path": "docs/01-System-Setup/china-app-stack.md"
+        },
+        {
+          "name": "Long-stay Risk Boundaries",
+          "path": "docs/01-System-Setup/long-stay-risk-boundaries.md"
         }
       ]
     },
@@ -195,6 +207,14 @@
         {
           "name": "City Delta: Guangzhou & Shenzhen",
           "path": "docs/02-Daily-Runtime/city-delta-guangzhou-shenzhen.md"
+        },
+        {
+          "name": "City Delta: Chengdu",
+          "path": "docs/02-Daily-Runtime/city-delta-chengdu.md"
+        },
+        {
+          "name": "City Delta: Hangzhou",
+          "path": "docs/02-Daily-Runtime/city-delta-hangzhou.md"
         }
       ]
     },

@@ -30,7 +30,7 @@
       <h1>ChinaOps 📚</h1>
       <p class="home-tagline"><strong>Step-by-step runbook for life in China</strong></p>
       <p class="plain" style="color: var(--fg-3);">Plain English · Real fixes · Free &amp; non-commercial</p>
-      <div class="version-badge">v1.13.0 · Updated Jul 21, 2026</div>
+      <div class="version-badge">v1.14.0 · Updated Jul 21, 2026</div>
       <p class="home-lead">
         When payment fails, apps break, or kids need help — open a short checklist, not a travel brochure.
       </p>
@@ -42,18 +42,18 @@
       </div>
 
       <div class="whats-new" aria-label="What is new">
-        <h3>What is new (v1.13.0)</h3>
+        <h3>What is new (v1.14.0)</h3>
         <ul>
-          <li><strong>Money / stay / apps:</strong> cash·ATM·fapiao, beyond-hotel stays, China app install order.</li>
-          <li><strong>City deltas:</strong> Beijing · Guangzhou &amp; Shenzhen (vs Shanghai defaults).</li>
-          <li><strong>Insurance bills</strong> + <a href="./phrase-card-tool.html" style="color:inherit;font-weight:700;">phrase/allergy card tool</a>.</li>
-          <li>v1.12: full-text search (Pagefind) + MRZ tool.</li>
+          <li><strong>Dose calculator</strong> + <strong>Chengdu / Hangzhou</strong> city deltas + long-stay risk boundaries.</li>
+          <li><strong>Field-test pack</strong> for the next real trip (maintainer path).</li>
+          <li>v1.13: money/stay/apps, BJ·GZ/SZ deltas, insurance, phrase cards.</li>
+          <li>v1.12: full-text search + MRZ tool.</li>
         </ul>
       </div>
 
       <div class="home-stats">
         <div class="stat">
-          <div class="stat-number">44</div>
+          <div class="stat-number">47</div>
           <div class="stat-label">Guides</div>
         </div>
         <div class="stat">
@@ -91,7 +91,7 @@
         </div>
         <div>
           <h3 style="color: var(--success-strong); margin: 0 0 8px;">Need one topic</h3>
-          <p class="path-desc">Scroll the <strong>Full guide library</strong> — 44 guides with reading times.</p>
+          <p class="path-desc">Scroll the <strong>Full guide library</strong> — 47 guides with reading times.</p>
         </div>
       </div>
       <p class="callout callout-info" style="margin-top: 20px; margin-bottom: 0;">
@@ -203,8 +203,20 @@
         <a href="./docs/02-Daily-Runtime/city-delta-beijing/" class="path-card">
           <div class="path-emoji">🏙️</div>
           <div class="path-title">City deltas</div>
-          <div class="path-plain">Beijing · GZ / SZ</div>
+          <div class="path-plain">BJ · GZ/SZ · CD · HZ</div>
           <div class="path-desc">What changes when you leave Shanghai defaults.</div>
+        </a>
+        <a href="./dose-calculator.html" class="path-card">
+          <div class="path-emoji">💊</div>
+          <div class="path-title">Child dose calculator</div>
+          <div class="path-plain">Weight × mg/kg</div>
+          <div class="path-desc">Reference only — confirm with pharmacist or doctor.</div>
+        </a>
+        <a href="./docs/01-System-Setup/long-stay-risk-boundaries/" class="path-card">
+          <div class="path-emoji">⚖️</div>
+          <div class="path-title">Long-stay boundaries</div>
+          <div class="path-plain">Status · banking · work</div>
+          <div class="path-desc">Red lines for multi-month stays (not legal advice).</div>
         </a>
       </div>
     </details>
@@ -214,7 +226,7 @@
         📚 Full guide library
         <span class="plain">All 38 guides by category</span>
       </h2>
-<h3 class="cat-heading">✈️ System Setup (13 guides)<span class="plain">Before you arrive — phone, VPN, money, stay, apps</span></h3>
+<h3 class="cat-heading">✈️ System Setup (14 guides)<span class="plain">Before you arrive — phone, VPN, money, stay, apps</span></h3>
       <div class="table-scroll"><table class="guides-table">
         <tr>
           <th>Guide</th>
@@ -286,9 +298,14 @@
           <td>Install order, WeChat/Alipay hygiene, phone-number lockouts</td>
           <td>10 min</td>
         </tr>
+        <tr>
+          <td><a href="./docs/01-System-Setup/long-stay-risk-boundaries/">⚖️ Long-stay Risk Boundaries</a></td>
+          <td>Status, banking, and work red lines for multi-month stays</td>
+          <td>12 min</td>
+        </tr>
       </table>
 
-      <h3 class="cat-heading">🚗 Daily Runtime (15 guides)<span class="plain">Day-to-day life — trains, city deltas, maps</span></h3>
+      <h3 class="cat-heading">🚗 Daily Runtime (17 guides)<span class="plain">Day-to-day life — trains, city deltas, maps</span></h3>
       <div class="table-scroll"><table class="guides-table">
         <tr>
           <th>Guide</th>
@@ -368,6 +385,16 @@
         <tr>
           <td><a href="./docs/02-Daily-Runtime/city-delta-guangzhou-shenzhen/">🏙️ City Delta: Guangzhou &amp; Shenzhen</a></td>
           <td>Hubs, heat/rain, districts, border-adjacent awareness</td>
+          <td>10 min</td>
+        </tr>
+        <tr>
+          <td><a href="./docs/02-Daily-Runtime/city-delta-chengdu/">🏙️ City Delta: Chengdu</a></td>
+          <td>Spice food, panda peaks, relaxed pace vs Shanghai</td>
+          <td>10 min</td>
+        </tr>
+        <tr>
+          <td><a href="./docs/02-Daily-Runtime/city-delta-hangzhou/">🏙️ City Delta: Hangzhou</a></td>
+          <td>West Lake peaks, short HSR from Shanghai</td>
           <td>10 min</td>
         </tr>
       </table></div>
@@ -581,7 +608,7 @@
     <footer class="home-footer">
       <p><strong>ChinaOps</strong> — technical runbook for travelers &amp; parents</p>
       <p style="font-size: 0.9rem;">Created by a full-time dad. Real-world solutions for families and solo explorers.</p>
-      <p style="margin-top: 12px;">Last updated: Jul 21, 2026 · v1.13.0 · Author: <strong>TechDadShanghai</strong></p>
+      <p style="margin-top: 12px;">Last updated: Jul 21, 2026 · v1.14.0 · Author: <strong>TechDadShanghai</strong></p>
       <p style="color: var(--fg-3); font-size: 0.9rem; margin-top: 16px;">
         Made for travelers, by travelers ·
         <a href="https://github.com/MilesXLab/ChinaOps">View on GitHub</a>

@@ -1,13 +1,17 @@
 {
   "name": "chinaops",
   "private": true,
-  "description": "Build helpers for ChinaOps static search (Pagefind)",
+  "description": "Build helpers for ChinaOps static search (Pagefind) and tool tests",
   "scripts": {
     "build:fulltext": "python scripts/build_fulltext_index.py",
     "build:pagefind": "python scripts/build_fulltext_index.py && pagefind --site _pagefind_src --output-path pagefind",
-    "build:search": "npm run build:pagefind"
+    "build:search": "npm run build:pagefind",
+    "test:tools": "python scripts/test_tools.py",
+    "test:e2e": "playwright test",
+    "test": "npm run test:tools && npm run test:e2e"
   },
   "devDependencies": {
+    "@playwright/test": "1.49.1",
     "pagefind": "^1.3.0"
   }
 }

@@ -44,6 +44,8 @@ Checks tool HTML presence, MRZ name rules parity, fulltext index shape, checklis
 
 ```bash
 python scripts/test_tools.py
+# Browser E2E (Playwright — first time: npx playwright install chromium)
+npm test
 ```
 
 ### 1d. **Offline 72h pack** (`build_offline_pack.py`)

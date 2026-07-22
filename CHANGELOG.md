@@ -4,6 +4,14 @@ All notable changes to the ChinaOps project will be documented in this file.
 
 ---
 
+## [v1.16.1] - 2026-07-21
+
+### 🧪 Tool hardening + E2E
+- Browser tools fixes: MRZ a11y/validation, dose kg/lb + empty errors, search aliases/URLs, landing→72h.
+- `scripts/test_tools.py` static smoke + **Playwright E2E** (`npm test`, 10 cases).
+
+---
+
 ## [v1.16.0] - 2026-07-21
 
 ### 🔧 Traveler review fixes (P0–P2)

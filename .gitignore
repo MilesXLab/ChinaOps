@@ -3,6 +3,10 @@ node_modules/
 _pagefind_src/
 _offline_pack/
 chinaops-offline-72h.zip
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
 
 # OS / editor
 .DS_Store

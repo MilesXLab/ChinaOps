@@ -1,9 +1,9 @@
 ---
 layout: guide
 title: "Formula Batch Checker: Recall Verification SOP"
-description: "Practical ChinaOps guide: Formula Batch Checker: Recall Verification SOP. Step-by-step checks, fallbacks, and field tips."
+description: "Check infant formula batch codes against recall notices before opening a can; switch brands and refund paths if affected."
 metadata:
-  version: 1.1
+  version: 1.2
   last_validated: 2026-07-21
   ttl_days: 30
   churn: "high"
@@ -27,104 +27,97 @@ metadata:
   <div class="en">Is this formula batch safe?</div>
 </div>
 
+**TL;DR:** Before every new tin: read **batch code** → check official recall lists / [SafeFeed Action](https://milesxlab.github.io/safefeed-action/) → photo the proof. If unsure, **do not feed**.
 
-**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
+**Prerequisites:**
+- Ability to read the can base (batch + best-before)
+- Offline screenshot of current recall guidance if you will be without VPN
+- Backup brand shortlist for your city
 
 ---
 
 ## Problem
-Following the January 2026 Nestlé global recall (NAN, BEBA, Lactogen — cereulide contamination), parents need a reliable method to verify whether their formula can is safe to use.
 
----
-
-## 2026 Nestlé Recall: Current Status
+After the January 2026 Nestlé global recall (NAN, BEBA, Lactogen — cereulide contamination), parents need a repeatable check so old stock in hotels, gifts, or small shops never reaches a bottle.
 
 > [!NOTE]
-> **Status as of July 2026: Resolved (still verify).** The January 2026 Nestlé recall batches were withdrawn from major retail chains. Older stock in hotel mini-bars, gifted cans, or small shops may still appear. **Always check the batch before opening a new can.** Use [SafeFeed Action](https://milesxlab.github.io/safefeed-action/) when you can.
+> **July 2026 status: resolved but still verify.** Major chains withdrew affected batches; leftover or gifted cans can still appear.
 
-| Brand | Affected Regions | Batch Identifier | Status |
+| Brand | Regions (2026 event) | What to check | Status |
 |:---|:---|:---|:---|
-| **Nestlé NAN** | Global | Check base of can | Affected batches withdrawn |
-| **Nestlé BEBA** | Europe, Asia | Check base of can | Affected batches withdrawn |
-| **Nestlé Lactogen** | Asia, Latin America | Check base of can | Affected batches withdrawn |
+| Nestlé NAN | Global | Base batch code | Withdrawn if listed |
+| Nestlé BEBA | Europe, Asia | Base batch code | Withdrawn if listed |
+| Nestlé Lactogen | Asia, Latin America | Base batch code | Withdrawn if listed |
 
 ---
 
-## How to Check a Batch (Step-by-Step)
+## 📋 The Runbook
 
-### Step 1: Find the Batch Code
-- Flip the can upside down.
-- Look for the **production batch code**: a string of letters and numbers stamped/printed on the base (e.g., `L5JAN25 R01`).
-- Also check the **Best Before date** printed on the lid or base.
+### 1. Find the batch code
+- Flip the can; note stamped **batch string** (e.g. `L5JAN25 R01`) and **best-before**.
+- Photograph the base before opening.
 
-### Step 2: Verify on Official Recall Database
+### 2. Verify (use at least one path)
+1. **Brand / Nestlé recall page** — search “Nestlé recall 2026” if URLs move; enter batch.
+2. **China SAMR:** [recall.samr.gov.cn](https://recall.samr.gov.cn) — search 雀巢 / brand Chinese name.
+3. **Can QR / WeChat mini-program** when present.
+4. **SafeFeed Action** helper: [milesxlab.github.io/safefeed-action](https://milesxlab.github.io/safefeed-action/)
 
-**Method A: Nestlé Official Recall Page**
-1. Go to **[www.nestle.com/media/news/infant-formula-recall](https://www.nestle.com)** (search for "Nestlé recall 2026" if the direct link changes).
-2. Enter your batch code in the search field.
-3. If your code appears — **do not use**. Mark and set aside.
+### 3. Document
+- [ ] Photo of batch code  
+- [ ] Screenshot of “not listed / clear” result  
+Keep both until the tin is finished (refund / medical disputes).
 
-**Method B: SAMR (China National Recall Database)**
-- China's official recall authority: **[recall.samr.gov.cn](https://recall.samr.gov.cn)**
-- Search by brand name: "雀巢" (Nestlé)
-- This database shows China-specific recall enforcement status.
+### 4. Pre-trip checklist
+- [ ] Screenshot current recall list before departure  
+- [ ] Confirm home tin batch is clear before packing  
+- [ ] Map 2 trusted stores at destination  
+- [ ] Name a backup brand (e.g. Aptamil / Friso)
 
-**Method C: Scan the QR Code on Can**
-- Some Nestlé cans have a WeChat QR code on the label.
-- Scan it → it opens a WeChat mini-program → enter batch code for verification.
-
-### Step 3: Document Your Verification
-Take a photo of:
-- [ ] The batch code on the can base
-- [ ] The verification result (screenshot from the recall database)
-
-This creates a record in case of a future dispute or medical issue.
+### 5. Verification
+Can is clear on an official source **and** looks sealed/unexpired → safe to open.
 
 ---
 
-## Safe Alternative Brands (Verified Available in Shanghai)
+## 🚨 Fallback (Plan B)
 
-| Brand | Type | Where to Buy | Notes |
-|:---|:---|:---|:---|
-| **Aptamil (爱他美)** | European formula | Hema, Ole', Sam's Club | Not affected by 2026 recall |
-| **Friso (美素佳儿)** | Dutch formula | CitySuper, Kidswant | Not affected |
-| **Similac (雅培)** | US formula | International hospitals, Sam's Club | Check for any separate US recall |
-| **Mead Johnson Enfamil** | US formula | Major supermarkets | Not affected by Nestlé recall |
+### Batch is affected or verification fails
+1. **Do not use.** Tape the can: `RECALLED — DO NOT USE`.
+2. **Keep the can** for refund (do not trash immediately).
+3. **Refund:**
+   - Hema / Sam’s / Carrefour: receipt + batch at service desk (usually fast for recalls).
+   - JD / Taobao: “quality issue” return path.
+4. **Switch brand** (examples widely stocked in Shanghai):
 
----
+| Brand | Notes | Where |
+|:---|:---|:---|
+| Aptamil (爱他美) | Not in 2026 Nestlé event | Hema, Ole’, Sam’s |
+| Friso (美素佳儿) | Dutch | CitySuper, Kidswant |
+| Similac (雅培) | Check any separate US notices | Hospitals, Sam’s |
+| Enfamil | Unrelated to Nestlé event | Major supermarkets |
 
-## If You Receive an Affected Can
-
-1. **Do NOT use.** Mark clearly with masking tape: "RECALLED — DO NOT USE."
-2. **Keep the can** — do not discard. It may be needed for a refund.
-3. **Refund process:**
-   - Major retailers (Hema, Sam's Club, Carrefour): show purchase receipt + batch number at customer service desk. Refunds are typically processed immediately for recalled products.
-   - Online purchases (JD.com, Taobao): file a return via the platform's "Quality Issue" return path.
-
----
-
-## Miles' Tips
-
-- **Buy Small at First:** If switching brands, buy a 400g trial tin before committing to a full carton — verify your child tolerates it before bulk-buying.
-- **Hema is the Gold Standard:** Of all Shanghai supermarkets, Hema (Freshippo/盒马) has the most rigorous supplier quality control and fastest recall response.
-- **Avoid Small Shops:** Never buy formula from small street-side shops or unverified Taobao sellers. Counterfeiting is a real risk.
-- **WeChat Batch Checker:** Some brands (Aptamil, Friso) have their own WeChat mini-programs for batch authenticity verification — use these even for non-recalled brands for peace of mind.
+### Child already drank suspect formula
+Stop further feeds from that tin → monitor → if vomiting, lethargy, or distress, go to hospital with the can + batch photo ([Hospital Access](../../03-Emergency-DR/hospital-access/)).
 
 ---
 
-## Pre-Trip Checklist
+## 💡 TechDad's Tips
 
-- [ ] Screenshot the Nestlé recall batch list before departure.
-- [ ] Note your current formula's batch code at home — confirm it's not affected before packing.
-- [ ] Identify 2 trusted purchase locations in your destination city.
-- [ ] Have backup brand ready (Aptamil or Friso) if main brand is unavailable.
+- First switch: buy a **400g trial** before a full carton.
+- **Hema** usually has tight supplier control and fast recall pulls.
+- Avoid street shops and unverified Taobao sellers (counterfeit risk).
+- Many brands (Aptamil, Friso) have WeChat authenticity checkers — use them even outside a recall.
 
 ---
 
-## Related Guides
+## Related guides
 
-- [Baby & Toddler Survival Runbook](../baby-survival-master-runbook/) — Complete parenting SOP for China
-- [Diapers & Baby Supplies](../diapers-and-stores/) — Where to buy supplies in Shanghai
-- [Hospital Access](../../03-Emergency-DR/hospital-access/) — If your child shows symptoms after feeding
+- [Baby & Toddler Survival Runbook](../baby-survival-master-runbook/)
+- [Diapers & Baby Supplies](../diapers-and-stores/)
+- [Hospital Access](../../03-Emergency-DR/hospital-access/)
+
+---
+
+**Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
 [← Back to Guide Library](../)

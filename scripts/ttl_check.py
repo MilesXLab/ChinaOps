@@ -19,7 +19,8 @@ def check_ttl(directory):
         for file in files:
             if not file.endswith(".md"):
                 continue
-            # Category hubs / library indexes / maintenance registry are not SOP bodies
+            # Category hubs / library indexes / maintenance drafts are not SOP bodies
+            # (keep in sync with check_catalog.py / check_sop_format.py SKIP_NAMES)
             if file.lower() in {
                 "index.md",
                 "symptom-index.md",
@@ -30,6 +31,8 @@ def check_ttl(directory):
                 "field-retest-log.md",
                 "design-tokens.md",
                 "preflight-checklist.md",
+                "survival-72h.md",  # pack how-to, not a full Runbook SOP
+                "release-notes-v1.16.md",  # maintainer release draft
             }:
                 skipped_index += 1
                 continue

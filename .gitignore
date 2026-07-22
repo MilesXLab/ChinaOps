@@ -8,6 +8,13 @@ playwright-report/
 blob-report/
 playwright/.cache/
 
+# Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+
 # OS / editor
 .DS_Store
 Thumbs.db

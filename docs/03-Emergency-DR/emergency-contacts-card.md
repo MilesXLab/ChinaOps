@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "The Emergency Contacts Reference"
+description: "Practical ChinaOps guide: The Emergency Contacts Reference. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🆘 The Emergency Contacts Reference
 
 <div class="plain-summary">
@@ -79,7 +80,7 @@ metadata:
 
 ### If your phone is dead and you need help:
 1. **The "Luxury Hotel" Hub:** Find the nearest 5-star hotel (Marriott, Hyatt, etc.). Their concierge staff are trained to help foreigners in emergencies.
-2. **Police Kiosks:** Look for small, lit police booths (often near metro stations or major intersections). 
+2. **Police Kiosks:** Look for small, lit police booths (often near metro stations or major intersections).
 3. **The "Stranger" Protocol:** Show a local person your hotel card and say **"Help"**. Chinese citizens are generally very helpful to foreigners in obvious distress.
 
 ---

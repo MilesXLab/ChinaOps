@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Shanghai Physical Safety & Urban Defense"
+description: "Practical ChinaOps guide: Shanghai Physical Safety & Urban Defense. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🛡️ Shanghai Physical Safety & Urban Defense
 
 <div class="plain-summary">
@@ -72,7 +73,7 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on your phone for your destination address. 
+**Single Point of Failure:** Relying on your phone for your destination address.
 - **Hotfix:** Keep a physical business card of your hotel in your wallet at all times.
 
 ---

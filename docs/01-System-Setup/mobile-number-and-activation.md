@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Local Mobile Number SOP"
+description: "Practical ChinaOps guide: Local Mobile Number SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 📱 Local Mobile Number SOP
 
 <div class="plain-summary">
@@ -38,12 +39,12 @@ metadata:
 ## 📋 The Runbook
 
 ### 1. Choose Your Entry Method
-- **Short Trip (Under 15 days):** Use Airalo, Yesim, or Nomad. No ID verification needed, but these often don't provide a "+86" number for app registrations. 
+- **Short Trip (Under 15 days):** Use Airalo, Yesim, or Nomad. No ID verification needed, but these often don't provide a "+86" number for app registrations.
 - **Digital Nomad / Long Stay:** You **must** have a "+86" number. Go to a China Unicom hall.
 
 ### 2. The Carrier Hall Protocol (Physical SIM)
 - **Step 1:** Use Baidu/Amap to find a "Main Business Hall" (营业厅). Smaller retail kiosks often cannot handle foreign passports.
-- **Step 2:** Request the **"Tourist Plan"** or **"Minimum Monthly Plan"** (Wǒ yào zuì dī tàocān). 
+- **Step 2:** Request the **"Tourist Plan"** or **"Minimum Monthly Plan"** (Wǒ yào zuì dī tàocān).
 - **Step 3:** Perform the "Face Scan" (人脸识别). This is a legal requirement for real-name registration.
 - **Verification:** Once the SIM is in, wait for a 10010/10086 SMS. Send `CXLL` to the carrier number to verify your data balance is active.
 

@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Shanghai Local Optimization Hacks"
+description: "Practical ChinaOps guide: Shanghai Local Optimization Hacks. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🏘️ Shanghai Local Optimization Hacks
 
 <div class="plain-summary">
@@ -49,7 +50,7 @@ metadata:
 - **Verification:** You get a 10-minute view of the Oriental Pearl Tower for 1/50th the price of a tourist boat.
 
 ### 3. The Dianping Voucher Strategy
-- **Step 1:** Find a restaurant you like. 
+- **Step 1:** Find a restaurant you like.
 - **Step 2:** Open **Dianping (大众点评)** and search for the restaurant's name.
 - **Step 3:** Look for **"Tuan gou"** (团购 - Group buy) vouchers. Buy the voucher.
 - **Verification:** Show the voucher QR code to the waiter *before* paying. Instant 20-40% savings.

@@ -1,16 +1,16 @@
 ---
 layout: guide
 title: "The Transit Protocol: International to Domestic"
+description: "Practical ChinaOps guide: The Transit Protocol: International to Domestic. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
+  ttl_days: 90
   stability_status: "critical"
   validation_method: "field_test"
   scope: "national"
-  ttl_days: 90
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # ✈️ The Transit Protocol: International to Domestic
 
 <div class="plain-summary">
@@ -49,7 +49,7 @@ metadata:
 - **Verification:** Ensure you have all bags before heading to the "Domestic Departures" level.
 
 ### 3. Re-Check & Security
-- **Step:** Head to the Domestic Departure counters (e.g., PVG T2 for China Eastern). 
+- **Step:** Head to the Domestic Departure counters (e.g., PVG T2 for China Eastern).
 - **Step:** Re-scan your power banks at security. **Critical Alert:** Ensure your power bank capacity is clearly labeled (<160Wh). If not labeled, security *will* confiscate it.
 - **Verification:** Confirm your gate number on the big board (gate changes are frequent).
 

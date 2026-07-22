@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Diapers & Baby Supplies SOP"
+description: "Practical ChinaOps guide: Diapers & Baby Supplies SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 👶 Diapers & Baby Supplies SOP
 
 <div class="plain-summary">
@@ -79,7 +80,7 @@ These stores carry imported brands (Pampers, Merries, Moony, organic puffs, and 
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on a single delivery app. 
+**Single Point of Failure:** Relying on a single delivery app.
 - **Hotfix:** Always have both **Meituan** and **Ele.me** installed and linked to payment. If one app's rider network is down (common during heavy rain), the other might still be active.
 
 ---

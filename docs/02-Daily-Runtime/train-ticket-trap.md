@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "12306 Train Tickets: The MRZ Name Hack"
+description: "Practical ChinaOps guide: 12306 Train Tickets: The MRZ Name Hack. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚄 12306 Train Tickets: The MRZ Name Hack
 
 <div class="plain-summary">
@@ -68,7 +69,7 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on the 12306 automated gates. 
+**Single Point of Failure:** Relying on the 12306 automated gates.
 - **Hotfix:** Always allot an extra 20 minutes for the Manual Lane queue. One person in front of you with a passport issue can block the line for minutes.
 
 ---

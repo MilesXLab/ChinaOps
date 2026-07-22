@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Shanghai Attractions: High-Load Nodes"
+description: "Practical ChinaOps guide: Shanghai Attractions: High-Load Nodes. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🗼 Shanghai Attractions: High-Load Nodes
 
 <div class="plain-summary">
@@ -26,7 +27,7 @@ metadata:
 </div>
 
 
-**TL;DR:** Use **Trip.com** for all tower bookings. Lights turn OFF at **22:00 (10 PM)** sharp. The **Disney App** is mandatory for survival at the park. 
+**TL;DR:** Use **Trip.com** for all tower bookings. Lights turn OFF at **22:00 (10 PM)** sharp. The **Disney App** is mandatory for survival at the park.
 
 **Prerequisites:**
 - **App:** Trip.com (Bookings), Disney Resort (Wait times), WeChat (Museum bookings).

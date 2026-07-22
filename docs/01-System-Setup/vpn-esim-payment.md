@@ -1,17 +1,16 @@
 ---
 layout: guide
 title: "VPN, eSIM & Payment Setup"
+description: "Practical ChinaOps guide: VPN, eSIM & Payment Setup. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.2
   last_validated: 2026-07-21
   ttl_days: 30
-  churn: high
+  churn: "high"
   stability_status: "critical"
   validation_method: "desktop_review"
   scope: "national"
 ---
-
-![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 
 # 🌐 VPN, eSIM & Payment Setup
 

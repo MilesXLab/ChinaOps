@@ -1,6 +1,7 @@
 ---
 layout: guide
 title: "The Landing Protocol: First 30 Minutes in China"
+description: "Practical ChinaOps guide: The Landing Protocol: First 30 Minutes in China. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
@@ -10,7 +11,6 @@ metadata:
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🛫 The Landing Protocol: First 30 Minutes
 
 <div class="plain-summary">
@@ -44,7 +44,7 @@ metadata:
 
 ### 3. The "Cold Start" Payment Test
 - **Step:** Go to the airport's FamilyMart, Lawson, or Starbucks. Buy a small item (water/coffee).
-- **Verification:** Pay using **Alipay** (linked to your foreign card). 
+- **Verification:** Pay using **Alipay** (linked to your foreign card).
 - **Fallback:** If Alipay fails, use your **Physical Credit Card**. If that fails, go to the **Bank of China (BOC) ATM** in the arrival hall and withdraw 500 RMB.
 
 ### 4. The Exit & Transport

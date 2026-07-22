@@ -38,6 +38,20 @@ Copy this into 12306 account registration
 
 ---
 
+### 1c. **SOP format audit** (`check_sop_format.py`)
+
+Strict checks for guide markdown: required metadata, balanced HTML, phrase-cards, tables, orphan content after footers.
+
+```bash
+python scripts/check_sop_format.py
+```
+
+Optional bulk normalizer (metadata, badges, footer orphans):
+
+```bash
+python scripts/fix_sop_format.py
+```
+
 ### 1b. **Full-text search index** (`build_fulltext_index.py`)
 
 Exports SOP bodies for search:

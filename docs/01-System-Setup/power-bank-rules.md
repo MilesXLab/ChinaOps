@@ -1,17 +1,17 @@
 ---
 layout: guide
 title: "Power Bank & Hardware Rules"
+description: "Practical ChinaOps guide: Power Bank & Hardware Rules. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.2
   last_validated: 2026-07-21
-  stability_status: "critical"
   ttl_days: 30
-  churn: high
+  churn: "high"
+  stability_status: "critical"
   validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 🔋 Power Bank & Hardware Rules
 
 <div class="plain-summary">

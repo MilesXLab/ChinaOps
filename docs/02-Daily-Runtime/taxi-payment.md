@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Taxi & Mobility SOP"
+description: "Practical ChinaOps guide: Taxi & Mobility SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚕 Taxi & Mobility SOP
 
 <div class="plain-summary">
@@ -45,7 +46,7 @@ metadata:
 
 ### 2. The Street-Hail Protocol
 - **Step 1:** Look for taxis with a **green** (available) light in the window. **Red** means occupied.
-- **Step 2:** Show the driver your destination in **Chinese characters**. 
+- **Step 2:** Show the driver your destination in **Chinese characters**.
 - **Step 3:** Ensure the meter (Jìjiàqì) is flipped down (starting price typically 14-16 RMB in SH).
 - **Verification:** Receive a physical **fàpiào** (receipt) at the end. This is your only "trace" if you leave your bag in the car.
 

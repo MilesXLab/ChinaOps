@@ -1,11 +1,12 @@
 ---
 layout: guide
 title: "Formula Batch Checker: Recall Verification SOP"
+description: "Practical ChinaOps guide: Formula Batch Checker: Recall Verification SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
   ttl_days: 30
-  churn: high
+  churn: "high"
   stability_status: "critical"
   validation_method: "desktop_review"
   scope: "national"
@@ -125,3 +126,5 @@ This creates a record in case of a future dispute or medical issue.
 - [Baby & Toddler Survival Runbook](../baby-survival-master-runbook/) — Complete parenting SOP for China
 - [Diapers & Baby Supplies](../diapers-and-stores/) — Where to buy supplies in Shanghai
 - [Hospital Access](../../03-Emergency-DR/hospital-access/) — If your child shows symptoms after feeding
+
+[← Back to Guide Library](../)

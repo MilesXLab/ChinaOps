@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Pharmacy & OTC Medication SOP"
+description: "Practical ChinaOps guide: Pharmacy & OTC Medication SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 💊 Pharmacy & OTC Medication SOP
 
 <div class="plain-summary">
@@ -38,7 +39,7 @@ metadata:
 ## 📋 The Runbook
 
 ### 1. The Pinyin Translation (The Protocol)
-- **Step 1:** Translate the **active ingredient**. 
+- **Step 1:** Translate the **active ingredient**.
 - **Step 2:** Match with the common local names:
 
   | Western Need | Chinese Name | Pinyin |
@@ -81,7 +82,7 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on the pharmacist for dosing. 
+**Single Point of Failure:** Relying on the pharmacist for dosing.
 - **Hotfix:** Always cross-reference the dosage on the box with your home country's medical website (like NHS or WebMD) before swallowing.
 
 ---

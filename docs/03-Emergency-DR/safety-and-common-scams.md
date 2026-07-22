@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Safety & Common Scams (2026 Update)"
+description: "Practical ChinaOps guide: Safety & Common Scams (2026 Update). Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚨 Safety & Common Scams (2026 Update)
 
 <div class="plain-summary">
@@ -65,20 +66,21 @@ metadata:
 
 ## 💡 TechDad's Tips
 
-- **Drinking Water:** Do not drink tap water. Even locals boil it. Buy bottled water (C'estbon, Nongfu Spring) or use the hotel's complimentary bottles.
-- **Emergency Phrases:** 
-  - "I'm calling the police": *Wǒ yào bào jǐng le.*
-  - "I don't have money": *Wǒ méi yǒu qián.*
-- **Pickpockets:** Rare, but stay alert in crowded markets like Yuyuan Garden. Keep your phone in your front pocket.
+- **Drinking water:** Do not drink tap water. Buy bottled water (C'estbon, Nongfu Spring) or use hotel bottles.
+- **Emergency phrases:**
+  - "I'm calling the police": *Wǒ yào bào jǐng le.* （我要报警了）
+  - "I don't have money": *Wǒ méi yǒu qián.* （我没有钱）
+  - "Help!": *Jiùmìng!* （救命！） / *Bāng bāng wǒ!* （帮帮我！）
+- **Pickpockets:** Rare, but stay alert in crowded markets (e.g. Yuyuan). Phone in front pocket.
+- **Valuables:** Passport in a secure pocket or hotel safe; keep a phone photo of the bio page for daily checks.
+- **Police & security:** Officers/guards (警察) usually help foreigners quickly — show your hotel address card if lost.
+- **Language help:** College-aged locals often have enough English to untangle ticket machines or menus.
+- **Stomach comfort:** Prefer cooked street food over raw salads/ice at very cheap stalls.
+- **Pharmacy:** 药店 (*yàodiàn*) sell common Western OTC meds; show symptoms in a translation app.
 
 ---
 
 **Last Updated:** Jul 21, 2026 | **Author:** TechDadShanghai
 
-- **Valuables:** While theft is low, keep your passport in a secure pocket or the hotel safe. A photo of your passport on your phone is usually enough for daily ID checks.
-- **The Police & Security:** Officers and security guards (indicated by "Police," "Security," or 警察 Jǐngchá) are extremely friendly and generally prioritize foreign visitors' requests. If you are lost or need help, shout **"救命！" (Jiùmìng! = Help!)** or **"帮帮我！" (Bāng bāng wǒ! = Help me!)**, or show your character card.
-- **Language Help:** If you are stuck at a ticket machine or restaurant, look for **college-aged locals** (often wearing trendy gear or visible headphones). They almost always speak enough English to help you navigate a "system glitch" and are very friendly.
+[← Back to Guide Library](../)
 
-### Local Hacks & Health Tips
-- **Stomach Comfort:** **"Boiled is best."** If you have a sensitive stomach, avoid raw vegetables/salads and ice in very cheap street stalls. Cooked street food (fried/boiled) is generally safer than pre-packaged cold sandwiches.
-- **Pharmacy:** Local pharmacies (药店 yàodiàn) are everywhere. They sell Western medicines (Ibuprofen, etc.) and Traditional Chinese Medicine (TCM). Use a translation app to show them your specific symptoms.

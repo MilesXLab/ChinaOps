@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Public Transport: Metro, Bikes & Buses"
+description: "Practical ChinaOps guide: Public Transport: Metro, Bikes & Buses. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚇 Public Transport: Metro, Bikes & Buses
 
 <div class="plain-summary">
@@ -40,7 +41,7 @@ metadata:
 ### 1. The Metro QR Entry
 - **Step 1:** Open **Alipay**. Tap `Transport` (出行) at the top.
 - **Step 2:** Choose `Metro` (地铁) and select your city (e.g., Shanghai).
-- **Step 3:** Scan the QR code at the turnstile. 
+- **Step 3:** Scan the QR code at the turnstile.
 - **Verification:** The gate will open instantly. Payment is deducted after you exit at your destination.
 
 ### 2. The Apple Wallet / NFC Hack
@@ -52,7 +53,7 @@ metadata:
 - **Step 1:** Find a **HelloBike** (Blue - Alipay) or **Meituan Bike** (Yellow).
 - **Step 2:** Scan the QR code on the handlebar or lock.
 - **Step 3:** Purchase a "7-Day Unlimited" pass if staying for >3 days.
-- **Verification:** The lock will pop open. 
+- **Verification:** The lock will pop open.
 
 ---
 

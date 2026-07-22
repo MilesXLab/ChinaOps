@@ -1,6 +1,7 @@
 ---
 layout: guide
 title: "Lost Passport / Important Documents SOP"
+description: "Practical ChinaOps guide: Lost Passport / Important Documents SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21

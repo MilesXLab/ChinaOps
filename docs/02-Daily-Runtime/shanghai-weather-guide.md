@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Shanghai Weather & AQI SOP"
+description: "Practical ChinaOps guide: Shanghai Weather & AQI SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🌦️ Shanghai Weather & AQI SOP
 
 <div class="plain-summary">
@@ -65,14 +66,14 @@ metadata:
 ## 💡 TechDad's Tips
 
 - **The "Uniqlo" Node:** If you under-dressed for a cold snap, find a **Uniqlo** (they are in every major mall). Their "Ultra Light Down" and "Heattech" are the most cost-effective patches for Shanghai's weather.
-- **Sun Protection:** In Spring (April/May), the sun is deceptive. High UV levels can burn you even if it's only 20°C. 
+- **Sun Protection:** In Spring (April/May), the sun is deceptive. High UV levels can burn you even if it's only 20°C.
 - **Air Quality Perception:** Don't trust your eyes. "Blue Sky" doesn't always mean low AQI; it could be high Ozone or Fine Particulates (PM2.5). Check the app.
 - **The "FamilyMart" Umbrella:** If you're caught in rain, don't buy from street hawkers. Go to **FamilyMart**; their 39 RMB umbrellas are of superior engineering.
 
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Assuming the weather forecast is accurate for more than 48 hours. 
+**Single Point of Failure:** Assuming the weather forecast is accurate for more than 48 hours.
 - **Hotfix:** Shanghai is a coastal city; weather systems move fast. Check the "Hourly" forecast on your app every morning before you head out.
 
 ---

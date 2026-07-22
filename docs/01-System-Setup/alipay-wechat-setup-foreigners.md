@@ -6,7 +6,7 @@ metadata:
   version: 1.2
   last_validated: 2026-07-21
   ttl_days: 30
-  churn: high
+  churn: "high"
   stability_status: "critical"
   validation_method: "desktop_review"
   scope: "national"
@@ -149,3 +149,5 @@ If your VPN or data fails:
 - [VPN & eSIM Setup](../vpn-esim-payment/) — Ensuring your apps stay connected
 - [Mobile Number & Activation](../mobile-number-and-activation/) — Getting a local number for SMS verification
 - [Public Transport Tips](../../02-Daily-Runtime/public-transport-tips/) — Using QR codes at metro gates
+
+[← Back to Guide Library](../)

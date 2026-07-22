@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Car Rental & Driving in China SOP"
+description: "Practical ChinaOps guide: Car Rental & Driving in China SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🚗 Car Rental & Driving in China SOP
 
 <div class="plain-summary">

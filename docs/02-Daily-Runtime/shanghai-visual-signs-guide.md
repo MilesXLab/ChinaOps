@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Visual Signs & Symbols Reconnaissance"
+description: "Practical ChinaOps guide: Visual Signs & Symbols Reconnaissance. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 👁️ Visual Signs & Symbols Reconnaissance
 
 <div class="plain-summary">
@@ -78,7 +79,7 @@ metadata:
 
 - **The "Red Stamp" (Gōngzhāng):** In China, a red circular stamp is the only thing that makes a document "Official." An ink signature alone is often rejected.
 - **Exit Numbers:** In Shanghai Metro, a station might have 20 exits. **Always** check the map for the specific Exit Number (e.g., "Exit 4") before you go up the escalator.
-- **Color Coding:** 
+- **Color Coding:**
   - **Green:** Safety / Exit.
   - **Red:** Warning / Metro entrance.
   - **Blue:** Information / Direction.
@@ -87,7 +88,7 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on English subtitles on signs. 
+**Single Point of Failure:** Relying on English subtitles on signs.
 - **Hotfix:** Outside of central Shanghai (Jing'an/Xuhui), English subtitles disappear or are mistranslated. Rely on the **Icons** and the **Camera Translator**.
 
 ---

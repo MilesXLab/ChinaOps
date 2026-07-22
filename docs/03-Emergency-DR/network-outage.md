@@ -1,6 +1,7 @@
 ---
 layout: guide
 title: "Internet / Network Outage Survival SOP"
+description: "Practical ChinaOps guide: Internet / Network Outage Survival SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
@@ -136,3 +137,5 @@ These tools work **without internet**:
 
 - [VPN & eSIM Setup](../../01-System-Setup/vpn-esim-payment/) — Pre-trip VPN installation SOP
 - [Emergency Contacts Card](../emergency-contacts-card/) — Critical numbers for when you go fully offline
+
+[← Back to Guide Library](../)

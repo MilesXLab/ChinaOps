@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Connectivity: SIM & eSIM Options"
+description: "Practical ChinaOps guide: Connectivity: SIM & eSIM Options. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.2
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.2.0 Verified](https://img.shields.io/badge/v1.2.0-Verified-brightgreen)
 # 📶 Connectivity: SIM & eSIM Options
 
 <div class="plain-summary">
@@ -26,7 +27,7 @@ metadata:
 </div>
 
 
-**TL;DR:** For 100% "Firewall Bypass," use a **Travel eSIM** (Trip.com, Holafly, Simify, or Nomad). For local services (receiving SMS, booking Didi, or registering at local hotspots), you need a **Physical SIM** from China Unicom or China Telecom. 
+**TL;DR:** For 100% "Firewall Bypass," use a **Travel eSIM** (Trip.com, Holafly, Simify, or Nomad). For local services (receiving SMS, booking Didi, or registering at local hotspots), you need a **Physical SIM** from China Unicom or China Telecom.
 
 **Prerequisites:**
 - **Unlocked Phone:** Crucial. Check with your home carrier before departure.
@@ -76,7 +77,7 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Relying on a data-only eSIM for a 3-week family trip. 
+**Single Point of Failure:** Relying on a data-only eSIM for a 3-week family trip.
 - **Hotfix:** Get a local physical SIM for the primary traveler (+86 number for bookings/Didi) and travel eSIMs for the rest of the family.
 
 ---

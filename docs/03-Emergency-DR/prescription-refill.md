@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Prescription Medication & Chronic Care SOP"
+description: "Practical ChinaOps guide: Prescription Medication & Chronic Care SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "national"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 💊 Prescription Medication & Chronic Care SOP
 
 <div class="plain-summary">

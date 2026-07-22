@@ -1,15 +1,16 @@
 ---
 layout: guide
 title: "Vegetarian & Vegan Survival SOP"
+description: "Practical ChinaOps guide: Vegetarian & Vegan Survival SOP. Step-by-step checks, fallbacks, and field tips."
 metadata:
   version: 1.1
   last_validated: 2026-07-21
-  stability_status: "stable"
   ttl_days: 90
+  stability_status: "stable"
+  validation_method: "desktop_review"
   scope: "shanghai"
 ---
 
-![v1.1.0 Verified](https://img.shields.io/badge/v1.1.0-Verified-brightgreen)
 # 🥗 Vegetarian & Vegan Survival SOP
 
 <div class="plain-summary">
@@ -49,7 +50,7 @@ metadata:
 
 ### 3. The Coffee Hub (Oat Milk)
 - **Step 1:** Look for **Starbucks**, **Manner**, or **Luckin Coffee**.
-- **Step 2:** Order `燕麦奶` (Yàn mài nǎi - Oat milk). 
+- **Step 2:** Order `燕麦奶` (Yàn mài nǎi - Oat milk).
 - **Verification:** Confirm the "Oatly" or "Plant-based" sticker on the cup.
 
 ---
@@ -73,7 +74,7 @@ metadata:
 ---
 
 ## 🚩 Strategic Gap: The "SPOF" Warning
-**Single Point of Failure:** Trusting "Vegetarian" icons on standard Chinese menus. 
+**Single Point of Failure:** Trusting "Vegetarian" icons on standard Chinese menus.
 - **Hotfix:** Always verbally verify with the server—Chinese "Vegetarian" sometimes allows for small amounts of meat as a "garnish" or seasoning (like lard).
 
 ---

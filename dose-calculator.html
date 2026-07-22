@@ -67,8 +67,14 @@
         <label for="medName">Medication name</label>
         <input id="medName" type="text" placeholder="e.g. Paracetamol" />
 
-        <label for="weight">Child weight (kg)</label>
-        <input id="weight" type="number" min="0.5" max="120" step="0.1" placeholder="e.g. 15" inputmode="decimal" />
+        <label for="weight">Child weight</label>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <input id="weight" type="number" min="0.5" max="400" step="0.1" placeholder="e.g. 15" inputmode="decimal" style="flex:1;" />
+          <select id="weightUnit" aria-label="Weight unit" style="width:auto;min-width:4.5rem;">
+            <option value="kg" selected>kg</option>
+            <option value="lb">lb</option>
+          </select>
+        </div>
 
         <label for="perKg">Dose per kg (mg/kg) for one dose</label>
         <input id="perKg" type="number" min="0.1" step="0.1" placeholder="e.g. 15" inputmode="decimal" />
@@ -80,6 +86,7 @@
           <button type="button" class="btn btn-brand" id="btnCalc">Calculate</button>
           <button type="button" class="btn btn-dark" id="btnClear">Clear</button>
         </div>
+        <p class="msg" id="doseMsg" role="status" style="min-height:1.2em;font-size:var(--text-sm);color:var(--fg-3);margin:8px 0 0;"></p>
 
         <div class="result-box" id="result" hidden>
           <div id="resultTitle" style="font-weight:700;margin-bottom:6px;"></div>
@@ -111,9 +118,11 @@
   var preset = document.getElementById("preset");
   var medName = document.getElementById("medName");
   var weight = document.getElementById("weight");
+  var weightUnit = document.getElementById("weightUnit");
   var perKg = document.getElementById("perKg");
   var maxDose = document.getElementById("maxDose");
   var result = document.getElementById("result");
+  var msg = document.getElementById("doseMsg");
 
   preset.addEventListener("change", function () {
     var p = PRESETS[preset.value];
@@ -121,18 +130,35 @@
     medName.value = p.name;
     perKg.value = String(p.perKg);
     maxDose.value = p.max != null ? String(p.max) : "";
-    calc();
+    calc(false);
   });
 
-  function calc() {
+  function weightKg() {
     var w = parseFloat(weight.value);
+    if (!(w > 0)) return NaN;
+    if (weightUnit.value === "lb") return w * 0.45359237;
+    return w;
+  }
+
+  function calc(showErrors) {
+    var w = weightKg();
     var d = parseFloat(perKg.value);
     var max = maxDose.value === "" ? null : parseFloat(maxDose.value);
     var name = (medName.value || "Medication").trim();
+    msg.textContent = "";
 
     if (!(w > 0) || !(d > 0)) {
       result.hidden = true;
+      if (showErrors) {
+        msg.textContent = "Enter a positive weight and mg/kg (from the bottle or clinician).";
+      }
       return;
+    }
+    if (w < 2) {
+      msg.textContent = "Weight under 2 kg — confirm with a clinician before any medicine.";
+    }
+    if (w > 80) {
+      msg.textContent = "Weight over 80 kg — re-check unit (kg vs lb) and age; adult rules may apply.";
     }
 
     var dose = w * d;
@@ -143,37 +169,43 @@
     }
 
     document.getElementById("resultTitle").textContent =
-      name + " · " + w + " kg · " + d + " mg/kg";
+      name + " · " + w.toFixed(2) + " kg · " + d + " mg/kg";
     document.getElementById("resultDose").textContent =
       dose.toFixed(1) + " mg per dose";
     document.getElementById("resultCap").hidden = !capped;
 
     var tips = document.getElementById("resultTips");
     tips.innerHTML =
-      "<li>Typical spacing often every 6–8 hours (3–4×/day) — follow product or doctor, not this list alone.</li>" +
-      "<li>Illustrative max-day sketch if 4 doses: <strong>" +
+      "<li>This is <strong>mg per dose</strong>, not mL. Convert with the syrup concentration on the label.</li>" +
+      "<li>Typical spacing often every 6–8 hours — follow product or doctor, not this list alone.</li>" +
+      "<li>Illustrative sketch if 4 doses: <strong>" +
       (dose * 4).toFixed(1) +
-      " mg/day</strong> — real daily max may be lower.</li>" +
-      "<li>Show this number to a pharmacist with the bottle in hand.</li>" +
-      "<li>If weight seems wrong (&gt;50 kg teen/adult), re-check input.</li>";
+      " mg/day</strong> — real daily max may be lower (often ~60 mg/kg/day for paracetamol — confirm label).</li>" +
+      "<li>Show this number to a pharmacist with the bottle in hand.</li>";
 
     result.hidden = false;
-    if (w > 100) {
-      tips.innerHTML += "<li style=\"color:var(--warning-strong)\">Weight &gt;100 kg — verify units (kg not lb).</li>";
-    }
   }
 
-  document.getElementById("btnCalc").addEventListener("click", calc);
+  document.getElementById("btnCalc").addEventListener("click", function () {
+    calc(true);
+  });
   ["weight", "perKg", "maxDose", "medName"].forEach(function (id) {
-    document.getElementById(id).addEventListener("input", calc);
+    document.getElementById(id).addEventListener("input", function () {
+      calc(false);
+    });
+  });
+  weightUnit.addEventListener("change", function () {
+    calc(false);
   });
 
   document.getElementById("btnClear").addEventListener("click", function () {
     preset.value = "";
     medName.value = "";
     weight.value = "";
+    weightUnit.value = "kg";
     perKg.value = "";
     maxDose.value = "";
+    msg.textContent = "";
     result.hidden = true;
   });
 })();

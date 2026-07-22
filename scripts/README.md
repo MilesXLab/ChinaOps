@@ -38,6 +38,14 @@ Copy this into 12306 account registration
 
 ---
 
+### 1e. **Tool smoke tests** (`test_tools.py`)
+
+Checks tool HTML presence, MRZ name rules parity, fulltext index shape, checklist storage keys, and dose-tool safety (no antibiotic preset).
+
+```bash
+python scripts/test_tools.py
+```
+
 ### 1d. **Offline 72h pack** (`build_offline_pack.py`)
 
 Copies survival pack, print packs, browser tools, and assets into `_offline_pack/` for USB/phone copy.

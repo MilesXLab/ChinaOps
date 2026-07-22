@@ -195,10 +195,17 @@
       status.textContent = hits.length ? hits.length + " match(es)" : "No matches.";
       list.innerHTML = hits
         .map(function (h) {
-          var url = "./" + (h.d.url || h.d.path || "").replace(/\.md$/i, "/");
+          var raw = h.d.url || h.d.path || "";
+          raw = String(raw).replace(/\.md$/i, "/");
+          if (raw.charAt(0) === "/") raw = raw.replace(/^\//, "");
+          if (raw.indexOf("./") !== 0 && raw.indexOf("http") !== 0) {
+            raw = "./" + raw;
+          }
+          // avoid ././docs
+          raw = raw.replace(/^\.\/\.\//, "./");
           return (
             "<li><a href=\"" +
-            esc(url) +
+            esc(raw) +
             "\"><div class=\"name\">" +
             esc(h.d.title) +
             "</div><div class=\"snip\">" +
@@ -220,6 +227,15 @@
         input.addEventListener("input", function () {
           render(input.value);
         });
+        // Support deep-link ?q=
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var q0 = params.get("q");
+          if (q0) {
+            input.value = q0;
+            render(q0);
+          }
+        } catch (e) {}
       })
       .catch(function () {
         status.textContent =

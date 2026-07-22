@@ -184,13 +184,16 @@
     b.type = "button";
     b.textContent = a.en + " · " + a.zh;
     b.dataset.i = String(i);
+    b.setAttribute("aria-pressed", "false");
     b.addEventListener("click", function () {
       if (selected[i]) {
         delete selected[i];
         b.classList.remove("is-on");
+        b.setAttribute("aria-pressed", "false");
       } else {
         selected[i] = a;
         b.classList.add("is-on");
+        b.setAttribute("aria-pressed", "true");
       }
       render();
     });

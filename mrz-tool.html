@@ -79,22 +79,23 @@
           <input id="lastName" type="text" autocomplete="family-name" placeholder="e.g. Smith" />
         </div>
         <div>
-          <label for="mrzOut">MRZ for 12306 (copy this)</label>
-          <div class="mrz-out" id="mrzOut" aria-live="polite">—</div>
+          <div id="mrzLabel" class="tool-grid" style="display:block;font-weight:700;font-size:var(--text-sm);color:var(--fg-2);margin-bottom:6px;">MRZ for 12306 (copy this)</div>
+          <div class="mrz-out" id="mrzOut" role="status" aria-labelledby="mrzLabel" aria-live="polite">—</div>
         </div>
         <div class="tool-actions">
           <button type="button" class="btn btn-brand" id="btnCopy">Copy MRZ</button>
           <button type="button" class="btn btn-dark" id="btnClear">Clear</button>
         </div>
-        <p class="msg" id="msg"></p>
+        <p class="msg" id="msg" role="status"></p>
       </div>
 
       <div class="callout callout-info" style="margin-top:24px;">
         <p class="callout-title">Rules applied</p>
         <ul style="margin:0;padding-left:1.2em;color:var(--fg-2);">
           <li>Uppercase ASCII (accents stripped, e.g. José → JOSE)</li>
-          <li>Hyphens and apostrophes removed</li>
-          <li>Format: <code>LASTNAME&lt;&lt;FIRSTNAME</code></li>
+          <li>Hyphens, apostrophes, and spaces removed (Jean Luc → JEANLUC)</li>
+          <li>Format: <code>SURNAME&lt;&lt;GIVENNAMES</code> (same as the train-ticket SOP)</li>
+          <li>If 12306 has separate Surname / Given fields, fill those from the passport instead of pasting <code>&lt;&lt;</code></li>
           <li>Verify in 12306 ~24h before travel; bring passport to the station</li>
         </ul>
       </div>
@@ -120,14 +121,15 @@
     }
   }
 
+  function cleanPart(name) {
+    var s = removeAccents(String(name || "").trim()).toUpperCase();
+    s = s.replace(/[-']/g, "").replace(/\s+/g, "");
+    return s.replace(/[^A-Z]/g, "");
+  }
+
   function formatMrz(firstName, lastName) {
-    var first = removeAccents(String(firstName || "").trim()).toUpperCase();
-    var last = removeAccents(String(lastName || "").trim()).toUpperCase();
-    first = first.replace(/[-']/g, "").replace(/\s+/g, "");
-    last = last.replace(/[-']/g, "").replace(/\s+/g, "");
-    // keep letters only for safety
-    first = first.replace(/[^A-Z]/g, "");
-    last = last.replace(/[^A-Z]/g, "");
+    var first = cleanPart(firstName);
+    var last = cleanPart(lastName);
     if (!first && !last) return "";
     return last + "<<" + first;
   }
@@ -140,8 +142,10 @@
   function update() {
     var mrz = formatMrz(firstEl.value, lastEl.value);
     outEl.textContent = mrz || "—";
-    msgEl.textContent = "";
-    msgEl.className = "msg";
+    if (!msgEl.classList.contains("ok")) {
+      msgEl.textContent = "";
+      msgEl.className = "msg";
+    }
   }
 
   firstEl.addEventListener("input", update);
@@ -150,16 +154,21 @@
   document.getElementById("btnClear").addEventListener("click", function () {
     firstEl.value = "";
     lastEl.value = "";
+    msgEl.textContent = "";
+    msgEl.className = "msg";
     update();
     firstEl.focus();
   });
 
   document.getElementById("btnCopy").addEventListener("click", function () {
-    var mrz = formatMrz(firstEl.value, lastEl.value);
-    if (!mrz) {
-      msgEl.textContent = "Enter first and last name first.";
+    var first = cleanPart(firstEl.value);
+    var last = cleanPart(lastEl.value);
+    if (!first || !last) {
+      msgEl.textContent = "Need both given name and surname (letters only after cleanup).";
+      msgEl.className = "msg";
       return;
     }
+    var mrz = last + "<<" + first;
     function ok() {
       msgEl.textContent = "Copied: " + mrz;
       msgEl.className = "msg ok";

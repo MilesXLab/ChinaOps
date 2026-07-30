@@ -22,7 +22,8 @@
     },
     {
       "name": "Next Trip Field-Test Pack",
-      "path": "docs/00-Maintenance/field-retest-next-trip.md"
+      "path": "docs/00-Maintenance/field-retest-next-trip.md",
+      "_note": "Maintenance doc — internal use only, not linked from public nav"
     },
     {
       "name": "72h Survival Notes",

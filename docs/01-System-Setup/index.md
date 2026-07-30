@@ -1,6 +1,7 @@
 ---
 layout: guide
 title: "System Setup"
+description: "Get phone, SIM, VPN, and payments working before you land. 14 step-by-step guides covering eSIM, Alipay, WeChat Pay, visas, hotel check-in, and more."
 ---
 
 # ✈️ System Setup

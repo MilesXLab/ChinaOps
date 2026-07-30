@@ -6,7 +6,6 @@ author: TechDadShanghai
 url: "https://milesxlab.github.io"
 baseurl: "/ChinaOps"
 lang: en
-author: TechDadShanghai
 
 # Build settings
 markdown: kramdown

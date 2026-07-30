@@ -28,7 +28,7 @@ description: "When something breaks in China, match your symptom to the right Ch
   <button type="button" class="filter-chip" data-filter="holiday">Holidays</button>
 </div>
 
-<div class="symptom-section" data-tags="payment">
+<div class="symptom-section" data-tags="payment" markdown="1">
 
 ## Payment & money
 
@@ -42,7 +42,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 </div>
 
-<div class="symptom-section" data-tags="phone">
+<div class="symptom-section" data-tags="phone" markdown="1">
 
 ## Phone, data & apps
 
@@ -56,7 +56,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 </div>
 
-<div class="symptom-section" data-tags="arrival">
+<div class="symptom-section" data-tags="arrival" markdown="1">
 
 ## Arrival, hotel & language
 
@@ -74,7 +74,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 </div>
 
-<div class="symptom-section" data-tags="transport">
+<div class="symptom-section" data-tags="transport" markdown="1">
 
 ## Transport
 
@@ -90,7 +90,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 </div>
 
-<div class="symptom-section" data-tags="health">
+<div class="symptom-section" data-tags="health" markdown="1">
 
 ## Health & safety
 
@@ -106,7 +106,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 </div>
 
-<div class="symptom-section" data-tags="food">
+<div class="symptom-section" data-tags="food" markdown="1">
 
 ## Food & daily life (Shanghai-heavy)
 
@@ -122,7 +122,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 </div>
 
-<div class="symptom-section" data-tags="kids">
+<div class="symptom-section" data-tags="kids" markdown="1">
 
 ## Traveling with kids
 
@@ -137,7 +137,7 @@ description: "When something breaks in China, match your symptom to the right Ch
 
 </div>
 
-<div class="symptom-section" data-tags="holiday">
+<div class="symptom-section" data-tags="holiday" markdown="1">
 
 ## Holidays & peak travel
 

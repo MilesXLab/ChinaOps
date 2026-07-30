@@ -6,28 +6,36 @@ author: TechDadShanghai
 url: "https://milesxlab.github.io"
 baseurl: "/ChinaOps"
 lang: en
-author: TechDadShanghai
 
 # Build settings
 markdown: kramdown
 # theme: jekyll-theme-minimal  # Using custom layout in _layouts/
 permalink: pretty
 
-# Exclude from build
+# Exclude from build output (_site/)
 exclude:
-- .gitignore
-- CONTRIBUTING.md
-- README.md
-- ROADMAP.md
-- LEGAL_NOTICE.md
-- CHANGELOG.md
-- requirements.txt
-- scripts/
-- .qodo/
-- vendor/
-- Gemfile
-- Gemfile.lock
-- node_modules/
+  - .gitignore
+  - CONTRIBUTING.md
+  - README.md
+  - ROADMAP.md
+  - LEGAL_NOTICE.md
+  - CHANGELOG.md
+  - TEMPLATE_ENHANCED_SOP.md
+  - requirements.txt
+  - package.json
+  - package-lock.json
+  - playwright.config.js
+  - scripts/
+  - tests/
+  - test-results/
+  - _offline_pack/
+  - _pagefind_src/
+  - .qodo/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - chinaops-offline-72h.zip
 
 # Custom settings
 show_downloads: false

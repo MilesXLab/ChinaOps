@@ -123,8 +123,11 @@ Calculated Dose: 250 mg
 |-----------|--------|---------|
 | Paracetamol/Acetaminophen | 15 mg/kg | `--weight 20 --dosage-per-kg 15` |
 | Ibuprofen | 10 mg/kg | `--weight 20 --dosage-per-kg 10` |
-| Amoxicillin | 25 mg/kg | `--weight 20 --dosage-per-kg 25` |
 | Cough Syrup | Varies | See package label |
+
+> ⚠️ **Prescription medications (e.g. Amoxicillin) are NOT supported.**
+> The calculator will reject antibiotic names with an error message.
+> Antibiotic dosing must be determined by a doctor or pharmacist.
 
 **When to Use:**
 - Before giving medication to your child

@@ -1,11 +1,12 @@
 ---
 layout: guide
 title: "Documentation Library"
+description: "All 49 ChinaOps guides by category — System Setup, Daily Runtime, Emergency, Parenting, and Events. Step-by-step SOPs for travelers and families in China."
 ---
 
 # 📚 Full Documentation Library
 
-![v1.3.1 Verified](https://img.shields.io/badge/v1.3.1-Verified-brightgreen)
+<span class="version-badge">v1.16.0 · Jul 2026</span>
 
 Welcome to the ChinaOps technical runbook. Here you will find step-by-step **SOPs** (standard operating procedures — clear checklists) for life and travel in China.
 

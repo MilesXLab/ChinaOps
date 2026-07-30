@@ -960,10 +960,9 @@ code {
   color: var(--fg-on-brand);
 }
 
-.btn-critical {
-  background: #d53f8c;
-  color: var(--fg-on-brand);
-}
+/* NOTE: .btn-critical is defined in the global button section above
+   (background: var(--critical) = #c53030 red).
+   Do NOT redefine it here — any duplicate overrides the semantic token. */
 
 /* home-paths-label defined with primary-paths block above */
 

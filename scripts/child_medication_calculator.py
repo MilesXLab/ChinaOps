@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 """
-Chinese Medication Dose Calculator for Children
-Calculates appropriate medication dosage based on child's weight
+Child Medication Dose Calculator (OTC only — reference tool)
+Calculates appropriate OTC medication dosage based on child's weight.
+
+⚠️  IMPORTANT: This tool is for OTC medications only.
+    Prescription medications (antibiotics such as Amoxicillin, etc.)
+    MUST be prescribed and dosed by a doctor or pharmacist.
+    Do NOT use this tool to calculate antibiotic doses.
 
 Usage:
     python child_medication_calculator.py --name "Paracetamol" --weight 20 --dosage-per-kg 15
-    
-Common Medications:
+
+Common OTC Medications:
     - Paracetamol/Acetaminophen: 15 mg/kg per dose
     - Ibuprofen: 10 mg/kg per dose
-    - Amoxicillin: 25 mg/kg per dose
-    
+
 Example:
     python child_medication_calculator.py --name "Ibuprofen" --weight 25 --dosage-per-kg 10
     Output: For 25kg child, dose is 250mg
@@ -94,7 +98,16 @@ def main():
     if args.weight <= 0 or args.dosage_per_kg <= 0:
         print("❌ Error: Weight and dosage must be positive numbers")
         sys.exit(1)
-    
+
+    # Warn if name looks like a prescription / antibiotic
+    antibiotic_keywords = ["amoxicillin", "penicillin", "azithromycin", "clarithromycin",
+                           "cetirizine", "augmentin", "amoxiclav", "erythromycin"]
+    if any(kw in args.name.lower() for kw in antibiotic_keywords):
+        print("⚠️  WARNING: This medication appears to be a prescription antibiotic.")
+        print("   Antibiotic dosing MUST be determined by a doctor or pharmacist.")
+        print("   Do NOT use this tool for antibiotics. Consult a medical professional.")
+        sys.exit(1)
+
     if args.weight > 100:
         print("⚠️  Warning: Weight seems unusually high. Verify input.")
     

@@ -73,16 +73,7 @@ Use the **[web interface](index.html)** or the **[full library](docs/index.md)**
 
 ## Full Library
 
-### System Setup (10 Guides)
-| Title | What You'll Learn | Time |
-|-------|------------------|------|
-| [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation.md) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
-| [Pharmacy & Medications](docs/01-System-Setup/pharmacy-and-medications.md) | How to buy medicine, common drug names in Chinese | 12 min |
-| [VPN & eSIM / Payment Setup](docs/01-System-Setup/vpn-esim-payment.md) | Set up VPN, Alipay, WeChat Pay | 15 min |
-| [Alipay & WeChat Pay (Foreign Visitors)](docs/01-System-Setup/alipay-wechat-setup-foreigners.md) | International card binding, common errors, offline QR | 12 min |
-| [Power Bank Rules](docs/01-System-Setup/power-bank-rules.md) | Safe power banks, charging rules, outlets | 8 min |
-| [SIM Card Options](docs/01-System-Setup/sim-card-options.md) | Comparing carriers and plans | 10 min |
-| [Visa & Entry](docs/01-System-Setup/visa-and-entry.md) | 2026 免签 policies and digital cards | 12 min |
+### System Setup (14 Guides)
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
@@ -90,13 +81,18 @@ Use the **[web interface](index.html)** or the **[full library](docs/index.md)**
 | [Mobile Number & Activation](docs/01-System-Setup/mobile-number-and-activation/) | Getting a Chinese phone number, eSIM vs physical SIM | 10 min |
 | [Pharmacy & Medications](docs/01-System-Setup/pharmacy-and-medications/) | How to buy medicine, common drug names in Chinese | 12 min |
 | [VPN & eSIM / Payment Setup](docs/01-System-Setup/vpn-esim-payment/) | Set up VPN, Alipay, WeChat Pay | 15 min |
+| [Alipay & WeChat Pay (Foreign Visitors)](docs/01-System-Setup/alipay-wechat-setup-foreigners/) | International card binding, common errors, offline QR | 12 min |
 | [Hotel Check-in & Registration](docs/01-System-Setup/hotel-check-in/) | Passport verification, 24-hour police registration | 10 min |
 | [Translation Tools & Language](docs/01-System-Setup/translation-tools/) | Offline dictionaries, real-time translation, essential phrases | 12 min |
 | [Power Bank Rules](docs/01-System-Setup/power-bank-rules/) | Safe power banks, charging rules, outlets | 8 min |
 | [SIM Card Options](docs/01-System-Setup/sim-card-options/) | Comparing carriers and plans | 10 min |
 | [Visa & Entry](docs/01-System-Setup/visa-and-entry/) | 2026 免签 policies and digital cards | 12 min |
+| [Money Runtime](docs/01-System-Setup/money-runtime/) | ATM cash, pre-auth freezes, Tour Pass vs full account, fapiao invoices | 12 min |
+| [Stay Beyond Hotel](docs/01-System-Setup/stay-beyond-hotel/) | Homestay registration, refused check-in, short-term rental Plan B | 12 min |
+| [China App Stack](docs/01-System-Setup/china-app-stack/) | Install order, WeChat/Alipay hygiene, phone-number lockouts | 10 min |
+| [Long-stay Risk Boundaries](docs/01-System-Setup/long-stay-risk-boundaries/) | Status, banking, and work red lines for multi-month stays | 12 min |
 
-### Daily Runtime (13 Guides)
+### Daily Runtime (19 Guides)
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
@@ -113,12 +109,19 @@ Use the **[web interface](index.html)** or the **[full library](docs/index.md)**
 | [Shanghai Food Guide](docs/02-Daily-Runtime/shanghai-food-guide/) | The Dumpling Protocol and authentic Benbang | 12 min |
 | [Vegetarian & Vegan](docs/02-Daily-Runtime/shanghai-vegan-guide/) | Plant-based survival and restaurant nodes | 12 min |
 | [Visual Signs Guide](docs/02-Daily-Runtime/shanghai-visual-signs-guide/) | Recognizing metro, toilet, taxi, and facility symbols | 8 min |
+| [City Delta: Beijing](docs/02-Daily-Runtime/city-delta-beijing/) | Airports PEK/PKX, metro, embassies, AQI vs Shanghai defaults | 10 min |
+| [City Delta: Guangzhou & Shenzhen](docs/02-Daily-Runtime/city-delta-guangzhou-shenzhen/) | Hubs, heat/rain, districts, border-adjacent awareness | 10 min |
+| [City Delta: Chengdu](docs/02-Daily-Runtime/city-delta-chengdu/) | Spice food, panda peaks, relaxed pace vs Shanghai | 10 min |
+| [City Delta: Hangzhou](docs/02-Daily-Runtime/city-delta-hangzhou/) | West Lake peaks, short HSR from Shanghai | 10 min |
+| [City Delta: Xi'an](docs/02-Daily-Runtime/city-delta-xian/) | Heritage peaks, dry climate, tourist-scam awareness | 10 min |
+| [City Delta: Chongqing](docs/02-Daily-Runtime/city-delta-chongqing/) | Vertical city, monorail, spicy food defaults | 10 min |
 
-### Emergency/DR (9 Guides)
+### Emergency/DR (10 Guides)
 
 | Title | What You'll Learn | Time |
 |-------|------------------|------|
 | [Hospital Access](docs/03-Emergency-DR/hospital-access/) | Finding hospitals, language barriers, insurance, costs | 15 min |
+| [Insurance & Hospital Bills](docs/03-Emergency-DR/insurance-and-hospital-bills/) | Direct bill vs pay-and-claim, claim documents, cost shock control | 12 min |
 | [Lost Passport](docs/03-Emergency-DR/lost-passport/) | Emergency embassy contacts, replacement procedures | 12 min |
 | [Lost or Stolen Phone](docs/03-Emergency-DR/lost-phone/) | Lock phone remotely, freeze payment apps, recover SIM | 12 min |
 | [Lost or Stolen Bank Card](docs/03-Emergency-DR/lost-bank-card/) | Freeze card, secure payment apps, request replacement | 10 min |
@@ -267,10 +270,26 @@ Thank you for supporting independent, open documentation.
 
 ## Update Log
 
-- **v1.2 (2026-04-27)**: April freshness audit. Corrected holiday dates, visa expansions, and payment limits. Recovered 9 unindexed guides (Total: 31 catalogued, 38 total files).
-- **v1.1 (2026-03-24)**: March audit fixes. 5 P1 errors corrected, 3 stub guides expanded, 1 new guide (Alipay foreign setup). index.json expanded to 28 docs.
-- **v1.0.0 (2026-01-23)**: Official v1.0.0 release. 28 comprehensive guides.
+- **v1.16.1 (2026-07-21)**: Tool hardening + Playwright E2E (10 cases). MRZ a11y, dose kg/lb, search aliases.
+- **v1.16.0 (2026-07-21)**: Traveler review fixes (P0–P2): MRZ single source of truth, hospital national triage, preflight 72h, dose safety, home trip stages, SEO descriptions, city delta corridors.
+- **v1.15.0 (2026-07-21)**: 72h survival pack + offline builder. Xi'an & Chongqing city deltas. Catalog: 49 guides.
+- **v1.14.0 (2026-07-21)**: Child dose calculator. Chengdu & Hangzhou deltas. Long-stay risk boundaries SOP. Catalog: 47 guides.
+- **v1.13.0 (2026-07-21)**: Money Runtime, Stay Beyond Hotel, China App Stack. Beijing & GZ/SZ deltas. Insurance SOP. Phrase card tool. Catalog: 44 guides.
+- **v1.12.0 (2026-07-21)**: Full-text search (Pagefind + JSON fallback). MRZ browser tool.
+- **v1.11.0 (2026-07-21)**: Catalog search (`search.html`). Landing checklist. CI static asset check.
+- **v1.10.0 (2026-07-21)**: Symptom Index keyword search. Interactive pre-flight checklist (localStorage). Design tokens doc.
+- **v1.9.0 (2026-07-21)**: Home task-first redesign. Print Hub. Mobile guide cards + sticky TOC.
+- **v1.8.0 (2026-07-21)**: A4 duplex + bilingual print packs. Field re-test log template.
+- **v1.7.0 (2026-07-21)**: Offline print pack. Phrase style guide. Field re-test checklist.
+- **v1.6.0 (2026-07-21)**: Phrase cards on all 38 SOPs. Symptom Index filter chips. High-churn desktop re-check.
+- **v1.5.0 (2026-07-21)**: Plain English summaries on all SOPs. `scope: national|shanghai` metadata + badges.
+- **v1.4.0 (2026-07-21)**: Symptom Index. High-churn registry (6 SOPs, 30-day TTL). `check_catalog.py` + CI gates.
+- **v1.3.1 (2026-07-21)**: Shared CSS design tokens. System fonts. Mobile nav drawer. TTL audit hardening.
+- **v1.3 (2026-07-14)**: Power bank CCC rules, payment recovery SOP, eSIM comparison, HSR child/stroller notes.
+- **v1.2 (2026-04-27)**: April freshness audit. Corrected holiday dates, visa expansions, payment limits. Recovered 9 unindexed guides (Total: 31 → 38 files).
+- **v1.1 (2026-03-24)**: March audit: 5 P1 errors fixed, 3 stub expansions, 1 new guide (Alipay foreign setup). index.json: 28 docs.
+- **v1.0.0 (2026-01-23)**: Official v1.0.0 release. 28 comprehensive guides across 5 categories.
 
 ---
 
-*Last Updated: Apr 27, 2026 | Licensed under CC BY-NC 4.0*
+*Last Updated: Jul 21, 2026 | Licensed under CC BY-NC 4.0*

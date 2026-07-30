@@ -5,6 +5,13 @@ Allow: /
 # Maintainer / internal docs (also noindex in HTML)
 Disallow: /ChinaOps/docs/00-Maintenance/
 
+# Offline pack directory — complete mirror of site content.
+# Disallow to prevent duplicate-content SEO penalty; users access via direct download/zip.
+Disallow: /ChinaOps/_offline_pack/
+
+# Pagefind src scratch directory (build artifact, not user-facing)
+Disallow: /ChinaOps/_pagefind_src/
+
 # Thin print sheet variants (hub + 72h pack remain allowed)
 Disallow: /ChinaOps/print-pack.html
 Disallow: /ChinaOps/print-pack-a4.html

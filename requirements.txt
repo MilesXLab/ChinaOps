@@ -1,3 +1,17 @@
 # ChinaOps Python Dependencies
-# Used by scripts/ttl_check.py for SOP health auditing
+#
+# Core (required by CI):
+#   - PyYAML: used by scripts/ttl_check.py for SOP metadata health auditing
+#
+# Optional (maintainer tooling only, not required by CI):
+#   - Pillow: used by scripts/make_og_image.py to generate OG social images
+#             Install only if you need to regenerate images/og-default.png
+#
+# Install all: pip install -r requirements.txt
+# Install CI-only subset: pip install PyYAML>=6.0
+
 PyYAML>=6.0
+
+# Pillow is optional — only needed for make_og_image.py
+# Uncomment the line below if you need to regenerate OG images locally:
+# Pillow>=10.0.0
